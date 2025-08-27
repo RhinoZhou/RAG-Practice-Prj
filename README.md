@@ -10,7 +10,7 @@
 ## 02-RAG-WorkFrame
 从零开始，使用前面的代码，搭建一个包含前后端的，完整的RAG框架
 
-##03-Standardization
+## 03-Standardization
 特殊行业的术语标准化实践
 
 ## 04-Question-Answering-System
