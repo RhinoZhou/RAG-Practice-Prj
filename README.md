@@ -15,3 +15,6 @@
 
 ## 04-Question-Answering-System
 企业合规性RAG检索系统实践
+
+## 05-knowledge_graph_construction
+以临床文档为例，进行图结构构建以及知识推理
