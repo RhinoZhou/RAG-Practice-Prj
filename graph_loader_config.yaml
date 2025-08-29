@@ -1,0 +1,42 @@
+# Graph Vector Loader 配置文件
+
+# Neo4j 数据库配置
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "password"
+
+# 嵌入模型配置
+embedding:
+  model_name: "all-MiniLM-L6-v2"
+  vector_dimension: 384
+
+# 文件路径配置
+files:
+  nodes_file: "nodes.csv"
+  edges_file: "edges.csv"
+  vector_index_path: "D:\\rag-project\\05-rag-practice\\23-faiss_db\\graph_node\\vector_index.faiss"
+  node_id_to_index_path: "D:\\rag-project\\05-rag-practice\\23-faiss_db\\graph_node\\node_id_to_index.json"
+
+# FastAPI 服务配置
+fastapi:
+  host: "0.0.0.0"
+  port: 8000
+  debug: false
+  reload: false
+
+# 索引配置
+index:
+  batch_size: 1000  # 批量导入数据的大小
+  search_top_k: 10  # 默认搜索返回的结果数
+
+# 图查询配置
+graph:
+  default_depth: 1  # 默认子图查询深度
+  max_depth: 3      # 最大子图查询深度
+
+# 日志配置
+logging:
+  level: "INFO"
+  file: "graph_loader.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

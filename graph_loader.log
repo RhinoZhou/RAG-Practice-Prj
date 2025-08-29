@@ -1,0 +1,15 @@
+2025-08-29 17:31:39,209 - tensorflow - WARNING - From C:\Users\Rhino\AppData\Roaming\Python\Python313\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-08-29 17:31:39,516 - GraphLoader - WARNING - 无法导入sentence_transformers库: cannot import name 'TFPreTrainedModel' from 'transformers' (C:\Users\Rhino\AppData\Roaming\Python\Python313\site-packages\transformers\__init__.py). 将使用随机向量作为替代。
+2025-08-29 17:31:39,790 - GraphLoader - INFO - 成功导入neo4j库
+2025-08-29 17:31:40,505 - GraphLoader - INFO - 成功导入fastapi和uvicorn库
+2025-08-29 17:31:40,511 - GraphLoader - INFO - 成功加载配置文件: graph_loader_config.yaml
+2025-08-29 17:31:40,525 - GraphLoader - INFO - 成功加载节点数据: 100 条记录
+2025-08-29 17:31:40,525 - GraphLoader - WARNING - 边文件 edges.csv 不存在
+2025-08-29 17:31:40,525 - GraphLoader - WARNING - 使用随机向量生成器作为嵌入模型的替代
+2025-08-29 17:31:40,526 - GraphLoader - ERROR - 创建向量索引失败: 'function' object has no attribute 'encode'
+2025-08-29 17:31:44,597 - GraphLoader - ERROR - 连接Neo4j数据库失败: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] 由于目标计算机积极拒绝，无法连接。)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] 由于目标计算机积极拒绝，无法连接。)
+2025-08-29 17:31:44,606 - GraphLoader - INFO - 启动FastAPI服务... 监听地址: http://0.0.0.0:8000
+2025-08-29 17:31:44,606 - GraphLoader - INFO - 请访问 http://localhost:8000/docs 查看API文档

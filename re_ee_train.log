@@ -1,0 +1,13 @@
+2025-08-29 17:00:14,634 - INFO - 关系和事件抽取程序开始执行
+2025-08-29 17:00:16,604 - INFO - 成功初始化分词器: bert-base-chinese
+2025-08-29 17:00:17,741 - INFO - 成功初始化关系抽取模型: bert-base-chinese
+2025-08-29 17:00:19,250 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-29 17:03:39,538 - INFO - 成功初始化事件抽取模型: Langboat/mengzi-t5-base
+2025-08-29 17:03:39,538 - WARNING - 未找到训练数据文件: re_ee_data.jsonl，将使用模拟数据进行推理测试
+2025-08-29 17:03:39,539 - INFO - 开始推理，使用模型: re_ee_model
+2025-08-29 17:03:39,692 - ERROR - 模型生成出错: The following `model_kwargs` are not used by the model: ['token_type_ids'] (note: typos in the generate arguments will also show up in this list)
+2025-08-29 17:03:39,753 - ERROR - 模型生成出错: The following `model_kwargs` are not used by the model: ['token_type_ids'] (note: typos in the generate arguments will also show up in this list)
+2025-08-29 17:03:39,754 - INFO - 推理完成，抽取到 0 个关系，1 个事件
+2025-08-29 17:03:39,754 - INFO - 保存抽取结果到: re_ee_results.jsonl
+2025-08-29 17:03:39,755 - INFO - 结果保存完成，共 1 个文档的结果
+2025-08-29 17:03:39,755 - INFO - 关系和事件抽取程序执行完成

@@ -1,0 +1,22 @@
+2025-08-29 16:01:04,133 - NER_Simple - INFO - 程序开始执行
+2025-08-29 16:01:04,134 - NER_Simple - INFO - 加载分词器: bert-base-chinese
+2025-08-29 16:01:12,537 - NER_Simple - INFO - 加载模型: bert-base-chinese
+2025-08-29 16:02:36,717 - NER_Simple - INFO - 开始加载数据: clean_text.jsonl
+2025-08-29 16:02:36,861 - NER_Simple - INFO - 数据加载完成，共 6337 条记录
+2025-08-29 16:02:36,861 - NER_Simple - INFO - 使用 10 条数据进行测试
+2025-08-29 16:02:36,862 - NER_Simple - INFO - 开始实体识别，共 10 条文本
+2025-08-29 16:02:41,558 - NER_Simple - INFO - 实体识别完成，共识别出 329 个实体
+2025-08-29 16:02:41,559 - NER_Simple - INFO - 保存实体识别结果到: mentions.jsonl
+2025-08-29 16:02:41,564 - NER_Simple - INFO - 结果保存完成，共 329 条实体记录
+2025-08-29 16:02:41,564 - NER_Simple - INFO - 程序执行完成
+2025-08-29 16:13:57,090 - NER_Simple - INFO - 程序开始执行
+2025-08-29 16:13:57,091 - NER_Simple - INFO - 加载分词器: bert-base-chinese
+2025-08-29 16:13:59,028 - NER_Simple - INFO - 加载模型: bert-base-chinese
+2025-08-29 16:13:59,825 - NER_Simple - INFO - 开始加载数据: clean_text.jsonl
+2025-08-29 16:13:59,973 - NER_Simple - INFO - 数据加载完成，共 6337 条记录
+2025-08-29 16:13:59,974 - NER_Simple - INFO - 使用 10 条数据进行测试
+2025-08-29 16:13:59,974 - NER_Simple - INFO - 开始实体识别，共 10 条文本
+2025-08-29 16:14:05,319 - NER_Simple - INFO - 实体识别完成，共识别出 2597 个实体
+2025-08-29 16:14:05,320 - NER_Simple - INFO - 保存实体识别结果到: mentions.jsonl
+2025-08-29 16:14:05,356 - NER_Simple - INFO - 结果保存完成，共 2597 条实体记录
+2025-08-29 16:14:05,359 - NER_Simple - INFO - 程序执行完成

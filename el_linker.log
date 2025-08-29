@@ -1,0 +1,16 @@
+2025-08-29 16:27:53,945 - EL_Linker - INFO - 实体关系挖掘程序开始执行
+2025-08-29 16:27:53,945 - EL_Linker - INFO - 初始化实体链接器，使用模型: bert-base-chinese
+2025-08-29 16:27:53,945 - EL_Linker - INFO - 可用功能: FAISS=True, Sentence-Transformers=False
+2025-08-29 16:27:53,946 - EL_Linker - INFO - 初始化嵌入模型: bert-base-chinese
+2025-08-29 16:27:58,647 - EL_Linker - INFO - 加载医学术语库
+2025-08-29 16:27:58,648 - EL_Linker - INFO - 术语库加载完成，共 10 个概念
+2025-08-29 16:27:58,649 - EL_Linker - INFO - 创建术语库向量索引
+2025-08-29 16:27:59,336 - EL_Linker - INFO - FAISS向量索引创建完成，索引维度: 768
+2025-08-29 16:27:59,336 - EL_Linker - INFO - 开始加载实体识别结果: mentions.jsonl
+2025-08-29 16:27:59,353 - EL_Linker - INFO - 实体识别结果加载完成，共 2597 个实体
+2025-08-29 16:27:59,355 - EL_Linker - INFO - 为了演示目的，限制处理 100 个实体
+2025-08-29 16:27:59,355 - EL_Linker - INFO - 开始实体链接，共 100 个实体
+2025-08-29 16:28:05,386 - EL_Linker - INFO - 实体链接完成
+2025-08-29 16:28:05,387 - EL_Linker - INFO - 保存实体链接结果到: linked_mentions.jsonl
+2025-08-29 16:28:05,389 - EL_Linker - INFO - 链接结果保存完成，共 100 个实体，成功链接: 0 个，NIL: 100 个
+2025-08-29 16:28:05,389 - EL_Linker - INFO - 实体关系挖掘程序执行完成

@@ -1,0 +1,61 @@
+# 数据治理与一致性校验配置文件
+
+# 输出格式: csv 或 rdf
+output_format: "csv"
+
+# 去重阈值，范围0-1
+# 当相似度高于此阈值时，认为是重复数据
+# 注意：当前实现使用精确匹配而非相似度计算
+# 此参数在未来版本中可能会被用于基于相似度的去重
+# deduplicate_threshold: 0.95
+
+# 置信度计算方法\# 可选值: default, advanced
+confidence_calculation_method: "default"
+
+# 是否启用单位换算
+enable_unit_conversion: true
+
+# 是否启用参考区间校验
+enable_reference_check: true
+
+# 是否启用禁忌证/相互作用规则校验
+enable_contraindication_check: true
+
+# 单位换算因子配置
+unit_conversion_factors:
+  # 葡萄糖: 1 mg/dL = 0.0555 mmol/L
+  glucose: 0.0555
+  # 胆固醇: 1 mg/dL = 0.0259 mmol/L
+  cholesterol: 0.0259
+  # 甘油三酯: 1 mg/dL = 0.0113 mmol/L
+  triglyceride: 0.0113
+  # 尿酸: 1 mg/dL = 59.489 μmol/L
+  uric_acid: 59.489
+
+# 参考区间配置
+reference_ranges:
+  # 葡萄糖参考区间
+  glucose:
+    mg/dL: [70, 100]
+    mmol/L: [3.9, 5.6]
+  # 胆固醇参考区间
+  cholesterol:
+    mg/dL: [125, 200]
+    mmol/L: [3.2, 5.2]
+  # 甘油三酯参考区间
+  triglyceride:
+    mg/dL: [40, 150]
+    mmol/L: [0.45, 1.70]
+  # 尿酸参考区间
+  uric_acid:
+    mg/dL: [2.4, 6.0]
+    umol/L: [143, 357]
+
+# 禁忌证和相互作用规则配置
+contraindication_rules:
+  # 药物名称: [禁忌证1, 禁忌证2, ...]
+  "阿司匹林": ["消化道溃疡", "出血倾向", "严重肝肾功能不全", "血友病"]
+  "华法林": ["严重肝功能不全", "严重高血压", "活动性出血", "颅内出血史"]
+  "青霉素": ["青霉素过敏史", "严重过敏性疾病"]
+  "布洛芬": ["消化道溃疡", "严重肝肾功能不全", "严重心力衰竭"]
+  "地高辛": ["洋地黄中毒史", "严重房室传导阻滞", "肥厚型梗阻性心肌病"]
