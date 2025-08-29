@@ -241,7 +241,11 @@ def main():
     print("\n前3个条款示例:")
     for i, article in enumerate(articles[:3]):
         print(f"\n条款 {i+1}:")
-        print(f"{article['text'][:200]}..." if len(article['text']) > 200 else article['text'])
+        # 检查文本块是否结束（长度超过200个字符表示显示的不是完整内容）
+        if len(article['text']) > 200:
+            print(f"{article['text'][:200]}……")  # 文本块未结束，显示前200个字符并添加省略号
+        else:
+            print(f"{article['text']}【结束】")  # 文本块已结束，显示完整文本并添加结束标志
 
 
 if __name__ == "__main__":

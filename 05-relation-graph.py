@@ -38,6 +38,7 @@ from pyecharts.commons.utils import JsCode
 import numpy as np
 from collections import defaultdict
 from typing import List, Dict, Tuple
+import datetime  # 在文件顶部添加导入
 
 class LegalRelationGraph:
     """
@@ -105,12 +106,12 @@ class LegalRelationGraph:
                     'hash': text_hash,
                     'source_institution': source_institution,
                     'revision_history': revision_history or [{
-                        'timestamp': "当前时间",
+                        'timestamp': datetime.datetime.now().isoformat(),  # 使用实际时间戳
                         'author': "系统自动生成",
                         'comment': "初始导入"
                     }],
                     'source_file': os.path.basename(file_path),
-                    'import_time': "当前时间",
+                    'import_time': datetime.datetime.now().isoformat(),  # 使用实际时间戳
                     'content_checksum': text_hash
                 }
                 
@@ -392,7 +393,7 @@ class LegalRelationGraph:
 def main():
     """主函数"""
     # 创建分析器实例
-    relation_graph = LegalRelationGraphAnalyzer()
+    relation_graph = LegalRelationGraph()  # 修正类名为正确的类名
     
     # 读取分割后的条款文件
     file_path = "中华人民共和国民法典_条款分割.json"
