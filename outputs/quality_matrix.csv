@@ -1,0 +1,7 @@
+doctype,lang,records,completeness,accuracy,standardization,freshness_p95,governability,band_completeness,band_accuracy,band_standardization,band_freshness_p95,band_governability,alert_completeness,alert_accuracy,alert_standardization,alert_freshness_p95,alert_governability
+FAQ,zh,2,1.0,1.0,1.0,8.0,1.0,Good,Good,Good,Good,Good,none,none,none,none,none
+FAQ,en,2,1.0,0.5,0.6666666666666666,45.0,1.0,Good,Bad,Bad,Bad,Good,none,critical,critical,critical,none
+Guide,zh,2,0.5,0.0,0.0,60.0,1.0,Bad,Bad,Bad,Bad,Good,critical,critical,critical,critical,none
+Guide,en,1,1.0,1.0,1.0,7.0,1.0,Good,Good,Good,Good,Good,none,none,none,none,none
+Spec,zh,1,1.0,1.0,1.0,15.0,1.0,Good,Good,Good,Warn,Good,none,none,none,warning,none
+Spec,en,2,1.0,1.0,1.0,40.0,1.0,Good,Good,Good,Bad,Good,none,none,none,critical,none

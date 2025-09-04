@@ -1,0 +1,4 @@
+Method,Outlier Count
+Z-score,4
+IQR,6
+IsolationForest,8

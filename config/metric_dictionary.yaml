@@ -1,0 +1,35 @@
+version: 1.0
+metrics:
+  completeness:
+    display_name: "完整性"
+    description: "关键字段非空率（非空记录数 / 总记录数）"
+    unit: "%"
+    aggregation: "mean"
+    direction: "higher_is_better"
+  accuracy:
+    display_name: "准确性"
+    description: "基于抽检样本的字段一致率（正确样本数 / 抽检样本数）"
+    unit: "%"
+    aggregation: "mean"
+    direction: "higher_is_better"
+  standardization:
+    display_name: "标准化"
+    description: "符合标准格式/单位/枚举的比例"
+    unit: "%"
+    aggregation: "mean"
+    direction: "higher_is_better"
+  freshness_p95:
+    display_name: "时效性P95"
+    description: "数据延迟（分钟）的P95分位。越低越好"
+    unit: "min"
+    aggregation: "p95"
+    direction: "lower_is_better"
+  governability:
+    display_name: "可治理"
+    description: "可追溯与可控评分（版本、来源、hash、契约覆盖）"
+    unit: "score"
+    aggregation: "mean"
+    direction: "higher_is_better"
+slices:
+  - "doctype"
+  - "lang"

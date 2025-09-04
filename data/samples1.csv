@@ -1,0 +1,11 @@
+doc_id,doctype,lang,title,content,updated_minutes_ago,source,version,hash,has_required_fields,format_ok,unit_ok,enum_ok,accuracy_label
+D1,FAQ,zh,乙酰氨基酚用法,文本A,5,web,1,abc1,TRUE,TRUE,TRUE,TRUE,correct
+D2,FAQ,zh,布洛芬禁忌,文本B,8,web,1,abc2,TRUE,TRUE,TRUE,TRUE,correct
+D3,FAQ,en,Paracetamol dosage,TextC,12,web,1,abc3,TRUE,TRUE,TRUE,FALSE,correct
+D4,FAQ,en,Ibuprofen contraindications,TextD,45,web,1,abc4,TRUE,TRUE,FALSE,TRUE,incorrect
+D5,Guide,zh,手册-退烧药,文本E,60,pdf,0.9,abc5,TRUE,FALSE,FALSE,FALSE,incorrect
+D6,Guide,zh,手册-止痛药,文本F,28,pdf,0.9,abc6,FALSE,FALSE,FALSE,FALSE,incorrect
+D7,Guide,en,Manual - Aspirin,TextG,7,pdf,0.9,abc7,TRUE,TRUE,TRUE,TRUE,correct
+D8,Spec,zh,规范-单位,文本H,15,html,1,abc8,TRUE,TRUE,TRUE,TRUE,correct
+D9,Spec,en,Spec - Enum,TextI,3,html,1,abc9,TRUE,TRUE,TRUE,TRUE,correct
+D10,Spec,en,Spec - Freshness,TextJ,40,html,1,abca,TRUE,TRUE,TRUE,TRUE,correct

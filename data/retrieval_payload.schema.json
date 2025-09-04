@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Retrieval Payload",
+  "description": "Schema for retrieval payload with version control and compliance constraints",
+  "type": "object",
+  "required": [
+    "doc_id",
+    "title",
+    "version",
+    "creation_time"
+  ],
+  "properties": {
+    "doc_id": {
+      "description": "Unique identifier for the document",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_\\-]{1,50}$"
+    },
+    "title": {
+      "description": "Title of the document",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "version": {
+      "description": "Document version to ensure version control",
+      "type": "string",
+      "pattern": "^v\\d+\\.\\d+\\.\\d+$",
+      "examples": ["v1.0.0", "v1.2.3"]
+    },
+    "creation_time": {
+      "description": "ISO 8601 formatted timestamp when the document was created",
+      "type": "string",
+      "format": "date-time",
+      "examples": ["2023-05-15T14:30:00Z"]
+    },
+    "last_update_time": {
+      "description": "ISO 8601 formatted timestamp when the document was last updated",
+      "type": "string",
+      "format": "date-time",
+      "examples": ["2023-05-16T09:15:00Z"]
+    },
+    "units": {
+      "description": "Measurement units used in the document",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["mg", "g", "kg", "ml", "l", "mm", "cm", "m", "hour", "day", "week", "month", "year"]
+      },
+      "uniqueItems": true
+    },
+    "tags": {
+      "description": "Categorization tags for the document",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 50
+      },
+      "uniqueItems": true,
+      "maxItems": 20
+    },
+    "entities": {
+      "description": "Named entities extracted from the document",
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "content": {
+      "description": "Main content of the document",
+      "type": "string",
+      "minLength": 1
+    },
+    "source_ref": {
+      "description": "Reference to the original source",
+      "type": "string",
+      "pattern": "^source_[a-f0-9]+$",
+      "examples": ["source_fb672e0588"]
+    },
+    "compliance_flags": {
+      "description": "Flags indicating compliance with regulations",
+      "type": "object",
+      "properties": {
+        "has_reference_id": {
+          "description": "Whether the document has a valid reference ID",
+          "type": "boolean",
+          "default": false
+        },
+        "has_version": {
+          "description": "Whether the document has a valid version",
+          "type": "boolean",
+          "default": false
+        },
+        "cross_version_mixed": {
+          "description": "Whether content from different versions is mixed",
+          "type": "boolean",
+          "default": false
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

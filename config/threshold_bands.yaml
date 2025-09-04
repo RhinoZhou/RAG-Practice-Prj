@@ -1,0 +1,27 @@
+bands:
+  completeness:
+    good: ">=0.98"
+    warn: ">=0.95"
+    bad: "<0.95"
+  accuracy:
+    good: ">=0.97"
+    warn: ">=0.93"
+    bad: "<0.93"
+  standardization:
+    good: ">=0.95"
+    warn: ">=0.90"
+    bad: "<0.90"
+  freshness_p95:
+    good: "<=10"
+    warn: "<=30"
+    bad: ">30"
+  governability:
+    good: ">=0.85"
+    warn: ">=0.70"
+    bad: "<0.70"
+
+alerts:
+  mapping:
+    Good: "none"
+    Warn: "warning"
+    Bad: "critical"
