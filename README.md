@@ -15,3 +15,9 @@
 
 ## 04-Question-Answering-System
 企业合规性RAG检索系统实践
+
+## 05-knowledge_graph_construction
+图结构和知识推理
+
+## 06-Data-preparation
+数据准备
