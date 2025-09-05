@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-09-05T21:50:02.577152",
+  "file_info": {
+    "name": "大脑中动脉狭窄与闭塞致脑梗死的影像特点及发病机制的研究.pdf",
+    "path": "data\\大脑中动脉狭窄与闭塞致脑梗死的影像特点及发病机制的研究.pdf",
+    "size_mb": 1.12
+  },
+  "text_layer_analysis": {
+    "has_text_layer": false,
+    "text_density": 0.0,
+    "text_pages_ratio": 0.0,
+    "estimated_text_quality": "unknown",
+    "error": "page not in document"
+  },
+  "layout_analysis": {
+    "is_complex": false,
+    "complexity_score": 0.0,
+    "estimated_layout_type": "unknown",
+    "error": "page not in document"
+  },
+  "route_decision": {
+    "route": "ocr",
+    "reason": [
+      "无文本层，需要OCR识别",
+      "Tesseract可用"
+    ],
+    "confidence": 0.95
+  },
+  "processing_time_seconds": 0.061,
+  "execution": {
+    "executed_route": "ocr",
+    "execution_time_seconds": 760.288,
+    "result": {
+      "success": true,
+      "method": "ocr",
+      "output_files": [
+        "./pdf_output\\大脑中动脉狭窄与闭塞致脑梗死的影像特点及发病机制的研究_ocr.txt"
+      ],
+      "page_count": 30,
+      "tesseract_available": true
+    }
+  }
+}

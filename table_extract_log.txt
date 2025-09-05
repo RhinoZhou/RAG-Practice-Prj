@@ -1,0 +1,54 @@
+2025-09-05 13:06:16,114 - TableExtractor - INFO - 表格抽取器初始化完成，配置: {'output_dir': './table_output', 'min_row_count': 2, 'min_col_count': 2, 'vertical_alignment_threshold': 0.8, 'edge_tolerance': 1.0, 'snap_tolerance': 3.0, 'extract_kwargs': {'stream': True, 'flavor': 'lattice', 'strip_text': '\n\t', 'keep_blank_chars': True, 'line_margin': 1.0, 'word_margin': 0.2, 'text_tolerance': 1.5, 'join_tolerance': 1.0}}
+2025-09-05 13:06:16,115 - TableExtractor - INFO - 开始处理文件: data/就业指导考试表格.pdf
+2025-09-05 13:06:16,134 - TableExtractor - INFO - 正在处理第1页
+2025-09-05 13:06:16,134 - TableExtractor - ERROR - 处理PDF文件时出错: Page.extract_tables() got an unexpected keyword argument 'stream'
+2025-09-05 13:06:16,135 - TableExtractor - WARNING - 未提取到任何表格
+2025-09-05 13:07:03,220 - TableExtractor - INFO - 表格抽取器初始化完成，配置: {'output_dir': './table_output', 'min_row_count': 2, 'min_col_count': 2, 'vertical_alignment_threshold': 0.8, 'edge_tolerance': 1.0, 'snap_tolerance': 3.0, 'extract_kwargs': {'flavor': 'lattice', 'strip_text': '\n\t', 'keep_blank_chars': True, 'line_margin': 1.0, 'word_margin': 0.2, 'text_tolerance': 1.5, 'join_tolerance': 1.0}}
+2025-09-05 13:07:03,221 - TableExtractor - INFO - 开始处理文件: data/就业指导考试表格.pdf
+2025-09-05 13:07:03,353 - TableExtractor - INFO - 正在处理第1页
+2025-09-05 13:07:03,441 - TableExtractor - ERROR - 处理PDF文件时出错: Page.extract_tables() got an unexpected keyword argument 'flavor'
+2025-09-05 13:07:03,578 - TableExtractor - WARNING - 未提取到任何表格
+2025-09-05 13:08:15,123 - TableExtractor - INFO - 表格抽取器初始化完成，配置: {'output_dir': './table_output', 'min_row_count': 2, 'min_col_count': 2, 'vertical_alignment_threshold': 0.8, 'edge_tolerance': 1.0, 'snap_tolerance': 3.0, 'extract_kwargs': {'flavor': 'lattice', 'strip_text': '\n\t', 'keep_blank_chars': True, 'line_margin': 1.0, 'word_margin': 0.2, 'text_tolerance': 1.5, 'join_tolerance': 1.0}}
+2025-09-05 13:08:15,125 - TableExtractor - INFO - 开始处理文件: data/就业指导考试表格.pdf
+2025-09-05 13:08:15,139 - TableExtractor - INFO - 正在处理第1页
+2025-09-05 13:08:15,148 - TableExtractor - ERROR - 处理PDF文件时出错: Page.find_tables() got an unexpected keyword argument 'flavor'
+2025-09-05 13:08:15,154 - TableExtractor - WARNING - 未提取到任何表格
+2025-09-05 13:08:56,451 - TableExtractor - INFO - 表格抽取器初始化完成，配置: {'output_dir': './table_output', 'min_row_count': 2, 'min_col_count': 2, 'vertical_alignment_threshold': 0.8, 'edge_tolerance': 1.0, 'snap_tolerance': 3.0, 'extract_kwargs': {'vertical_strategy': 'lines', 'horizontal_strategy': 'lines', 'snap_x_tolerance': 3.0, 'snap_y_tolerance': 3.0}}
+2025-09-05 13:08:56,452 - TableExtractor - INFO - 开始处理文件: data/就业指导考试表格.pdf
+2025-09-05 13:08:56,457 - TableExtractor - INFO - 正在处理第1页
+2025-09-05 13:08:56,457 - TableExtractor - ERROR - 处理PDF文件时出错: Page.find_tables() got an unexpected keyword argument 'vertical_strategy'
+2025-09-05 13:08:56,457 - TableExtractor - WARNING - 未提取到任何表格
+2025-09-05 13:10:31,638 - TableExtractor - INFO - 表格抽取器初始化完成，配置: {'output_dir': './table_output', 'min_row_count': 2, 'min_col_count': 2, 'vertical_alignment_threshold': 0.8, 'edge_tolerance': 1.0, 'snap_tolerance': 3.0, 'extract_kwargs': {'vertical_strategy': 'lines', 'horizontal_strategy': 'lines', 'snap_x_tolerance': 3.0, 'snap_y_tolerance': 3.0}}
+2025-09-05 13:10:31,640 - TableExtractor - INFO - 开始处理文件: data/就业指导考试表格.pdf
+2025-09-05 13:10:31,649 - TableExtractor - INFO - 正在处理第1页
+2025-09-05 13:10:31,908 - TableExtractor - INFO - 第1页发现1个表格
+2025-09-05 13:10:31,908 - TableExtractor - WARNING - 获取表格边界框时出错: Page.find_tables() got an unexpected keyword argument 'vertical_strategy'
+2025-09-05 13:10:31,909 - TableExtractor - WARNING - 跳过第1页第1个表格（列对齐率低: 0.44）
+2025-09-05 13:10:31,909 - TableExtractor - WARNING - 未提取到任何表格
+2025-09-05 13:11:40,157 - TableExtractor - INFO - 表格抽取器初始化完成，配置: {'output_dir': './table_output', 'min_row_count': 2, 'min_col_count': 2, 'vertical_alignment_threshold': 0.4, 'edge_tolerance': 1.0, 'snap_tolerance': 3.0, 'extract_kwargs': {'vertical_strategy': 'lines', 'horizontal_strategy': 'lines', 'snap_x_tolerance': 3.0, 'snap_y_tolerance': 3.0}}
+2025-09-05 13:11:40,157 - TableExtractor - INFO - 开始处理文件: data/就业指导考试表格.pdf
+2025-09-05 13:11:40,163 - TableExtractor - INFO - 正在处理第1页
+2025-09-05 13:11:40,246 - TableExtractor - INFO - 第1页发现1个表格
+2025-09-05 13:11:40,246 - TableExtractor - INFO - 成功处理第1页第1个表格
+2025-09-05 13:11:40,248 - TableExtractor - INFO - 成功导出1个表格到JSON文件: ./table_output\就业指导考试表格_tables.json
+2025-09-05 13:11:40,249 - TableExtractor - INFO - 成功导出1个表格到Markdown文件: ./table_output\就业指导考试表格_tables.md
+2025-09-05 13:11:40,252 - TableExtractor - ERROR - 导出Excel文件时出错: No module named 'openpyxl'
+2025-09-05 13:11:40,252 - TableExtractor - INFO - 表格抽取和导出任务已完成
+2025-09-05 13:17:11,809 - TableExtractor - INFO - 表格抽取器初始化完成，配置: {'output_dir': './table_output', 'min_row_count': 2, 'min_col_count': 2, 'vertical_alignment_threshold': 0.4, 'edge_tolerance': 1.0, 'snap_tolerance': 3.0, 'extract_kwargs': {'vertical_strategy': 'lines', 'horizontal_strategy': 'lines', 'snap_x_tolerance': 3.0, 'snap_y_tolerance': 3.0}}
+2025-09-05 13:17:11,810 - TableExtractor - INFO - 开始处理文件: data/就业指导考试表格.pdf
+2025-09-05 13:17:11,817 - TableExtractor - INFO - 正在处理第1页
+2025-09-05 13:17:11,933 - TableExtractor - INFO - 第1页发现1个表格
+2025-09-05 13:17:11,933 - TableExtractor - INFO - 成功处理第1页第1个表格
+2025-09-05 13:17:11,936 - TableExtractor - INFO - 成功导出1个表格到JSON文件: ./table_output\就业指导考试表格_tables.json
+2025-09-05 13:17:11,937 - TableExtractor - INFO - 成功导出1个表格到Markdown文件: ./table_output\就业指导考试表格_tables.md
+2025-09-05 13:17:11,940 - TableExtractor - ERROR - 导出Excel文件时出错: No module named 'openpyxl'
+2025-09-05 13:17:11,945 - TableExtractor - INFO - 表格抽取和导出任务已完成
+2025-09-05 13:22:34,628 - TableExtractor - INFO - 表格抽取器初始化完成，配置: {'output_dir': './table_output', 'min_row_count': 2, 'min_col_count': 2, 'vertical_alignment_threshold': 0.4, 'edge_tolerance': 1.0, 'snap_tolerance': 3.0, 'extract_kwargs': {'vertical_strategy': 'lines', 'horizontal_strategy': 'lines', 'snap_x_tolerance': 3.0, 'snap_y_tolerance': 3.0}}
+2025-09-05 13:22:34,633 - TableExtractor - INFO - 开始处理文件: data/就业指导考试表格.pdf
+2025-09-05 13:22:34,671 - TableExtractor - INFO - 正在处理第1页
+2025-09-05 13:22:34,919 - TableExtractor - INFO - 第1页发现1个表格
+2025-09-05 13:22:34,921 - TableExtractor - INFO - 成功处理第1页第1个表格
+2025-09-05 13:22:34,925 - TableExtractor - INFO - 成功导出1个表格到JSON文件: ./table_output\就业指导考试表格_tables.json
+2025-09-05 13:22:34,934 - TableExtractor - INFO - 成功导出1个表格到Markdown文件: ./table_output\就业指导考试表格_tables.md
+2025-09-05 13:22:34,937 - TableExtractor - ERROR - 导出Excel文件时出错: No module named 'openpyxl'
+2025-09-05 13:22:34,945 - TableExtractor - INFO - 表格抽取和导出任务已完成

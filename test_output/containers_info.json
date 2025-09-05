@@ -1,0 +1,147 @@
+[
+  {
+    "index": 0,
+    "tag": "div",
+    "class": [
+      "left-top-home",
+      "mydata"
+    ],
+    "id": "",
+    "content_preview": "我的数据\n\n\n\n\n\n        此功能登录后可查看，请点击登录\n\n\n        尚无内容，请点击标题右侧☆添加后查看"
+  },
+  {
+    "index": 1,
+    "tag": "div",
+    "class": [
+      "left_mydata_block"
+    ],
+    "id": "",
+    "content_preview": ""
+  },
+  {
+    "index": 2,
+    "tag": "div",
+    "class": [
+      "nodata"
+    ],
+    "id": "",
+    "content_preview": "尚无内容，请点击标题右侧☆添加后查看"
+  },
+  {
+    "index": 3,
+    "tag": "div",
+    "class": [
+      "dataview"
+    ],
+    "id": "dataview",
+    "content_preview": "序号\n代码\n名称\n相关\n最新价\n涨跌幅\n换手率\n市盈率\n主力成本\n机构参与度\n综合得分\n上升/目前排名\n关注指数\n\n\n加自选"
+  },
+  {
+    "index": 4,
+    "tag": "div",
+    "class": [
+      "ftglist"
+    ],
+    "id": "",
+    "content_preview": "东方财富产品\n\n东方财富免费版\n东方财富Level-2\n东方财富策略版\n妙想投研助理\nChoice金融终端"
+  },
+  {
+    "index": 5,
+    "tag": "div",
+    "class": [
+      "ftglistt"
+    ],
+    "id": "",
+    "content_preview": "东方财富产品"
+  },
+  {
+    "index": 6,
+    "tag": "div",
+    "class": [
+      "ftglist"
+    ],
+    "id": "",
+    "content_preview": "证券交易\n\n东方财富证券开户\n东方财富在线交易\n东方财富证券交易"
+  },
+  {
+    "index": 7,
+    "tag": "div",
+    "class": [
+      "ftglistt"
+    ],
+    "id": "",
+    "content_preview": "证券交易"
+  },
+  {
+    "index": 8,
+    "tag": "div",
+    "class": [
+      "ftglist"
+    ],
+    "id": "",
+    "content_preview": "关注东方财富\n\n东方财富网微博\n东方财富网微信\n意见与建议"
+  },
+  {
+    "index": 9,
+    "tag": "div",
+    "class": [
+      "ftglistt"
+    ],
+    "id": "",
+    "content_preview": "关注东方财富"
+  },
+  {
+    "index": 10,
+    "tag": "div",
+    "class": [
+      "ftglist"
+    ],
+    "id": "",
+    "content_preview": "基金交易\n\n基金开户\n基金交易\n活期宝\n基金产品\n稳健理财"
+  },
+  {
+    "index": 11,
+    "tag": "div",
+    "class": [
+      "ftglistt"
+    ],
+    "id": "",
+    "content_preview": "基金交易"
+  },
+  {
+    "index": 12,
+    "tag": "div",
+    "class": [
+      "ftglist"
+    ],
+    "id": "",
+    "content_preview": "关注天天基金\n\n天天基金网微博\n天天基金网微信"
+  },
+  {
+    "index": 13,
+    "tag": "div",
+    "class": [
+      "ftglistt"
+    ],
+    "id": "",
+    "content_preview": "关注天天基金"
+  },
+  {
+    "index": 14,
+    "tag": "div",
+    "class": [
+      "ftglist"
+    ],
+    "id": "",
+    "content_preview": "期货交易\n\n期货手机开户\n期货电脑开户\n期货官方网站"
+  },
+  {
+    "index": 15,
+    "tag": "div",
+    "class": [
+      "ftglistt"
+    ],
+    "id": "",
+    "content_preview": "期货交易"
+  }
+]

@@ -1,0 +1,4 @@
+文件: 大脑中动脉狭窄与闭塞致脑梗死的影像特点及发病机制的研究.pdf
+状态: 无文本层，且Tesseract OCR不可用
+建议: 请安装Tesseract OCR并添加到系统环境变量PATH中以启用OCR功能
+Tesseract下载地址: https://github.com/UB-Mannheim/tesseract/wiki

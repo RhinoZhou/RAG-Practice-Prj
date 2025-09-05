@@ -1,0 +1,32 @@
+2025-09-05 13:33:05,762 - OCRPipeline - ERROR - PaddleOCR初始化失败: Unknown argument: use_gpu
+2025-09-05 13:33:05,788 - OCRPipeline - INFO - OCR处理流水线初始化完成，配置: {'output_dir': './ocr_output', 'image_preprocess': {}, 'ocr_recognize': {'use_gpu': False}, 'layout_align': {}}
+2025-09-05 13:33:05,900 - OCRPipeline - INFO - 开始处理文件: data/就业指导考试表格.pdf
+2025-09-05 13:33:05,981 - OCRPipeline - INFO - 执行图像预处理...
+2025-09-05 13:33:06,706 - OCRPipeline - INFO - 预处理完成，校正倾斜角度: 0.00度
+2025-09-05 13:33:06,745 - OCRPipeline - INFO - 执行OCR识别...
+2025-09-05 13:33:06,832 - OCRPipeline - ERROR - OCR引擎未初始化，无法进行识别
+2025-09-05 13:33:06,902 - OCRPipeline - WARNING - 未识别到任何文本
+2025-09-05 13:33:08,090 - OCRPipeline - ERROR - PaddleOCR初始化失败: Unknown argument: use_gpu
+2025-09-05 13:33:08,181 - OCRPipeline - INFO - OCR处理流水线初始化完成，配置: {'output_dir': './ocr_output', 'image_preprocess': {}, 'ocr_recognize': {'use_gpu': False}, 'layout_align': {}}
+2025-09-05 13:33:08,443 - OCRPipeline - INFO - 开始处理文件: data/就业指导考试表格.pdf
+2025-09-05 13:33:08,684 - OCRPipeline - INFO - 执行图像预处理...
+2025-09-05 13:33:09,583 - OCRPipeline - INFO - 预处理完成，校正倾斜角度: 0.00度
+2025-09-05 13:33:09,608 - OCRPipeline - INFO - 执行OCR识别...
+2025-09-05 13:33:09,793 - OCRPipeline - ERROR - OCR引擎未初始化，无法进行识别
+2025-09-05 13:33:09,967 - OCRPipeline - WARNING - 未识别到任何文本
+2025-09-05 13:41:55,359 - OCRPipeline - ERROR - OCR识别出错: PaddleOCR.predict() got an unexpected keyword argument 'cls'
+2025-09-05 13:41:55,361 - OCRPipeline - WARNING - 未识别到任何文本
+2025-09-05 13:44:44,009 - OCRPipeline - ERROR - OCR识别出错: tuple index out of range
+2025-09-05 13:44:44,019 - OCRPipeline - WARNING - 未识别到任何文本
+2025-09-05 13:47:21,630 - OCRPipeline - ERROR - OCR识别出错: tuple index out of range
+2025-09-05 13:47:21,632 - OCRPipeline - WARNING - 未识别到任何文本
+2025-09-05 13:49:46,212 - OCRPipeline - ERROR - OCR识别出错: tuple index out of range
+2025-09-05 13:49:46,231 - OCRPipeline - WARNING - 未识别到任何文本
+2025-09-05 13:51:51,990 - OCRPipeline - ERROR - OCR识别出错: tuple index out of range
+2025-09-05 13:51:52,005 - OCRPipeline - WARNING - 未识别到任何文本
+2025-09-05 13:54:14,325 - OCRPipeline - ERROR - OCR识别出错: tuple index out of range
+2025-09-05 13:54:14,328 - OCRPipeline - WARNING - 未识别到任何文本
+2025-09-05 14:06:35,715 - OCRPipeline - ERROR - OCR识别出错: tuple index out of range
+2025-09-05 14:06:35,717 - OCRPipeline - WARNING - 未识别到任何文本
+2025-09-05 14:12:25,235 - OCRPipeline - ERROR - OCR识别出错: tuple index out of range
+2025-09-05 14:12:25,237 - OCRPipeline - WARNING - 未识别到任何文本

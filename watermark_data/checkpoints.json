@@ -1,0 +1,304 @@
+{
+  "products_batch_001_1757010952": {
+    "checkpoint_id": "products_batch_001_1757010952",
+    "source_name": "products",
+    "batch_id": "batch_001",
+    "created_at": "2025-09-05T02:35:52.841296",
+    "watermarks": {
+      "products": {
+        "timestamp": {
+          "value": "2025-09-05T02:35:52.837145",
+          "updated_at": "2025-09-05T02:35:52.837158"
+        },
+        "max_id": {
+          "value": 2000,
+          "updated_at": "2025-09-05T02:35:52.921337"
+        },
+        "snapshot": {
+          "value": "snapshot_products_1757010952",
+          "updated_at": "2025-09-05T02:35:52.933379"
+        },
+        "incremental": {
+          "value": "2025-09-05T02:35:52.936882",
+          "updated_at": "2025-09-05T02:35:52.936891"
+        }
+      },
+      "orders": {
+        "timestamp": {
+          "value": "2025-09-05T02:35:52.839433",
+          "updated_at": "2025-09-05T02:35:52.839442"
+        }
+      }
+    },
+    "metadata": {
+      "description": "产品数据第一批导入"
+    }
+  },
+  "products_batch_002_1757010952": {
+    "checkpoint_id": "products_batch_002_1757010952",
+    "source_name": "products",
+    "batch_id": "batch_002",
+    "created_at": "2025-09-05T02:35:52.922731",
+    "watermarks": {
+      "products": {
+        "timestamp": {
+          "value": "2025-09-05T02:35:52.837145",
+          "updated_at": "2025-09-05T02:35:52.837158"
+        },
+        "max_id": {
+          "value": 2000,
+          "updated_at": "2025-09-05T02:35:52.921337"
+        },
+        "snapshot": {
+          "value": "snapshot_products_1757010952",
+          "updated_at": "2025-09-05T02:35:52.933379"
+        },
+        "incremental": {
+          "value": "2025-09-05T02:35:52.936882",
+          "updated_at": "2025-09-05T02:35:52.936891"
+        }
+      },
+      "orders": {
+        "timestamp": {
+          "value": "2025-09-05T02:35:52.839433",
+          "updated_at": "2025-09-05T02:35:52.839442"
+        }
+      }
+    },
+    "metadata": {
+      "description": "产品数据第二批导入"
+    }
+  },
+  "products_snapshot_products_1757010952_1757010952": {
+    "checkpoint_id": "products_snapshot_products_1757010952_1757010952",
+    "source_name": "products",
+    "batch_id": "snapshot_products_1757010952",
+    "created_at": "2025-09-05T02:35:52.934394",
+    "watermarks": {
+      "products": {
+        "timestamp": {
+          "value": "2025-09-05T02:35:52.837145",
+          "updated_at": "2025-09-05T02:35:52.837158"
+        },
+        "max_id": {
+          "value": 2000,
+          "updated_at": "2025-09-05T02:35:52.921337"
+        },
+        "snapshot": {
+          "value": "snapshot_products_1757010952",
+          "updated_at": "2025-09-05T02:35:52.933379"
+        },
+        "incremental": {
+          "value": "2025-09-05T02:35:52.936882",
+          "updated_at": "2025-09-05T02:35:52.936891"
+        }
+      },
+      "orders": {
+        "timestamp": {
+          "value": "2025-09-05T02:35:52.839433",
+          "updated_at": "2025-09-05T02:35:52.839442"
+        }
+      }
+    },
+    "metadata": {
+      "type": "snapshot",
+      "record_count": 3,
+      "primary_key": "id"
+    }
+  },
+  "products_incremental_products_1757010952_1757010952": {
+    "checkpoint_id": "products_incremental_products_1757010952_1757010952",
+    "source_name": "products",
+    "batch_id": "incremental_products_1757010952",
+    "created_at": "2025-09-05T02:35:52.938207",
+    "watermarks": {
+      "products": {
+        "timestamp": {
+          "value": "2025-09-05T02:35:52.837145",
+          "updated_at": "2025-09-05T02:35:52.837158"
+        },
+        "max_id": {
+          "value": 2000,
+          "updated_at": "2025-09-05T02:35:52.921337"
+        },
+        "snapshot": {
+          "value": "snapshot_products_1757010952",
+          "updated_at": "2025-09-05T02:35:52.933379"
+        },
+        "incremental": {
+          "value": "2025-09-05T02:35:52.936882",
+          "updated_at": "2025-09-05T02:35:52.936891"
+        }
+      },
+      "orders": {
+        "timestamp": {
+          "value": "2025-09-05T02:35:52.839433",
+          "updated_at": "2025-09-05T02:35:52.839442"
+        }
+      }
+    },
+    "metadata": {
+      "type": "incremental",
+      "stats": {
+        "insert": 1,
+        "update": 1,
+        "delete": 1,
+        "error": 0
+      },
+      "record_count": 3
+    }
+  },
+  "products_batch_001_1757011653": {
+    "checkpoint_id": "products_batch_001_1757011653",
+    "source_name": "products",
+    "batch_id": "batch_001",
+    "created_at": "2025-09-05T02:47:33.249277",
+    "watermarks": {
+      "products": {
+        "timestamp": {
+          "value": "2025-09-05T02:47:33.245967",
+          "updated_at": "2025-09-05T02:47:33.245975"
+        },
+        "max_id": {
+          "value": 2000,
+          "updated_at": "2025-09-05T02:47:33.365415"
+        },
+        "snapshot": {
+          "value": "snapshot_products_1757011653",
+          "updated_at": "2025-09-05T02:47:33.396868"
+        },
+        "incremental": {
+          "value": "2025-09-05T02:47:33.400415",
+          "updated_at": "2025-09-05T02:47:33.400425"
+        }
+      },
+      "orders": {
+        "timestamp": {
+          "value": "2025-09-05T02:47:33.247995",
+          "updated_at": "2025-09-05T02:47:33.248002"
+        }
+      }
+    },
+    "metadata": {
+      "description": "产品数据第一批导入"
+    }
+  },
+  "products_batch_002_1757011653": {
+    "checkpoint_id": "products_batch_002_1757011653",
+    "source_name": "products",
+    "batch_id": "batch_002",
+    "created_at": "2025-09-05T02:47:33.366776",
+    "watermarks": {
+      "products": {
+        "timestamp": {
+          "value": "2025-09-05T02:47:33.245967",
+          "updated_at": "2025-09-05T02:47:33.245975"
+        },
+        "max_id": {
+          "value": 2000,
+          "updated_at": "2025-09-05T02:47:33.365415"
+        },
+        "snapshot": {
+          "value": "snapshot_products_1757011653",
+          "updated_at": "2025-09-05T02:47:33.396868"
+        },
+        "incremental": {
+          "value": "2025-09-05T02:47:33.400415",
+          "updated_at": "2025-09-05T02:47:33.400425"
+        }
+      },
+      "orders": {
+        "timestamp": {
+          "value": "2025-09-05T02:47:33.247995",
+          "updated_at": "2025-09-05T02:47:33.248002"
+        }
+      }
+    },
+    "metadata": {
+      "description": "产品数据第二批导入"
+    }
+  },
+  "products_snapshot_products_1757011653_1757011653": {
+    "checkpoint_id": "products_snapshot_products_1757011653_1757011653",
+    "source_name": "products",
+    "batch_id": "snapshot_products_1757011653",
+    "created_at": "2025-09-05T02:47:33.397878",
+    "watermarks": {
+      "products": {
+        "timestamp": {
+          "value": "2025-09-05T02:47:33.245967",
+          "updated_at": "2025-09-05T02:47:33.245975"
+        },
+        "max_id": {
+          "value": 2000,
+          "updated_at": "2025-09-05T02:47:33.365415"
+        },
+        "snapshot": {
+          "value": "snapshot_products_1757011653",
+          "updated_at": "2025-09-05T02:47:33.396868"
+        },
+        "incremental": {
+          "value": "2025-09-05T02:47:33.400415",
+          "updated_at": "2025-09-05T02:47:33.400425"
+        }
+      },
+      "orders": {
+        "timestamp": {
+          "value": "2025-09-05T02:47:33.247995",
+          "updated_at": "2025-09-05T02:47:33.248002"
+        }
+      }
+    },
+    "metadata": {
+      "type": "snapshot",
+      "record_count": 3,
+      "primary_key": "id",
+      "file_path": "./watermark_data\\snapshots\\snapshot_products_1757011653.json"
+    }
+  },
+  "products_incremental_products_1757011653_1757011653": {
+    "checkpoint_id": "products_incremental_products_1757011653_1757011653",
+    "source_name": "products",
+    "batch_id": "incremental_products_1757011653",
+    "created_at": "2025-09-05T02:47:33.401713",
+    "watermarks": {
+      "products": {
+        "timestamp": {
+          "value": "2025-09-05T02:47:33.245967",
+          "updated_at": "2025-09-05T02:47:33.245975"
+        },
+        "max_id": {
+          "value": 2000,
+          "updated_at": "2025-09-05T02:47:33.365415"
+        },
+        "snapshot": {
+          "value": "snapshot_products_1757011653",
+          "updated_at": "2025-09-05T02:47:33.396868"
+        },
+        "incremental": {
+          "value": "2025-09-05T02:47:33.400415",
+          "updated_at": "2025-09-05T02:47:33.400425"
+        }
+      },
+      "orders": {
+        "timestamp": {
+          "value": "2025-09-05T02:47:33.247995",
+          "updated_at": "2025-09-05T02:47:33.248002"
+        }
+      }
+    },
+    "metadata": {
+      "type": "incremental",
+      "stats": {
+        "insert": 1,
+        "update": 1,
+        "delete": 1,
+        "error": 0
+      },
+      "record_count": 3,
+      "processing_time": 0.0,
+      "primary_key": "id",
+      "operation_field": "operation"
+    }
+  }
+}

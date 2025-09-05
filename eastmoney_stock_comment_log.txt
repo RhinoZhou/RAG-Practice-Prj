@@ -1,0 +1,64 @@
+2025-09-05 18:00:41,449 - eastmoney_stock_comment - INFO - 开始爬取第 1 页，URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:00:41,449 - eastmoney_stock_comment - INFO - 开始处理URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:00:41,724 - eastmoney_stock_comment - INFO - 尝试获取页面: https://data.eastmoney.com/stockcomment/ (尝试 1/6)
+2025-09-05 18:00:42,134 - eastmoney_stock_comment - INFO - 开始提取千股千评数据
+2025-09-05 18:00:42,237 - eastmoney_stock_comment - WARNING - 未找到股票评论表格
+2025-09-05 18:11:54,546 - eastmoney_stock_comment - INFO - 开始爬取第 1 页，URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:11:54,547 - eastmoney_stock_comment - INFO - 开始处理URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:11:54,550 - eastmoney_stock_comment - INFO - 使用缓存的响应: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:11:54,551 - eastmoney_stock_comment - INFO - 开始通过API获取千股千评数据
+2025-09-05 18:11:54,551 - eastmoney_stock_comment - INFO - 发送API请求: https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_TS_STOCKNEW&quoteColumns=f2~01~SECURITY_CODE~CLOSE_PRICE%2Cf8~01~SECURITY_CODE~TURNOVERRATE%2Cf3~01~SECURITY_CODE~CHANGE_RATE%2Cf9~01~SECURITY_CODE~PE_DYNAMIC&quoteType=0&columns=ALL&filter=&token=894050c76af8597a853f5b408b759f5d&sortColumns=SECURITY_CODE&sortTypes=1&pageSize=50&pageNumber=1&callback=jQuery11230254965349545337_1757067114551
+2025-09-05 18:11:54,974 - eastmoney_stock_comment - ERROR - 解析API响应JSON失败: Expecting value: line 1 column 1 (char 0)
+2025-09-05 18:12:47,038 - eastmoney_stock_comment - INFO - 开始爬取第 1 页，URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:12:47,061 - eastmoney_stock_comment - INFO - 开始处理URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:12:47,065 - eastmoney_stock_comment - INFO - 使用缓存的响应: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:12:47,065 - eastmoney_stock_comment - INFO - 开始通过API获取千股千评数据
+2025-09-05 18:12:47,066 - eastmoney_stock_comment - INFO - 发送API请求: https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_TS_STOCKNEW&quoteColumns=f2~01~SECURITY_CODE~CLOSE_PRICE%2Cf8~01~SECURITY_CODE~TURNOVERRATE%2Cf3~01~SECURITY_CODE~CHANGE_RATE%2Cf9~01~SECURITY_CODE~PE_DYNAMIC&quoteType=0&columns=ALL&filter=&token=894050c76af8597a853f5b408b759f5d&sortColumns=SECURITY_CODE&sortTypes=1&pageSize=50&pageNumber=1&callback=jQuery11230254965349545337_1757067167066
+2025-09-05 18:12:47,398 - eastmoney_stock_comment - INFO - API响应内容已保存到: D:\rag-project\05-rag-practice\07-data_import\eastmoney_output\api_response_1757067167.txt
+2025-09-05 18:12:47,399 - eastmoney_stock_comment - ERROR - 解析API响应JSON失败: Expecting value: line 1 column 1 (char 0)
+2025-09-05 18:51:00,978 - eastmoney_stock_comment - INFO - 开始爬取第 1 页，URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:51:00,979 - eastmoney_stock_comment - INFO - 开始处理URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:51:00,984 - eastmoney_stock_comment - INFO - 使用缓存的响应: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:51:00,984 - eastmoney_stock_comment - INFO - 开始通过API获取千股千评数据
+2025-09-05 18:51:00,985 - eastmoney_stock_comment - INFO - 发送API请求: https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_TS_STOCKNEW&quoteColumns=f2~01~SECURITY_CODE~CLOSE_PRICE%2Cf8~01~SECURITY_CODE~TURNOVERRATE%2Cf3~01~SECURITY_CODE~CHANGE_RATE%2Cf9~01~SECURITY_CODE~PE_DYNAMIC&quoteType=0&columns=ALL&filter=&token=894050c76af8597a853f5b408b759f5d&sortColumns=SECURITY_CODE&sortTypes=1&pageSize=50&pageNumber=1&callback=jQuery11230254965349545337_1757069460984
+2025-09-05 18:51:01,292 - eastmoney_stock_comment - INFO - API响应内容已保存到: D:\rag-project\05-rag-practice\07-data_import\eastmoney_output\api_response_1757069461.txt
+2025-09-05 18:51:01,292 - eastmoney_stock_comment - WARNING - 响应不是标准的JSONP格式
+2025-09-05 18:51:01,293 - eastmoney_stock_comment - ERROR - 解析API响应JSON失败: Expecting value: line 1 column 1 (char 0)
+2025-09-05 18:52:22,885 - eastmoney_stock_comment - INFO - 开始爬取第 1 页，URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:52:22,886 - eastmoney_stock_comment - INFO - 开始处理URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:52:22,889 - eastmoney_stock_comment - INFO - 使用缓存的响应: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:52:22,896 - eastmoney_stock_comment - INFO - 开始通过API获取千股千评数据
+2025-09-05 18:52:22,897 - eastmoney_stock_comment - INFO - 发送API请求: https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_TS_STOCKNEW&quoteColumns=f2~01~SECURITY_CODE~CLOSE_PRICE%2Cf8~01~SECURITY_CODE~TURNOVERRATE%2Cf3~01~SECURITY_CODE~CHANGE_RATE%2Cf9~01~SECURITY_CODE~PE_DYNAMIC&quoteType=0&columns=ALL&filter=&token=894050c76af8597a853f5b408b759f5d&sortColumns=SECURITY_CODE&sortTypes=1&pageSize=50&pageNumber=1&callback=jQuery11230254965349545337_1757069542897
+2025-09-05 18:52:23,379 - eastmoney_stock_comment - INFO - API响应内容已保存到: D:\rag-project\05-rag-practice\07-data_import\eastmoney_output\api_response_1757069543.txt
+2025-09-05 18:52:23,394 - eastmoney_stock_comment - WARNING - 响应不是标准的JSONP格式
+2025-09-05 18:52:23,395 - eastmoney_stock_comment - ERROR - 解析API响应JSON失败: Expecting value: line 1 column 1 (char 0)
+2025-09-05 18:59:14,337 - eastmoney_stock_comment - INFO - 开始爬取第 1 页，URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:59:14,338 - eastmoney_stock_comment - INFO - 开始处理URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:59:14,342 - eastmoney_stock_comment - INFO - 使用缓存的响应: https://data.eastmoney.com/stockcomment/
+2025-09-05 18:59:14,354 - eastmoney_stock_comment - INFO - 开始通过API获取千股千评数据
+2025-09-05 18:59:14,357 - eastmoney_stock_comment - INFO - 发送API请求: https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_TS_STOCKNEW&quoteColumns=f2~01~SECURITY_CODE~CLOSE_PRICE%2Cf8~01~SECURITY_CODE~TURNOVERRATE%2Cf3~01~SECURITY_CODE~CHANGE_RATE%2Cf9~01~SECURITY_CODE~PE_DYNAMIC&quoteType=0&columns=ALL&filter=&token=894050c76af8597a853f5b408b759f5d&sortColumns=SECURITY_CODE&sortTypes=1&pageSize=50&pageNumber=1&callback=jQuery11230254965349545337_1757069954356
+2025-09-05 18:59:14,694 - eastmoney_stock_comment - ERROR - 获取API数据时发生未知异常: name 'os' is not defined
+2025-09-05 19:00:06,134 - eastmoney_stock_comment - INFO - 开始爬取第 1 页，URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 19:00:06,135 - eastmoney_stock_comment - INFO - 开始处理URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 19:00:06,139 - eastmoney_stock_comment - INFO - 使用缓存的响应: https://data.eastmoney.com/stockcomment/
+2025-09-05 19:00:06,154 - eastmoney_stock_comment - INFO - 开始通过API获取千股千评数据
+2025-09-05 19:00:06,230 - eastmoney_stock_comment - INFO - 发送API请求: https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_TS_STOCKNEW&quoteColumns=f2~01~SECURITY_CODE~CLOSE_PRICE%2Cf8~01~SECURITY_CODE~TURNOVERRATE%2Cf3~01~SECURITY_CODE~CHANGE_RATE%2Cf9~01~SECURITY_CODE~PE_DYNAMIC&quoteType=0&columns=ALL&filter=&token=894050c76af8597a853f5b408b759f5d&sortColumns=SECURITY_CODE&sortTypes=1&pageSize=50&pageNumber=1&callback=jQuery11230254965349545337_1757070006230
+2025-09-05 19:00:07,236 - eastmoney_stock_comment - INFO - API响应内容已保存到: D:\rag-project\05-rag-practice\07-data_import\eastmoney_output\api_response_1757070007.txt
+2025-09-05 19:00:07,267 - eastmoney_stock_comment - INFO - 成功使用方法1解析JSONP响应
+2025-09-05 19:00:07,308 - eastmoney_stock_comment - INFO - 成功解析JSON数据
+2025-09-05 19:00:07,343 - eastmoney_stock_comment - INFO - 成功获取 50 条股票评论数据
+2025-09-05 19:00:07,432 - eastmoney_stock_comment - INFO - 已保存文本文件: D:\rag-project\05-rag-practice\07-data_import\eastmoney_output\16bc761297a2b40cd9732c8f01e81100.txt
+2025-09-05 19:00:07,443 - eastmoney_stock_comment - INFO - 已保存JSON文件: D:\rag-project\05-rag-practice\07-data_import\eastmoney_output\16bc761297a2b40cd9732c8f01e81100.json
+2025-09-05 19:00:07,454 - eastmoney_stock_comment - INFO - 已保存CSV文件: D:\rag-project\05-rag-practice\07-data_import\eastmoney_output\16bc761297a2b40cd9732c8f01e81100.csv
+2025-09-05 19:34:42,081 - eastmoney_stock_comment - INFO - 开始爬取第 1 页，URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 19:34:42,081 - eastmoney_stock_comment - INFO - 开始处理URL: https://data.eastmoney.com/stockcomment/
+2025-09-05 19:34:42,084 - eastmoney_stock_comment - INFO - 使用缓存的响应: https://data.eastmoney.com/stockcomment/
+2025-09-05 19:34:42,085 - eastmoney_stock_comment - INFO - 开始通过API获取千股千评数据
+2025-09-05 19:34:42,085 - eastmoney_stock_comment - INFO - 发送API请求: https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_TS_STOCKNEW&quoteColumns=f2~01~SECURITY_CODE~CLOSE_PRICE%2Cf8~01~SECURITY_CODE~TURNOVERRATE%2Cf3~01~SECURITY_CODE~CHANGE_RATE%2Cf9~01~SECURITY_CODE~PE_DYNAMIC&quoteType=0&columns=ALL&filter=&token=894050c76af8597a853f5b408b759f5d&sortColumns=SECURITY_CODE&sortTypes=1&pageSize=50&pageNumber=1&callback=jQuery11230254965349545337_1757072082085
+2025-09-05 19:34:42,783 - eastmoney_stock_comment - INFO - API响应内容已保存到: d:\rag-project\05-rag-practice\07-data_import\eastmoney_output\api_response_1757072082.txt
+2025-09-05 19:34:42,810 - eastmoney_stock_comment - INFO - 成功使用方法1解析JSONP响应
+2025-09-05 19:34:42,811 - eastmoney_stock_comment - INFO - 成功解析JSON数据
+2025-09-05 19:34:42,812 - eastmoney_stock_comment - INFO - 成功获取 50 条股票评论数据
+2025-09-05 19:34:42,826 - eastmoney_stock_comment - INFO - 已保存文本文件: d:\rag-project\05-rag-practice\07-data_import\eastmoney_output\16bc761297a2b40cd9732c8f01e81100.txt
+2025-09-05 19:34:42,831 - eastmoney_stock_comment - INFO - 已保存JSON文件: d:\rag-project\05-rag-practice\07-data_import\eastmoney_output\16bc761297a2b40cd9732c8f01e81100.json
+2025-09-05 19:34:42,837 - eastmoney_stock_comment - INFO - 已保存CSV文件: d:\rag-project\05-rag-practice\07-data_import\eastmoney_output\16bc761297a2b40cd9732c8f01e81100.csv

@@ -1,0 +1,164 @@
+[
+  {
+    "table_id": "就业指导考试表格_page1_table1",
+    "pdf_path": "data/就业指导考试表格.pdf",
+    "page_num": 1,
+    "table_index": 1,
+    "bbox": {
+      "x0": 0,
+      "top": 0,
+      "x1": 841.92,
+      "bottom": 595.32
+    },
+    "page_dimensions": {
+      "width": 841.92,
+      "height": 595.32
+    },
+    "row_count": 11,
+    "col_count": 10,
+    "alignment_score": 0.43636363636363634,
+    "data": [
+      [
+        "面试测试要素",
+        "测试细则",
+        "分数",
+        "评分标准（具体指标）",
+        "优秀",
+        "较好",
+        "一般",
+        "较差",
+        "很差",
+        "评分部\n门"
+      ],
+      [
+        "面试测试要素 (merged)",
+        "测试细则 (merged)",
+        "分数 (merged)",
+        "评分标准（具体指标） (merged)",
+        "100%~90%",
+        "90%~80%",
+        "80%~70%",
+        "70%~60%",
+        "60%以下",
+        "评分部\n门 (merged)"
+      ],
+      [
+        "身体状况",
+        "体制是否良好",
+        "15",
+        "健康程度10",
+        "100%~90% (merged)",
+        "90%~80% (merged)",
+        "80%~70% (merged)",
+        "70%~60% (merged)",
+        "60%以下 (merged)",
+        "人事部"
+      ],
+      [
+        "外貌形象",
+        "仪表气质、文化素养、成就、\n个人志趣等",
+        "15 (merged)",
+        "气质5",
+        "100%~90% (merged) (merged)",
+        "90%~80% (merged) (merged)",
+        "80%~70% (merged) (merged)",
+        "70%~60% (merged) (merged)",
+        "60%以下 (merged) (merged)",
+        "人事部 (merged)"
+      ],
+      [
+        "性格方面",
+        "侧重于对待工作的热情度、性\n格是否开朗",
+        "15",
+        "工作热情5\n自信心 5\n态度 5",
+        "100%~90% (merged) (merged) (merged)",
+        "90%~80% (merged) (merged) (merged)",
+        "80%~70% (merged) (merged) (merged)",
+        "70%~60% (merged) (merged) (merged)",
+        "60%以下 (merged) (merged) (merged)",
+        "人事部 (merged) (merged)"
+      ],
+      [
+        "专业知识、经验水\n平",
+        "能否紧密结合工作业务回答问\n题；专业知识与业务水平。",
+        "30",
+        "知识水平15\n实际经验10\n职业道德5",
+        "100%~90% (merged) (merged) (merged) (merged)",
+        "90%~80% (merged) (merged) (merged) (merged)",
+        "80%~70% (merged) (merged) (merged) (merged)",
+        "70%~60% (merged) (merged) (merged) (merged)",
+        "60%以下 (merged) (merged) (merged) (merged)",
+        "用人部\n门"
+      ],
+      [
+        "能力方面（工作思\n路是否清晰，判断\n分析问题是否准确\n、深刻、透彻，有\n无创见；解决问题\n的办法、措施是否\n得当）",
+        "1、语言表达的逻辑性、简练\n性、流畅性及感染力和说服力\n。 2\n、工作思路是否清晰，判断分\n析问题是否准确、深刻、透\n彻，有无创新；解决问题的办\n法、措施是否得当。\n3、反应的机敏程度；面对压\n力心理承受能力和自制力；处",
+        "40",
+        "社交能力10\n口头表达能力10\n应变能力8\n创新能力6\n处理难题能力6",
+        "100%~90% (merged) (merged) (merged) (merged) (merged)",
+        "90%~80% (merged) (merged) (merged) (merged) (merged)",
+        "80%~70% (merged) (merged) (merged) (merged) (merged)",
+        "70%~60% (merged) (merged) (merged) (merged) (merged)",
+        "60%以下 (merged) (merged) (merged) (merged) (merged)",
+        "总经办"
+      ],
+      [
+        "小计",
+        "1、语言表达的逻辑性、简练\n性、流畅性及感染力和说服力\n。 2\n、工作思路是否清晰，判断分\n析问题是否准确、深刻、透\n彻，有无创新；解决问题的办\n法、措施是否得当。\n3、反应的机敏程度；面对压\n力心理承受能力和自制力；处 (merged)",
+        "40 (merged)",
+        "社交能力10\n口头表达能力10\n应变能力8\n创新能力6\n处理难题能力6 (merged)",
+        "100%~90% (merged) (merged) (merged) (merged) (merged) (merged)",
+        "90%~80% (merged) (merged) (merged) (merged) (merged) (merged)",
+        "80%~70% (merged) (merged) (merged) (merged) (merged) (merged)",
+        "70%~60% (merged) (merged) (merged) (merged) (merged) (merged)",
+        "60%以下 (merged) (merged) (merged) (merged) (merged) (merged)",
+        "总经办 (merged)"
+      ],
+      [
+        "总计",
+        "1、语言表达的逻辑性、简练\n性、流畅性及感染力和说服力\n。 2\n、工作思路是否清晰，判断分\n析问题是否准确、深刻、透\n彻，有无创新；解决问题的办\n法、措施是否得当。\n3、反应的机敏程度；面对压\n力心理承受能力和自制力；处 (merged) (merged)",
+        "级别",
+        "95~100",
+        "90~95",
+        "80~90",
+        "70~80",
+        "60~70",
+        "60以下",
+        "总经办 (merged) (merged)"
+      ],
+      [
+        "总计 (merged)",
+        "1、语言表达的逻辑性、简练\n性、流畅性及感染力和说服力\n。 2\n、工作思路是否清晰，判断分\n析问题是否准确、深刻、透\n彻，有无创新；解决问题的办\n法、措施是否得当。\n3、反应的机敏程度；面对压\n力心理承受能力和自制力；处 (merged) (merged) (merged)",
+        "标准",
+        "95~100 (merged)",
+        "90~95 (merged)",
+        "80~90 (merged)",
+        "70~80 (merged)",
+        "60~70 (merged)",
+        "60以下 (merged)",
+        "总经办 (merged) (merged) (merged)"
+      ],
+      [
+        "考官意见",
+        "1、语言表达的逻辑性、简练\n性、流畅性及感染力和说服力\n。 2\n、工作思路是否清晰，判断分\n析问题是否准确、深刻、透\n彻，有无创新；解决问题的办\n法、措施是否得当。\n3、反应的机敏程度；面对压\n力心理承受能力和自制力；处 (merged) (merged) (merged) (merged)",
+        "标准 (merged)",
+        "95~100 (merged) (merged)",
+        "90~95 (merged) (merged)",
+        "80~90 (merged) (merged)",
+        "70~80 (merged) (merged)",
+        "60~70 (merged) (merged)",
+        "60以下 (merged) (merged)",
+        "总经办 (merged) (merged) (merged) (merged)"
+      ]
+    ],
+    "metadata": {
+      "extraction_method": "pdfplumber",
+      "config_used": {
+        "vertical_strategy": "lines",
+        "horizontal_strategy": "lines",
+        "snap_x_tolerance": 3.0,
+        "snap_y_tolerance": 3.0
+      }
+    }
+  }
+]

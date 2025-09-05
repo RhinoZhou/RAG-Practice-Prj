@@ -1,0 +1,18 @@
+[
+  {
+    "index": 0,
+    "preview": "\n    var service={ENV:\"production\"}\n  "
+  },
+  {
+    "index": 1,
+    "preview": "\n    var qjdata = '[[{\"lab\":\"A\",\"index\":22,\"isshow\":\"Y\",\"name\":\"AH股比价\",\"link\":\"http://quote.eastmoney.com/center/list.html#ah_1\",\"newClass\":false,\"isstrong\":false,\"character\":\"A\"},{\"lab\":\"B\",\"index\":4,\"isshow\":\"Y\",\"name\":\"板块资金\",\"link\":\"http://data.eastmoney.com/bkzj/\",\"newClass\":false,\"isstrong\":false,\"character\":\"B\"},{\"lab\":\"B\",\"index\":14,\"isshow\":\"Y\",\"name\":\"并购重组\",\"link\":\"http://data.eastmoney.com/bgcz/\",\"newClass\":false,\"isstrong\":false,\"character\":\"\"},{\"lab\":\"C\",\"index\":15,\"isshow\":\"Y\",\"name"
+  },
+  {
+    "index": 2,
+    "preview": "\n  var page_type = \"qgqp\"; //左侧导航链接标识\n"
+  },
+  {
+    "index": 17,
+    "preview": "\n  var emtj_isUpload = 1;\n  var emtj_pageId = 113300301003;\n  var emtj_logSet = \"1111111111\";\n  var emtj_sampleRate = 1;\n"
+  }
+]

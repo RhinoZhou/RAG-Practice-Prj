@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-09-05T02:52:16.292591",
+  "file_info": {
+    "name": "因子投资-方法与实践-石川.pdf",
+    "path": "data\\因子投资-方法与实践-石川.pdf",
+    "size_mb": 183.42
+  },
+  "text_layer_analysis": {
+    "has_text_layer": false,
+    "text_density": 0.0,
+    "text_pages_ratio": 0.0,
+    "estimated_text_quality": "unknown",
+    "error": "page not in document"
+  },
+  "layout_analysis": {
+    "is_complex": false,
+    "complexity_score": 0.0,
+    "estimated_layout_type": "unknown",
+    "error": "page not in document"
+  },
+  "route_decision": {
+    "route": "ocr",
+    "reason": [
+      "无文本层，需要OCR识别"
+    ],
+    "confidence": 0.95
+  },
+  "processing_time_seconds": 0.07,
+  "execution": {
+    "executed_route": "ocr",
+    "execution_time_seconds": 578.381,
+    "result": {
+      "success": true,
+      "method": "ocr",
+      "output_files": [
+        "./pdf_output\\因子投资-方法与实践-石川_ocr.txt"
+      ],
+      "page_count": 442
+    }
+  }
+}
