@@ -1,0 +1,72 @@
+[
+    {
+        "scheme_name": "块大小_100",
+        "chunk_size": 100,
+        "same_chunk_hit_rate": 0.6,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "consistency_score": 0.9,
+        "total_qa_pairs": 5
+    },
+    {
+        "scheme_name": "块大小_200",
+        "chunk_size": 200,
+        "same_chunk_hit_rate": 0.8,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "consistency_score": 0.975,
+        "total_qa_pairs": 5
+    },
+    {
+        "scheme_name": "块大小_300",
+        "chunk_size": 300,
+        "same_chunk_hit_rate": 0.8,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "consistency_score": 0.95,
+        "total_qa_pairs": 5
+    },
+    {
+        "scheme_name": "块大小_500",
+        "chunk_size": 500,
+        "same_chunk_hit_rate": 1.0,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "consistency_score": 1.0,
+        "total_qa_pairs": 5
+    },
+    {
+        "scheme_name": "块大小_800",
+        "chunk_size": 800,
+        "same_chunk_hit_rate": 1.0,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "consistency_score": 1.0,
+        "total_qa_pairs": 5
+    },
+    {
+        "scheme_name": "块大小_1300",
+        "chunk_size": 1300,
+        "same_chunk_hit_rate": 1.0,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "consistency_score": 1.0,
+        "total_qa_pairs": 5
+    },
+    {
+        "scheme_name": "块大小_2100",
+        "chunk_size": 2100,
+        "same_chunk_hit_rate": 1.0,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "consistency_score": 1.0,
+        "total_qa_pairs": 5
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "text": "人工智能（Artificial Intelligence，简称AI）是计算机科学的一个分支，\n旨在创造能够执行通常需要人类智能的任务的智能机器。人工智能的研究领域包括机器学习、计算机视觉、\n自然语言处",
+        "level": 2,
+        "parent_para_id": 0,
+        "chunk_id": 0,
+        "start_pos": 0,
+        "end_pos": 100,
+        "token_count": 100
+    },
+    {
+        "text": "域包括机器学习、计算机视觉、\n自然语言处理、机器人学、专家系统等多个方面。",
+        "level": 2,
+        "parent_para_id": 0,
+        "chunk_id": 1,
+        "start_pos": 80,
+        "end_pos": 117,
+        "token_count": 37
+    },
+    {
+        "text": "机器学习是人工智能的一个重要分支，它使计算机能够从数据中学习而不需要明确编程。\n深度学习是机器学习的一个子集，它使用多层神经网络来模拟人类大脑的某些功能。\n深度学习在图像识别、语音识别、自然语言处理等",
+        "level": 2,
+        "parent_para_id": 1,
+        "chunk_id": 0,
+        "start_pos": 119,
+        "end_pos": 219,
+        "token_count": 100
+    },
+    {
+        "text": "学习在图像识别、语音识别、自然语言处理等领域取得了显著的成功。",
+        "level": 2,
+        "parent_para_id": 1,
+        "chunk_id": 1,
+        "start_pos": 199,
+        "end_pos": 230,
+        "token_count": 31
+    },
+    {
+        "text": "随着大数据和计算能力的提升，人工智能技术正在快速发展，并在医疗、金融、交通、教育等\n多个行业得到广泛应用。人工智能的发展也带来了一系列伦理和社会问题，如隐私保护、\n就业影响、算法偏见等，需要我们认真思",
+        "level": 2,
+        "parent_para_id": 2,
+        "chunk_id": 0,
+        "start_pos": 232,
+        "end_pos": 332,
+        "token_count": 100
+    },
+    {
+        "text": "、\n就业影响、算法偏见等，需要我们认真思考和应对。",
+        "level": 2,
+        "parent_para_id": 2,
+        "chunk_id": 1,
+        "start_pos": 312,
+        "end_pos": 337,
+        "token_count": 25
+    }
+]

@@ -1,0 +1,389 @@
+{
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "text": "\n    大脑中动脉狭窄与闭塞是导致脑梗死的重要原因。本研究回顾性分析了2019年1月至2021年1",
+      "start_index": 0,
+      "end_index": 50,
+      "tokens_count": 50,
+      "entities": [
+        {
+          "text": "大脑中动脉",
+          "start_pos": 5,
+          "end_pos": 10,
+          "entity_type": "部位"
+        },
+        {
+          "text": "脑梗死",
+          "start_pos": 18,
+          "end_pos": 21,
+          "entity_type": "疾病"
+        },
+        {
+          "text": "2019年1月至2021年12月期间",
+          "start_pos": 36,
+          "end_pos": 54,
+          "entity_type": "DATE"
+        }
+      ],
+      "entity_density": 7.5,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 1,
+      "text": "年1月至2021年12月期间在我院神经内科住院治疗的120例大脑中动脉狭窄与闭塞患者的临床资料。\n ",
+      "start_index": 40,
+      "end_index": 90,
+      "tokens_count": 50,
+      "entities": [
+        {
+          "text": "120",
+          "start_pos": 26,
+          "end_pos": 29,
+          "entity_type": "CARDINAL"
+        },
+        {
+          "text": "大脑中动脉",
+          "start_pos": 30,
+          "end_pos": 35,
+          "entity_type": "部位"
+        }
+      ],
+      "entity_density": 6.0,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 2,
+      "text": "患者的临床资料。\n    研究对象包括68例男性和52例女性，年龄范围为45-78岁，平均年龄为(6",
+      "start_index": 80,
+      "end_index": 130,
+      "tokens_count": 50,
+      "entities": [
+        {
+          "text": "研究对象",
+          "start_pos": 13,
+          "end_pos": 17,
+          "entity_type": "对象"
+        },
+        {
+          "text": "68",
+          "start_pos": 19,
+          "end_pos": 21,
+          "entity_type": "CARDINAL"
+        },
+        {
+          "text": "52",
+          "start_pos": 25,
+          "end_pos": 27,
+          "entity_type": "CARDINAL"
+        },
+        {
+          "text": "45",
+          "start_pos": 36,
+          "end_pos": 38,
+          "entity_type": "CARDINAL"
+        },
+        {
+          "text": "78岁",
+          "start_pos": 39,
+          "end_pos": 42,
+          "entity_type": "DATE"
+        }
+      ],
+      "entity_density": 6.0,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 3,
+      "text": "8岁，平均年龄为(62.3±8.5)岁。所有患者均经头颅CT或MRI证实为脑梗死，并经脑血管造影或C",
+      "start_index": 120,
+      "end_index": 170,
+      "tokens_count": 50,
+      "entities": [
+        {
+          "text": "8",
+          "start_pos": 14,
+          "end_pos": 15,
+          "entity_type": "CARDINAL"
+        },
+        {
+          "text": "5)岁",
+          "start_pos": 16,
+          "end_pos": 19,
+          "entity_type": "DATE"
+        },
+        {
+          "text": "脑梗死",
+          "start_pos": 37,
+          "end_pos": 40,
+          "entity_type": "疾病"
+        }
+      ],
+      "entity_density": 4.5,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 4,
+      "text": "，并经脑血管造影或CT血管造影证实存在大脑中动脉狭窄或闭塞。\n    研究方法包括收集患者的一般资料",
+      "start_index": 160,
+      "end_index": 210,
+      "tokens_count": 50,
+      "entities": [
+        {
+          "text": "大脑中动脉",
+          "start_pos": 19,
+          "end_pos": 24,
+          "entity_type": "部位"
+        },
+        {
+          "text": "研究方法",
+          "start_pos": 35,
+          "end_pos": 39,
+          "entity_type": "方法"
+        }
+      ],
+      "entity_density": 3.0,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 5,
+      "text": "括收集患者的一般资料、临床症状、影像学检查结果、实验室检查结果以及治疗方案和预后情况。影像学特点分析",
+      "start_index": 200,
+      "end_index": 250,
+      "tokens_count": 50,
+      "entities": [],
+      "entity_density": 4.5,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 6,
+      "text": "情况。影像学特点分析包括脑梗死的部位、范围、形态以及大脑中动脉狭窄或闭塞的程度和部位。\n    发病",
+      "start_index": 240,
+      "end_index": 290,
+      "tokens_count": 50,
+      "entities": [
+        {
+          "text": "脑梗死",
+          "start_pos": 12,
+          "end_pos": 15,
+          "entity_type": "疾病"
+        },
+        {
+          "text": "大脑中动脉",
+          "start_pos": 26,
+          "end_pos": 31,
+          "entity_type": "部位"
+        }
+      ],
+      "entity_density": 6.5,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 7,
+      "text": "部位。\n    发病机制研究主要探讨了大脑中动脉狭窄与闭塞导致脑梗死的病理生理过程，包括血栓形成、脑",
+      "start_index": 280,
+      "end_index": 330,
+      "tokens_count": 50,
+      "entities": [
+        {
+          "text": "大脑中动脉",
+          "start_pos": 19,
+          "end_pos": 24,
+          "entity_type": "部位"
+        },
+        {
+          "text": "脑梗死",
+          "start_pos": 31,
+          "end_pos": 34,
+          "entity_type": "疾病"
+        }
+      ],
+      "entity_density": 6.5,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 8,
+      "text": "程，包括血栓形成、脑血流灌注不足、侧支循环代偿以及神经细胞损伤和坏死的机制。\n    研究结果表明，",
+      "start_index": 320,
+      "end_index": 370,
+      "tokens_count": 50,
+      "entities": [
+        {
+          "text": "研究结果",
+          "start_pos": 43,
+          "end_pos": 47,
+          "entity_type": "结果"
+        }
+      ],
+      "entity_density": 5.5,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 9,
+      "text": "   研究结果表明，大脑中动脉狭窄与闭塞患者的脑梗死部位主要位于基底节区、额叶和颞叶，其中以基底节区",
+      "start_index": 360,
+      "end_index": 410,
+      "tokens_count": 50,
+      "entities": [
+        {
+          "text": "研究结果",
+          "start_pos": 3,
+          "end_pos": 7,
+          "entity_type": "结果"
+        },
+        {
+          "text": "大脑中动脉",
+          "start_pos": 10,
+          "end_pos": 15,
+          "entity_type": "部位"
+        },
+        {
+          "text": "脑梗死",
+          "start_pos": 23,
+          "end_pos": 26,
+          "entity_type": "疾病"
+        },
+        {
+          "text": "基底节区",
+          "start_pos": 32,
+          "end_pos": 36,
+          "entity_type": "部位"
+        },
+        {
+          "text": "额叶",
+          "start_pos": 37,
+          "end_pos": 39,
+          "entity_type": "部位"
+        },
+        {
+          "text": "颞叶",
+          "start_pos": 40,
+          "end_pos": 42,
+          "entity_type": "部位"
+        },
+        {
+          "text": "基底节区",
+          "start_pos": 46,
+          "end_pos": 50,
+          "entity_type": "部位"
+        }
+      ],
+      "entity_density": 6.5,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 10,
+      "text": "颞叶，其中以基底节区最为常见。大脑中动脉闭塞患者的脑梗死范围通常较狭窄患者更大，神经功能缺损更严重。",
+      "start_index": 400,
+      "end_index": 450,
+      "tokens_count": 50,
+      "entities": [
+        {
+          "text": "颞叶",
+          "start_pos": 0,
+          "end_pos": 2,
+          "entity_type": "部位"
+        },
+        {
+          "text": "基底节区",
+          "start_pos": 6,
+          "end_pos": 10,
+          "entity_type": "部位"
+        },
+        {
+          "text": "大脑中动脉",
+          "start_pos": 15,
+          "end_pos": 20,
+          "entity_type": "部位"
+        },
+        {
+          "text": "脑梗死",
+          "start_pos": 25,
+          "end_pos": 28,
+          "entity_type": "疾病"
+        }
+      ],
+      "entity_density": 4.0,
+      "size_used": 50,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 11,
+      "text": "神经功能缺损更严重。\n    此外，研究还发现，大脑中动脉狭窄与闭塞的程度与脑梗死的严重程度和预后密切相关。早期诊断和及时治疗对于改善患者的预后至关重要。\n    结论部分指出，大脑中",
+      "start_index": 440,
+      "end_index": 532,
+      "tokens_count": 92,
+      "entities": [
+        {
+          "text": "大脑中动脉",
+          "start_pos": 24,
+          "end_pos": 29,
+          "entity_type": "部位"
+        },
+        {
+          "text": "脑梗死",
+          "start_pos": 38,
+          "end_pos": 41,
+          "entity_type": "疾病"
+        },
+        {
+          "text": "大脑中动脉",
+          "start_pos": 89,
+          "end_pos": 94,
+          "entity_type": "部位"
+        }
+      ],
+      "entity_density": 2.366863905325444,
+      "size_used": 92,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 12,
+      "text": "重要。\n    结论部分指出，大脑中动脉狭窄与闭塞是导致脑梗死的重要原因，其影像学特点和发病机制具有一定的特征性。深入研究这些特征有助于提高对该病的认识和诊治水平，改善患者的预后。\n    ",
+      "start_index": 514,
+      "end_index": 609,
+      "tokens_count": 95,
+      "entities": [
+        {
+          "text": "大脑中动脉",
+          "start_pos": 15,
+          "end_pos": 20,
+          "entity_type": "部位"
+        },
+        {
+          "text": "脑梗死",
+          "start_pos": 28,
+          "end_pos": 31,
+          "entity_type": "疾病"
+        }
+      ],
+      "entity_density": 2.1052631578947367,
+      "size_used": 109,
+      "overlap_with_prev": 0
+    },
+    {
+      "chunk_id": 13,
+      "text": "认识和诊治水平，改善患者的预后。\n    ",
+      "start_index": 588,
+      "end_index": 609,
+      "tokens_count": 21,
+      "entities": [],
+      "entity_density": 0.0,
+      "size_used": 250,
+      "overlap_with_prev": 0
+    }
+  ],
+  "total_chunks": 14,
+  "total_tokens": 758,
+  "avg_entity_density": 4.640866218801442
+}

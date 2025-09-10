@@ -1,0 +1,37 @@
+{
+    "简单分块": {
+        "total_chunks": 8,
+        "level_counts": {
+            "0": 4,
+            "1": 4
+        },
+        "avg_length": 203.375,
+        "max_length": 412,
+        "min_length": 9,
+        "coverage": 1.0
+    },
+    "重叠滑窗": {
+        "total_chunks": 16,
+        "level_counts": {
+            "0": 4,
+            "1": 4,
+            "2": 8
+        },
+        "avg_length": 215.8125,
+        "max_length": 412,
+        "min_length": 9,
+        "coverage": 1.0
+    },
+    "层次化动态边界": {
+        "total_chunks": 16,
+        "level_counts": {
+            "0": 4,
+            "1": 4,
+            "2": 8
+        },
+        "avg_length": 215.8125,
+        "max_length": 412,
+        "min_length": 9,
+        "coverage": 1.0
+    }
+}

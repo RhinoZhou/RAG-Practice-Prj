@@ -1,0 +1,31 @@
+{
+  "basic_statistics": {
+    "total_chunks": 501,
+    "total_tokens": 23560,
+    "avg_tokens_per_chunk": 47.025948103792416,
+    "min_tokens": 1,
+    "max_tokens": 495,
+    "median_tokens": 19.0,
+    "std_tokens": 85.97400924011664,
+    "total_overlap": 0,
+    "avg_overlap_prev": 0.0,
+    "avg_overlap_next": 0.0,
+    "adjustment_count": 0,
+    "move_adjustments": 0,
+    "overlap_adjustments": 0
+  },
+  "adjustment_analysis": {
+    "total_adjustments": 0,
+    "has_adjustments": false
+  },
+  "quality_check": {
+    "problematic_chunks_count": 136,
+    "problematic_chunks_percentage": 27.14570858283433
+  },
+  "visualizations": {
+    "token_distribution": "results\\analysis\\token_distribution.png",
+    "overlap_distribution": "results\\analysis\\overlap_distribution.png",
+    "adjustments_analysis": "results\\analysis\\adjustments_analysis.png",
+    "comparison_with_original": "results\\analysis\\comparison_with_original.png"
+  }
+}

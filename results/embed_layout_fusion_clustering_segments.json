@@ -1,0 +1,73 @@
+{
+  "segments": [
+    {
+      "text": "随着人工智能技术的快速发展，自然语言处理领域取得了显著进展。深度学习模型，特别是基于Transformer架构的模型，在各种NLP任务中表现出色。文本分块是RAG（检索增强生成）系统中的关键步骤，直接影响检索质量和生成效果。",
+      "start_index": 0,
+      "end_index": 2,
+      "cluster_id": 0,
+      "features_used": {
+        "text_weight": 0.7,
+        "cluster_method": "kmeans",
+        "sentence_count": 3,
+        "char_count": 112
+      },
+      "original_sentences": [
+        "随着人工智能技术的快速发展，自然语言处理领域取得了显著进展。",
+        "深度学习模型，特别是基于Transformer架构的模型，在各种NLP任务中表现出色。",
+        "文本分块是RAG（检索增强生成）系统中的关键步骤，直接影响检索质量和生成效果。"
+      ]
+    },
+    {
+      "text": "传统的分块方法通常基于固定大小或简单的规则，无法充分考虑文本的语义结构。",
+      "start_index": 3,
+      "end_index": 3,
+      "cluster_id": 1,
+      "features_used": {
+        "text_weight": 0.7,
+        "cluster_method": "kmeans",
+        "sentence_count": 1,
+        "char_count": 36
+      },
+      "original_sentences": [
+        "传统的分块方法通常基于固定大小或简单的规则，无法充分考虑文本的语义结构。"
+      ]
+    },
+    {
+      "text": "嵌入与聚类驱动的边界发现方法结合了语义信息和结构特征，能够更准确地识别自然段落边界。",
+      "start_index": 4,
+      "end_index": 4,
+      "cluster_id": 0,
+      "features_used": {
+        "text_weight": 0.7,
+        "cluster_method": "kmeans",
+        "sentence_count": 1,
+        "char_count": 42
+      },
+      "original_sentences": [
+        "嵌入与聚类驱动的边界发现方法结合了语义信息和结构特征，能够更准确地识别自然段落边界。"
+      ]
+    },
+    {
+      "text": "这种方法不仅考虑了文本内容，还可以融合版面特征，如标题、段落间距等信息。实验结果表明，融合多种特征的分块方法在问答系统和文档摘要任务中均取得了更好的性能。未来的研究方向包括探索更多类型的特征融合和更高效的聚类算法。",
+      "start_index": 5,
+      "end_index": 7,
+      "cluster_id": 1,
+      "features_used": {
+        "text_weight": 0.7,
+        "cluster_method": "kmeans",
+        "sentence_count": 3,
+        "char_count": 107
+      },
+      "original_sentences": [
+        "这种方法不仅考虑了文本内容，还可以融合版面特征，如标题、段落间距等信息。",
+        "实验结果表明，融合多种特征的分块方法在问答系统和文档摘要任务中均取得了更好的性能。",
+        "未来的研究方向包括探索更多类型的特征融合和更高效的聚类算法。"
+      ]
+    }
+  ],
+  "metadata": {
+    "total_segments": 4,
+    "timestamp": "2025-09-08 22:51:27",
+    "version": "1.0"
+  }
+}

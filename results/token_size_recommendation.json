@@ -1,0 +1,11 @@
+{
+    "best_f1_token_size": 1024,
+    "best_f1_score": 0.03662976719392087,
+    "best_ndcg_token_size": 512,
+    "best_ndcg_score": 0.0012911801546751601,
+    "best_coverage_token_size": 512,
+    "best_coverage_score": 1.0,
+    "recommended_token_size_range": "1024-1024",
+    "min_recommended_token_size": 1024,
+    "max_recommended_token_size": 1024
+}

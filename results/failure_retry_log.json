@@ -1,0 +1,31 @@
+{
+  "total_failed_tasks": 1,
+  "failed_tasks": [
+    {
+      "task_id": "task_fd4820c987bb",
+      "doc_id": "doc_a888e8ceb36a",
+      "filename": "doc_a888e8ceb36a.txt",
+      "doc_type": "txt",
+      "size_mb": 28.22973483626651,
+      "retry_count": 1,
+      "error_message": "'worker_000'",
+      "start_time": "2025-09-09T22:58:55.154435",
+      "end_time": "2025-09-09T22:58:49.233482",
+      "worker_id": "worker_000",
+      "checkpoint_data": {
+        "解析文档": {
+          "completed_at": "2025-09-09T22:58:44.805647",
+          "processing_time": 1.1067403653539483
+        },
+        "文本分块": {
+          "completed_at": "2025-09-09T22:58:46.465890",
+          "processing_time": 1.6601105480309224
+        },
+        "向量化": {
+          "completed_at": "2025-09-09T22:58:48.679477",
+          "processing_time": 2.2134807307078965
+        }
+      }
+    }
+  ]
+}

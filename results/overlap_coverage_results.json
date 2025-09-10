@@ -1,0 +1,42 @@
+[
+    {
+        "overlap_ratio": 0.0,
+        "overlap_size": 0,
+        "num_chunks": 12,
+        "coverage": 1.0,
+        "redundancy": 1.00390625,
+        "avg_chunk_size": 477.5
+    },
+    {
+        "overlap_ratio": 0.1,
+        "overlap_size": 51,
+        "num_chunks": 13,
+        "coverage": 1.0,
+        "redundancy": 1.107485604606526,
+        "avg_chunk_size": 488.46153846153845
+    },
+    {
+        "overlap_ratio": 0.15,
+        "overlap_size": 76,
+        "num_chunks": 14,
+        "coverage": 1.0,
+        "redundancy": 1.1653846153846155,
+        "avg_chunk_size": 480.42857142857144
+    },
+    {
+        "overlap_ratio": 0.2,
+        "overlap_size": 102,
+        "num_chunks": 15,
+        "coverage": 1.0,
+        "redundancy": 1.2380952380952381,
+        "avg_chunk_size": 477.73333333333335
+    },
+    {
+        "overlap_ratio": 0.3,
+        "overlap_size": 153,
+        "num_chunks": 17,
+        "coverage": 1.0,
+        "redundancy": 1.4106463878326996,
+        "avg_chunk_size": 481.52941176470586
+    }
+]

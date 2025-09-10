@@ -1,0 +1,50 @@
+{
+  "runtime_minutes": 6.0,
+  "current_status": {
+    "queue_depth": 0,
+    "active_workers": 0,
+    "total_workers": 4,
+    "current_throughput": 28.833333333333332
+  },
+  "task_statistics": {
+    "pending": 12,
+    "completed": 185,
+    "failed": 1,
+    "queue_depth": 0
+  },
+  "average_performance_metrics": {
+    "avg_throughput_per_minute": 21.312713443963442,
+    "avg_p50_latency_seconds": 6.915275583333333,
+    "avg_p95_latency_seconds": 39.74721739999998,
+    "avg_error_rate": 0.004735564812785232
+  },
+  "scaling_history": [
+    {
+      "timestamp": "2025-09-10 12:00:41.992986",
+      "action": "scale_up",
+      "from": 3,
+      "to": 5
+    },
+    {
+      "timestamp": "2025-09-10 12:01:11.995889",
+      "action": "scale_down",
+      "from": 5,
+      "to": 4
+    },
+    {
+      "timestamp": "2025-09-10 12:01:41.996585",
+      "action": "scale_down",
+      "from": 4,
+      "to": 3
+    }
+  ],
+  "checkpoint_snapshots": [
+    "checkpoint_20250909_230154_d389e100",
+    "checkpoint_20250909_230654_31ec5ec5",
+    "checkpoint_20250910_035849_0b80da2f",
+    "checkpoint_20250910_042156_677def4b",
+    "checkpoint_20250910_111508_8a2b58ec",
+    "checkpoint_20250910_112441_43db193f",
+    "checkpoint_20250910_120512_576dad82"
+  ]
+}

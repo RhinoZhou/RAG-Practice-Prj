@@ -1,0 +1,6827 @@
+[
+    {
+        "text": "7/1/23, 11:31 PM",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            26.453123092651367,
+            15.999998092651367,
+            82.38945770263672,
+            23.999998092651367
+        ],
+        "chunk_id": 0,
+        "token_count": 16
+    },
+    {
+        "text": "The World's Billionaires - Wikipedia",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            290.3124694824219,
+            15.999998092651367,
+            407.8267517089844,
+            23.999998092651367
+        ],
+        "chunk_id": 1,
+        "token_count": 36
+    },
+    {
+        "text": "The World's Billionaires",
+        "page": 1,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            62.10810089111328,
+            352.82293701171875,
+            90.53654479980469
+        ],
+        "chunk_id": 2,
+        "token_count": 24
+    },
+    {
+        "text": "The World's Billionaires is an annual",
+        "page": 1,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            135.59266662597656,
+            288.57440185546875,
+            149.23968505859375
+        ],
+        "chunk_id": 3,
+        "token_count": 37
+    },
+    {
+        "text": "The World's Billionaires",
+        "page": 1,
+        "type": "header",
+        "bbox": [
+            363.4456481933594,
+            146.19183349609375,
+            513.1736450195312,
+            159.4036865234375
+        ],
+        "chunk_id": 4,
+        "token_count": 24
+    },
+    {
+        "text": "ranking of people who are considered to have a net worth of $1 billion or more, by the",
+        "page": 1,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            150.6061553955078,
+            288.5787658691406,
+            178.51597595214844
+        ],
+        "chunk_id": 5,
+        "token_count": 86
+    },
+    {
+        "text": "List of the world's billionaires, ranked in order of net worth",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            167.74403381347656,
+            572.9823608398438,
+            178.3135223388672
+        ],
+        "chunk_id": 6,
+        "token_count": 62
+    },
+    {
+        "text": "American business magazine Forbes. The list was first published in March 1987.[1] The total net worth of each individual on the list is estimated and is cited in United States dollars, based",
+        "page": 1,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            179.1317596435547,
+            288.5832824707031,
+            251.33132934570312
+        ],
+        "chunk_id": 7,
+        "token_count": 190
+    },
+    {
+        "text": "on",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            79.32966613769531,
+            237.68431091308594,
+            95.79720306396484,
+            251.33132934570312
+        ],
+        "chunk_id": 8,
+        "token_count": 2
+    },
+    {
+        "text": "their",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            106.05131530761719,
+            237.68431091308594,
+            134.32469177246094,
+            251.33132934570312
+        ],
+        "chunk_id": 9,
+        "token_count": 5
+    },
+    {
+        "text": "documented",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            144.58433532714844,
+            237.68431091308594,
+            213.52621459960938,
+            251.33132934570312
+        ],
+        "chunk_id": 10,
+        "token_count": 10
+    },
+    {
+        "text": "assets",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            223.8003692626953,
+            237.68431091308594,
+            258.25927734375,
+            251.33132934570312
+        ],
+        "chunk_id": 11,
+        "token_count": 6
+    },
+    {
+        "text": "and",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            268.5264587402344,
+            237.68431091308594,
+            288.57244873046875,
+            251.33132934570312
+        ],
+        "chunk_id": 12,
+        "token_count": 3
+    },
+    {
+        "text": "accounting for debt and other factors. Royalty and dictators whose wealth comes from their positions are excluded from these lists.[3] This ranking",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            251.94711303710938,
+            288.58807373046875,
+            309.8838806152344
+        ],
+        "chunk_id": 13,
+        "token_count": 147
+    },
+    {
+        "text": "is",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            89.96186828613281,
+            296.23687744140625,
+            101.56429290771484,
+            309.8838806152344
+        ],
+        "chunk_id": 14,
+        "token_count": 2
+    },
+    {
+        "text": "an",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            111.89171600341797,
+            296.23687744140625,
+            127.93812561035156,
+            309.8838806152344
+        ],
+        "chunk_id": 15,
+        "token_count": 2
+    },
+    {
+        "text": "index",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            138.26109313964844,
+            296.23687744140625,
+            170.5340576171875,
+            309.8838806152344
+        ],
+        "chunk_id": 16,
+        "token_count": 5
+    },
+    {
+        "text": "of",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            180.86380004882812,
+            296.23687744140625,
+            194.1356964111328,
+            309.8838806152344
+        ],
+        "chunk_id": 17,
+        "token_count": 2
+    },
+    {
+        "text": "the",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            204.46505737304688,
+            296.23687744140625,
+            224.29486083984375,
+            309.8838806152344
+        ],
+        "chunk_id": 18,
+        "token_count": 3
+    },
+    {
+        "text": "wealthiest",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            234.6288604736328,
+            296.23687744140625,
+            288.5572204589844,
+            309.8838806152344
+        ],
+        "chunk_id": 19,
+        "token_count": 10
+    },
+    {
+        "text": "documented individuals, excluding any ranking",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            310.4996643066406,
+            288.5824890136719,
+            324.14666748046875
+        ],
+        "chunk_id": 20,
+        "token_count": 45
+    },
+    {
+        "text": "The net worth of the world's billionaires increased from",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            310.7108154296875,
+            323.8841857910156,
+            565.9263305664062,
+            334.45367431640625
+        ],
+        "chunk_id": 21,
+        "token_count": 56
+    },
+    {
+        "text": "of those with wealth that is not able to be completely ascertained.[4]",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            325.5131530761719,
+            288.5662536621094,
+            354.4199523925781
+        ],
+        "chunk_id": 22,
+        "token_count": 70
+    },
+    {
+        "text": "less than US$1 trillion in 2000 to over $7 trillion in 2015.",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            307.884033203125,
+            339.6483459472656,
+            568.7526245117188,
+            350.21783447265625
+        ],
+        "chunk_id": 23,
+        "token_count": 60
+    },
+    {
+        "text": "Publication details",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            391.6193542480469,
+            359.1658630371094,
+            484.9986267089844,
+            369.7353515625
+        ],
+        "chunk_id": 24,
+        "token_count": 19
+    },
+    {
+        "text": "In 2018, Amazon founder Jeff Bezos was",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            366.8002014160156,
+            288.5811462402344,
+            380.44720458984375
+        ],
+        "chunk_id": 25,
+        "token_count": 38
+    },
+    {
+        "text": "Publisher",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            378.6833801269531,
+            351.80938720703125,
+            389.25286865234375
+        ],
+        "chunk_id": 26,
+        "token_count": 9
+    },
+    {
+        "text": "Whale Media Investments",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            415.1834716796875,
+            380.1847229003906,
+            536.7841186523438,
+            390.75421142578125
+        ],
+        "chunk_id": 27,
+        "token_count": 23
+    },
+    {
+        "text": "ranked at the top for the first time and became the first centibillionaire included in the",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            381.0630187988281,
+            288.5699157714844,
+            409.7234802246094
+        ],
+        "chunk_id": 28,
+        "token_count": 90
+    },
+    {
+        "text": "Forbes family",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            415.1834716796875,
+            398.9515686035156,
+            478.61578369140625,
+            409.52105712890625
+        ],
+        "chunk_id": 29,
+        "token_count": 13
+    },
+    {
+        "text": "ranking,[5] surpassing Microsoft founder Bill",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            408.7886962890625,
+            288.55950927734375,
+            424.9832763671875
+        ],
+        "chunk_id": 30,
+        "token_count": 45
+    },
+    {
+        "text": "Publication",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            419.970458984375,
+            360.612060546875,
+            430.5399475097656
+        ],
+        "chunk_id": 31,
+        "token_count": 11
+    },
+    {
+        "text": "Forbes",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            415.1834716796875,
+            419.970458984375,
+            448.0788879394531,
+            430.5399475097656
+        ],
+        "chunk_id": 32,
+        "token_count": 6
+    },
+    {
+        "text": "Gates, who had topped the list 18 of the",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            425.352783203125,
+            288.5699157714844,
+            438.9997863769531
+        ],
+        "chunk_id": 33,
+        "token_count": 40
+    },
+    {
+        "text": "March 1987[1]",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            415.1834716796875,
+            437.3646240234375,
+            480.40228271484375,
+            450.0574645996094
+        ],
+        "chunk_id": 34,
+        "token_count": 13
+    },
+    {
+        "text": "First published",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            439.48797607421875,
+            379.4027404785156,
+            450.0574645996094
+        ],
+        "chunk_id": 35,
+        "token_count": 15
+    },
+    {
+        "text": "previous 24 years. In 2022, after topping the list for four years, Bezos was surpassed by Elon",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            440.3662414550781,
+            288.5735778808594,
+            468.27606201171875
+        ],
+        "chunk_id": 36,
+        "token_count": 94
+    },
+    {
+        "text": "Latest publication",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            459.75616455078125,
+            394.08544921875,
+            470.3256530761719
+        ],
+        "chunk_id": 37,
+        "token_count": 18
+    },
+    {
+        "text": "April 4, 2023",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            415.1834716796875,
+            459.75616455078125,
+            474.5268249511719,
+            470.3256530761719
+        ],
+        "chunk_id": 38,
+        "token_count": 13
+    },
+    {
+        "text": "Musk.[6] In 2023, Musk was in turn surpassed",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            467.34124755859375,
+            288.5643615722656,
+            483.5358581542969
+        ],
+        "chunk_id": 39,
+        "token_count": 44
+    },
+    {
+        "text": "Current list details (2023)[2]",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            370.4714660644531,
+            476.3996887207031,
+            506.1597900390625,
+            489.8431701660156
+        ],
+        "chunk_id": 40,
+        "token_count": 30
+    },
+    {
+        "text": "by French businessman Bernard Arnault, after",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            483.90533447265625,
+            288.5745849609375,
+            497.5523376464844
+        ],
+        "chunk_id": 41,
+        "token_count": 44
+    },
+    {
+        "text": "Wealthiest",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            498.79119873046875,
+            356.3216247558594,
+            509.3606872558594
+        ],
+        "chunk_id": 42,
+        "token_count": 10
+    },
+    {
+        "text": "Bernard Arnault",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            415.1834716796875,
+            498.79119873046875,
+            488.6348571777344,
+            509.3606872558594
+        ],
+        "chunk_id": 43,
+        "token_count": 15
+    },
+    {
+        "text": "topping the list for just a year. Arnault became the first French person to top the list.[2]",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            498.9187927246094,
+            288.5689697265625,
+            527.8256225585938
+        ],
+        "chunk_id": 44,
+        "token_count": 92
+    },
+    {
+        "text": "Net worth (1st)",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            518.3086547851562,
+            377.63702392578125,
+            528.878173828125
+        ],
+        "chunk_id": 45,
+        "token_count": 15
+    },
+    {
+        "text": "US$211 billion",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            423.4408874511719,
+            518.3086547851562,
+            493.77130126953125,
+            528.878173828125
+        ],
+        "chunk_id": 46,
+        "token_count": 14
+    },
+    {
+        "text": "Number of",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            537.8262329101562,
+            356.4970703125,
+            548.395751953125
+        ],
+        "chunk_id": 47,
+        "token_count": 9
+    },
+    {
+        "text": "2,640 (from 2668)",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            423.4408874511719,
+            537.8262329101562,
+            510.3913269042969,
+            548.395751953125
+        ],
+        "chunk_id": 48,
+        "token_count": 17
+    },
+    {
+        "text": "Methodology",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            544.4577026367188,
+            156.6835174560547,
+            564.92822265625
+        ],
+        "chunk_id": 49,
+        "token_count": 11
+    },
+    {
+        "text": "billionaires Total list net worth",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            553.59033203125,
+            396.8207092285156,
+            583.6774291992188
+        ],
+        "chunk_id": 50,
+        "token_count": 33
+    },
+    {
+        "text": "US$12.2 trillion (from US$ 12.7",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            423.4408874511719,
+            573.10791015625,
+            572.6732177734375,
+            583.6774291992188
+        ],
+        "chunk_id": 51,
+        "token_count": 31
+    },
+    {
+        "text": "Each year, Forbes employs a team of over 50",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            580.7422485351562,
+            288.5677795410156,
+            594.3892822265625
+        ],
+        "chunk_id": 52,
+        "token_count": 43
+    },
+    {
+        "text": "value",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            588.8720092773438,
+            330.67572021484375,
+            599.4415283203125
+        ],
+        "chunk_id": 53,
+        "token_count": 5
+    },
+    {
+        "text": "trillion)",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            415.1834716796875,
+            588.8720092773438,
+            446.3086242675781,
+            599.4415283203125
+        ],
+        "chunk_id": 54,
+        "token_count": 9
+    },
+    {
+        "text": "reporters from a variety of countries to track",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            595.0050659179688,
+            288.5832214355469,
+            608.652099609375
+        ],
+        "chunk_id": 55,
+        "token_count": 46
+    },
+    {
+        "text": "Number of women",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            608.3895263671875,
+            395.8453674316406,
+            618.9590454101562
+        ],
+        "chunk_id": 56,
+        "token_count": 15
+    },
+    {
+        "text": "337",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            423.4408874511719,
+            608.3895263671875,
+            444.0105895996094,
+            618.9590454101562
+        ],
+        "chunk_id": 57,
+        "token_count": 3
+    },
+    {
+        "text": "the",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            610.0185546875,
+            55.33654022216797,
+            623.6655883789062
+        ],
+        "chunk_id": 58,
+        "token_count": 3
+    },
+    {
+        "text": "activity",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            68.00505065917969,
+            610.0185546875,
+            109.61308288574219,
+            623.6655883789062
+        ],
+        "chunk_id": 59,
+        "token_count": 8
+    },
+    {
+        "text": "of",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            122.27291107177734,
+            610.0185546875,
+            135.5447998046875,
+            623.6655883789062
+        ],
+        "chunk_id": 60,
+        "token_count": 2
+    },
+    {
+        "text": "the",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            148.2086944580078,
+            610.0185546875,
+            168.03848266601562,
+            623.6655883789062
+        ],
+        "chunk_id": 61,
+        "token_count": 3
+    },
+    {
+        "text": "world's",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            180.70700073242188,
+            610.0185546875,
+            221.95204162597656,
+            623.6655883789062
+        ],
+        "chunk_id": 62,
+        "token_count": 7
+    },
+    {
+        "text": "wealthiest",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            234.6229705810547,
+            610.0185546875,
+            288.55133056640625,
+            623.6655883789062
+        ],
+        "chunk_id": 63,
+        "token_count": 10
+    },
+    {
+        "text": "individuals[7] and sometimes groups or families",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            622.730712890625,
+            288.5709228515625,
+            638.9253540039062
+        ],
+        "chunk_id": 64,
+        "token_count": 47
+    },
+    {
+        "text": "New members to the",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            628.65771484375,
+            407.0205383300781,
+            639.2272338867188
+        ],
+        "chunk_id": 65,
+        "token_count": 18
+    },
+    {
+        "text": "150",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            423.4408874511719,
+            628.65771484375,
+            444.0105895996094,
+            639.2272338867188
+        ],
+        "chunk_id": 66,
+        "token_count": 3
+    },
+    {
+        "text": "– who share wealth. Preliminary surveys are",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            639.2947998046875,
+            288.5779724121094,
+            652.9418334960938
+        ],
+        "chunk_id": 67,
+        "token_count": 43
+    },
+    {
+        "text": "list",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.6497802734375,
+            644.421875,
+            318.9207458496094,
+            654.9913940429688
+        ],
+        "chunk_id": 68,
+        "token_count": 4
+    },
+    {
+        "text": "sent to those who may qualify for the list.",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            653.5576171875,
+            288.5720520019531,
+            667.2046508789062
+        ],
+        "chunk_id": 69,
+        "token_count": 43
+    },
+    {
+        "text": "Forbes: The World's Billionaires website (https://www.forb",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            303.84918212890625,
+            663.9393920898438,
+            572.7791748046875,
+            674.5089111328125
+        ],
+        "chunk_id": 70,
+        "token_count": 58
+    },
+    {
+        "text": "According to Forbes, they received three types",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            668.5711059570312,
+            288.55322265625,
+            682.2181396484375
+        ],
+        "chunk_id": 71,
+        "token_count": 46
+    },
+    {
+        "text": "es.com/billionaires/)",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            391.6193542480469,
+            679.7035522460938,
+            485.0156555175781,
+            690.2730712890625
+        ],
+        "chunk_id": 72,
+        "token_count": 21
+    },
+    {
+        "text": "of responses – some people try to inflate their wealth, others cooperate but leave out details, and some refuse to answer any questions.",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            682.8339233398438,
+            577.4893188476562,
+            707.5672824196612
+        ],
+        "chunk_id": 73,
+        "token_count": 136
+    },
+    {
+        "text": "and some refuse to answer any questions.[8] Business deals are then scrutinized and estimates of valuable assets – land, homes, vehicles, artwork, etc. – are made.",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            700.2927650432442,
+            577.4893188476562,
+            729.936423352143
+        ],
+        "chunk_id": 74,
+        "token_count": 163
+    },
+    {
+        "text": "mes, vehicles, artwork, etc. – are made. Interviews are conducted to vet the figures and improve the estimate of an individual's holdings. Finally, positions in a publicly traded",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            722.6619059757261,
+            577.4893188476562,
+            755.0335083007812
+        ],
+        "chunk_id": 75,
+        "token_count": 178
+    },
+    {
+        "text": "Finally, positions in a publicly traded",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            747.7589909243644,
+            577.4893188476562,
+            755.0335083007812
+        ],
+        "chunk_id": 76,
+        "token_count": 39
+    },
+    {
+        "text": "Finally, positions in a publicly traded",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            747.7589909243644,
+            577.4893188476562,
+            755.0335083007812
+        ],
+        "chunk_id": 77,
+        "token_count": 39
+    },
+    {
+        "text": "Finally, positions in a publicly traded",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            747.7589909243644,
+            577.4893188476562,
+            755.0335083007812
+        ],
+        "chunk_id": 78,
+        "token_count": 39
+    },
+    {
+        "text": "Finally, positions in a publicly traded",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            747.7589909243644,
+            577.4893188476562,
+            755.0335083007812
+        ],
+        "chunk_id": 79,
+        "token_count": 39
+    },
+    {
+        "text": "Finally, positions in a publicly traded",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            747.7589909243644,
+            577.4893188476562,
+            755.0335083007812
+        ],
+        "chunk_id": 80,
+        "token_count": 39
+    },
+    {
+        "text": "Finally, positions in a publicly traded",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            747.7589909243644,
+            577.4893188476562,
+            755.0335083007812
+        ],
+        "chunk_id": 81,
+        "token_count": 39
+    },
+    {
+        "text": "Finally, positions in a publicly traded",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            747.7589909243644,
+            577.4893188476562,
+            755.0335083007812
+        ],
+        "chunk_id": 82,
+        "token_count": 39
+    },
+    {
+        "text": "Finally, positions in a publicly traded",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            747.7589909243644,
+            577.4893188476562,
+            755.0335083007812
+        ],
+        "chunk_id": 83,
+        "token_count": 39
+    },
+    {
+        "text": "https://en.wikipedia.org/wiki/The_World%27s_Billionaires",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            26.453123092651367,
+            768.9999389648438,
+            216.32029724121094,
+            776.9999389648438
+        ],
+        "chunk_id": 84,
+        "token_count": 56
+    },
+    {
+        "text": "1/33",
+        "page": 1,
+        "type": "paragraph",
+        "bbox": [
+            571.3124389648438,
+            768.9999389648438,
+            585.5468139648438,
+            776.9999389648438
+        ],
+        "chunk_id": 85,
+        "token_count": 4
+    },
+    {
+        "text": "7/1/23, 11:31 PM",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            26.453123092651367,
+            15.999998092651367,
+            82.38945770263672,
+            23.999998092651367
+        ],
+        "chunk_id": 86,
+        "token_count": 16
+    },
+    {
+        "text": "The World's Billionaires - Wikipedia",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            290.3124694824219,
+            15.999998092651367,
+            407.8267517089844,
+            23.999998092651367
+        ],
+        "chunk_id": 87,
+        "token_count": 36
+    },
+    {
+        "text": "stock are priced to market on a date roughly a month before publication. Privately held companies are priced by the prevailing price-to-sales or price-to-earnings ratios.",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            28.246337890625,
+            577.5018310546875,
+            56.31518365408628
+        ],
+        "chunk_id": 88,
+        "token_count": 170
+    },
+    {
+        "text": "ce-to-sales or price-to-earnings ratios. Known debt is subtracted from assets to get a final estimate of an individual's estimated worth in United States dollars.",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            49.71074935680127,
+            577.5018310546875,
+            76.45870826080557
+        ],
+        "chunk_id": 89,
+        "token_count": 162
+    },
+    {
+        "text": "stimated worth in United States dollars. Since stock prices fluctuate rapidly, an individual's true wealth and ranking at the time of publication may vary from their situation when the list was compil",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            69.85427396352054,
+            577.5018310546875,
+            102.87644544994558
+        ],
+        "chunk_id": 90,
+        "token_count": 200
+    },
+    {
+        "text": "their situation when the list was compiled.[7] When a living individual has dispersed his or her wealth to immediate family members it is included under a single listing (as a single \"family fortune\")",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            96.27201115266057,
+            577.5018310546875,
+            129.29418263908562
+        ],
+        "chunk_id": 91,
+        "token_count": 200
+    },
+    {
+        "text": "e listing (as a single \"family fortune\") provided that individual (the grantor) is still living. However, if a deceased billionaire's fortune has been dispersed, it will not appear as a single listing",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            122.6897483418006,
+            577.5018310546875,
+            155.71191982822563
+        ],
+        "chunk_id": 92,
+        "token_count": 200
+    },
+    {
+        "text": ", it will not appear as a single listing, and each recipient will only appear if his or her own total net worth is over a $Billion (his or her net worth will not be combined with family members')[7] R",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            149.10748553094064,
+            577.5018310546875,
+            182.12965701736567
+        ],
+        "chunk_id": 93,
+        "token_count": 200
+    },
+    {
+        "text": "t be combined with family members')[7] Royal families and dictators that have their wealth contingent on a position are always excluded from these lists.[9]",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            175.52522272008068,
+            577.5018310546875,
+            201.2825164794922
+        ],
+        "chunk_id": 94,
+        "token_count": 156
+    },
+    {
+        "text": "are always excluded from these lists.[9]",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            194.6780821822072,
+            577.5018310546875,
+            201.2825164794922
+        ],
+        "chunk_id": 95,
+        "token_count": 40
+    },
+    {
+        "text": "are always excluded from these lists.[9]",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            194.6780821822072,
+            577.5018310546875,
+            201.2825164794922
+        ],
+        "chunk_id": 96,
+        "token_count": 40
+    },
+    {
+        "text": "are always excluded from these lists.[9]",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            194.6780821822072,
+            577.5018310546875,
+            201.2825164794922
+        ],
+        "chunk_id": 97,
+        "token_count": 40
+    },
+    {
+        "text": "are always excluded from these lists.[9]",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            194.6780821822072,
+            577.5018310546875,
+            201.2825164794922
+        ],
+        "chunk_id": 98,
+        "token_count": 40
+    },
+    {
+        "text": "are always excluded from these lists.[9]",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            194.6780821822072,
+            577.5018310546875,
+            201.2825164794922
+        ],
+        "chunk_id": 99,
+        "token_count": 40
+    },
+    {
+        "text": "are always excluded from these lists.[9]",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            194.6780821822072,
+            577.5018310546875,
+            201.2825164794922
+        ],
+        "chunk_id": 100,
+        "token_count": 40
+    },
+    {
+        "text": "are always excluded from these lists.[9]",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            194.6780821822072,
+            577.5018310546875,
+            201.2825164794922
+        ],
+        "chunk_id": 101,
+        "token_count": 40
+    },
+    {
+        "text": "are always excluded from these lists.[9]",
+        "page": 2,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            194.6780821822072,
+            577.5018310546875,
+            201.2825164794922
+        ],
+        "chunk_id": 102,
+        "token_count": 40
+    },
+    {
+        "text": "Annual rankings",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            217.91461181640625,
+            190.103515625,
+            238.3851318359375
+        ],
+        "chunk_id": 103,
+        "token_count": 15
+    },
+    {
+        "text": "The rankings are published annually in March, so the net worths listed are snapshots taken at that time. These lists only show the top 10 wealthiest billionaires for each year.",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            254.19915771484375,
+            577.4888916015625,
+            282.1089782714844
+        ],
+        "chunk_id": 104,
+        "token_count": 176
+    },
+    {
+        "text": "Legend",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            308.4753723144531,
+            85.315185546875,
+            322.4829406738281
+        ],
+        "chunk_id": 105,
+        "token_count": 6
+    },
+    {
+        "text": "Icon",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            42.26280212402344,
+            341.583251953125,
+            62.83434295654297,
+            351.5897521972656
+        ],
+        "chunk_id": 106,
+        "token_count": 4
+    },
+    {
+        "text": "Description",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            145.1403045654297,
+            341.583251953125,
+            200.18727111816406,
+            351.5897521972656
+        ],
+        "chunk_id": 107,
+        "token_count": 11
+    },
+    {
+        "text": "Has not changed from the previous ranking. Has increased from the previous ranking. Has decreased from the previous ranking.",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            75.597412109375,
+            361.1007080078125,
+            269.7235412597656,
+            411.6435852050781
+        ],
+        "chunk_id": 108,
+        "token_count": 124
+    },
+    {
+        "text": "2023 In the 37th annual Forbes list of the world's billionaires, the list included 2,640 billionaires with a total net wealth of $12.2 trillion, down 28 members and $500 billion from 2022.",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            442.0952453613281,
+            577.4957885742188,
+            476.23450969349256
+        ],
+        "chunk_id": 109,
+        "token_count": 188
+    },
+    {
+        "text": "n 28 members and $500 billion from 2022. Nearly half the list is poorer than the previous year, including Elon Musk, who fell from No. 1 to No. 2.",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            468.9708364313299,
+            577.4957885742188,
+            495.48324383822353
+        ],
+        "chunk_id": 110,
+        "token_count": 146
+    },
+    {
+        "text": "Elon Musk, who fell from No. 1 to No. 2.[2] The list also marks for the first time a French citizen was in the top position as well as a non-American for the first time since 2013 when the Mexican Car",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            488.2195705760609,
+            577.4957885742188,
+            524.5379368868741
+        ],
+        "chunk_id": 111,
+        "token_count": 200
+    },
+    {
+        "text": "rst time since 2013 when the Mexican Carlos Slim Helu was the world's richest person. The list, like in 2022, counted 15 under 30 billionaires with the richest of them being Red Bull heir Mark Matesch",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            517.2742636247115,
+            577.4957885742188,
+            553.5926299355247
+        ],
+        "chunk_id": 112,
+        "token_count": 200
+    },
+    {
+        "text": "of them being Red Bull heir Mark Mateschitz with a net worth of $34.7 billion. The youngest of the lot were Clemente Del Vecchio, heir to the Luxottica fortune shared with his six siblings and stepmot",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            546.328956673362,
+            577.4957885742188,
+            582.6473229841753
+        ],
+        "chunk_id": 113,
+        "token_count": 200
+    },
+    {
+        "text": "shared with his six siblings and stepmother and Kim Jung-yang, whose fortune lies in Japanese-South Korean gaming giant Nexon, both under-20s.[10]",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            575.3836497220126,
+            577.4957885742188,
+            601.8960571289062
+        ],
+        "chunk_id": 114,
+        "token_count": 146
+    },
+    {
+        "text": "gaming giant Nexon, both under-20s.[10]",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            594.6323838667436,
+            577.4957885742188,
+            601.8960571289062
+        ],
+        "chunk_id": 115,
+        "token_count": 39
+    },
+    {
+        "text": "gaming giant Nexon, both under-20s.[10]",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            594.6323838667436,
+            577.4957885742188,
+            601.8960571289062
+        ],
+        "chunk_id": 116,
+        "token_count": 39
+    },
+    {
+        "text": "gaming giant Nexon, both under-20s.[10]",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            594.6323838667436,
+            577.4957885742188,
+            601.8960571289062
+        ],
+        "chunk_id": 117,
+        "token_count": 39
+    },
+    {
+        "text": "gaming giant Nexon, both under-20s.[10]",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            594.6323838667436,
+            577.4957885742188,
+            601.8960571289062
+        ],
+        "chunk_id": 118,
+        "token_count": 39
+    },
+    {
+        "text": "gaming giant Nexon, both under-20s.[10]",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            594.6323838667436,
+            577.4957885742188,
+            601.8960571289062
+        ],
+        "chunk_id": 119,
+        "token_count": 39
+    },
+    {
+        "text": "gaming giant Nexon, both under-20s.[10]",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            594.6323838667436,
+            577.4957885742188,
+            601.8960571289062
+        ],
+        "chunk_id": 120,
+        "token_count": 39
+    },
+    {
+        "text": "gaming giant Nexon, both under-20s.[10]",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            594.6323838667436,
+            577.4957885742188,
+            601.8960571289062
+        ],
+        "chunk_id": 121,
+        "token_count": 39
+    },
+    {
+        "text": "gaming giant Nexon, both under-20s.[10]",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            594.6323838667436,
+            577.4957885742188,
+            601.8960571289062
+        ],
+        "chunk_id": 122,
+        "token_count": 39
+    },
+    {
+        "text": "https://en.wikipedia.org/wiki/The_World%27s_Billionaires",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            26.453123092651367,
+            768.9999389648438,
+            216.32029724121094,
+            776.9999389648438
+        ],
+        "chunk_id": 123,
+        "token_count": 56
+    },
+    {
+        "text": "2/33",
+        "page": 2,
+        "type": "paragraph",
+        "bbox": [
+            571.3124389648438,
+            768.9999389648438,
+            585.5468139648438,
+            776.9999389648438
+        ],
+        "chunk_id": 124,
+        "token_count": 4
+    },
+    {
+        "text": "7/1/23, 11:31 PM",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            26.453123092651367,
+            15.999998092651367,
+            82.38945770263672,
+            23.999998092651367
+        ],
+        "chunk_id": 125,
+        "token_count": 16
+    },
+    {
+        "text": "The World's Billionaires - Wikipedia",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            290.3124694824219,
+            15.999998092651367,
+            407.8267517089844,
+            23.999998092651367
+        ],
+        "chunk_id": 126,
+        "token_count": 36
+    },
+    {
+        "text": "Net worth",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            207.16473388671875,
+            33.80690002441406,
+            253.30458068847656,
+            43.81338119506836
+        ],
+        "chunk_id": 127,
+        "token_count": 9
+    },
+    {
+        "text": "No.",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            42.26280212402344,
+            39.81227111816406,
+            58.3833122253418,
+            49.81875228881836
+        ],
+        "chunk_id": 128,
+        "token_count": 3
+    },
+    {
+        "text": "Name",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            112.48599243164062,
+            39.81227111816406,
+            139.73841857910156,
+            49.81875228881836
+        ],
+        "chunk_id": 129,
+        "token_count": 4
+    },
+    {
+        "text": "Age",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            289.16412353515625,
+            39.81227111816406,
+            308.0664367675781,
+            49.81875228881836
+        ],
+        "chunk_id": 130,
+        "token_count": 3
+    },
+    {
+        "text": "Nationality",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            339.6000061035156,
+            39.81227111816406,
+            390.74969482421875,
+            49.81875228881836
+        ],
+        "chunk_id": 131,
+        "token_count": 11
+    },
+    {
+        "text": "Primary source(s) of wealth",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            426.0096130371094,
+            39.81227111816406,
+            557.2484130859375,
+            49.81875228881836
+        ],
+        "chunk_id": 132,
+        "token_count": 27
+    },
+    {
+        "text": "(USD)",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            216.32530212402344,
+            45.06690979003906,
+            244.13645935058594,
+            55.07339096069336
+        ],
+        "chunk_id": 133,
+        "token_count": 5
+    },
+    {
+        "text": "Bernard Arnault &",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            65.33509826660156,
+            159.90811157226562,
+            75.3415756225586
+        ],
+        "chunk_id": 134,
+        "token_count": 17
+    },
+    {
+        "text": "France",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            349.3587646484375,
+            69.83924865722656,
+            383.2920227050781,
+            79.8457260131836
+        ],
+        "chunk_id": 135,
+        "token_count": 6
+    },
+    {
+        "text": "1",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            70.58985900878906,
+            55.24907684326172,
+            80.5963363647461
+        ],
+        "chunk_id": 136,
+        "token_count": 1
+    },
+    {
+        "text": "$211 billion",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            204.6546630859375,
+            70.58985900878906,
+            257.3271484375,
+            80.5963363647461
+        ],
+        "chunk_id": 137,
+        "token_count": 12
+    },
+    {
+        "text": "74",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            297.9259033203125,
+            70.58985900878906,
+            309.05462646484375,
+            80.5963363647461
+        ],
+        "chunk_id": 138,
+        "token_count": 2
+    },
+    {
+        "text": "LVMH",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            70.58985900878906,
+            449.3531494140625,
+            80.5963363647461
+        ],
+        "chunk_id": 139,
+        "token_count": 4
+    },
+    {
+        "text": "family",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            76.59523010253906,
+            107.04094696044922,
+            86.6017074584961
+        ],
+        "chunk_id": 140,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            349.3587646484375,
+            96.86341857910156,
+            381.0737609863281,
+            106.8698959350586
+        ],
+        "chunk_id": 141,
+        "token_count": 6
+    },
+    {
+        "text": "2",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            102.11817932128906,
+            55.24907684326172,
+            112.1246566772461
+        ],
+        "chunk_id": 142,
+        "token_count": 1
+    },
+    {
+        "text": "Elon Musk",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            102.11817932128906,
+            127.62554168701172,
+            112.1246566772461
+        ],
+        "chunk_id": 143,
+        "token_count": 9
+    },
+    {
+        "text": "$180 billion",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            204.27932739257812,
+            102.11817932128906,
+            257.6895446777344,
+            112.1246566772461
+        ],
+        "chunk_id": 144,
+        "token_count": 12
+    },
+    {
+        "text": "51",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            297.9259033203125,
+            102.11817932128906,
+            309.05462646484375,
+            112.1246566772461
+        ],
+        "chunk_id": 145,
+        "token_count": 2
+    },
+    {
+        "text": "Tesla, SpaceX, X Corp.",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            102.11817932128906,
+            525.77099609375,
+            112.1246566772461
+        ],
+        "chunk_id": 146,
+        "token_count": 22
+    },
+    {
+        "text": "States",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            330.5919189453125,
+            108.12355041503906,
+            358.95989990234375,
+            118.1300277709961
+        ],
+        "chunk_id": 147,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            349.3587646484375,
+            128.39173889160156,
+            381.0737609863281,
+            138.39822387695312
+        ],
+        "chunk_id": 148,
+        "token_count": 6
+    },
+    {
+        "text": "3",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            134.39710998535156,
+            55.24907684326172,
+            144.40359497070312
+        ],
+        "chunk_id": 149,
+        "token_count": 1
+    },
+    {
+        "text": "Jeff Bezos",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            134.39710998535156,
+            127.45452880859375,
+            144.40359497070312
+        ],
+        "chunk_id": 150,
+        "token_count": 10
+    },
+    {
+        "text": "$114 billion",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            204.6546630859375,
+            134.39710998535156,
+            257.3271484375,
+            144.40359497070312
+        ],
+        "chunk_id": 151,
+        "token_count": 12
+    },
+    {
+        "text": "59",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            297.9259033203125,
+            134.39710998535156,
+            309.05462646484375,
+            144.40359497070312
+        ],
+        "chunk_id": 152,
+        "token_count": 2
+    },
+    {
+        "text": "Amazon",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            134.39710998535156,
+            458.99822998046875,
+            144.40359497070312
+        ],
+        "chunk_id": 153,
+        "token_count": 6
+    },
+    {
+        "text": "States",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            330.5919189453125,
+            139.65187072753906,
+            358.95989990234375,
+            149.65835571289062
+        ],
+        "chunk_id": 154,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            349.3587646484375,
+            159.92005920410156,
+            381.0737609863281,
+            169.92654418945312
+        ],
+        "chunk_id": 155,
+        "token_count": 6
+    },
+    {
+        "text": "4",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            165.92543029785156,
+            55.24907684326172,
+            175.93191528320312
+        ],
+        "chunk_id": 156,
+        "token_count": 1
+    },
+    {
+        "text": "Larry Ellison",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            165.92543029785156,
+            135.96432495117188,
+            175.93191528320312
+        ],
+        "chunk_id": 157,
+        "token_count": 13
+    },
+    {
+        "text": "$107 billion",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            204.27932739257812,
+            165.92543029785156,
+            257.6895446777344,
+            175.93191528320312
+        ],
+        "chunk_id": 158,
+        "token_count": 12
+    },
+    {
+        "text": "78",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            297.9259033203125,
+            165.92543029785156,
+            309.05462646484375,
+            175.93191528320312
+        ],
+        "chunk_id": 159,
+        "token_count": 2
+    },
+    {
+        "text": "Oracle Corporation",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            165.92543029785156,
+            506.82696533203125,
+            175.93191528320312
+        ],
+        "chunk_id": 160,
+        "token_count": 18
+    },
+    {
+        "text": "States",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            330.5919189453125,
+            171.93080139160156,
+            358.95989990234375,
+            181.93728637695312
+        ],
+        "chunk_id": 161,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            349.3587646484375,
+            191.44837951660156,
+            381.0737609863281,
+            201.45486450195312
+        ],
+        "chunk_id": 162,
+        "token_count": 6
+    },
+    {
+        "text": "5",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            197.45375061035156,
+            55.24907684326172,
+            207.46023559570312
+        ],
+        "chunk_id": 163,
+        "token_count": 1
+    },
+    {
+        "text": "Warren Buffett",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            197.45375061035156,
+            144.8795623779297,
+            207.46023559570312
+        ],
+        "chunk_id": 164,
+        "token_count": 14
+    },
+    {
+        "text": "$106 billion",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            204.27932739257812,
+            197.45375061035156,
+            257.6895446777344,
+            207.46023559570312
+        ],
+        "chunk_id": 165,
+        "token_count": 12
+    },
+    {
+        "text": "92",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            297.9259033203125,
+            197.45375061035156,
+            309.05462646484375,
+            207.46023559570312
+        ],
+        "chunk_id": 166,
+        "token_count": 2
+    },
+    {
+        "text": "Berkshire Hathaway",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            197.45375061035156,
+            511.8317565917969,
+            207.46023559570312
+        ],
+        "chunk_id": 167,
+        "token_count": 18
+    },
+    {
+        "text": "States",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            330.5919189453125,
+            203.45912170410156,
+            358.95989990234375,
+            213.46560668945312
+        ],
+        "chunk_id": 168,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            349.3587646484375,
+            222.97669982910156,
+            381.0737609863281,
+            232.98318481445312
+        ],
+        "chunk_id": 169,
+        "token_count": 6
+    },
+    {
+        "text": "6",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            228.98207092285156,
+            55.24907684326172,
+            238.98855590820312
+        ],
+        "chunk_id": 170,
+        "token_count": 1
+    },
+    {
+        "text": "Bill Gates",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            228.98207092285156,
+            123.73141479492188,
+            238.98855590820312
+        ],
+        "chunk_id": 171,
+        "token_count": 10
+    },
+    {
+        "text": "$104 billion",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            204.27932739257812,
+            228.98207092285156,
+            257.6895446777344,
+            238.98855590820312
+        ],
+        "chunk_id": 172,
+        "token_count": 12
+    },
+    {
+        "text": "67",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            297.9259033203125,
+            228.98207092285156,
+            309.05462646484375,
+            238.98855590820312
+        ],
+        "chunk_id": 173,
+        "token_count": 2
+    },
+    {
+        "text": "Microsoft",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            228.98207092285156,
+            462.880859375,
+            238.98855590820312
+        ],
+        "chunk_id": 174,
+        "token_count": 9
+    },
+    {
+        "text": "States",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            330.5919189453125,
+            234.98744201660156,
+            358.95989990234375,
+            244.99392700195312
+        ],
+        "chunk_id": 175,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            349.3587646484375,
+            255.25563049316406,
+            381.0737609863281,
+            265.2621154785156
+        ],
+        "chunk_id": 176,
+        "token_count": 6
+    },
+    {
+        "text": "7",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            260.5103759765625,
+            55.24907684326172,
+            270.5168762207031
+        ],
+        "chunk_id": 177,
+        "token_count": 1
+    },
+    {
+        "text": "Michael Bloomberg",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            260.5103759765625,
+            166.560302734375,
+            270.5168762207031
+        ],
+        "chunk_id": 178,
+        "token_count": 17
+    },
+    {
+        "text": "$94.5 billion",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            202.89527893066406,
+            260.5103759765625,
+            259.0856018066406,
+            270.5168762207031
+        ],
+        "chunk_id": 179,
+        "token_count": 13
+    },
+    {
+        "text": "81",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            297.9259033203125,
+            260.5103759765625,
+            309.05462646484375,
+            270.5168762207031
+        ],
+        "chunk_id": 180,
+        "token_count": 2
+    },
+    {
+        "text": "Bloomberg L.P.",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            260.5103759765625,
+            489.9736328125,
+            270.5168762207031
+        ],
+        "chunk_id": 181,
+        "token_count": 14
+    },
+    {
+        "text": "States",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            330.5919189453125,
+            266.5157470703125,
+            358.95989990234375,
+            276.5222473144531
+        ],
+        "chunk_id": 182,
+        "token_count": 6
+    },
+    {
+        "text": "Telmex, América Móvil, Grupo",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            286.783935546875,
+            555.2304077148438,
+            296.7904357910156
+        ],
+        "chunk_id": 183,
+        "token_count": 28
+    },
+    {
+        "text": "8",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            292.0386962890625,
+            55.24907684326172,
+            302.0451965332031
+        ],
+        "chunk_id": 184,
+        "token_count": 1
+    },
+    {
+        "text": "Carlos Slim & family",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            292.0386962890625,
+            170.42678833007812,
+            302.0451965332031
+        ],
+        "chunk_id": 185,
+        "token_count": 20
+    },
+    {
+        "text": "$93 billion",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            207.07089233398438,
+            292.0386962890625,
+            254.91598510742188,
+            302.0451965332031
+        ],
+        "chunk_id": 186,
+        "token_count": 11
+    },
+    {
+        "text": "83",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            297.9259033203125,
+            292.0386962890625,
+            309.05462646484375,
+            302.0451965332031
+        ],
+        "chunk_id": 187,
+        "token_count": 2
+    },
+    {
+        "text": "Mexico",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            349.3587646484375,
+            292.0386962890625,
+            383.8441162109375,
+            302.0451965332031
+        ],
+        "chunk_id": 188,
+        "token_count": 6
+    },
+    {
+        "text": "Carso",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            298.0440673828125,
+            448.98193359375,
+            308.0505676269531
+        ],
+        "chunk_id": 189,
+        "token_count": 5
+    },
+    {
+        "text": "India",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            349.3587646484375,
+            317.5615234375,
+            373.847412109375,
+            327.5680236816406
+        ],
+        "chunk_id": 190,
+        "token_count": 5
+    },
+    {
+        "text": "9",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            318.312255859375,
+            55.24907684326172,
+            328.3187561035156
+        ],
+        "chunk_id": 191,
+        "token_count": 1
+    },
+    {
+        "text": "Mukesh Ambani",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            318.312255859375,
+            152.10745239257812,
+            328.3187561035156
+        ],
+        "chunk_id": 192,
+        "token_count": 13
+    },
+    {
+        "text": "$83.4 billion",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            202.89527893066406,
+            318.312255859375,
+            259.0856018066406,
+            328.3187561035156
+        ],
+        "chunk_id": 193,
+        "token_count": 13
+    },
+    {
+        "text": "65",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            297.9259033203125,
+            318.312255859375,
+            309.05462646484375,
+            328.3187561035156
+        ],
+        "chunk_id": 194,
+        "token_count": 2
+    },
+    {
+        "text": "Reliance Industries",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            318.312255859375,
+            507.390380859375,
+            328.3187561035156
+        ],
+        "chunk_id": 195,
+        "token_count": 19
+    },
+    {
+        "text": "United",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            349.3587646484375,
+            339.3310546875,
+            381.0737609863281,
+            349.3375549316406
+        ],
+        "chunk_id": 196,
+        "token_count": 6
+    },
+    {
+        "text": "10",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            44.11602783203125,
+            345.33642578125,
+            58.02891540527344,
+            355.3429260253906
+        ],
+        "chunk_id": 197,
+        "token_count": 2
+    },
+    {
+        "text": "Steve Ballmer",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            345.33642578125,
+            143.197021484375,
+            355.3429260253906
+        ],
+        "chunk_id": 198,
+        "token_count": 13
+    },
+    {
+        "text": "$80.7 billion",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            202.89527893066406,
+            345.33642578125,
+            259.0856018066406,
+            355.3429260253906
+        ],
+        "chunk_id": 199,
+        "token_count": 13
+    },
+    {
+        "text": "67",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            297.9259033203125,
+            345.33642578125,
+            309.05462646484375,
+            355.3429260253906
+        ],
+        "chunk_id": 200,
+        "token_count": 2
+    },
+    {
+        "text": "Microsoft",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            422.29144287109375,
+            345.33642578125,
+            462.880859375,
+            355.3429260253906
+        ],
+        "chunk_id": 201,
+        "token_count": 9
+    },
+    {
+        "text": "States",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            330.5919189453125,
+            351.3419189453125,
+            358.95989990234375,
+            361.3484191894531
+        ],
+        "chunk_id": 202,
+        "token_count": 6
+    },
+    {
+        "text": "2022 In the 36th annual Forbes list of the world's billionaires, the list included 2,668 billionaires with a total net wealth of $12.7 trillion, down 97 members from 2021.[6]",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            391.8000793457031,
+            577.4826049804688,
+            449.7554016113281
+        ],
+        "chunk_id": 203,
+        "token_count": 174
+    },
+    {
+        "text": "https://en.wikipedia.org/wiki/The_World%27s_Billionaires",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            26.453123092651367,
+            768.9999389648438,
+            216.32029724121094,
+            776.9999389648438
+        ],
+        "chunk_id": 204,
+        "token_count": 56
+    },
+    {
+        "text": "3/33",
+        "page": 3,
+        "type": "paragraph",
+        "bbox": [
+            571.3124389648438,
+            768.9999389648438,
+            585.5468139648438,
+            776.9999389648438
+        ],
+        "chunk_id": 205,
+        "token_count": 4
+    },
+    {
+        "text": "7/1/23, 11:31 PM",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            26.453123092651367,
+            15.999998092651367,
+            82.38945770263672,
+            23.999998092651367
+        ],
+        "chunk_id": 206,
+        "token_count": 16
+    },
+    {
+        "text": "The World's Billionaires - Wikipedia",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            290.3124694824219,
+            15.999998092651367,
+            407.8267517089844,
+            23.999998092651367
+        ],
+        "chunk_id": 207,
+        "token_count": 36
+    },
+    {
+        "text": "Net worth",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            214.00289916992188,
+            33.80702209472656,
+            260.1427001953125,
+            43.81350326538086
+        ],
+        "chunk_id": 208,
+        "token_count": 9
+    },
+    {
+        "text": "Primary source(s) of",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            448.1192932128906,
+            33.80702209472656,
+            545.43798828125,
+            43.81350326538086
+        ],
+        "chunk_id": 209,
+        "token_count": 20
+    },
+    {
+        "text": "No.",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            42.26280212402344,
+            39.81239318847656,
+            58.3833122253418,
+            49.81887435913086
+        ],
+        "chunk_id": 210,
+        "token_count": 3
+    },
+    {
+        "text": "Name",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            115.1719970703125,
+            39.81239318847656,
+            142.42442321777344,
+            49.81887435913086
+        ],
+        "chunk_id": 211,
+        "token_count": 4
+    },
+    {
+        "text": "Age",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            297.45672607421875,
+            39.81239318847656,
+            316.3590393066406,
+            49.81887435913086
+        ],
+        "chunk_id": 212,
+        "token_count": 3
+    },
+    {
+        "text": "Nationality",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            348.9013366699219,
+            39.81239318847656,
+            400.0509948730469,
+            49.81887435913086
+        ],
+        "chunk_id": 213,
+        "token_count": 11
+    },
+    {
+        "text": "(USD)",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            223.16346740722656,
+            45.06727600097656,
+            250.97462463378906,
+            55.07375717163086
+        ],
+        "chunk_id": 214,
+        "token_count": 5
+    },
+    {
+        "text": "wealth",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            481.2076110839844,
+            45.06727600097656,
+            512.3475341796875,
+            55.07375717163086
+        ],
+        "chunk_id": 215,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            357.6513671875,
+            65.33534240722656,
+            389.3663635253906,
+            75.3418197631836
+        ],
+        "chunk_id": 216,
+        "token_count": 6
+    },
+    {
+        "text": "1",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            71.34071350097656,
+            55.24907684326172,
+            81.3471908569336
+        ],
+        "chunk_id": 217,
+        "token_count": 1
+    },
+    {
+        "text": "Elon Musk",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            71.34071350097656,
+            127.62554168701172,
+            81.3471908569336
+        ],
+        "chunk_id": 218,
+        "token_count": 9
+    },
+    {
+        "text": "$219 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            211.11749267578125,
+            71.34071350097656,
+            264.5277099609375,
+            81.3471908569336
+        ],
+        "chunk_id": 219,
+        "token_count": 12
+    },
+    {
+        "text": "50",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            306.2184753417969,
+            71.34071350097656,
+            317.34722900390625,
+            81.3471908569336
+        ],
+        "chunk_id": 220,
+        "token_count": 2
+    },
+    {
+        "text": "Tesla, SpaceX, Twitter Inc",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            432.5897216796875,
+            71.34071350097656,
+            547.5633544921875,
+            81.3471908569336
+        ],
+        "chunk_id": 221,
+        "token_count": 26
+    },
+    {
+        "text": "States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            338.884521484375,
+            77.34608459472656,
+            367.2524719238281,
+            87.3525619506836
+        ],
+        "chunk_id": 222,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            357.6513671875,
+            96.86366271972656,
+            389.3663635253906,
+            106.8701400756836
+        ],
+        "chunk_id": 223,
+        "token_count": 6
+    },
+    {
+        "text": "2",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            102.86903381347656,
+            55.24907684326172,
+            112.8755111694336
+        ],
+        "chunk_id": 224,
+        "token_count": 1
+    },
+    {
+        "text": "Jeff Bezos",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            102.86903381347656,
+            127.45452880859375,
+            112.8755111694336
+        ],
+        "chunk_id": 225,
+        "token_count": 10
+    },
+    {
+        "text": "$177 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            211.11749267578125,
+            102.86903381347656,
+            264.5277099609375,
+            112.8755111694336
+        ],
+        "chunk_id": 226,
+        "token_count": 12
+    },
+    {
+        "text": "58",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            306.2184753417969,
+            102.86903381347656,
+            317.34722900390625,
+            112.8755111694336
+        ],
+        "chunk_id": 227,
+        "token_count": 2
+    },
+    {
+        "text": "Amazon",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            432.5897216796875,
+            102.86903381347656,
+            469.2965393066406,
+            112.8755111694336
+        ],
+        "chunk_id": 228,
+        "token_count": 6
+    },
+    {
+        "text": "States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            338.884521484375,
+            108.87440490722656,
+            367.2524719238281,
+            118.8808822631836
+        ],
+        "chunk_id": 229,
+        "token_count": 6
+    },
+    {
+        "text": "Bernard Arnault &",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            128.39198303222656,
+            159.90811157226562,
+            138.39846801757812
+        ],
+        "chunk_id": 230,
+        "token_count": 17
+    },
+    {
+        "text": "France",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            357.6513671875,
+            133.64662170410156,
+            391.5846252441406,
+            143.65310668945312
+        ],
+        "chunk_id": 231,
+        "token_count": 6
+    },
+    {
+        "text": "3",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            134.39735412597656,
+            55.24907684326172,
+            144.40383911132812
+        ],
+        "chunk_id": 232,
+        "token_count": 1
+    },
+    {
+        "text": "$158 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            211.11749267578125,
+            134.39735412597656,
+            264.5277099609375,
+            144.40383911132812
+        ],
+        "chunk_id": 233,
+        "token_count": 12
+    },
+    {
+        "text": "73",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            306.2184753417969,
+            134.39735412597656,
+            317.34722900390625,
+            144.40383911132812
+        ],
+        "chunk_id": 234,
+        "token_count": 2
+    },
+    {
+        "text": "LVMH",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            432.5897216796875,
+            134.39735412597656,
+            459.6514587402344,
+            144.40383911132812
+        ],
+        "chunk_id": 235,
+        "token_count": 4
+    },
+    {
+        "text": "family",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            139.65223693847656,
+            107.04094696044922,
+            149.65872192382812
+        ],
+        "chunk_id": 236,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            357.6513671875,
+            159.92030334472656,
+            389.3663635253906,
+            169.92678833007812
+        ],
+        "chunk_id": 237,
+        "token_count": 6
+    },
+    {
+        "text": "4",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            165.92567443847656,
+            55.24907684326172,
+            175.93215942382812
+        ],
+        "chunk_id": 238,
+        "token_count": 1
+    },
+    {
+        "text": "Bill Gates",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            165.92567443847656,
+            123.73141479492188,
+            175.93215942382812
+        ],
+        "chunk_id": 239,
+        "token_count": 10
+    },
+    {
+        "text": "$129 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            211.11749267578125,
+            165.92567443847656,
+            264.5277099609375,
+            175.93215942382812
+        ],
+        "chunk_id": 240,
+        "token_count": 12
+    },
+    {
+        "text": "66",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            306.2184753417969,
+            165.92567443847656,
+            317.34722900390625,
+            175.93215942382812
+        ],
+        "chunk_id": 241,
+        "token_count": 2
+    },
+    {
+        "text": "Microsoft",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            432.5897216796875,
+            165.92567443847656,
+            473.1791687011719,
+            175.93215942382812
+        ],
+        "chunk_id": 242,
+        "token_count": 9
+    },
+    {
+        "text": "States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            338.884521484375,
+            171.93104553222656,
+            367.2524719238281,
+            181.93753051757812
+        ],
+        "chunk_id": 243,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            357.6513671875,
+            191.44862365722656,
+            389.3663635253906,
+            201.45510864257812
+        ],
+        "chunk_id": 244,
+        "token_count": 6
+    },
+    {
+        "text": "5",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            197.45399475097656,
+            55.24907684326172,
+            207.46047973632812
+        ],
+        "chunk_id": 245,
+        "token_count": 1
+    },
+    {
+        "text": "Warren Buffett",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            197.45399475097656,
+            144.8795623779297,
+            207.46047973632812
+        ],
+        "chunk_id": 246,
+        "token_count": 14
+    },
+    {
+        "text": "$118 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            211.48110961914062,
+            197.45399475097656,
+            264.153564453125,
+            207.46047973632812
+        ],
+        "chunk_id": 247,
+        "token_count": 12
+    },
+    {
+        "text": "91",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            306.2184753417969,
+            197.45399475097656,
+            317.34722900390625,
+            207.46047973632812
+        ],
+        "chunk_id": 248,
+        "token_count": 2
+    },
+    {
+        "text": "Berkshire Hathaway",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            432.5897216796875,
+            197.45399475097656,
+            522.1300659179688,
+            207.46047973632812
+        ],
+        "chunk_id": 249,
+        "token_count": 18
+    },
+    {
+        "text": "States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            338.884521484375,
+            203.45936584472656,
+            367.2524719238281,
+            213.46585083007812
+        ],
+        "chunk_id": 250,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            357.6513671875,
+            222.97694396972656,
+            389.3663635253906,
+            232.98342895507812
+        ],
+        "chunk_id": 251,
+        "token_count": 6
+    },
+    {
+        "text": "6",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            228.98231506347656,
+            55.24907684326172,
+            238.98880004882812
+        ],
+        "chunk_id": 252,
+        "token_count": 1
+    },
+    {
+        "text": "Larry Page",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            228.98231506347656,
+            129.8568878173828,
+            238.98880004882812
+        ],
+        "chunk_id": 253,
+        "token_count": 10
+    },
+    {
+        "text": "$111 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            211.8564453125,
+            228.98231506347656,
+            263.7911071777344,
+            238.98880004882812
+        ],
+        "chunk_id": 254,
+        "token_count": 12
+    },
+    {
+        "text": "49",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            306.2184753417969,
+            228.98231506347656,
+            317.34722900390625,
+            238.98880004882812
+        ],
+        "chunk_id": 255,
+        "token_count": 2
+    },
+    {
+        "text": "Alphabet Inc.",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            432.5897216796875,
+            228.98231506347656,
+            491.00323486328125,
+            238.98880004882812
+        ],
+        "chunk_id": 256,
+        "token_count": 13
+    },
+    {
+        "text": "States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            338.884521484375,
+            234.98768615722656,
+            367.2524719238281,
+            244.99417114257812
+        ],
+        "chunk_id": 257,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            357.6513671875,
+            255.25599670410156,
+            389.3663635253906,
+            265.2624816894531
+        ],
+        "chunk_id": 258,
+        "token_count": 6
+    },
+    {
+        "text": "7",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            260.5106201171875,
+            55.24907684326172,
+            270.5171203613281
+        ],
+        "chunk_id": 259,
+        "token_count": 1
+    },
+    {
+        "text": "Sergey Brin",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            260.5106201171875,
+            133.18911743164062,
+            270.5171203613281
+        ],
+        "chunk_id": 260,
+        "token_count": 11
+    },
+    {
+        "text": "$107 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            211.11749267578125,
+            260.5106201171875,
+            264.5277099609375,
+            270.5171203613281
+        ],
+        "chunk_id": 261,
+        "token_count": 12
+    },
+    {
+        "text": "48",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            306.2184753417969,
+            260.5106201171875,
+            317.34722900390625,
+            270.5171203613281
+        ],
+        "chunk_id": 262,
+        "token_count": 2
+    },
+    {
+        "text": "Alphabet Inc.",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            432.5897216796875,
+            260.5106201171875,
+            491.00323486328125,
+            270.5171203613281
+        ],
+        "chunk_id": 263,
+        "token_count": 13
+    },
+    {
+        "text": "States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            338.884521484375,
+            266.5159912109375,
+            367.2524719238281,
+            276.5224914550781
+        ],
+        "chunk_id": 264,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            357.6513671875,
+            286.7843017578125,
+            389.3663635253906,
+            296.7908020019531
+        ],
+        "chunk_id": 265,
+        "token_count": 6
+    },
+    {
+        "text": "8",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            292.0389404296875,
+            55.24907684326172,
+            302.0454406738281
+        ],
+        "chunk_id": 266,
+        "token_count": 1
+    },
+    {
+        "text": "Larry Ellison",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            292.0389404296875,
+            135.96432495117188,
+            302.0454406738281
+        ],
+        "chunk_id": 267,
+        "token_count": 13
+    },
+    {
+        "text": "$106 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            211.11749267578125,
+            292.0389404296875,
+            264.5277099609375,
+            302.0454406738281
+        ],
+        "chunk_id": 268,
+        "token_count": 12
+    },
+    {
+        "text": "77",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            306.2184753417969,
+            292.0389404296875,
+            317.34722900390625,
+            302.0454406738281
+        ],
+        "chunk_id": 269,
+        "token_count": 2
+    },
+    {
+        "text": "Oracle Corporation",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            432.5897216796875,
+            292.0389404296875,
+            517.1253051757812,
+            302.0454406738281
+        ],
+        "chunk_id": 270,
+        "token_count": 18
+    },
+    {
+        "text": "States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            338.884521484375,
+            298.0443115234375,
+            367.2524719238281,
+            308.0508117675781
+        ],
+        "chunk_id": 271,
+        "token_count": 6
+    },
+    {
+        "text": "United",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            357.6513671875,
+            318.3123779296875,
+            389.3663635253906,
+            328.3188781738281
+        ],
+        "chunk_id": 272,
+        "token_count": 6
+    },
+    {
+        "text": "9",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            324.3179931640625,
+            55.24907684326172,
+            334.3244934082031
+        ],
+        "chunk_id": 273,
+        "token_count": 1
+    },
+    {
+        "text": "Steve Ballmer",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            324.3179931640625,
+            143.197021484375,
+            334.3244934082031
+        ],
+        "chunk_id": 274,
+        "token_count": 13
+    },
+    {
+        "text": "$91.4 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            209.72171020507812,
+            324.3179931640625,
+            265.91204833984375,
+            334.3244934082031
+        ],
+        "chunk_id": 275,
+        "token_count": 13
+    },
+    {
+        "text": "66",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            306.2184753417969,
+            324.3179931640625,
+            317.34722900390625,
+            334.3244934082031
+        ],
+        "chunk_id": 276,
+        "token_count": 2
+    },
+    {
+        "text": "Microsoft",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            432.5897216796875,
+            324.3179931640625,
+            473.1791687011719,
+            334.3244934082031
+        ],
+        "chunk_id": 277,
+        "token_count": 9
+    },
+    {
+        "text": "States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            338.884521484375,
+            329.5726318359375,
+            367.2524719238281,
+            339.5791320800781
+        ],
+        "chunk_id": 278,
+        "token_count": 6
+    },
+    {
+        "text": "India",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            357.6513671875,
+            349.8406982421875,
+            382.1400146484375,
+            359.8471984863281
+        ],
+        "chunk_id": 279,
+        "token_count": 5
+    },
+    {
+        "text": "10",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            44.11602783203125,
+            350.5914306640625,
+            58.02891540527344,
+            360.5979309082031
+        ],
+        "chunk_id": 280,
+        "token_count": 2
+    },
+    {
+        "text": "Mukesh Ambani",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            350.5914306640625,
+            152.10745239257812,
+            360.5979309082031
+        ],
+        "chunk_id": 281,
+        "token_count": 13
+    },
+    {
+        "text": "$90.7 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            209.72171020507812,
+            350.5914306640625,
+            265.91204833984375,
+            360.5979309082031
+        ],
+        "chunk_id": 282,
+        "token_count": 13
+    },
+    {
+        "text": "64",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            306.2184753417969,
+            350.5914306640625,
+            317.34722900390625,
+            360.5979309082031
+        ],
+        "chunk_id": 283,
+        "token_count": 2
+    },
+    {
+        "text": "Reliance Industries",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            432.5897216796875,
+            350.5914306640625,
+            517.6886596679688,
+            360.5979309082031
+        ],
+        "chunk_id": 284,
+        "token_count": 19
+    },
+    {
+        "text": "2021 In the 35th annual Forbes list of the world's billionaires, the list included 2,755 billionaires with a total net wealth of $13.",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            391.8003234863281,
+            577.490478515625,
+            430.0673058498428
+        ],
+        "chunk_id": 285,
+        "token_count": 133
+    },
+    {
+        "text": "ionaires with a total net wealth of $13.1 trillion, up 660 members from 2020; 86% of these billionaires had more wealth than they possessed last year.[11][12]",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            418.5584389735978,
+            577.490478515625,
+            464.0184631347656
+        ],
+        "chunk_id": 286,
+        "token_count": 158
+    },
+    {
+        "text": "h than they possessed last year.[11][12]",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            452.5095962585206,
+            577.490478515625,
+            464.0184631347656
+        ],
+        "chunk_id": 287,
+        "token_count": 40
+    },
+    {
+        "text": "h than they possessed last year.[11][12]",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            452.5095962585206,
+            577.490478515625,
+            464.0184631347656
+        ],
+        "chunk_id": 288,
+        "token_count": 40
+    },
+    {
+        "text": "h than they possessed last year.[11][12]",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            452.5095962585206,
+            577.490478515625,
+            464.0184631347656
+        ],
+        "chunk_id": 289,
+        "token_count": 40
+    },
+    {
+        "text": "h than they possessed last year.[11][12]",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            452.5095962585206,
+            577.490478515625,
+            464.0184631347656
+        ],
+        "chunk_id": 290,
+        "token_count": 40
+    },
+    {
+        "text": "h than they possessed last year.[11][12]",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            452.5095962585206,
+            577.490478515625,
+            464.0184631347656
+        ],
+        "chunk_id": 291,
+        "token_count": 40
+    },
+    {
+        "text": "h than they possessed last year.[11][12]",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            452.5095962585206,
+            577.490478515625,
+            464.0184631347656
+        ],
+        "chunk_id": 292,
+        "token_count": 40
+    },
+    {
+        "text": "h than they possessed last year.[11][12]",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            452.5095962585206,
+            577.490478515625,
+            464.0184631347656
+        ],
+        "chunk_id": 293,
+        "token_count": 40
+    },
+    {
+        "text": "h than they possessed last year.[11][12]",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            452.5095962585206,
+            577.490478515625,
+            464.0184631347656
+        ],
+        "chunk_id": 294,
+        "token_count": 40
+    },
+    {
+        "text": "h than they possessed last year.[11][12]",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            452.5095962585206,
+            577.490478515625,
+            464.0184631347656
+        ],
+        "chunk_id": 295,
+        "token_count": 40
+    },
+    {
+        "text": "No.",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            42.26280212402344,
+            482.7100830078125,
+            58.3833122253418,
+            492.7165832519531
+        ],
+        "chunk_id": 296,
+        "token_count": 3
+    },
+    {
+        "text": "Name",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            116.35665893554688,
+            482.7100830078125,
+            143.6090850830078,
+            492.7165832519531
+        ],
+        "chunk_id": 297,
+        "token_count": 4
+    },
+    {
+        "text": "Net worth (USD)",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            201.5815887451172,
+            482.7100830078125,
+            278.3155517578125,
+            492.7165832519531
+        ],
+        "chunk_id": 298,
+        "token_count": 15
+    },
+    {
+        "text": "Age",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            300.8464660644531,
+            482.7100830078125,
+            319.748779296875,
+            492.7165832519531
+        ],
+        "chunk_id": 299,
+        "token_count": 3
+    },
+    {
+        "text": "Nationality",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            352.6312561035156,
+            482.7100830078125,
+            403.7809143066406,
+            492.7165832519531
+        ],
+        "chunk_id": 300,
+        "token_count": 11
+    },
+    {
+        "text": "Source(s) of wealth",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            482.7100830078125,
+            528.9691162109375,
+            492.7165832519531
+        ],
+        "chunk_id": 301,
+        "token_count": 19
+    },
+    {
+        "text": "1",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            502.9781494140625,
+            55.24907684326172,
+            512.984619140625
+        ],
+        "chunk_id": 302,
+        "token_count": 1
+    },
+    {
+        "text": "Jeff Bezos",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            502.9781494140625,
+            127.45452880859375,
+            512.984619140625
+        ],
+        "chunk_id": 303,
+        "token_count": 10
+    },
+    {
+        "text": "$177 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            213.9911651611328,
+            502.9781494140625,
+            267.4013977050781,
+            512.984619140625
+        ],
+        "chunk_id": 304,
+        "token_count": 12
+    },
+    {
+        "text": "57",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            502.9781494140625,
+            320.7369689941406,
+            512.984619140625
+        ],
+        "chunk_id": 305,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            502.9781494140625,
+            423.9057312011719,
+            512.984619140625
+        ],
+        "chunk_id": 306,
+        "token_count": 13
+    },
+    {
+        "text": "Amazon",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            502.9781494140625,
+            473.3783264160156,
+            512.984619140625
+        ],
+        "chunk_id": 307,
+        "token_count": 6
+    },
+    {
+        "text": "2",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            523.2464599609375,
+            55.24907684326172,
+            533.2529296875
+        ],
+        "chunk_id": 308,
+        "token_count": 1
+    },
+    {
+        "text": "Elon Musk",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            523.2464599609375,
+            127.62554168701172,
+            533.2529296875
+        ],
+        "chunk_id": 309,
+        "token_count": 9
+    },
+    {
+        "text": "$151 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            213.9911651611328,
+            523.2464599609375,
+            267.4013977050781,
+            533.2529296875
+        ],
+        "chunk_id": 310,
+        "token_count": 12
+    },
+    {
+        "text": "49",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            523.2464599609375,
+            320.7369689941406,
+            533.2529296875
+        ],
+        "chunk_id": 311,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            523.2464599609375,
+            423.9057312011719,
+            533.2529296875
+        ],
+        "chunk_id": 312,
+        "token_count": 13
+    },
+    {
+        "text": "Tesla, SpaceX",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            523.2464599609375,
+            500.6548156738281,
+            533.2529296875
+        ],
+        "chunk_id": 313,
+        "token_count": 13
+    },
+    {
+        "text": "France",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            543.5145263671875,
+            394.974365234375,
+            553.52099609375
+        ],
+        "chunk_id": 314,
+        "token_count": 6
+    },
+    {
+        "text": "3",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            544.2652587890625,
+            55.24907684326172,
+            554.271728515625
+        ],
+        "chunk_id": 315,
+        "token_count": 1
+    },
+    {
+        "text": "Bernard Arnault & family",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            544.2652587890625,
+            188.81829833984375,
+            554.271728515625
+        ],
+        "chunk_id": 316,
+        "token_count": 24
+    },
+    {
+        "text": "$150 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            213.9911651611328,
+            544.2652587890625,
+            267.4013977050781,
+            554.271728515625
+        ],
+        "chunk_id": 317,
+        "token_count": 12
+    },
+    {
+        "text": "72",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            544.2652587890625,
+            320.7369689941406,
+            554.271728515625
+        ],
+        "chunk_id": 318,
+        "token_count": 2
+    },
+    {
+        "text": "LVMH",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            544.2652587890625,
+            463.7332458496094,
+            554.271728515625
+        ],
+        "chunk_id": 319,
+        "token_count": 4
+    },
+    {
+        "text": "4",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            565.2840576171875,
+            55.24907684326172,
+            575.29052734375
+        ],
+        "chunk_id": 320,
+        "token_count": 1
+    },
+    {
+        "text": "Bill Gates",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            565.2840576171875,
+            123.73141479492188,
+            575.29052734375
+        ],
+        "chunk_id": 321,
+        "token_count": 10
+    },
+    {
+        "text": "$124 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            213.9911651611328,
+            565.2840576171875,
+            267.4013977050781,
+            575.29052734375
+        ],
+        "chunk_id": 322,
+        "token_count": 12
+    },
+    {
+        "text": "65",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            565.2840576171875,
+            320.7369689941406,
+            575.29052734375
+        ],
+        "chunk_id": 323,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            565.2840576171875,
+            423.9057312011719,
+            575.29052734375
+        ],
+        "chunk_id": 324,
+        "token_count": 13
+    },
+    {
+        "text": "Microsoft",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            565.2840576171875,
+            477.2609558105469,
+            575.29052734375
+        ],
+        "chunk_id": 325,
+        "token_count": 9
+    },
+    {
+        "text": "5",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            585.5523681640625,
+            55.24907684326172,
+            595.558837890625
+        ],
+        "chunk_id": 326,
+        "token_count": 1
+    },
+    {
+        "text": "Mark Zuckerberg",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            585.5523681640625,
+            156.53428649902344,
+            595.558837890625
+        ],
+        "chunk_id": 327,
+        "token_count": 15
+    },
+    {
+        "text": "$97 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            216.78274536132812,
+            585.5523681640625,
+            264.62786865234375,
+            595.558837890625
+        ],
+        "chunk_id": 328,
+        "token_count": 11
+    },
+    {
+        "text": "36",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            585.5523681640625,
+            320.7369689941406,
+            595.558837890625
+        ],
+        "chunk_id": 329,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            585.5523681640625,
+            423.9057312011719,
+            595.558837890625
+        ],
+        "chunk_id": 330,
+        "token_count": 13
+    },
+    {
+        "text": "Meta Platforms",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            585.5523681640625,
+            503.9562683105469,
+            595.558837890625
+        ],
+        "chunk_id": 331,
+        "token_count": 14
+    },
+    {
+        "text": "United States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            605.8206787109375,
+            423.9057312011719,
+            615.8271484375
+        ],
+        "chunk_id": 332,
+        "token_count": 13
+    },
+    {
+        "text": "6",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            606.5711669921875,
+            55.24907684326172,
+            616.57763671875
+        ],
+        "chunk_id": 333,
+        "token_count": 1
+    },
+    {
+        "text": "Warren Buffett",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            606.5711669921875,
+            144.8795623779297,
+            616.57763671875
+        ],
+        "chunk_id": 334,
+        "token_count": 14
+    },
+    {
+        "text": "$96 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            216.78274536132812,
+            606.5711669921875,
+            264.62786865234375,
+            616.57763671875
+        ],
+        "chunk_id": 335,
+        "token_count": 11
+    },
+    {
+        "text": "90",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            606.5711669921875,
+            320.7369689941406,
+            616.57763671875
+        ],
+        "chunk_id": 336,
+        "token_count": 2
+    },
+    {
+        "text": "Berkshire Hathaway",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            606.5711669921875,
+            526.2118530273438,
+            616.57763671875
+        ],
+        "chunk_id": 337,
+        "token_count": 18
+    },
+    {
+        "text": "United States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            626.0887451171875,
+            423.9057312011719,
+            636.09521484375
+        ],
+        "chunk_id": 338,
+        "token_count": 13
+    },
+    {
+        "text": "7",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            626.8394775390625,
+            55.24907684326172,
+            636.845947265625
+        ],
+        "chunk_id": 339,
+        "token_count": 1
+    },
+    {
+        "text": "Larry Ellison",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            626.8394775390625,
+            135.96432495117188,
+            636.845947265625
+        ],
+        "chunk_id": 340,
+        "token_count": 13
+    },
+    {
+        "text": "$93 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            216.78274536132812,
+            626.8394775390625,
+            264.62786865234375,
+            636.845947265625
+        ],
+        "chunk_id": 341,
+        "token_count": 11
+    },
+    {
+        "text": "76",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            626.8394775390625,
+            320.7369689941406,
+            636.845947265625
+        ],
+        "chunk_id": 342,
+        "token_count": 2
+    },
+    {
+        "text": "Oracle Corporation",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            626.8394775390625,
+            521.20703125,
+            636.845947265625
+        ],
+        "chunk_id": 343,
+        "token_count": 18
+    },
+    {
+        "text": "8",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            647.1075439453125,
+            55.24907684326172,
+            657.114013671875
+        ],
+        "chunk_id": 344,
+        "token_count": 1
+    },
+    {
+        "text": "Larry Page",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            647.1075439453125,
+            129.8568878173828,
+            657.114013671875
+        ],
+        "chunk_id": 345,
+        "token_count": 10
+    },
+    {
+        "text": "$91.5 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            212.60711669921875,
+            647.1075439453125,
+            268.7974548339844,
+            657.114013671875
+        ],
+        "chunk_id": 346,
+        "token_count": 13
+    },
+    {
+        "text": "48",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            647.1075439453125,
+            320.7369689941406,
+            657.114013671875
+        ],
+        "chunk_id": 347,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            647.1075439453125,
+            423.9057312011719,
+            657.114013671875
+        ],
+        "chunk_id": 348,
+        "token_count": 13
+    },
+    {
+        "text": "Alphabet Inc.",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            647.1075439453125,
+            495.08502197265625,
+            657.114013671875
+        ],
+        "chunk_id": 349,
+        "token_count": 13
+    },
+    {
+        "text": "9",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            667.3758544921875,
+            55.24907684326172,
+            677.38232421875
+        ],
+        "chunk_id": 350,
+        "token_count": 1
+    },
+    {
+        "text": "Sergey Brin",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            667.3758544921875,
+            133.18911743164062,
+            677.38232421875
+        ],
+        "chunk_id": 351,
+        "token_count": 11
+    },
+    {
+        "text": "$89 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            216.78274536132812,
+            667.3758544921875,
+            264.62786865234375,
+            677.38232421875
+        ],
+        "chunk_id": 352,
+        "token_count": 11
+    },
+    {
+        "text": "47",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            667.3758544921875,
+            320.7369689941406,
+            677.38232421875
+        ],
+        "chunk_id": 353,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            667.3758544921875,
+            423.9057312011719,
+            677.38232421875
+        ],
+        "chunk_id": 354,
+        "token_count": 13
+    },
+    {
+        "text": "Alphabet Inc.",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            667.3758544921875,
+            495.08502197265625,
+            677.38232421875
+        ],
+        "chunk_id": 355,
+        "token_count": 13
+    },
+    {
+        "text": "India",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            687.6439208984375,
+            385.52978515625,
+            697.650390625
+        ],
+        "chunk_id": 356,
+        "token_count": 5
+    },
+    {
+        "text": "10",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            44.11602783203125,
+            688.3946533203125,
+            58.02891540527344,
+            698.401123046875
+        ],
+        "chunk_id": 357,
+        "token_count": 2
+    },
+    {
+        "text": "Mukesh Ambani",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            688.3946533203125,
+            152.10745239257812,
+            698.401123046875
+        ],
+        "chunk_id": 358,
+        "token_count": 13
+    },
+    {
+        "text": "$84.5 billion",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            212.60711669921875,
+            688.3946533203125,
+            268.7974548339844,
+            698.401123046875
+        ],
+        "chunk_id": 359,
+        "token_count": 13
+    },
+    {
+        "text": "63",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            688.3946533203125,
+            320.7369689941406,
+            698.401123046875
+        ],
+        "chunk_id": 360,
+        "token_count": 2
+    },
+    {
+        "text": "Reliance Industries",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            688.3946533203125,
+            521.7704467773438,
+            698.401123046875
+        ],
+        "chunk_id": 361,
+        "token_count": 19
+    },
+    {
+        "text": "2020",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            729.603515625,
+            66.66595458984375,
+            743.6111450195312
+        ],
+        "chunk_id": 362,
+        "token_count": 4
+    },
+    {
+        "text": "https://en.wikipedia.org/wiki/The_World%27s_Billionaires",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            26.453123092651367,
+            768.9999389648438,
+            216.32029724121094,
+            776.9999389648438
+        ],
+        "chunk_id": 363,
+        "token_count": 56
+    },
+    {
+        "text": "4/33",
+        "page": 4,
+        "type": "paragraph",
+        "bbox": [
+            571.3124389648438,
+            768.9999389648438,
+            585.5468139648438,
+            776.9999389648438
+        ],
+        "chunk_id": 364,
+        "token_count": 4
+    },
+    {
+        "text": "7/1/23, 11:31 PM\nThe World's Billionaires - Wikipedia\tIn the 34th annual Forbes list of the world's billionaires, the list included 2,095 billionaires with a\ntotal net wealth of $8 trillion, down 58 members and $700 billion from 2019; 51% of these billionaires\nhad less wealth than they possessed last year.[13] The list was finalized as of 18 March, thus was\nalready partially influenced by the COVID-19 pandemic.[13]\tNo.\nName\nNet worth (USD)\nAge\nNationality\nSource(s) of wealth\t10 \nS. Robson Walton\n$54.1 billion \n77\n United States\nWalmart\t1 \nJeff Bezos\n$113 billion \n56\n United States\nAmazon\t2 \nBill Gates\n$98 billion \n64\n United States\nMicrosoft\t3 \nBernard Arnault & family\n$76 billion \n71\n France\nLVMH\t4 \nWarren Buffett\n$67.5 billion \n89\n United States\nBerkshire Hathaway\t5 \nLarry Ellison\n$59 billion \n75\n United States\nOracle Corporation\t6 \nAmancio Ortega\n$55.1 billion \n84\n Spain\nInditex, Zara\t7 \nMark Zuckerberg\n$54.7 billion \n35\n United States\nFacebook, Inc.\t8 \nJim Walton\n$54.6 billion \n71\n United States\nWalmart\t9 \nAlice Walton\n$54.4 billion \n70\n United States\nWalmart\n2019\tIn the 33rd annual Forbes list of the world's billionaires, the list included 2,153 billionaires with a\ntotal net wealth of $8.7 trillion, down 55 members and $400 billion from 2018.[14] The U.S. continued\nto have the most billionaires in the world, with a record of 609, while China dropped to 324 (when not\nincluding Hong Kong, Macau and Taiwan).[14]\tNo.\nName\nNet worth (USD)\nAge\nNationality\nSource(s) of wealth\t10 \nLarry Page\n$50.8 billion \n45\n United States\nAlphabet Inc.\t1 \nJeff Bezos\n$131 billion \n55\n United States\nAmazon\t2 \nBill Gates\n$96.5 billion \n63\n United States\nMicrosoft\t3 \nWarren Buffett\n$82.5 billion \n88\n United States\nBerkshire Hathaway\t4 \nBernard Arnault\n$76 billion \n70\n France\nLVMH\t5 \nCarlos Slim\n$64 billion \n79\n Mexico\nAmérica Móvil, Grupo Carso\t6 \nAmancio Ortega\n$62.7 billion \n82\n Spain\nInditex, Zara\t7 \nLarry Ellison\n$62.5 billion \n74\n United States\nOracle Corporation\t8 \nMark Zuckerberg\n$62.3 billion \n34\n United States\nFacebook, Inc.\t9 \nMichael Bloomberg\n$55.5 billion \n77\n United States\nBloomberg L.P.\n2018\nhttps://en.wikipedia.org/wiki/The_World%27s_Billionaires\n5/33",
+        "page": 5,
+        "type": "table",
+        "bbox": [
+            26.453123092651367,
+            15.999998092651367,
+            585.5468139648438,
+            776.9999389648438
+        ],
+        "chunk_id": 365,
+        "token_count": 2183
+    },
+    {
+        "text": "7/1/23, 11:31 PM",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            26.453123092651367,
+            15.999998092651367,
+            82.38945770263672,
+            23.999998092651367
+        ],
+        "chunk_id": 366,
+        "token_count": 16
+    },
+    {
+        "text": "The World's Billionaires - Wikipedia",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            290.3124694824219,
+            15.999998092651367,
+            407.8267517089844,
+            23.999998092651367
+        ],
+        "chunk_id": 367,
+        "token_count": 36
+    },
+    {
+        "text": "In the 34th annual Forbes list of the world's billionaires, the list included 2,095 billionaires with a total net wealth of $8 trillion, down 58 members and $700 billion from 2019; 51% of these billio",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            28.2464599609375,
+            577.4960327148438,
+            60.627580579820574
+        ],
+        "chunk_id": 368,
+        "token_count": 200
+    },
+    {
+        "text": "0 billion from 2019; 51% of these billionaires had less wealth than they possessed last year.[13] The list was finalized as of 18 March, thus was already partially influenced by the COVID-19 pandemic.",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            54.151356456043956,
+            577.4960327148438,
+            86.53247707492703
+        ],
+        "chunk_id": 369,
+        "token_count": 200
+    },
+    {
+        "text": "lly influenced by the COVID-19 pandemic.[13]",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            80.05625295115041,
+            577.4960327148438,
+            87.18009948730469
+        ],
+        "chunk_id": 370,
+        "token_count": 44
+    },
+    {
+        "text": "influenced by the COVID-19 pandemic.[13]",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            80.70387536352807,
+            577.4960327148438,
+            87.18009948730469
+        ],
+        "chunk_id": 371,
+        "token_count": 40
+    },
+    {
+        "text": "influenced by the COVID-19 pandemic.[13]",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            80.70387536352807,
+            577.4960327148438,
+            87.18009948730469
+        ],
+        "chunk_id": 372,
+        "token_count": 40
+    },
+    {
+        "text": "influenced by the COVID-19 pandemic.[13]",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            80.70387536352807,
+            577.4960327148438,
+            87.18009948730469
+        ],
+        "chunk_id": 373,
+        "token_count": 40
+    },
+    {
+        "text": "influenced by the COVID-19 pandemic.[13]",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            80.70387536352807,
+            577.4960327148438,
+            87.18009948730469
+        ],
+        "chunk_id": 374,
+        "token_count": 40
+    },
+    {
+        "text": "influenced by the COVID-19 pandemic.[13]",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            80.70387536352807,
+            577.4960327148438,
+            87.18009948730469
+        ],
+        "chunk_id": 375,
+        "token_count": 40
+    },
+    {
+        "text": "influenced by the COVID-19 pandemic.[13]",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            80.70387536352807,
+            577.4960327148438,
+            87.18009948730469
+        ],
+        "chunk_id": 376,
+        "token_count": 40
+    },
+    {
+        "text": "influenced by the COVID-19 pandemic.[13]",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            80.70387536352807,
+            577.4960327148438,
+            87.18009948730469
+        ],
+        "chunk_id": 377,
+        "token_count": 40
+    },
+    {
+        "text": "influenced by the COVID-19 pandemic.[13]",
+        "page": 5,
+        "type": "header",
+        "bbox": [
+            35.506736755371094,
+            80.70387536352807,
+            577.4960327148438,
+            87.18009948730469
+        ],
+        "chunk_id": 378,
+        "token_count": 40
+    },
+    {
+        "text": "No.",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            42.26280212402344,
+            105.87171936035156,
+            58.3833122253418,
+            115.8781967163086
+        ],
+        "chunk_id": 379,
+        "token_count": 3
+    },
+    {
+        "text": "Name",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            116.35665893554688,
+            105.87171936035156,
+            143.6090850830078,
+            115.8781967163086
+        ],
+        "chunk_id": 380,
+        "token_count": 4
+    },
+    {
+        "text": "Net worth (USD)",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            201.5815887451172,
+            105.87171936035156,
+            278.3155517578125,
+            115.8781967163086
+        ],
+        "chunk_id": 381,
+        "token_count": 15
+    },
+    {
+        "text": "Age",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            300.8464660644531,
+            105.87171936035156,
+            319.748779296875,
+            115.8781967163086
+        ],
+        "chunk_id": 382,
+        "token_count": 3
+    },
+    {
+        "text": "Nationality",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            352.6312561035156,
+            105.87171936035156,
+            403.7809143066406,
+            115.8781967163086
+        ],
+        "chunk_id": 383,
+        "token_count": 11
+    },
+    {
+        "text": "Source(s) of wealth",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            105.87171936035156,
+            528.9691162109375,
+            115.8781967163086
+        ],
+        "chunk_id": 384,
+        "token_count": 19
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            125.38929748535156,
+            423.9057312011719,
+            135.39578247070312
+        ],
+        "chunk_id": 385,
+        "token_count": 13
+    },
+    {
+        "text": "1",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            126.13978576660156,
+            55.24907684326172,
+            136.14627075195312
+        ],
+        "chunk_id": 386,
+        "token_count": 1
+    },
+    {
+        "text": "Jeff Bezos",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            126.13978576660156,
+            127.45452880859375,
+            136.14627075195312
+        ],
+        "chunk_id": 387,
+        "token_count": 10
+    },
+    {
+        "text": "$113 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            214.3665008544922,
+            126.13978576660156,
+            267.0389709472656,
+            136.14627075195312
+        ],
+        "chunk_id": 388,
+        "token_count": 12
+    },
+    {
+        "text": "56",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            126.13978576660156,
+            320.7369689941406,
+            136.14627075195312
+        ],
+        "chunk_id": 389,
+        "token_count": 2
+    },
+    {
+        "text": "Amazon",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            126.13978576660156,
+            473.3783264160156,
+            136.14627075195312
+        ],
+        "chunk_id": 390,
+        "token_count": 6
+    },
+    {
+        "text": "2",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            146.40809631347656,
+            55.24907684326172,
+            156.41458129882812
+        ],
+        "chunk_id": 391,
+        "token_count": 1
+    },
+    {
+        "text": "Bill Gates",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            146.40809631347656,
+            123.73141479492188,
+            156.41458129882812
+        ],
+        "chunk_id": 392,
+        "token_count": 10
+    },
+    {
+        "text": "$98 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            216.78274536132812,
+            146.40809631347656,
+            264.62786865234375,
+            156.41458129882812
+        ],
+        "chunk_id": 393,
+        "token_count": 11
+    },
+    {
+        "text": "64",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            146.40809631347656,
+            320.7369689941406,
+            156.41458129882812
+        ],
+        "chunk_id": 394,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            146.40809631347656,
+            423.9057312011719,
+            156.41458129882812
+        ],
+        "chunk_id": 395,
+        "token_count": 13
+    },
+    {
+        "text": "Microsoft",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            146.40809631347656,
+            477.2609558105469,
+            156.41458129882812
+        ],
+        "chunk_id": 396,
+        "token_count": 9
+    },
+    {
+        "text": "France",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            166.67616271972656,
+            394.974365234375,
+            176.68264770507812
+        ],
+        "chunk_id": 397,
+        "token_count": 6
+    },
+    {
+        "text": "3",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            167.42689514160156,
+            55.24907684326172,
+            177.43338012695312
+        ],
+        "chunk_id": 398,
+        "token_count": 1
+    },
+    {
+        "text": "Bernard Arnault & family",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            167.42689514160156,
+            188.81829833984375,
+            177.43338012695312
+        ],
+        "chunk_id": 399,
+        "token_count": 24
+    },
+    {
+        "text": "$76 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            216.78274536132812,
+            167.42689514160156,
+            264.62786865234375,
+            177.43338012695312
+        ],
+        "chunk_id": 400,
+        "token_count": 11
+    },
+    {
+        "text": "71",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            167.42689514160156,
+            320.7369689941406,
+            177.43338012695312
+        ],
+        "chunk_id": 401,
+        "token_count": 2
+    },
+    {
+        "text": "LVMH",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            167.42689514160156,
+            463.7332458496094,
+            177.43338012695312
+        ],
+        "chunk_id": 402,
+        "token_count": 4
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            187.69520568847656,
+            423.9057312011719,
+            197.70169067382812
+        ],
+        "chunk_id": 403,
+        "token_count": 13
+    },
+    {
+        "text": "4",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            188.44593811035156,
+            55.24907684326172,
+            198.45242309570312
+        ],
+        "chunk_id": 404,
+        "token_count": 1
+    },
+    {
+        "text": "Warren Buffett",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            188.44593811035156,
+            144.8795623779297,
+            198.45242309570312
+        ],
+        "chunk_id": 405,
+        "token_count": 14
+    },
+    {
+        "text": "$67.5 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            212.60711669921875,
+            188.44593811035156,
+            268.7974548339844,
+            198.45242309570312
+        ],
+        "chunk_id": 406,
+        "token_count": 13
+    },
+    {
+        "text": "89",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            188.44593811035156,
+            320.7369689941406,
+            198.45242309570312
+        ],
+        "chunk_id": 407,
+        "token_count": 2
+    },
+    {
+        "text": "Berkshire Hathaway",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            188.44593811035156,
+            526.2118530273438,
+            198.45242309570312
+        ],
+        "chunk_id": 408,
+        "token_count": 18
+    },
+    {
+        "text": "5",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            208.71400451660156,
+            55.24907684326172,
+            218.72048950195312
+        ],
+        "chunk_id": 409,
+        "token_count": 1
+    },
+    {
+        "text": "Larry Ellison",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            208.71400451660156,
+            135.96432495117188,
+            218.72048950195312
+        ],
+        "chunk_id": 410,
+        "token_count": 13
+    },
+    {
+        "text": "$59 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            216.78274536132812,
+            208.71400451660156,
+            264.62786865234375,
+            218.72048950195312
+        ],
+        "chunk_id": 411,
+        "token_count": 11
+    },
+    {
+        "text": "75",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            208.71400451660156,
+            320.7369689941406,
+            218.72048950195312
+        ],
+        "chunk_id": 412,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            208.71400451660156,
+            423.9057312011719,
+            218.72048950195312
+        ],
+        "chunk_id": 413,
+        "token_count": 13
+    },
+    {
+        "text": "Oracle Corporation",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            208.71400451660156,
+            521.20703125,
+            218.72048950195312
+        ],
+        "chunk_id": 414,
+        "token_count": 18
+    },
+    {
+        "text": "Spain",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            228.98231506347656,
+            389.4239196777344,
+            238.98880004882812
+        ],
+        "chunk_id": 415,
+        "token_count": 5
+    },
+    {
+        "text": "6",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            229.73280334472656,
+            55.24907684326172,
+            239.73928833007812
+        ],
+        "chunk_id": 416,
+        "token_count": 1
+    },
+    {
+        "text": "Amancio Ortega",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            229.73280334472656,
+            153.2118377685547,
+            239.73928833007812
+        ],
+        "chunk_id": 417,
+        "token_count": 14
+    },
+    {
+        "text": "$55.1 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            212.60711669921875,
+            229.73280334472656,
+            268.7974548339844,
+            239.73928833007812
+        ],
+        "chunk_id": 418,
+        "token_count": 13
+    },
+    {
+        "text": "84",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            229.73280334472656,
+            320.7369689941406,
+            239.73928833007812
+        ],
+        "chunk_id": 419,
+        "token_count": 2
+    },
+    {
+        "text": "Inditex, Zara",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            229.73280334472656,
+            492.3036193847656,
+            239.73928833007812
+        ],
+        "chunk_id": 420,
+        "token_count": 13
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            250.00111389160156,
+            423.9057312011719,
+            260.0075988769531
+        ],
+        "chunk_id": 421,
+        "token_count": 13
+    },
+    {
+        "text": "7",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            250.75184631347656,
+            55.24907684326172,
+            260.7583312988281
+        ],
+        "chunk_id": 422,
+        "token_count": 1
+    },
+    {
+        "text": "Mark Zuckerberg",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            250.75184631347656,
+            156.53428649902344,
+            260.7583312988281
+        ],
+        "chunk_id": 423,
+        "token_count": 15
+    },
+    {
+        "text": "$54.7 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            212.60711669921875,
+            250.75184631347656,
+            268.7974548339844,
+            260.7583312988281
+        ],
+        "chunk_id": 424,
+        "token_count": 13
+    },
+    {
+        "text": "35",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            250.75184631347656,
+            320.7369689941406,
+            260.7583312988281
+        ],
+        "chunk_id": 425,
+        "token_count": 2
+    },
+    {
+        "text": "Facebook, Inc.",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            250.75184631347656,
+            502.30645751953125,
+            260.7583312988281
+        ],
+        "chunk_id": 426,
+        "token_count": 14
+    },
+    {
+        "text": "8",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            271.0198974609375,
+            55.24907684326172,
+            281.0263977050781
+        ],
+        "chunk_id": 427,
+        "token_count": 1
+    },
+    {
+        "text": "Jim Walton",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            271.0198974609375,
+            130.0279083251953,
+            281.0263977050781
+        ],
+        "chunk_id": 428,
+        "token_count": 10
+    },
+    {
+        "text": "$54.6 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            212.60711669921875,
+            271.0198974609375,
+            268.7974548339844,
+            281.0263977050781
+        ],
+        "chunk_id": 429,
+        "token_count": 13
+    },
+    {
+        "text": "71",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            271.0198974609375,
+            320.7369689941406,
+            281.0263977050781
+        ],
+        "chunk_id": 430,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            271.0198974609375,
+            423.9057312011719,
+            281.0263977050781
+        ],
+        "chunk_id": 431,
+        "token_count": 13
+    },
+    {
+        "text": "Walmart",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            271.0198974609375,
+            473.55255126953125,
+            281.0263977050781
+        ],
+        "chunk_id": 432,
+        "token_count": 7
+    },
+    {
+        "text": "9",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            291.2882080078125,
+            55.24907684326172,
+            301.2947082519531
+        ],
+        "chunk_id": 433,
+        "token_count": 1
+    },
+    {
+        "text": "Alice Walton",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            291.2882080078125,
+            136.15489196777344,
+            301.2947082519531
+        ],
+        "chunk_id": 434,
+        "token_count": 12
+    },
+    {
+        "text": "$54.4 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            212.60711669921875,
+            291.2882080078125,
+            268.7974548339844,
+            301.2947082519531
+        ],
+        "chunk_id": 435,
+        "token_count": 13
+    },
+    {
+        "text": "70",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            291.2882080078125,
+            320.7369689941406,
+            301.2947082519531
+        ],
+        "chunk_id": 436,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            291.2882080078125,
+            423.9057312011719,
+            301.2947082519531
+        ],
+        "chunk_id": 437,
+        "token_count": 13
+    },
+    {
+        "text": "Walmart",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            291.2882080078125,
+            473.55255126953125,
+            301.2947082519531
+        ],
+        "chunk_id": 438,
+        "token_count": 7
+    },
+    {
+        "text": "10",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            44.11602783203125,
+            311.5562744140625,
+            58.02891540527344,
+            321.5627746582031
+        ],
+        "chunk_id": 439,
+        "token_count": 2
+    },
+    {
+        "text": "S. Robson Walton",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            311.5562744140625,
+            161.19061279296875,
+            321.5627746582031
+        ],
+        "chunk_id": 440,
+        "token_count": 16
+    },
+    {
+        "text": "$54.1 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            212.60711669921875,
+            311.5562744140625,
+            268.7974548339844,
+            321.5627746582031
+        ],
+        "chunk_id": 441,
+        "token_count": 13
+    },
+    {
+        "text": "77",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            309.6082458496094,
+            311.5562744140625,
+            320.7369689941406,
+            321.5627746582031
+        ],
+        "chunk_id": 442,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            361.0411376953125,
+            311.5562744140625,
+            423.9057312011719,
+            321.5627746582031
+        ],
+        "chunk_id": 443,
+        "token_count": 13
+    },
+    {
+        "text": "Walmart",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            436.6715393066406,
+            311.5562744140625,
+            473.55255126953125,
+            321.5627746582031
+        ],
+        "chunk_id": 444,
+        "token_count": 7
+    },
+    {
+        "text": "2019 In the 33rd annual Forbes list of the world's billionaires, the list included 2,153 billionaires with a total net wealth of $8.7 trillion, down 55 members and $400 billion from 2018.[14] The U.S.",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            352.7651672363281,
+            577.5074462890625,
+            401.91696662795977
+        ],
+        "chunk_id": 445,
+        "token_count": 200
+    },
+    {
+        "text": "and $400 billion from 2018.[14] The U.S. continued to have the most billionaires in the world, with a record of 609, while China dropped to 324 (when not including Hong Kong, Macau and Taiwan).[14]",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            392.08660674963346,
+            577.5074462890625,
+            440.5011291503906
+        ],
+        "chunk_id": 446,
+        "token_count": 197
+    },
+    {
+        "text": "luding Hong Kong, Macau and Taiwan).[14]",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            430.67076927206426,
+            577.5074462890625,
+            440.5011291503906
+        ],
+        "chunk_id": 447,
+        "token_count": 40
+    },
+    {
+        "text": "luding Hong Kong, Macau and Taiwan).[14]",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            430.67076927206426,
+            577.5074462890625,
+            440.5011291503906
+        ],
+        "chunk_id": 448,
+        "token_count": 40
+    },
+    {
+        "text": "luding Hong Kong, Macau and Taiwan).[14]",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            430.67076927206426,
+            577.5074462890625,
+            440.5011291503906
+        ],
+        "chunk_id": 449,
+        "token_count": 40
+    },
+    {
+        "text": "luding Hong Kong, Macau and Taiwan).[14]",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            430.67076927206426,
+            577.5074462890625,
+            440.5011291503906
+        ],
+        "chunk_id": 450,
+        "token_count": 40
+    },
+    {
+        "text": "luding Hong Kong, Macau and Taiwan).[14]",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            430.67076927206426,
+            577.5074462890625,
+            440.5011291503906
+        ],
+        "chunk_id": 451,
+        "token_count": 40
+    },
+    {
+        "text": "luding Hong Kong, Macau and Taiwan).[14]",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            430.67076927206426,
+            577.5074462890625,
+            440.5011291503906
+        ],
+        "chunk_id": 452,
+        "token_count": 40
+    },
+    {
+        "text": "luding Hong Kong, Macau and Taiwan).[14]",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            430.67076927206426,
+            577.5074462890625,
+            440.5011291503906
+        ],
+        "chunk_id": 453,
+        "token_count": 40
+    },
+    {
+        "text": "luding Hong Kong, Macau and Taiwan).[14]",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            430.67076927206426,
+            577.5074462890625,
+            440.5011291503906
+        ],
+        "chunk_id": 454,
+        "token_count": 40
+    },
+    {
+        "text": "luding Hong Kong, Macau and Taiwan).[14]",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            430.67076927206426,
+            577.5074462890625,
+            440.5011291503906
+        ],
+        "chunk_id": 455,
+        "token_count": 40
+    },
+    {
+        "text": "No.",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            42.26280212402344,
+            458.6883544921875,
+            58.3833122253418,
+            468.6948547363281
+        ],
+        "chunk_id": 456,
+        "token_count": 3
+    },
+    {
+        "text": "Name",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            105.22557067871094,
+            458.6883544921875,
+            132.47801208496094,
+            468.6948547363281
+        ],
+        "chunk_id": 457,
+        "token_count": 4
+    },
+    {
+        "text": "Net worth (USD)",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            179.33114624023438,
+            458.6883544921875,
+            256.06512451171875,
+            468.6948547363281
+        ],
+        "chunk_id": 458,
+        "token_count": 15
+    },
+    {
+        "text": "Age",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            278.5960388183594,
+            458.6883544921875,
+            297.49835205078125,
+            468.6948547363281
+        ],
+        "chunk_id": 459,
+        "token_count": 3
+    },
+    {
+        "text": "Nationality",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            330.38079833984375,
+            458.6883544921875,
+            381.53045654296875,
+            468.6948547363281
+        ],
+        "chunk_id": 460,
+        "token_count": 11
+    },
+    {
+        "text": "Source(s) of wealth",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            426.2324523925781,
+            458.6883544921875,
+            518.530029296875,
+            468.6948547363281
+        ],
+        "chunk_id": 461,
+        "token_count": 19
+    },
+    {
+        "text": "1",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            478.9566650390625,
+            55.24907684326172,
+            488.9631652832031
+        ],
+        "chunk_id": 462,
+        "token_count": 1
+    },
+    {
+        "text": "Jeff Bezos",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            478.9566650390625,
+            127.45452880859375,
+            488.9631652832031
+        ],
+        "chunk_id": 463,
+        "token_count": 10
+    },
+    {
+        "text": "$131 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            191.74072265625,
+            478.9566650390625,
+            245.1509552001953,
+            488.9631652832031
+        ],
+        "chunk_id": 464,
+        "token_count": 12
+    },
+    {
+        "text": "55",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            287.3578186035156,
+            478.9566650390625,
+            298.4865417480469,
+            488.9631652832031
+        ],
+        "chunk_id": 465,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            338.7906799316406,
+            478.9566650390625,
+            401.6552734375,
+            488.9631652832031
+        ],
+        "chunk_id": 466,
+        "token_count": 13
+    },
+    {
+        "text": "Amazon",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            414.42108154296875,
+            478.9566650390625,
+            451.1278991699219,
+            488.9631652832031
+        ],
+        "chunk_id": 467,
+        "token_count": 6
+    },
+    {
+        "text": "2",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            499.2247314453125,
+            55.24907684326172,
+            509.2312316894531
+        ],
+        "chunk_id": 468,
+        "token_count": 1
+    },
+    {
+        "text": "Bill Gates",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            499.2247314453125,
+            123.73141479492188,
+            509.2312316894531
+        ],
+        "chunk_id": 469,
+        "token_count": 10
+    },
+    {
+        "text": "$96.5 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            190.35667419433594,
+            499.2247314453125,
+            246.54701232910156,
+            509.2312316894531
+        ],
+        "chunk_id": 470,
+        "token_count": 13
+    },
+    {
+        "text": "63",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            287.3578186035156,
+            499.2247314453125,
+            298.4865417480469,
+            509.2312316894531
+        ],
+        "chunk_id": 471,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            338.7906799316406,
+            499.2247314453125,
+            401.6552734375,
+            509.2312316894531
+        ],
+        "chunk_id": 472,
+        "token_count": 13
+    },
+    {
+        "text": "Microsoft",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            414.42108154296875,
+            499.2247314453125,
+            455.0105285644531,
+            509.2312316894531
+        ],
+        "chunk_id": 473,
+        "token_count": 9
+    },
+    {
+        "text": "3",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            519.4930419921875,
+            55.24907684326172,
+            529.49951171875
+        ],
+        "chunk_id": 474,
+        "token_count": 1
+    },
+    {
+        "text": "Warren Buffett",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            519.4930419921875,
+            144.8795623779297,
+            529.49951171875
+        ],
+        "chunk_id": 475,
+        "token_count": 14
+    },
+    {
+        "text": "$82.5 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            190.35667419433594,
+            519.4930419921875,
+            246.54701232910156,
+            529.49951171875
+        ],
+        "chunk_id": 476,
+        "token_count": 13
+    },
+    {
+        "text": "88",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            287.3578186035156,
+            519.4930419921875,
+            298.4865417480469,
+            529.49951171875
+        ],
+        "chunk_id": 477,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            338.7906799316406,
+            519.4930419921875,
+            401.6552734375,
+            529.49951171875
+        ],
+        "chunk_id": 478,
+        "token_count": 13
+    },
+    {
+        "text": "Berkshire Hathaway",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            414.42108154296875,
+            519.4930419921875,
+            503.9613952636719,
+            529.49951171875
+        ],
+        "chunk_id": 479,
+        "token_count": 18
+    },
+    {
+        "text": "France",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            338.7906799316406,
+            539.7611083984375,
+            372.72393798828125,
+            549.767578125
+        ],
+        "chunk_id": 480,
+        "token_count": 6
+    },
+    {
+        "text": "4",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            540.5118408203125,
+            55.24907684326172,
+            550.518310546875
+        ],
+        "chunk_id": 481,
+        "token_count": 1
+    },
+    {
+        "text": "Bernard Arnault",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            540.5118408203125,
+            150.4495391845703,
+            550.518310546875
+        ],
+        "chunk_id": 482,
+        "token_count": 15
+    },
+    {
+        "text": "$76 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            194.5323028564453,
+            540.5118408203125,
+            242.3773956298828,
+            550.518310546875
+        ],
+        "chunk_id": 483,
+        "token_count": 11
+    },
+    {
+        "text": "70",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            287.3578186035156,
+            540.5118408203125,
+            298.4865417480469,
+            550.518310546875
+        ],
+        "chunk_id": 484,
+        "token_count": 2
+    },
+    {
+        "text": "LVMH",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            414.42108154296875,
+            540.5118408203125,
+            441.4828186035156,
+            550.518310546875
+        ],
+        "chunk_id": 485,
+        "token_count": 4
+    },
+    {
+        "text": "Mexico",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            338.7906799316406,
+            561.5306396484375,
+            373.2760314941406,
+            571.537109375
+        ],
+        "chunk_id": 486,
+        "token_count": 6
+    },
+    {
+        "text": "5",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            562.2813720703125,
+            55.24907684326172,
+            572.287841796875
+        ],
+        "chunk_id": 487,
+        "token_count": 1
+    },
+    {
+        "text": "Carlos Slim",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            562.2813720703125,
+            132.06192016601562,
+            572.287841796875
+        ],
+        "chunk_id": 488,
+        "token_count": 11
+    },
+    {
+        "text": "$64 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            194.5323028564453,
+            562.2813720703125,
+            242.3773956298828,
+            572.287841796875
+        ],
+        "chunk_id": 489,
+        "token_count": 11
+    },
+    {
+        "text": "79",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            287.3578186035156,
+            562.2813720703125,
+            298.4865417480469,
+            572.287841796875
+        ],
+        "chunk_id": 490,
+        "token_count": 2
+    },
+    {
+        "text": "América Móvil, Grupo Carso",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            414.42108154296875,
+            562.2813720703125,
+            540.1078491210938,
+            572.287841796875
+        ],
+        "chunk_id": 491,
+        "token_count": 26
+    },
+    {
+        "text": "Spain",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            338.7906799316406,
+            582.5496826171875,
+            367.1734619140625,
+            592.55615234375
+        ],
+        "chunk_id": 492,
+        "token_count": 5
+    },
+    {
+        "text": "6",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            583.3001708984375,
+            55.24907684326172,
+            593.306640625
+        ],
+        "chunk_id": 493,
+        "token_count": 1
+    },
+    {
+        "text": "Amancio Ortega",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            583.3001708984375,
+            153.2118377685547,
+            593.306640625
+        ],
+        "chunk_id": 494,
+        "token_count": 14
+    },
+    {
+        "text": "$62.7 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            190.35667419433594,
+            583.3001708984375,
+            246.54701232910156,
+            593.306640625
+        ],
+        "chunk_id": 495,
+        "token_count": 13
+    },
+    {
+        "text": "82",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            287.3578186035156,
+            583.3001708984375,
+            298.4865417480469,
+            593.306640625
+        ],
+        "chunk_id": 496,
+        "token_count": 2
+    },
+    {
+        "text": "Inditex, Zara",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            414.42108154296875,
+            583.3001708984375,
+            470.05316162109375,
+            593.306640625
+        ],
+        "chunk_id": 497,
+        "token_count": 13
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            338.7906799316406,
+            603.5684814453125,
+            401.6552734375,
+            613.574951171875
+        ],
+        "chunk_id": 498,
+        "token_count": 13
+    },
+    {
+        "text": "7",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            604.3192138671875,
+            55.24907684326172,
+            614.32568359375
+        ],
+        "chunk_id": 499,
+        "token_count": 1
+    },
+    {
+        "text": "Larry Ellison",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            604.3192138671875,
+            135.96432495117188,
+            614.32568359375
+        ],
+        "chunk_id": 500,
+        "token_count": 13
+    },
+    {
+        "text": "$62.5 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            190.35667419433594,
+            604.3192138671875,
+            246.54701232910156,
+            614.32568359375
+        ],
+        "chunk_id": 501,
+        "token_count": 13
+    },
+    {
+        "text": "74",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            287.3578186035156,
+            604.3192138671875,
+            298.4865417480469,
+            614.32568359375
+        ],
+        "chunk_id": 502,
+        "token_count": 2
+    },
+    {
+        "text": "Oracle Corporation",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            414.42108154296875,
+            604.3192138671875,
+            498.9566345214844,
+            614.32568359375
+        ],
+        "chunk_id": 503,
+        "token_count": 18
+    },
+    {
+        "text": "8",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            624.5872802734375,
+            55.24907684326172,
+            634.59375
+        ],
+        "chunk_id": 504,
+        "token_count": 1
+    },
+    {
+        "text": "Mark Zuckerberg",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            624.5872802734375,
+            156.53428649902344,
+            634.59375
+        ],
+        "chunk_id": 505,
+        "token_count": 15
+    },
+    {
+        "text": "$62.3 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            190.35667419433594,
+            624.5872802734375,
+            246.54701232910156,
+            634.59375
+        ],
+        "chunk_id": 506,
+        "token_count": 13
+    },
+    {
+        "text": "34",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            287.3578186035156,
+            624.5872802734375,
+            298.4865417480469,
+            634.59375
+        ],
+        "chunk_id": 507,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            338.7906799316406,
+            624.5872802734375,
+            401.6552734375,
+            634.59375
+        ],
+        "chunk_id": 508,
+        "token_count": 13
+    },
+    {
+        "text": "Facebook, Inc.",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            414.42108154296875,
+            624.5872802734375,
+            480.0559997558594,
+            634.59375
+        ],
+        "chunk_id": 509,
+        "token_count": 14
+    },
+    {
+        "text": "9",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            46.89586639404297,
+            644.8555908203125,
+            55.24907684326172,
+            654.862060546875
+        ],
+        "chunk_id": 510,
+        "token_count": 1
+    },
+    {
+        "text": "Michael Bloomberg",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            644.8555908203125,
+            166.560302734375,
+            654.862060546875
+        ],
+        "chunk_id": 511,
+        "token_count": 17
+    },
+    {
+        "text": "$55.5 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            190.35667419433594,
+            644.8555908203125,
+            246.54701232910156,
+            654.862060546875
+        ],
+        "chunk_id": 512,
+        "token_count": 13
+    },
+    {
+        "text": "77",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            287.3578186035156,
+            644.8555908203125,
+            298.4865417480469,
+            654.862060546875
+        ],
+        "chunk_id": 513,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            338.7906799316406,
+            644.8555908203125,
+            401.6552734375,
+            654.862060546875
+        ],
+        "chunk_id": 514,
+        "token_count": 13
+    },
+    {
+        "text": "Bloomberg L.P.",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            414.42108154296875,
+            644.8555908203125,
+            482.103271484375,
+            654.862060546875
+        ],
+        "chunk_id": 515,
+        "token_count": 14
+    },
+    {
+        "text": "10",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            44.11602783203125,
+            665.1236572265625,
+            58.02891540527344,
+            675.130126953125
+        ],
+        "chunk_id": 516,
+        "token_count": 2
+    },
+    {
+        "text": "Larry Page",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            80.91077423095703,
+            665.1236572265625,
+            129.8568878173828,
+            675.130126953125
+        ],
+        "chunk_id": 517,
+        "token_count": 10
+    },
+    {
+        "text": "$50.8 billion",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            190.35667419433594,
+            665.1236572265625,
+            246.54701232910156,
+            675.130126953125
+        ],
+        "chunk_id": 518,
+        "token_count": 13
+    },
+    {
+        "text": "45",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            287.3578186035156,
+            665.1236572265625,
+            298.4865417480469,
+            675.130126953125
+        ],
+        "chunk_id": 519,
+        "token_count": 2
+    },
+    {
+        "text": "United States",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            338.7906799316406,
+            665.1236572265625,
+            401.6552734375,
+            675.130126953125
+        ],
+        "chunk_id": 520,
+        "token_count": 13
+    },
+    {
+        "text": "Alphabet Inc.",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            414.42108154296875,
+            665.1236572265625,
+            472.8345642089844,
+            675.130126953125
+        ],
+        "chunk_id": 521,
+        "token_count": 13
+    },
+    {
+        "text": "2018",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            35.506736755371094,
+            706.33251953125,
+            66.66595458984375,
+            720.3401489257812
+        ],
+        "chunk_id": 522,
+        "token_count": 4
+    },
+    {
+        "text": "https://en.wikipedia.org/wiki/The_World%27s_Billionaires",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            26.453123092651367,
+            768.9999389648438,
+            216.32029724121094,
+            776.9999389648438
+        ],
+        "chunk_id": 523,
+        "token_count": 56
+    },
+    {
+        "text": "5/33",
+        "page": 5,
+        "type": "paragraph",
+        "bbox": [
+            571.3124389648438,
+            768.9999389648438,
+            585.5468139648438,
+            776.9999389648438
+        ],
+        "chunk_id": 524,
+        "token_count": 4
+    }
+]

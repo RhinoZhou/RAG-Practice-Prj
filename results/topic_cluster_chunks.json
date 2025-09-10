@@ -1,0 +1,4511 @@
+[
+  {
+    "chunk_id": 0,
+    "text": "分类号： R743. 32                                                                  学校代码： 10392  \n学科专业代码： 105104                              学     号： 200901537  \n                             \n  \n \n福 建 医 科 大 学 \n硕 士 研 究 生 毕 业 论 文 \n  \n \n  \n大脑中动脉狭窄与闭塞致脑梗死的影像特点及发病\n机制的研究  \nStudy On Imag e Manifestations and Mechanism of \nInfarction Caused by Middle Cerebral Artery Stenosis and \nOcclusion  \n  \n  \n   \n \n \n \n                    \n \n \n \n \n \n \n \n \n \n \n \n \n二○一二年六月学 位 类 型：  医学硕士专业学位  \n所 在 学 院：    第一临床 医学院  \n研    究   生：    万慧娟  \n学科、专业：    神经病学  \n导          师：    童绥君教授    \n研究起止日期：    2011年1月至 2011年12月 \n答 辩 日 期 ：   2012年6月6日 \nÍò·½Êý¾Ý\n \nÍò·½Êý¾Ý\n 目  录 \n \n摘要 ………………………………………………………………………………… 1  \n引言 …………………………………………………………………………………6   \n1.",
+    "start_index": 0,
+    "end_index": 722,
+    "tokens_count": 365,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 1,
+    "text": "对象与方法 ……………………………………………………………………7  \n1.",
+    "start_index": 722,
+    "end_index": 760,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 2,
+    "text": "1 研究对象 ……………………………………………………………………7  \n1.",
+    "start_index": 760,
+    "end_index": 799,
+    "tokens_count": 16,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 3,
+    "text": "2 入选标准 ……………………………………………………………………7  \n1. 3 排除标准 ………………………………………………………… …………7  \n1. 4 收集以下动脉粥样硬化的危险因素 ………………………………………7  \n1.",
+    "start_index": 799,
+    "end_index": 917,
+    "tokens_count": 65,
+    "sentences_count": 3,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 4,
+    "text": "5 常规检查 …………………………………………………………………… 8 \n1. 6 磁共振成像检查 …………………………………………………………… 8 \n1.",
+    "start_index": 917,
+    "end_index": 995,
+    "tokens_count": 38,
+    "sentences_count": 2,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 5,
+    "text": "7 MCA狭窄及闭塞的诊断标准 ……………………………………………… 8 \n1.",
+    "start_index": 995,
+    "end_index": 1035,
+    "tokens_count": 28,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 6,
+    "text": "8 卒中解剖模式 ……………………………………………………………… 8 \n1.",
+    "start_index": 1035,
+    "end_index": 1074,
+    "tokens_count": 20,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 7,
+    "text": "9统计学分析 ………………………………………………………………… 10 \n2. 结果 …………………………………………………………………………… …10  \n2. 1危险因素 ……………………………………………………………………10  \n2.",
+    "start_index": 1074,
+    "end_index": 1193,
+    "tokens_count": 42,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 8,
+    "text": "2分水岭梗死的分布模式 ……………………………………………………11  \n2. 3  MCA 主干狭窄组和闭塞组患者脑梗死部位分布情况 …………………11  \n2.",
+    "start_index": 1193,
+    "end_index": 1274,
+    "tokens_count": 68,
+    "sentences_count": 2,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 9,
+    "text": "4临床起病形式 ………………………………………………………………12   \n3. 讨论 ……………………………………………………………………………1 3 \n3. 1大脑中动脉的解剖学基础 …………………………………………………13   \n3. 2临床起病形式分析 …………………………………………………… ……13  \n3. 3分水岭区梗死机制 …………………………………………………………14  \n3.",
+    "start_index": 1274,
+    "end_index": 1473,
+    "tokens_count": 107,
+    "sentences_count": 5,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 10,
+    "text": "4 MCA 狭窄致脑梗死部位特点和发病机制 …………………………………14  \n3.",
+    "start_index": 1473,
+    "end_index": 1515,
+    "tokens_count": 36,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 11,
+    "text": "5 MCA 闭塞致脑梗死部位特点和发病机制 …………………………………15  \n3.",
+    "start_index": 1515,
+    "end_index": 1557,
+    "tokens_count": 35,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 12,
+    "text": "6大脑中动脉供血区脑梗死的机制对治疗策略的影响 ……………………15  \n4.",
+    "start_index": 1557,
+    "end_index": 1596,
+    "tokens_count": 46,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 13,
+    "text": "结论 ………………………………………………………………………………16   \n参考文献 ……………………………………………………………………………16  \n综述 ……………………………………………………………………… …………19  \n致谢 ………………………………………………………………………………… 25 \nÍò·½Êý¾Ý\n Contents  \n \nAbstract……………………………………………………………………………… 1 \nIntroduction………………………………………………………………………… 6 \n1.",
+    "start_index": 1596,
+    "end_index": 1864,
+    "tokens_count": 82,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 14,
+    "text": "Subjects and methods…………………………………………………………… 7  \n1.",
+    "start_index": 1864,
+    "end_index": 1915,
+    "tokens_count": 13,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 15,
+    "text": "1 Object………………………………………………………………………… 7 \n1.",
+    "start_index": 1915,
+    "end_index": 1957,
+    "tokens_count": 11,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 16,
+    "text": "2 Inclusion criteria………………………… ………………………………… 7 \n1. 3 Exclusion criteria…………………………………………………………… 7 \n1. 4 Collect the following  atherosclerosis  risk factors………… …… ………… 7 \n1.",
+    "start_index": 1957,
+    "end_index": 2128,
+    "tokens_count": 50,
+    "sentences_count": 3,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 17,
+    "text": "5 Routine examination………………………………………………………… 8 \n1. 6 Magnetic Resonance Imaging……………………………………………… 8 \n1.",
+    "start_index": 2128,
+    "end_index": 2229,
+    "tokens_count": 26,
+    "sentences_count": 2,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 18,
+    "text": "7 MCA stenosis and occlusion of the diagnostic criteria …………………… 8 \n1.",
+    "start_index": 2229,
+    "end_index": 2299,
+    "tokens_count": 22,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 19,
+    "text": "8 Stroke anatomical  model …………………………………………………… 8 \n1.",
+    "start_index": 2299,
+    "end_index": 2352,
+    "tokens_count": 16,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 20,
+    "text": "9 Statistical analysis………………………………………………………… 10 \n2.",
+    "start_index": 2352,
+    "end_index": 2403,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 21,
+    "text": "result ……………………………………………………………………………… 10 \n2.",
+    "start_index": 2403,
+    "end_index": 2448,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 22,
+    "text": "1 Risk factors………………………………………………………………… 10 \n2.",
+    "start_index": 2448,
+    "end_index": 2494,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 23,
+    "text": "2 Distribution pattern of watershe d infarction …………………………… 11 \n2.",
+    "start_index": 2494,
+    "end_index": 2560,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 24,
+    "text": "3 Narrow group  of the MCA  trunk  occlusion  in patients  with cerebral \ninfarction  parts  distribution …………………………………………………… 11 \n2.",
+    "start_index": 2560,
+    "end_index": 2693,
+    "tokens_count": 37,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 25,
+    "text": "4 The form  of clinical  onset ………………………………………………… 12 \n3.",
+    "start_index": 2693,
+    "end_index": 2750,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 2
+  },
+  {
+    "chunk_id": 26,
+    "text": "Discussion ………………………………………………………………………… 13 \n3.",
+    "start_index": 2750,
+    "end_index": 2797,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 27,
+    "text": "1 The anat omy of the middle cerebral artery……………………………… 13  \n3.",
+    "start_index": 2797,
+    "end_index": 2861,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 28,
+    "text": "2 Clinical onset  form of  analysis …………………………………………… 13 \n3.",
+    "start_index": 2861,
+    "end_index": 2921,
+    "tokens_count": 16,
+    "sentences_count": 1,
+    "cluster_id": 2
+  },
+  {
+    "chunk_id": 29,
+    "text": "3 Watershed district  infarction  mechanism ………………………………… 14 \n3.",
+    "start_index": 2921,
+    "end_index": 2985,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 30,
+    "text": "4 MCA stenosis caused by  cerebral infarction  site features and  \npathogenesis ………………………………………… ………………………… 14 \n3.",
+    "start_index": 2985,
+    "end_index": 3099,
+    "tokens_count": 33,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 31,
+    "text": "5 MCA  MCA occlusion  caused by  the characteristics  and pathogenesis  of \ncerebral infarction  site……………………………………………………… 15 \n3.",
+    "start_index": 3099,
+    "end_index": 3228,
+    "tokens_count": 38,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 32,
+    "text": "6 The mechanism  of the middle cerebral  artery territory  infarction  \nÍò·½Êý¾Ý\n treatment strategies …………………………………………………………… 15 \n4.",
+    "start_index": 3228,
+    "end_index": 3361,
+    "tokens_count": 39,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 33,
+    "text": "Concl usion……………………………………………………………………… 16 \nReferences ………………………………………………………………………… 16 \nReview ……………………………………………………………………………… 19 \nAcknowledgements ………………………………………………………………… 25\nÍò·½Êý¾Ý\n 1 大脑中动脉狭窄与闭塞致脑梗死的影像特\n点及发病机制的研究  \n中文摘要  \n【目的】  \n    利用磁共振弥散加权像（ DWI）和磁共振血管造影（ MRA）研究单侧动脉粥样\n硬化性大脑中动脉（ MCA）狭窄与闭塞所致的急性缺血性脑卒中患者的影像学表\n现、起病形式 ， 探讨其可能的发病机制， 为临床急性期的个体化诊治及二级预防\n提供依据。 【方法】  \n    起病72小时内经 DWI诊断的急性缺血性脑卒中伴有动脉粥样硬化性 MCA狭\n窄与闭塞的 120例患者， 经 MRA确诊的动脉粥样硬化性大脑中动脉狭窄（≥ 50%）\n或闭塞且经颈动脉超声检查无同侧颈内 动脉闭塞性病变。 利用 DWI序列研究大脑\n中动脉闭塞性病变引起缺血性卒中的形态学表现。 有潜在心源性栓子患者除外。",
+    "start_index": 3361,
+    "end_index": 3889,
+    "tokens_count": 482,
+    "sentences_count": 7,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 34,
+    "text": "【结果】  \n1.",
+    "start_index": 3889,
+    "end_index": 3903,
+    "tokens_count": 6,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 35,
+    "text": "大脑中动脉狭窄与闭塞所致脑梗死 各项危险因素对比均无统计学差异 (P\n＞0.",
+    "start_index": 3903,
+    "end_index": 3941,
+    "tokens_count": 55,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 36,
+    "text": "05) \n2.",
+    "start_index": 3941,
+    "end_index": 3948,
+    "tokens_count": 5,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 37,
+    "text": "MCA闭塞组脑梗死累及分水岭的患者比例明显高于狭窄组， 其中闭塞组\n67. 6%、狭窄组 18.",
+    "start_index": 3948,
+    "end_index": 3994,
+    "tokens_count": 60,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 38,
+    "text": "5%，",
+    "start_index": 3994,
+    "end_index": 3997,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 39,
+    "text": "两组比较差异有统计学意义（ P <0.",
+    "start_index": 3997,
+    "end_index": 4016,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 40,
+    "text": "05）。",
+    "start_index": 4016,
+    "end_index": 4020,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 41,
+    "text": "3.",
+    "start_index": 4020,
+    "end_index": 4024,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 42,
+    "text": "1 MCA 主干狭窄组单发性脑梗死发生率较闭塞组高，",
+    "start_index": 4024,
+    "end_index": 4050,
+    "tokens_count": 34,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 43,
+    "text": "其中狭窄组 61.",
+    "start_index": 4050,
+    "end_index": 4059,
+    "tokens_count": 10,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 44,
+    "text": "5%、\n闭塞组23. 5%，",
+    "start_index": 4059,
+    "end_index": 4072,
+    "tokens_count": 12,
+    "sentences_count": 2,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 45,
+    "text": "两组比较差异有统计学意义（ P <0.",
+    "start_index": 4072,
+    "end_index": 4091,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 46,
+    "text": "05）。",
+    "start_index": 4091,
+    "end_index": 4095,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 47,
+    "text": "MCA主干狭窄组多发性\n脑梗死发生率较闭塞组低， 其中狭窄组 38.",
+    "start_index": 4095,
+    "end_index": 4128,
+    "tokens_count": 45,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 48,
+    "text": "5%、闭塞组 76. 5%，",
+    "start_index": 4128,
+    "end_index": 4141,
+    "tokens_count": 12,
+    "sentences_count": 2,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 49,
+    "text": "两组比较差异有\n统计学意义（ P <0.",
+    "start_index": 4141,
+    "end_index": 4161,
+    "tokens_count": 20,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 50,
+    "text": "05）。",
+    "start_index": 4161,
+    "end_index": 4165,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 51,
+    "text": "3.",
+    "start_index": 4165,
+    "end_index": 4169,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 52,
+    "text": "2 MCA主干狭窄组单发性脑梗死中以 PAI最多（24/32， ,75%） ， 闭塞组中\nPAI为（6/16,37.",
+    "start_index": 4169,
+    "end_index": 4225,
+    "tokens_count": 55,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 53,
+    "text": "5% ） ，",
+    "start_index": 4225,
+    "end_index": 4231,
+    "tokens_count": 5,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 54,
+    "text": "两组比较差异有统计学意义  (P <0.",
+    "start_index": 4231,
+    "end_index": 4251,
+    "tokens_count": 20,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 55,
+    "text": "05) 。",
+    "start_index": 4251,
+    "end_index": 4256,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 56,
+    "text": "3.",
+    "start_index": 4256,
+    "end_index": 4260,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 57,
+    "text": "3 MCA主干狭窄组多发性脑梗死中以 PAI+PI最多（12／20,60%） ，",
+    "start_index": 4260,
+    "end_index": 4300,
+    "tokens_count": 40,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 58,
+    "text": "闭塞组\n中PAI+PI为(5／52，",
+    "start_index": 4300,
+    "end_index": 4318,
+    "tokens_count": 16,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 59,
+    "text": "9.",
+    "start_index": 4318,
+    "end_index": 4320,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 60,
+    "text": "6%)，",
+    "start_index": 4320,
+    "end_index": 4324,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 61,
+    "text": "两组比较差异有统计学意义 (P <0.",
+    "start_index": 4324,
+    "end_index": 4343,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 62,
+    "text": "05) ； \nÍò·½Êý¾Ý\n 2 3.",
+    "start_index": 4343,
+    "end_index": 4364,
+    "tokens_count": 21,
+    "sentences_count": 1,
+    "cluster_id": 10
+  },
+  {
+    "chunk_id": 63,
+    "text": "4 MCA 闭塞组多发性梗死中以 PAI+PI+BZI 最多(33／52,63.",
+    "start_index": 4364,
+    "end_index": 4404,
+    "tokens_count": 34,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 64,
+    "text": "5%) ，",
+    "start_index": 4404,
+    "end_index": 4409,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 65,
+    "text": "狭窄组\n中PAI+PI+BZI 为（2／20,10%） ，",
+    "start_index": 4409,
+    "end_index": 4438,
+    "tokens_count": 26,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 66,
+    "text": "差异有统计学意义 (P <0.",
+    "start_index": 4438,
+    "end_index": 4453,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 67,
+    "text": "05) 。",
+    "start_index": 4453,
+    "end_index": 4458,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 68,
+    "text": "4.",
+    "start_index": 4458,
+    "end_index": 4462,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 69,
+    "text": "单发性脑梗死患者以缓慢进展型起病（ 72.",
+    "start_index": 4462,
+    "end_index": 4483,
+    "tokens_count": 32,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 70,
+    "text": "9%）为主，",
+    "start_index": 4483,
+    "end_index": 4489,
+    "tokens_count": 6,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 71,
+    "text": "而多发性脑梗死患\n者以突发完成型 (65.",
+    "start_index": 4489,
+    "end_index": 4510,
+    "tokens_count": 26,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 72,
+    "text": "3%)起病为主，",
+    "start_index": 4510,
+    "end_index": 4518,
+    "tokens_count": 9,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 73,
+    "text": "差异有统计学意义 (P <0.",
+    "start_index": 4518,
+    "end_index": 4533,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 74,
+    "text": "05) 。",
+    "start_index": 4533,
+    "end_index": 4538,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 75,
+    "text": "【结论】  \n    大脑中动脉闭塞与狭窄所致脑梗死的影像特点不同； 单发性脑梗死与多发性\n脑梗死起病形式不同， 提示分别有着不同的卒中发病机制， 应强调针对病因及发\n病机制的个体化治疗。",
+    "start_index": 4538,
+    "end_index": 4632,
+    "tokens_count": 125,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 76,
+    "text": "【关键词】   \n大脑中动脉   狭窄  闭塞  脑梗死 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nÍò·½Êý¾Ý\n 3 Study On Image Manifestations  and \nMechanism of Infarction Caused by Middle \nCerebral Artery Stenosis and Occlusion  \n \nPurpose  \nBy using of DWI ( diffusion -weighted imaging ) and MRA  (magnetic resonance \nangiography) to study the image manifestations and path ogenic forms of Infarction \ncaused by stenosis and occlutions on the MCA due to unilateral atherosclerosis, and \ndiscuss its potential nosogenesis, which could provide evidence for individual \ntreatment in the clinical acute period and for secondary preventio n. Methods  \nTaking 131 patients as samples whose onset within 72hours and by DWI \ndiagnosis, infarctions with atherosclerosis MCA stenosis and occlusion, diagnosed by \nMRA, the MCA stenosis （≥50%）or occlusion is without pathological changes on the \nipslateral internal carotid. By using DWI series, we study on the morphology of \ninfarction caused by arterial occlusion in the brain, patients with potential cardiac \nembolus.",
+    "start_index": 4632,
+    "end_index": 5667,
+    "tokens_count": 290,
+    "sentences_count": 3,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 77,
+    "text": "Result  \n1.",
+    "start_index": 5667,
+    "end_index": 5681,
+    "tokens_count": 4,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 78,
+    "text": "No statistics difference (p ＞0.",
+    "start_index": 5681,
+    "end_index": 5713,
+    "tokens_count": 9,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 79,
+    "text": "05) in each risk factor of MCA stenosis and \nocclusio n.",
+    "start_index": 5713,
+    "end_index": 5769,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 80,
+    "text": "2.",
+    "start_index": 5769,
+    "end_index": 5773,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 81,
+    "text": "In MCA occlusion group, patients whose infarction involves water -shed is \nmore than that of stenosis group with occlusion 67.",
+    "start_index": 5773,
+    "end_index": 5900,
+    "tokens_count": 32,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 82,
+    "text": "6% while stenosis 18.",
+    "start_index": 5900,
+    "end_index": 5921,
+    "tokens_count": 9,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 83,
+    "text": "5% which \nhas differences in statistics （P <0.",
+    "start_index": 5921,
+    "end_index": 5967,
+    "tokens_count": 13,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 84,
+    "text": "05）.",
+    "start_index": 5967,
+    "end_index": 5971,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 85,
+    "text": "3.",
+    "start_index": 5971,
+    "end_index": 5975,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 86,
+    "text": "1 MCA main artery stenosis group has higher infarction  rate than that of \nocclusion group, with 61.",
+    "start_index": 5975,
+    "end_index": 6075,
+    "tokens_count": 28,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 87,
+    "text": "5% in stenosis group, 23.",
+    "start_index": 6075,
+    "end_index": 6100,
+    "tokens_count": 11,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 88,
+    "text": "5% in occlusion group, which has \nstatistics difference （P <0.",
+    "start_index": 6100,
+    "end_index": 6162,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 89,
+    "text": "05）.",
+    "start_index": 6162,
+    "end_index": 6166,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 90,
+    "text": "MCA main artery stenosis group has lower multiple \ninfarct rate, with stenosis group 38.",
+    "start_index": 6166,
+    "end_index": 6255,
+    "tokens_count": 25,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 91,
+    "text": "5%, and 76.",
+    "start_index": 6255,
+    "end_index": 6266,
+    "tokens_count": 6,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 92,
+    "text": "5% in occlusion group wh ich has \nstatistics difference （P <0.",
+    "start_index": 6266,
+    "end_index": 6328,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 93,
+    "text": "05）.",
+    "start_index": 6328,
+    "end_index": 6332,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 94,
+    "text": "3.",
+    "start_index": 6332,
+    "end_index": 6336,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 95,
+    "text": "2 In MCA main artery stenosis group, PAI is majority in single cerebral \nÍò·½Êý¾Ý\n 4 infarction(24/32,75%); while in occlusion group, PAI is (6/16, 37.",
+    "start_index": 6336,
+    "end_index": 6487,
+    "tokens_count": 60,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 96,
+    "text": "5%), which has \nstatistics difference （P <0.",
+    "start_index": 6487,
+    "end_index": 6531,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 97,
+    "text": "05） \n3.",
+    "start_index": 6531,
+    "end_index": 6538,
+    "tokens_count": 5,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 98,
+    "text": "3 For multi infarction, PA I+PI is the majority in MCA main artery stenosis \ngroup （12/20, 60% ）, while PAI+PI in occlusion group is (5/29, 9.",
+    "start_index": 6538,
+    "end_index": 6680,
+    "tokens_count": 53,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 99,
+    "text": "6%), which has \nstatistics difference （P <0.",
+    "start_index": 6680,
+    "end_index": 6724,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 100,
+    "text": "05）.",
+    "start_index": 6724,
+    "end_index": 6728,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 101,
+    "text": "3.",
+    "start_index": 6728,
+    "end_index": 6732,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 102,
+    "text": "4 For multi infarction, PAI+PI+BZI is the majority in MCA stenosis group \n(33/52, 63. 5%), while  PAI+PI+BZI is (2/20, 10%) in occlusion group, which has \nstatistics difference （P <0.",
+    "start_index": 6732,
+    "end_index": 6914,
+    "tokens_count": 68,
+    "sentences_count": 2,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 103,
+    "text": "05） \n4.",
+    "start_index": 6914,
+    "end_index": 6921,
+    "tokens_count": 5,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 104,
+    "text": "For single infarction patients, mainly happens in slow progress (72. 9%), while \nfor multi infarction patients, mainly happens burstly (65.",
+    "start_index": 6921,
+    "end_index": 7059,
+    "tokens_count": 33,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 105,
+    "text": "3%), which has statistics \ndifference（P <0.",
+    "start_index": 7059,
+    "end_index": 7102,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 106,
+    "text": "05）  \nConclusion  \nThe image manifestations  of Infarction caused by stenosis and occlutions on the \nMCA  is different ；The o nset form  of s ingle infarction  and multi infarction is \ndifferent.",
+    "start_index": 7102,
+    "end_index": 7297,
+    "tokens_count": 55,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 107,
+    "text": "They present different infarction pathogenesis, which shall be treated \nindividually according to pathogenesis.",
+    "start_index": 7297,
+    "end_index": 7408,
+    "tokens_count": 22,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 108,
+    "text": "Key words  \nMCA (middle cerebral artery); stenosis; occlusion; Infarction  \n \n \n \n \n \n \n \n \nÍò·½Êý¾Ý\n 5  \n符号说明  \n \n英文缩写            英文全称                      中文 \nMCA       middle cerebral artery              大脑中动脉  \nDSA       digital subtr action angiography     数字减影血管造影  \nTCD       transcranial Doppler ultrasound     经颅多普勒超声  \nMRA       magnetic resonance angiography      核磁共振血管成像  \nMRI       magnetic resonance imaging          核磁共振  \nDWI       diffusion -weighted imaging          弥散加权核磁共振  \nMES       microembolic signals                微栓子 \nPAI       perforating artery infarct          深穿支动脉供血区梗死  \nPI        pial infarct                        皮层区域内脑梗死  \nBZI       border-zone infarct                 分水岭区脑梗死  \n \n \n \n \n \n \n \n \n \n \n \nÍò·½Êý¾Ý\n 6 引言 \n颅内动脉粥样硬化性狭窄尤其是大脑中动脉 (middle cerebral  artery MCA)\n狭窄及闭塞是中国人群急性缺血性卒中的重要病因[1-2]。",
+    "start_index": 7408,
+    "end_index": 8247,
+    "tokens_count": 372,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 109,
+    "text": "准确判定卒中发病机制\n对于脑动脉粥样硬化性缺血性卒中的急性期治疗及二级预防有相当大的作用。 目前关于大脑中动脉供血区急性缺血性卒中的研究多限于颈动脉源性或心\n源性栓子引起的 MCA完全闭塞， 而大脑中动脉本身发生动脉粥样硬化引起狭窄或\n闭塞的患者的梗死类型与卒中发病机制的关系仍然是不清楚。 国外学者 Bang等\n发现，",
+    "start_index": 8247,
+    "end_index": 8408,
+    "tokens_count": 207,
+    "sentences_count": 4,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 110,
+    "text": "梗死部位分型预测临床结局较好[3]。",
+    "start_index": 8408,
+    "end_index": 8426,
+    "tokens_count": 25,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 111,
+    "text": "国内文献可见， 大脑中动脉供血区梗\n死形态表现多样， 提示导致脑梗死的机制可能不同，",
+    "start_index": 8426,
+    "end_index": 8467,
+    "tokens_count": 54,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 112,
+    "text": "包括心源性栓塞 、 血栓形成、\n动脉-动脉栓塞以及组织灌注水平下降 (如动脉严重狭窄 )等[4]。",
+    "start_index": 8467,
+    "end_index": 8517,
+    "tokens_count": 66,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 113,
+    "text": "而根据中国缺血\n性卒中亚型（ CISS）病因分为以下五型：大动脉粥样硬化性（包括主动脉弓和颅\n内外大动脉）、心源性、穿支动脉疾病、其他病因和病因不明。 颅内外大动脉粥\n样硬化性导致梗死的发病机制又区分为：载体动脉斑块堵塞穿支、动脉到动脉栓\n塞、低灌注 /栓子清除下降和混合机制[5]。 了解了以上的病因及发病机制， 我们\n可由梗死区的影像学表现间接推断出导致脑梗死的机制， 进而可更有针对性的进\n行个体化的早期干预及二级预防。 如今脑梗死的影像学检查包括核磁 共振（MRI） 、核磁共振血管成像（ MRA）、\n核磁共振弥散加权成像（ DWI） 、经颅多普勒超声（ TCD） 、微栓子（ MES）监测、\n数字减影血管造影 (DSA)。 目前早期确定脑梗死的影像学检查主要为 MRI， 而MRI\n功能成像中的弥散加权像 (DMI)可诊断超早期脑梗死， 发病 2小时即可显示缺血\n病灶。 脑梗死后， 脑组织缺血，",
+    "start_index": 8517,
+    "end_index": 8917,
+    "tokens_count": 488,
+    "sentences_count": 11,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 114,
+    "text": "Na-K-ATP泵功能降低， 致水钠潴留， 先引起细\n胞毒性水肿， 导致分子弥散运动减慢表现为高信号， 此时表观弥散系数 （ apparent \ndiffusion coefficient, ADC ）值即下降。",
+    "start_index": 8917,
+    "end_index": 9022,
+    "tokens_count": 89,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 115,
+    "text": "而在 5～6 h后出现血管源性水肿后\nT2WI才可出现高信号。",
+    "start_index": 9022,
+    "end_index": 9053,
+    "tokens_count": 32,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 116,
+    "text": "且 DMI对发现早期脑梗死非常敏感， 缺血性脑血管病急\n性期行DWI检查， 可在很大程度上帮助确定病因[6]。 MRA作为一种无创的血管评\n估方法， 对于颅内血管狭窄或闭塞的诊断有较高的特异度及敏感度。 本研究通过\n对MCA狭窄和闭塞所致 MCA不同供血区脑梗死影像学上所表现的形态及部位的对\n比研究， 分析 MCA狭窄和闭塞致脑梗死的发病机制以及两者之间的差异， 以期为\n临床诊断及治疗提供依据。",
+    "start_index": 9053,
+    "end_index": 9246,
+    "tokens_count": 249,
+    "sentences_count": 8,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 117,
+    "text": "Íò·½Êý¾Ý\n 7 1.",
+    "start_index": 9246,
+    "end_index": 9263,
+    "tokens_count": 16,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 118,
+    "text": "对象与方法  \n1. 1 研究对象  回顾性分析 2011年1月至2011年12月本院神经内科住院的经\nDWI证实大脑中动脉供血区脑梗死患者，",
+    "start_index": 9263,
+    "end_index": 9333,
+    "tokens_count": 76,
+    "sentences_count": 2,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 119,
+    "text": "选取其中经 MRA证实的单侧大脑中动脉\n狭窄或闭塞患者 120例， 将患者分为狭窄组 82例和闭塞组 38例。 狭窄组患者平\n均年龄为 66.",
+    "start_index": 9333,
+    "end_index": 9402,
+    "tokens_count": 85,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 120,
+    "text": "3±5.",
+    "start_index": 9402,
+    "end_index": 9406,
+    "tokens_count": 4,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 121,
+    "text": "3岁， 闭塞组患者平均年龄为 65.",
+    "start_index": 9406,
+    "end_index": 9423,
+    "tokens_count": 21,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 122,
+    "text": "7±5.",
+    "start_index": 9423,
+    "end_index": 9427,
+    "tokens_count": 4,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 123,
+    "text": "8岁。",
+    "start_index": 9427,
+    "end_index": 9430,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 124,
+    "text": "1.",
+    "start_index": 9430,
+    "end_index": 9436,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 125,
+    "text": "2 入选标准  （1）MRA显示相应的 MCA狭窄或闭塞 且经颈动脉超声检查 无同侧\n颈内动脉狭窄或闭塞性病变患者； （ 2）MRI上有明确的分布在单侧 MCA供血区域\n或分水岭区域大脑半球缺血性梗死灶。",
+    "start_index": 9436,
+    "end_index": 9538,
+    "tokens_count": 126,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 126,
+    "text": "1.",
+    "start_index": 9538,
+    "end_index": 9545,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 127,
+    "text": "3 排除标准  本研究中动脉粥样硬化性血管损害，",
+    "start_index": 9545,
+    "end_index": 9569,
+    "tokens_count": 35,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 128,
+    "text": "需排除以下情况： （ 1）颈动\n脉超声发现病变侧颈动脉 粥样硬化斑块或狭窄 ;（2）双侧大脑半球缺血性梗死灶\n或缺血梗死区域超出 MCA供血区； （ 3）已知有 TOAST亚型[7]规定的潜在的心源性\n栓子患者， 如近期心肌梗死（ <3周） 、心房颤动伴有或不伴有附壁血栓、二尖瓣\n狭窄或人工瓣膜、扩张型心肌病、病窦综合症、急性细菌性心内膜炎或卵圆孔未\n闭等。",
+    "start_index": 9569,
+    "end_index": 9748,
+    "tokens_count": 251,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 129,
+    "text": "（4）肌纤维发育不良，",
+    "start_index": 9748,
+    "end_index": 9760,
+    "tokens_count": 16,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 130,
+    "text": "动脉炎和夹层动脉瘤患者； （ 5）有凝血障碍患者，",
+    "start_index": 9760,
+    "end_index": 9785,
+    "tokens_count": 42,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 131,
+    "text": "如系统性红斑狼疮， 血小板增多， 弥散性血管内凝血等疾病（ 6）临床资料不完\n整者。",
+    "start_index": 9785,
+    "end_index": 9826,
+    "tokens_count": 57,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 132,
+    "text": "1.",
+    "start_index": 9826,
+    "end_index": 9832,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 133,
+    "text": "4 收集以下动脉粥样硬化的危险因素： ①年龄;②性别;③高血压病史 (以往诊\n断为高血 压或入院后血压 2次高于140/90mmHg); ④糖尿病病史 (既往诊断为糖尿\n病或入院后空腹血糖 >7.",
+    "start_index": 9832,
+    "end_index": 9930,
+    "tokens_count": 132,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 134,
+    "text": "0 mmol/L 或餐后两小时血糖 >11.",
+    "start_index": 9930,
+    "end_index": 9952,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 135,
+    "text": "1 mmol/L); ⑤血脂异\n常：胆固醇 >5.",
+    "start_index": 9952,
+    "end_index": 9977,
+    "tokens_count": 27,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 136,
+    "text": "72 mmol/L ，",
+    "start_index": 9977,
+    "end_index": 9988,
+    "tokens_count": 5,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 137,
+    "text": "甘油三酯 >1.",
+    "start_index": 9988,
+    "end_index": 9996,
+    "tokens_count": 11,
+    "sentences_count": 1,
+    "cluster_id": 6
+  },
+  {
+    "chunk_id": 138,
+    "text": "7 mmol/L ，",
+    "start_index": 9996,
+    "end_index": 10006,
+    "tokens_count": 5,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 139,
+    "text": "高密度脂蛋白 <1.",
+    "start_index": 10006,
+    "end_index": 10016,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 140,
+    "text": "0 mmol/L ，",
+    "start_index": 10016,
+    "end_index": 10026,
+    "tokens_count": 5,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 141,
+    "text": "低密度脂蛋白 >3.",
+    "start_index": 10026,
+    "end_index": 10037,
+    "tokens_count": 15,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 142,
+    "text": "1 mmol/L 。",
+    "start_index": 10037,
+    "end_index": 10047,
+    "tokens_count": 5,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 143,
+    "text": "胆固醇、甘油三酯、低密度脂蛋白、高密度脂蛋白\n中任何一项及以上的异常考虑为血脂异常 ;⑥血浆同型半胱氨酸 >15.",
+    "start_index": 10047,
+    "end_index": 10104,
+    "tokens_count": 82,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 144,
+    "text": "1 mmol/L 诊\n断为高同型半胱氨酸血症（ plasma hyperhomocysteinemia ，",
+    "start_index": 10104,
+    "end_index": 10157,
+    "tokens_count": 36,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 145,
+    "text": "PHCY）。 ;⑦吸烟史\n≥3个月， ≥  10支/日。 ⑧饮酒史≥ 3个月， ≥ 100ml/日。",
+    "start_index": 10157,
+    "end_index": 10203,
+    "tokens_count": 54,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 146,
+    "text": "Íò·½Êý¾Ý\n 8 1.",
+    "start_index": 10203,
+    "end_index": 10221,
+    "tokens_count": 16,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 147,
+    "text": "5 常规检查  所有患者均进行包括血常规、血沉、出凝血功能及 FIB、血生化、\n等实验室检查， 胸片、 心电图、心脏超声、 颈部血管超声、 磁共振成像 （ magnetic \nresonance imaging ， MRI） 、磁共振血管造影（ magnetic resonance angiography ， MRA）等辅助检查。 年轻患者需检查免疫功能、类风湿因子、抗心磷脂抗体等。 所有患者均行心电图和超声心动图检查以除 外潜在的心源性栓子。",
+    "start_index": 10221,
+    "end_index": 10443,
+    "tokens_count": 203,
+    "sentences_count": 6,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 148,
+    "text": "1.",
+    "start_index": 10443,
+    "end_index": 10448,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 149,
+    "text": "6 磁共振成像检查  所有患者均于发病 72小时内行头部磁共振扫描， 磁共振扫\n描序列包括 Tl加权像、 T2加权像、弥散加权像 (DWI)、液体衰减反转恢复序列\n成像（Flair)。 MRI扫描使用 Siemens 公司3. 0Tesla Magnetom Verio 超导磁共\n振机， 行横断、矢状扫描，",
+    "start_index": 10448,
+    "end_index": 10599,
+    "tokens_count": 153,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 150,
+    "text": "扫描层厚 5.",
+    "start_index": 10599,
+    "end_index": 10606,
+    "tokens_count": 11,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 151,
+    "text": "0 mm。",
+    "start_index": 10606,
+    "end_index": 10611,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 152,
+    "text": "MRA采用磁共振断层血管成像三维\n时间飞越法 (three-dimensional time of flight 3D -TOF)。",
+    "start_index": 10611,
+    "end_index": 10677,
+    "tokens_count": 43,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 153,
+    "text": "1.",
+    "start_index": 10677,
+    "end_index": 10683,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 154,
+    "text": "7 MCA狭窄及闭塞的诊断标准  参考文献记录，",
+    "start_index": 10683,
+    "end_index": 10707,
+    "tokens_count": 29,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 155,
+    "text": "将经 MRA证实的血管狭窄程\n度>50%的血管狭窄规定为本次病变的责任血管[8]。",
+    "start_index": 10707,
+    "end_index": 10748,
+    "tokens_count": 49,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 156,
+    "text": "大脑中动脉闭塞定义为大脑中\n动脉Ml段及远端血管未显影[9]。",
+    "start_index": 10748,
+    "end_index": 10779,
+    "tokens_count": 42,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 157,
+    "text": "1.",
+    "start_index": 10779,
+    "end_index": 10785,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 158,
+    "text": "8 卒中解剖模式  参考模板来确定缺血图像[10]， 分析DWI梗死形态，",
+    "start_index": 10785,
+    "end_index": 10821,
+    "tokens_count": 39,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 159,
+    "text": "将 MCA的\n不同供血区分为 4个分区：可分为深穿支梗死（ PAI） 、皮质支梗死 (PI)、分水岭\n区梗死(BZ)、全流域梗死 。",
+    "start_index": 10821,
+    "end_index": 10887,
+    "tokens_count": 77,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 160,
+    "text": "①深穿支梗死（ perforating artery infarct ，",
+    "start_index": 10887,
+    "end_index": 10923,
+    "tokens_count": 20,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 161,
+    "text": "PAI):\n梗死灶位于豆纹动脉供血区内， 纹状体内囊梗死、腔隙样梗死均包括在内 ;②皮\n质支梗死（ pial infarct ，",
+    "start_index": 10923,
+    "end_index": 10986,
+    "tokens_count": 79,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 162,
+    "text": "PI):梗死灶位于 MCA皮层支或髓支供血区内，",
+    "start_index": 10986,
+    "end_index": 11010,
+    "tokens_count": 29,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 163,
+    "text": "包括\nMCA皮层支完全梗死、皮层小梗死灶以及半卵圆中心梗死 ;③分水岭区梗死 (或称\n交界区梗死 border-zone infarct， BZI): 位于脑的两条主要动脉分布区交界处\n的梗死灶， 即包括 MCA与大脑前动脉交界区的前分水岭区、 MCA与大脑后动脉交\n界区的后分水岭区以及 MCA皮层支与深穿支交界的内侧分水岭区。 ④全流域梗\n死： 1支以上主要大脑动脉供血区域的皮质和／或皮质下大的缺血灶。 根据DWI\n上梗塞灶数目的不同将梗塞灶分为单发梗塞灶及多发梗 塞灶。 单发性梗死定义为\n脑梗死仅累及一个 MCA供血分区。 多发病灶即不属于一个血管供血区的不连续分\n布的信号。 而本研究仅限于 MCA供血区， 故 DWI上MCA供血区域 2个或2个以上\n的、不连续的非融合性梗死灶即为多发。 BZ区的病灶大都为“多发” ，",
+    "start_index": 11010,
+    "end_index": 11372,
+    "tokens_count": 440,
+    "sentences_count": 10,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 164,
+    "text": "故多发 BZ\nÍò·½Êý¾Ý\n 9 病灶则定义为同时分布于前、内、后 BZ区中2个或2个以上区域的病灶。",
+    "start_index": 11372,
+    "end_index": 11425,
+    "tokens_count": 57,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 165,
+    "text": "可分\n为PAI+PI、PAI+PI+BZI 、PAI+BZI、PI+PI、P1+BZI。",
+    "start_index": 11425,
+    "end_index": 11470,
+    "tokens_count": 34,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 166,
+    "text": "所有病例影像结果由一位\n影像学医师与一位神经内科医师共同认定， 意见不统一者经讨论达成共识。",
+    "start_index": 11470,
+    "end_index": 11515,
+    "tokens_count": 52,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 167,
+    "text": "如下\n图所示：  \n \n大脑中动脉供 血区脑梗死的影像学表现： I：皮质支梗死 (PI)；II：深穿支梗死（ PAI）；III：\n分水岭区梗死 (BZ)；IV：全流域梗死； V：深穿支 +皮质支梗死（ PAI+PI）；VI：深穿支 +分水\nÍò·½Êý¾Ý\n 10 岭区梗死（ PAI+BZ）；VIIa-VIIc：皮质支 +深穿支+分水岭区梗死（ PI+PAI+BZ ）的不同层面；\nVIII：皮质支 +分水岭区梗死（ PI+BZ）；IX:皮质支+皮质支梗死（ PI+PI）。",
+    "start_index": 11515,
+    "end_index": 11753,
+    "tokens_count": 257,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 168,
+    "text": "1.",
+    "start_index": 11753,
+    "end_index": 11759,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 169,
+    "text": "9统计学分析  \n应用 SPSS13.",
+    "start_index": 11759,
+    "end_index": 11778,
+    "tokens_count": 13,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 170,
+    "text": "0 软件进行数据分析。",
+    "start_index": 11778,
+    "end_index": 11789,
+    "tokens_count": 10,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 171,
+    "text": "采用 Fisher检验、 卡方检验和 f检验，",
+    "start_index": 11789,
+    "end_index": 11813,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 172,
+    "text": "P<0．05\n为差异有统计学意义。",
+    "start_index": 11813,
+    "end_index": 11831,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 173,
+    "text": "2结果 \n2．1危险因素  \n120例入组患者中， 男性患者 88例(73.",
+    "start_index": 11831,
+    "end_index": 11871,
+    "tokens_count": 35,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 174,
+    "text": "3%)，",
+    "start_index": 11871,
+    "end_index": 11875,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 175,
+    "text": "女性患者 32例(26.",
+    "start_index": 11875,
+    "end_index": 11887,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 176,
+    "text": "7%)，",
+    "start_index": 11887,
+    "end_index": 11891,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 177,
+    "text": "男女比\n例约2.",
+    "start_index": 11891,
+    "end_index": 11899,
+    "tokens_count": 8,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 178,
+    "text": "7:1;年龄范围 40岁~90岁，",
+    "start_index": 11899,
+    "end_index": 11916,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 179,
+    "text": "平均年龄 66岁;其中MCA狭窄组 男32例， 女20\n例， 平均年龄 66.",
+    "start_index": 11916,
+    "end_index": 11953,
+    "tokens_count": 38,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 180,
+    "text": "3±5.",
+    "start_index": 11953,
+    "end_index": 11957,
+    "tokens_count": 4,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 181,
+    "text": "3岁， MCA闭塞组 男56例， 女12例， 平均年龄 65.",
+    "start_index": 11957,
+    "end_index": 11985,
+    "tokens_count": 27,
+    "sentences_count": 4,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 182,
+    "text": "7±5.",
+    "start_index": 11985,
+    "end_index": 11989,
+    "tokens_count": 4,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 183,
+    "text": "8\n岁；对全部 120例患者危险因素分析发现， 有高血压病 (狭窄组 35例67.",
+    "start_index": 11989,
+    "end_index": 12029,
+    "tokens_count": 45,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 184,
+    "text": "3%；闭塞\n组 54例79.",
+    "start_index": 12029,
+    "end_index": 12043,
+    "tokens_count": 13,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 185,
+    "text": "4%)；糖尿病 (狭窄组 15例28.",
+    "start_index": 12043,
+    "end_index": 12062,
+    "tokens_count": 23,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 186,
+    "text": "8%；闭塞组  14例20. 6%)；高脂血症 (狭\n窄组 24例46.",
+    "start_index": 12062,
+    "end_index": 12097,
+    "tokens_count": 38,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 187,
+    "text": "1%；闭塞组  40例58.",
+    "start_index": 12097,
+    "end_index": 12111,
+    "tokens_count": 13,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 188,
+    "text": "8%)；高同型半胱氨酸血症 (狭窄组 6例11.",
+    "start_index": 12111,
+    "end_index": 12135,
+    "tokens_count": 32,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 189,
+    "text": "5%；\n闭塞组 7例10.",
+    "start_index": 12135,
+    "end_index": 12148,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 190,
+    "text": "3%)；吸烟(狭窄组 17例32.",
+    "start_index": 12148,
+    "end_index": 12165,
+    "tokens_count": 20,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 191,
+    "text": "7%；闭塞组  29例42.",
+    "start_index": 12165,
+    "end_index": 12179,
+    "tokens_count": 13,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 192,
+    "text": "6%)；饮酒(狭窄\n组 14例26.",
+    "start_index": 12179,
+    "end_index": 12197,
+    "tokens_count": 22,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 193,
+    "text": "9%；闭塞组  16例23.",
+    "start_index": 12197,
+    "end_index": 12211,
+    "tokens_count": 13,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 194,
+    "text": "5%)。",
+    "start_index": 12211,
+    "end_index": 12215,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 195,
+    "text": "经统计学分析各项危险因素对比均无统计\n学差异(P＞0.",
+    "start_index": 12215,
+    "end_index": 12242,
+    "tokens_count": 31,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 196,
+    "text": "05) (见表1)。",
+    "start_index": 12242,
+    "end_index": 12252,
+    "tokens_count": 8,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 197,
+    "text": "表1 动脉粥样硬化性大脑中动脉狭窄及闭塞患者的构成及危险因素  \n （狭窄组） (n=82)(%)  （闭塞组） (n=38)(%)  P值 \n年龄 (mean±SD) 66.",
+    "start_index": 12252,
+    "end_index": 12342,
+    "tokens_count": 89,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 198,
+    "text": "3±5. 3 65.",
+    "start_index": 12342,
+    "end_index": 12351,
+    "tokens_count": 8,
+    "sentences_count": 2,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 199,
+    "text": "7±5.",
+    "start_index": 12351,
+    "end_index": 12355,
+    "tokens_count": 4,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 200,
+    "text": "8 P＞0. 05 \n性别 (男/女) 32/20  56/12 P＞0.",
+    "start_index": 12355,
+    "end_index": 12391,
+    "tokens_count": 27,
+    "sentences_count": 2,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 201,
+    "text": "05 \n危险因素  \n高血压  35  67.",
+    "start_index": 12391,
+    "end_index": 12414,
+    "tokens_count": 21,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 202,
+    "text": "3%  54    79.",
+    "start_index": 12414,
+    "end_index": 12427,
+    "tokens_count": 9,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 203,
+    "text": "4%  P＞0.",
+    "start_index": 12427,
+    "end_index": 12435,
+    "tokens_count": 7,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 204,
+    "text": "05 \n糖尿病  15   28.",
+    "start_index": 12435,
+    "end_index": 12452,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 205,
+    "text": "8%  14      20.",
+    "start_index": 12452,
+    "end_index": 12467,
+    "tokens_count": 9,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 206,
+    "text": "6%  P＞0.",
+    "start_index": 12467,
+    "end_index": 12475,
+    "tokens_count": 7,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 207,
+    "text": "05 \n高脂血症  24  46.",
+    "start_index": 12475,
+    "end_index": 12492,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 208,
+    "text": "1%  40     58.",
+    "start_index": 12492,
+    "end_index": 12506,
+    "tokens_count": 9,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 209,
+    "text": "8%  P＞0.",
+    "start_index": 12506,
+    "end_index": 12514,
+    "tokens_count": 7,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 210,
+    "text": "05 \n高同型半胱氨酸血症  6   11.",
+    "start_index": 12514,
+    "end_index": 12536,
+    "tokens_count": 26,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 211,
+    "text": "5%  7      10.",
+    "start_index": 12536,
+    "end_index": 12550,
+    "tokens_count": 9,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 212,
+    "text": "3%  P＞0.",
+    "start_index": 12550,
+    "end_index": 12558,
+    "tokens_count": 7,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 213,
+    "text": "05 \n吸烟  17   32.",
+    "start_index": 12558,
+    "end_index": 12574,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 214,
+    "text": "7%  29       42.",
+    "start_index": 12574,
+    "end_index": 12590,
+    "tokens_count": 9,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 215,
+    "text": "6%  P＞0.",
+    "start_index": 12590,
+    "end_index": 12598,
+    "tokens_count": 7,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 216,
+    "text": "05 \n饮酒  14  26.",
+    "start_index": 12598,
+    "end_index": 12613,
+    "tokens_count": 15,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 217,
+    "text": "9%  16      23.",
+    "start_index": 12613,
+    "end_index": 12628,
+    "tokens_count": 9,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 218,
+    "text": "5%  P＞0.",
+    "start_index": 12628,
+    "end_index": 12636,
+    "tokens_count": 7,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 219,
+    "text": "05 \n \nÍò·½Êý¾Ý\n 11 2.",
+    "start_index": 12636,
+    "end_index": 12657,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 10
+  },
+  {
+    "chunk_id": 220,
+    "text": "2分水岭梗死的分布模式  \nMCA狭窄组有 11例(18．5％)患者观察到分水岭梗死，",
+    "start_index": 12657,
+    "end_index": 12700,
+    "tokens_count": 54,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 221,
+    "text": "闭塞组有 44例(67．6％)\n患者观察到分水岭梗死，",
+    "start_index": 12700,
+    "end_index": 12727,
+    "tokens_count": 34,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 222,
+    "text": "MCA闭塞组梗死累及分水岭的患者比例明显高于狭窄组\n(P<0.",
+    "start_index": 12727,
+    "end_index": 12759,
+    "tokens_count": 41,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 223,
+    "text": "05) 。",
+    "start_index": 12759,
+    "end_index": 12764,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 224,
+    "text": "根据分水岭梗死累及的部位， 将分水岭梗死再分为 5种亚型， 两组分\n水岭梗死患者各亚型分布情况见表， 两组比较差异均无统计学意义 (P>O．05) (见\n表2)。 表2动脉粥样硬化性大脑中动脉狭窄及闭塞患者中分水岭梗死的分布模式  \n \n2.",
+    "start_index": 12764,
+    "end_index": 12884,
+    "tokens_count": 151,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 225,
+    "text": "3  MCA 主干狭窄组和闭塞组患者脑梗死部位分布情况（见表 3）。",
+    "start_index": 12884,
+    "end_index": 12918,
+    "tokens_count": 43,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 226,
+    "text": "2.",
+    "start_index": 12918,
+    "end_index": 12922,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 227,
+    "text": "3.",
+    "start_index": 12922,
+    "end_index": 12924,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 228,
+    "text": "1 MCA主干狭窄组单发性脑梗死发生率较闭塞组高，",
+    "start_index": 12924,
+    "end_index": 12949,
+    "tokens_count": 34,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 229,
+    "text": "其中狭窄组 61.",
+    "start_index": 12949,
+    "end_index": 12958,
+    "tokens_count": 10,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 230,
+    "text": "5%、\n闭塞组23. 5%，",
+    "start_index": 12958,
+    "end_index": 12971,
+    "tokens_count": 12,
+    "sentences_count": 2,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 231,
+    "text": "，",
+    "start_index": 12971,
+    "end_index": 12973,
+    "tokens_count": 1,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 232,
+    "text": "两组比较差异有统计学意义（ P <0.",
+    "start_index": 12973,
+    "end_index": 12992,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 233,
+    "text": "05）。",
+    "start_index": 12992,
+    "end_index": 12996,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 234,
+    "text": "MCA主干狭窄\n组多发性脑梗死发生率较闭塞组低， 其中狭窄组 38.",
+    "start_index": 12996,
+    "end_index": 13029,
+    "tokens_count": 45,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 235,
+    "text": "5%、闭塞组 76. 5%，",
+    "start_index": 13029,
+    "end_index": 13042,
+    "tokens_count": 12,
+    "sentences_count": 2,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 236,
+    "text": "两组比较差异有统计学意义（ P <0.",
+    "start_index": 13042,
+    "end_index": 13062,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 237,
+    "text": "05）。",
+    "start_index": 13062,
+    "end_index": 13066,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 238,
+    "text": "2.",
+    "start_index": 13066,
+    "end_index": 13070,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 239,
+    "text": "3.",
+    "start_index": 13070,
+    "end_index": 13072,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 240,
+    "text": "2 MCA主干狭窄组单发性梗死中以 PAI最多（24/32， ,75%） ， 闭塞组为\n（6/16,37.",
+    "start_index": 13072,
+    "end_index": 13123,
+    "tokens_count": 49,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 241,
+    "text": "5% ） ，",
+    "start_index": 13123,
+    "end_index": 13129,
+    "tokens_count": 5,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 242,
+    "text": "两组比较差异有统计学意义  (P <0.",
+    "start_index": 13129,
+    "end_index": 13149,
+    "tokens_count": 20,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 243,
+    "text": "05) 。",
+    "start_index": 13149,
+    "end_index": 13154,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 244,
+    "text": "2.",
+    "start_index": 13154,
+    "end_index": 13158,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 245,
+    "text": "3.",
+    "start_index": 13158,
+    "end_index": 13160,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 246,
+    "text": "3 MCA主干狭窄组多发性梗死中以 PAI+PI最多（12／20,60%） ，",
+    "start_index": 13160,
+    "end_index": 13199,
+    "tokens_count": 37,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 247,
+    "text": "闭塞组为\n(5／52，",
+    "start_index": 13199,
+    "end_index": 13210,
+    "tokens_count": 11,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 248,
+    "text": "9.",
+    "start_index": 13210,
+    "end_index": 13212,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 249,
+    "text": "6%)，",
+    "start_index": 13212,
+    "end_index": 13216,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 250,
+    "text": "两组比较差异有统计学意义 (P <0.",
+    "start_index": 13216,
+    "end_index": 13235,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 251,
+    "text": "05) ； \n2.",
+    "start_index": 13235,
+    "end_index": 13244,
+    "tokens_count": 7,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 252,
+    "text": "3.",
+    "start_index": 13244,
+    "end_index": 13246,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 253,
+    "text": "4 MCA闭塞组多发性梗死中以 PAI+PI+BZI 最多(33／52,63.",
+    "start_index": 13246,
+    "end_index": 13285,
+    "tokens_count": 33,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 254,
+    "text": "5%) ，",
+    "start_index": 13285,
+    "end_index": 13290,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 255,
+    "text": "狭窄组\n为（2／20,10%） ，",
+    "start_index": 13290,
+    "end_index": 13307,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 256,
+    "text": "差异有统计学意义 (P <0.",
+    "start_index": 13307,
+    "end_index": 13322,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 257,
+    "text": "05) 。",
+    "start_index": 13322,
+    "end_index": 13327,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 258,
+    "text": "组别 例数 内部 后部 内部合并\n前部 内部合\n并后部 内、前、\n后部 \n狭窄组 11 5 1 2 3 2 \n闭塞组 44 24 2 3 11 7 \nÍò·½Êý¾Ý\n 12 表3 动脉粥样硬化性大脑中动脉狭窄及闭塞患者的脑梗死部位分布情况  \n 组别  狭窄组  闭塞组  \n单 \n发 \n性 \n脑 \n梗 \n PAI 24 6 \nPI 6 4 \n流域性脑梗死  1 4 \nBZI 1 2 \n合计  32（61.",
+    "start_index": 13327,
+    "end_index": 13541,
+    "tokens_count": 217,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 259,
+    "text": "5%） 16（23.",
+    "start_index": 13541,
+    "end_index": 13551,
+    "tokens_count": 8,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 260,
+    "text": "5%） \n多 \n发 \n性 \n脑 \n梗 \n PAI+PI  12 5 \nPAI+PI+BZ  2 33 \nPAI+BZI  2 4 \nPI+BZ  3 7 \nPI+PI  1 3 \n合计  20（38.",
+    "start_index": 13551,
+    "end_index": 13651,
+    "tokens_count": 77,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 261,
+    "text": "5%） 52（76. 5%） \n总例数   52 68 \n \n2.",
+    "start_index": 13651,
+    "end_index": 13683,
+    "tokens_count": 23,
+    "sentences_count": 2,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 262,
+    "text": "4临床起病形式  \n临床起病形式为突发完成型（即发病即达高峰， 病程中未出现进展加重者） 70\n例(58.",
+    "start_index": 13683,
+    "end_index": 13735,
+    "tokens_count": 62,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 263,
+    "text": "3%)，",
+    "start_index": 13735,
+    "end_index": 13739,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 264,
+    "text": "缓慢进展型（即发病后经缓慢进展达高峰者）为 50例(41.",
+    "start_index": 13739,
+    "end_index": 13768,
+    "tokens_count": 37,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 265,
+    "text": "7%)。",
+    "start_index": 13768,
+    "end_index": 13772,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 266,
+    "text": "48\n例单发梗死患者中， 缓慢进展型发生率较突发完成型高， 其中缓慢进展型 35例 \n(72.",
+    "start_index": 13772,
+    "end_index": 13818,
+    "tokens_count": 52,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 267,
+    "text": "9%)，",
+    "start_index": 13818,
+    "end_index": 13822,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 268,
+    "text": "突发完成型 13（27%），",
+    "start_index": 13822,
+    "end_index": 13836,
+    "tokens_count": 11,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 269,
+    "text": "两组比较差异有统计学意义（ P <0.",
+    "start_index": 13836,
+    "end_index": 13855,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 270,
+    "text": "05）。",
+    "start_index": 13855,
+    "end_index": 13859,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 271,
+    "text": "72\n例多发梗死患者中， 缓慢进展型发生率较突发完成型低， 其中缓慢进展型 25\n（34.",
+    "start_index": 13859,
+    "end_index": 13902,
+    "tokens_count": 52,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 272,
+    "text": "7%），",
+    "start_index": 13902,
+    "end_index": 13906,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 273,
+    "text": "突发完成型 47（65.",
+    "start_index": 13906,
+    "end_index": 13918,
+    "tokens_count": 10,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 274,
+    "text": "3%），",
+    "start_index": 13918,
+    "end_index": 13922,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 275,
+    "text": "两组比较差异有统计学意义（ P <0.",
+    "start_index": 13922,
+    "end_index": 13941,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 276,
+    "text": "05）。",
+    "start_index": 13941,
+    "end_index": 13945,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 4
+  },
+  {
+    "chunk_id": 277,
+    "text": "表4 动脉粥样硬化性大脑中动脉狭窄及闭塞患者脑梗死的起病形式  \n 缓慢进展型  突发完成型  总计  \n单发性脑梗死  35（72. 9%） 13（27%） 48 \n多发性脑梗死  25（34.",
+    "start_index": 13945,
+    "end_index": 14046,
+    "tokens_count": 118,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 278,
+    "text": "7%） 47（65.",
+    "start_index": 14046,
+    "end_index": 14056,
+    "tokens_count": 8,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 279,
+    "text": "3%） 72 \nÍò·½Êý¾Ý\n 13 3. 讨论  \n3.",
+    "start_index": 14056,
+    "end_index": 14087,
+    "tokens_count": 28,
+    "sentences_count": 2,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 280,
+    "text": "1大脑中动脉的解剖学基础  \n大脑中动脉是颈内动脉发出大脑前动脉以后的直接延续， 为供应大脑半球血\n液的最粗大的动脉。 大脑中动脉大多在视交叉的外侧， 嗅三角和前穿质的下方， 由颈内动脉发出。 发出后立即横过前穿质近乎水平位向外行， 约在前床突附近经\n侧裂窝进入大脑外侧裂， 然后在岛盖的深方， 贴附岛叶外侧面， 沿外侧裂的方向\n由前下斜向后上， 并陆续发出许多皮质支。 大脑中动脉的分支可分为皮质支与深\n穿支两组。 皮质支又称周围支， 主要供应大脑半球上外侧面的大部分和岛叶， 包\n括眶额动脉、中央前动脉 、中央动脉、中央后动脉、顶下动脉、角回动脉、颞后\n动脉、颞中动脉、颞前动脉、颞极动脉等十支， 存在丰富的侧支循环。 而深穿支\n又称中央支， 主要供应纹状体和内囊膝部及后肢的前五分之三。 按其发出的部位\n可分为内侧豆纹动脉、外侧豆纹动脉，",
+    "start_index": 14087,
+    "end_index": 14444,
+    "tokens_count": 495,
+    "sentences_count": 19,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 281,
+    "text": "豆纹动脉属于终末血管， 缺乏侧支吻合。",
+    "start_index": 14444,
+    "end_index": 14462,
+    "tokens_count": 30,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 282,
+    "text": "3.",
+    "start_index": 14462,
+    "end_index": 14469,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 283,
+    "text": "2临床起病形式分析  \n据国外文献记载， 大脑中动脉梗塞的起病形式，",
+    "start_index": 14469,
+    "end_index": 14502,
+    "tokens_count": 46,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 284,
+    "text": "有的称 MCA的多数体征在发\n作时即达高峰[11]。",
+    "start_index": 14502,
+    "end_index": 14528,
+    "tokens_count": 26,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 285,
+    "text": "也有称， MCA狭窄或闭塞患者的临床病程以进展型为主[12]。 而\n本研究中， 急性大脑中动脉狭窄或闭塞患者缺血性脑卒中的起病形式， 58.",
+    "start_index": 14528,
+    "end_index": 14596,
+    "tokens_count": 94,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 286,
+    "text": "3%的\n患者为突发完成型，",
+    "start_index": 14596,
+    "end_index": 14609,
+    "tokens_count": 15,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 287,
+    "text": "病程中未再出现进展， 41.",
+    "start_index": 14609,
+    "end_index": 14623,
+    "tokens_count": 14,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 288,
+    "text": "7%的患者表现为缓慢进展型。",
+    "start_index": 14623,
+    "end_index": 14637,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 289,
+    "text": "将\n起病形式与卒中类型结合分析发现， 48例单发梗死患者中， 35例 (72.",
+    "start_index": 14637,
+    "end_index": 14677,
+    "tokens_count": 40,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 290,
+    "text": "9%)呈缓\n慢进展型起病。",
+    "start_index": 14677,
+    "end_index": 14690,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 291,
+    "text": "72例多发梗死患者中， 47例(65.",
+    "start_index": 14690,
+    "end_index": 14710,
+    "tokens_count": 20,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 292,
+    "text": "3%)呈急性起病。",
+    "start_index": 14710,
+    "end_index": 14719,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 293,
+    "text": "即单发梗塞患\n者以缓慢进展型起病为主， 而多发梗塞患者以突发完成型起病为主， 间接对我们\n对于各型卒中类型发病机制的推断起了补充作用 :大脑中动脉单发的深穿支动脉\n梗死多由大脑中动脉主干血栓形成或血栓延伸堵塞深穿支动脉入口或小动脉玻\n璃样变所致， 是较慢性的过程， 所以起病形式多随着血栓的慢性形成而缓慢进 展。 国内文献报道， 多发性梗死中微栓子的出现与狭窄的大脑中动脉残端血栓形成或\n粥样硬化斑块破溃致栓子脱落有关。 大脑中动脉狭窄越严重， 微栓子的检出率越\n高， 卒中的危险性越大， 说明微栓子动脉一动脉栓塞是多发性脑梗死的重要因素\n[13]。 且栓子脱落瞬间栓塞小的分支小血管， 是一个急性过程，",
+    "start_index": 14719,
+    "end_index": 15013,
+    "tokens_count": 420,
+    "sentences_count": 13,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 294,
+    "text": "故症状在瞬间达高\nÍò·½Êý¾Ý\n 14 峰。",
+    "start_index": 15013,
+    "end_index": 15037,
+    "tokens_count": 32,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 295,
+    "text": "3.",
+    "start_index": 15037,
+    "end_index": 15041,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 296,
+    "text": "3分水岭区梗死机制  \n本研究中，",
+    "start_index": 15041,
+    "end_index": 15058,
+    "tokens_count": 22,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 297,
+    "text": "MCA主干狭窄组只有 11例(18．5％)患者脑梗死累及分水岭区，",
+    "start_index": 15058,
+    "end_index": 15092,
+    "tokens_count": 44,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 298,
+    "text": "闭塞组有 44例(67．6％) 患者脑梗死累及分水岭区， MCA闭塞组梗死累及分水\n岭的患者比例明显高于狭窄组， 说明严重狭窄 者交界区梗死发生的频率较中度狭\n窄者高。 分水岭区为各主要脑动脉供血区的交界部位， 处于血液供应系统的最末\n端， 末梢动脉吻合网较脑内其他部位少， 血管管径细血流灌注差 ,缺乏各种吻合\n支， 对血流动力学改变最敏感[14]， 容易发生灌注衰竭。 在香港中文大学进行的一\n项研究发现 ,MCAS患者血管狭窄的程度与交界区梗死的发生频率成正比[15]。 说明\n低灌注在 MCAS的交界区梗死中起重要作用。 同时， 我们在临床上可见 ,分水岭区\n梗死常常融合成片 , 主要因为动脉硬化斑块脱落的微栓子可同时堵塞大脑中动\n脉中不同的分支， 即导致脑分水岭梗死常伴发其 他部位的多发性脑梗死。 因此， 可提示分水岭区梗死可能是由于该区域低灌注造成栓子清除能力下降所致。",
+    "start_index": 15092,
+    "end_index": 15474,
+    "tokens_count": 485,
+    "sentences_count": 16,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 299,
+    "text": "3.",
+    "start_index": 15474,
+    "end_index": 15481,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 300,
+    "text": "4 MCA 狭窄致脑梗死部位特点和发病机制  \n本研究有 61.",
+    "start_index": 15481,
+    "end_index": 15513,
+    "tokens_count": 40,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 301,
+    "text": "5%MCA 主干狭窄致脑梗死为单发性梗死，",
+    "start_index": 15513,
+    "end_index": 15534,
+    "tokens_count": 31,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 302,
+    "text": "其中以穿支动脉（即\n豆纹动脉）供血区梗死最为多见。 据既往文献报道在 MCA狭窄所致脑梗死中， 有\n许多患者仅表现为单个穿支动脉梗死[16-17]。 本研究结果与之相符。 MCA主干狭窄\n后导致单发穿支动脉区梗死， 考虑是由于 MCA主干粥样斑块或局部血栓阻塞豆纹\n动脉开口所致。 由于豆纹动脉属于终末血管， 缺乏侧支吻合， 而皮质支存在丰富\n的侧支循环， 当 MCA狭窄时容易使梗死局限于深穿支动脉供血区， 皮质免于受累\n[18-19]。 本研究MCA主干狭窄组多发性脑梗死中， 以穿支动脉梗死合并皮质梗死最\n多见。 据以往研究，",
+    "start_index": 15534,
+    "end_index": 15790,
+    "tokens_count": 360,
+    "sentences_count": 14,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 303,
+    "text": "在1980年初 Masuda[20]等进一步证实大脑中动脉粥样硬化性\n狭窄患者导致远端动脉闭塞血栓栓塞的成分 (纤维蛋白、 血小板聚集物 )与动脉粥\n样斑块表面血栓相同 ,说明堵塞远端小动脉的栓子由 MCA狭窄处脱落而来。 90年\n代初Spencer[21]等发现TCD可以检测到在血液中流过的微栓子。 2001年在香港中\n文大学进行的一项预试验发现 20例有症状 MCAS患者微栓子发生的频率为 15%,\n而对照组 (无症状大脑中动脉粥样硬化性狭窄 )20例患者则无一例检测到 MES[22]， 提示大脑中动脉粥样硬化性狭窄患者微栓子的出现与临床缺血症状的发生有关。",
+    "start_index": 15790,
+    "end_index": 16075,
+    "tokens_count": 333,
+    "sentences_count": 4,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 304,
+    "text": "Íò·½Êý¾Ý\n 15 MCA狭窄部位微栓子脱落可致远端小血管区梗死。",
+    "start_index": 16075,
+    "end_index": 16112,
+    "tokens_count": 48,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 305,
+    "text": "所以 MCA主干狭窄患者在出现\n穿动脉区梗死的同时， 往往合并皮质梗死。",
+    "start_index": 16112,
+    "end_index": 16147,
+    "tokens_count": 51,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 306,
+    "text": "3.",
+    "start_index": 16147,
+    "end_index": 16154,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 307,
+    "text": "5 MCA 闭塞致脑梗死部位特点和发病机制  \n本研究表明 MCA闭塞组多发性梗死中以 PAI+PI+BZI 最多。",
+    "start_index": 16154,
+    "end_index": 16212,
+    "tokens_count": 63,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 308,
+    "text": "表明 MCA主干闭\n塞后在引起穿支动脉梗死的同时往往会合其他多个部位的梗死。 其原因可分析如\n下， MCA主干闭塞后， 其远端分支血管血流主要依靠同侧大脑前动脉和大脑后动\n脉经由软脑膜 -软脑膜、脑膜 -软脑膜吻合动脉代偿， 闭塞远端分支血管内血流速\n度缓慢、且为反向血流，",
+    "start_index": 16212,
+    "end_index": 16346,
+    "tokens_count": 184,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 309,
+    "text": "MCA供血区血流储备下降[23]。",
+    "start_index": 16346,
+    "end_index": 16364,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 310,
+    "text": "闭塞远端的 分支血管内容\n易形成血栓， 血流缓慢又使血栓清除能力下降， 从而容易导致分水岭梗死和皮质\n分支血管供血区的梗死[24-25]。",
+    "start_index": 16364,
+    "end_index": 16431,
+    "tokens_count": 88,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 311,
+    "text": "3.",
+    "start_index": 16431,
+    "end_index": 16437,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 312,
+    "text": "6大脑中动脉供血区脑梗死的机 制对治疗策略的影响  \n脑梗死患者需要进行快速诊断和早期治疗。 对脑梗死的病因学及机制的诊\n断有利于预防并发症的发生， 并及时判断卒中复发的风险。 我们治疗脑梗死的目\n的在于阻止脑缺血进一步进展， 尽可能减少并发症和减少脑梗死的再发， 尽可能\n保留和恢复其生理机能。 传统的脑梗死治疗是程序化的治疗模式， 而通过脑梗死\n的影像学表现来研究卒中机制， 对于临床上脑梗死的个体化治疗及二级预防具有\n重要的意义。 动脉一动脉栓塞引起的多发梗塞患者， 在急性期需予阿司匹林及氯吡格雷的\n双联抗血小板治疗， 并立即启用强化他汀降脂、稳定斑块治疗。 急性期一周后 可\n改为单用氯吡格雷抗血小板及他汀类的二级预防。 急性期血压达标即可， 血压若\n达到220/120 mmHg ， 才需平稳降压， 脑梗死后脑血流依赖于灌注压，",
+    "start_index": 16437,
+    "end_index": 16798,
+    "tokens_count": 494,
+    "sentences_count": 17,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 313,
+    "text": "因此血压\n不能过分降低以免引起脑灌注压的减少进而导致脑血流下降。 低灌注及栓子清除能力下降引起的 分水岭脑梗死患者， 应管理好血压， 一般\n不予降压， 可考虑扩容治疗， 急性期予阿司匹林及氯吡格雷的双重抗血小板治疗， 并立即启用强化他汀降脂、稳定斑块治疗。 急性期一周后可改为单用氯吡格雷抗\n血小板及他汀类的二级预防。 大脑中动脉主干粥样斑块或局部血栓阻塞豆纹动脉开口所致的脑梗死患者，",
+    "start_index": 16798,
+    "end_index": 16992,
+    "tokens_count": 272,
+    "sentences_count": 9,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 314,
+    "text": "Íò·½Êý¾Ý\n 16 急性期予阿司匹林或氯吡格雷单联抗血小板即可，",
+    "start_index": 16992,
+    "end_index": 17028,
+    "tokens_count": 44,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 315,
+    "text": "及他汀类药物降脂、 稳定斑块。 急性期后仍需单联抗血小板及他汀类治疗。 急性期血压小于 220/120 mmHg 时， 密切观察， 暂不予降压药治疗。",
+    "start_index": 17028,
+    "end_index": 17102,
+    "tokens_count": 93,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 316,
+    "text": "4.",
+    "start_index": 17102,
+    "end_index": 17107,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 317,
+    "text": "结论 \n大脑中动脉狭窄所致脑梗死以单发性脑梗死为主， 大脑中动脉闭塞所致脑梗\n死以多发性梗死为主；在多发性脑梗死中，",
+    "start_index": 17107,
+    "end_index": 17165,
+    "tokens_count": 93,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 318,
+    "text": "狭窄组多表现为 PAI+PI,闭塞组多表\n现为PAI+PI+BZI 。",
+    "start_index": 17165,
+    "end_index": 17200,
+    "tokens_count": 32,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 319,
+    "text": "单发性脑梗死以缓慢进展型起病为主， 多发性脑梗死以突发\n完成型起病为主， 提示分别有着不同的卒中发病机制， 应强调针对病因及发病机\n制的个体化治疗。 因受条件限制， 本 研究中缺乏彩色经颅多普勒的微栓子探测， 在将来的研究中以期增加彩色经颅多普勒的微栓子监测， 以便对大脑中动脉供血\n区脑梗死发病机制进行更确切地解释。 本研究利用磁共振血管成像（ MRA）对\n大脑中动脉进行评估， 但MRA利用时间飞跃现象成像的技术， 必须保证血流速度\n足够快， 无法对小血管进行评价， 对重度狭窄的血管有过高评价的趋势， 以后的\n研究在有条件的情况下， 需结合 TCD以及DSA行全脑血管造影检查， 对血管评 估\n会更准确。",
+    "start_index": 17200,
+    "end_index": 17494,
+    "tokens_count": 377,
+    "sentences_count": 16,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 320,
+    "text": "参考文献  \n[1]Wong KS ，",
+    "start_index": 17494,
+    "end_index": 17518,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 321,
+    "text": "HuangYN ， Gao S， Lam WW ， Chan YL， Kay R.",
+    "start_index": 17518,
+    "end_index": 17555,
+    "tokens_count": 19,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 322,
+    "text": "Intracranial \nstenosis in Chinese Patients with acute stroke [J].",
+    "start_index": 17555,
+    "end_index": 17621,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 323,
+    "text": "Neurology . 1998 ， 50:812一813  \n[2]Wong KS ， Li H， Chan YL， et al.",
+    "start_index": 17621,
+    "end_index": 17682,
+    "tokens_count": 30,
+    "sentences_count": 6,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 324,
+    "text": "Use of transcrial Doppler to predict outcome \nin Patients with intracranial large -artery occlusive disease [J].",
+    "start_index": 17682,
+    "end_index": 17794,
+    "tokens_count": 28,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 325,
+    "text": "Stroke.",
+    "start_index": 17794,
+    "end_index": 17801,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 326,
+    "text": "2000 ， 31:2641一\n2647.",
+    "start_index": 17801,
+    "end_index": 17821,
+    "tokens_count": 12,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 327,
+    "text": "[3]Bang OY ，",
+    "start_index": 17821,
+    "end_index": 17836,
+    "tokens_count": 7,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 328,
+    "text": "Lee PH， Heo KG， et a1．Specilfic DWI 1esion patterns predict  \nprognosis after acute ischacmic stroke within the MCA territory[J] ．J  Neurol \nNeurosurg Psychiatry ,2005 ，",
+    "start_index": 17836,
+    "end_index": 18003,
+    "tokens_count": 54,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 329,
+    "text": "76(9):1222 —1228． \n[4]Wong KS ，",
+    "start_index": 18003,
+    "end_index": 18034,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 330,
+    "text": "Gao S， Chan YL，",
+    "start_index": 18034,
+    "end_index": 18048,
+    "tokens_count": 8,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 331,
+    "text": "et a1．Mechanisms of Acute Cerebral Infarct ions \nin Patients with Middle Cerebral Artery Stenosis ：A Diffusion —weighted Imaging and \nMicroemboli Monitoring Study[J] ．Ann Neurol (S0364 —5134)，",
+    "start_index": 18048,
+    "end_index": 18240,
+    "tokens_count": 59,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 332,
+    "text": "2002，",
+    "start_index": 18240,
+    "end_index": 18245,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 333,
+    "text": "52：74—81． \n[5]S.",
+    "start_index": 18245,
+    "end_index": 18261,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 334,
+    "text": "Gao,Y . J. Wang,A. D. Xu,et al.",
+    "start_index": 18261,
+    "end_index": 18288,
+    "tokens_count": 18,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 335,
+    "text": "Chinese ischemic stroke subclassification[J].",
+    "start_index": 18288,
+    "end_index": 18333,
+    "tokens_count": 8,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 336,
+    "text": "Stroke,2011,2(6):1 -5.",
+    "start_index": 18333,
+    "end_index": 18358,
+    "tokens_count": 13,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 337,
+    "text": "Íò·½Êý¾Ý\n 17 [6]王新，",
+    "start_index": 18358,
+    "end_index": 18379,
+    "tokens_count": 20,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 338,
+    "text": "黄家星， 范玉华 等， 急性缺血性卒中病因与早期弥散加权成像的\n关系 [J]．中华神经科杂志， 2005，",
+    "start_index": 18379,
+    "end_index": 18430,
+    "tokens_count": 62,
+    "sentences_count": 4,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 339,
+    "text": "42：396-401．． \n[7]Adams HP ，",
+    "start_index": 18430,
+    "end_index": 18457,
+    "tokens_count": 15,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 340,
+    "text": "Bendixen BH ， Kappelle， J,et al.",
+    "start_index": 18457,
+    "end_index": 18487,
+    "tokens_count": 15,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 341,
+    "text": "The TOAST Classification of \nsubtype of acute ischemic stroke:definitions for use in a multicenter clinical \ntrial[J].",
+    "start_index": 18487,
+    "end_index": 18605,
+    "tokens_count": 25,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 342,
+    "text": "Stroke.",
+    "start_index": 18605,
+    "end_index": 18612,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 343,
+    "text": "1993,24:35 -41. [8]Kwon SU ， Cho YJ， Koo js， et al.",
+    "start_index": 18612,
+    "end_index": 18661,
+    "tokens_count": 27,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 344,
+    "text": "Cilostazol prevents the progression of the \nsymptomatic intracranial alarterial stenosis: the multicenter double -blind \nPlacebo -controlled trial of cilostazol in symptomatic intracranial arterial \nstenosis [J].",
+    "start_index": 18661,
+    "end_index": 18873,
+    "tokens_count": 56,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 345,
+    "text": "Stfoke. 2005 ， 36:782 -786.",
+    "start_index": 18873,
+    "end_index": 18898,
+    "tokens_count": 13,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 346,
+    "text": "[9]廖晓凌，",
+    "start_index": 18898,
+    "end_index": 18907,
+    "tokens_count": 10,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 347,
+    "text": "王伊龙 ， 王拥军等， 急性颈内或大脑中动脉闭塞患者临床预后\n分析 [J]。 中国康复与理论实践。 2007， 13：714-715． \n[10]Tatu I ， Moulin T ， Bogousslavsky J ， et a1.",
+    "start_index": 18907,
+    "end_index": 19017,
+    "tokens_count": 96,
+    "sentences_count": 9,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 348,
+    "text": "Arterial Teritories of the Human \nBrain：Cerebral Hemispheres [J] ．Neurology(S0028 —3878)，",
+    "start_index": 19017,
+    "end_index": 19106,
+    "tokens_count": 32,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 349,
+    "text": "1998，",
+    "start_index": 19106,
+    "end_index": 19111,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 350,
+    "text": "50：1699—1708． \n[11]Bogousslavsky J ，",
+    "start_index": 19111,
+    "end_index": 19147,
+    "tokens_count": 20,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 351,
+    "text": "Barnett HJ ， Fox AJ,et al.",
+    "start_index": 19147,
+    "end_index": 19172,
+    "tokens_count": 12,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 352,
+    "text": "Ath erosclerotic disease of the \nmiddle cerebral artery [J].",
+    "start_index": 19172,
+    "end_index": 19232,
+    "tokens_count": 15,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 353,
+    "text": "Stroke.",
+    "start_index": 19232,
+    "end_index": 19239,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 354,
+    "text": "1986,17:1112 -1120. [12]Kyung -Moo Y oo,Hyun -Kil Shin,et al.",
+    "start_index": 19239,
+    "end_index": 19302,
+    "tokens_count": 32,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 355,
+    "text": "Middle Cerebral Artery Occlusive \nDisease:The New England Medical Center Stroke Registry [J].",
+    "start_index": 19302,
+    "end_index": 19395,
+    "tokens_count": 21,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 356,
+    "text": "Journal of Stroke and \nCerebrovascular Disdases.",
+    "start_index": 19395,
+    "end_index": 19443,
+    "tokens_count": 13,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 357,
+    "text": "1998,7(5):344 -351 \n[13]夏友华，",
+    "start_index": 19443,
+    "end_index": 19472,
+    "tokens_count": 19,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 358,
+    "text": "潘邓记， 唐洲平 等， 大脑中动脉粥样硬化性脑梗死患者急性期\nMRI表现及其病理生理机制分析 [J]。 神经损伤与功能重建 。 2009，",
+    "start_index": 19472,
+    "end_index": 19537,
+    "tokens_count": 83,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 359,
+    "text": "4：85-87.",
+    "start_index": 19537,
+    "end_index": 19545,
+    "tokens_count": 6,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 360,
+    "text": "[14]Isaka Y， Nagano K ， Narita M，",
+    "start_index": 19545,
+    "end_index": 19578,
+    "tokens_count": 17,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 361,
+    "text": "et a1．High signal intensity on T2 -weighted \nmagnetic reasonance imaging and cerebral hemodynamic reserve in carotid occlusive \ndisea se [J]．stroke，",
+    "start_index": 19578,
+    "end_index": 19726,
+    "tokens_count": 40,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 362,
+    "text": "1997， 28：354-357． \n[15]Wong KS, Gao S, Chan YL, et al.",
+    "start_index": 19726,
+    "end_index": 19779,
+    "tokens_count": 28,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 363,
+    "text": "Mechanisms of acute cerebral infarctions \nin patients with middle cerebral artery stenosis: a diffusion -weighted imaging and \nmicroemboli monitoring study [J].",
+    "start_index": 19779,
+    "end_index": 19940,
+    "tokens_count": 35,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 364,
+    "text": "Ann Neurol, 2002, 52: 74 -81.",
+    "start_index": 19940,
+    "end_index": 19970,
+    "tokens_count": 16,
+    "sentences_count": 1,
+    "cluster_id": 17
+  },
+  {
+    "chunk_id": 365,
+    "text": "[16]Lyrer PA， Engelter s ， Radu Ew，",
+    "start_index": 19970,
+    "end_index": 20005,
+    "tokens_count": 17,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 366,
+    "text": "et a1．Cerebral al. Cerebral infarcts related \nto isolated middle cerebral artery stenosis[J]  Stroke,1997 ，",
+    "start_index": 20005,
+    "end_index": 20111,
+    "tokens_count": 33,
+    "sentences_count": 2,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 367,
+    "text": "28：1022 -1027． \n[17]Wong Ks ， Gao s， chan YL，",
+    "start_index": 20111,
+    "end_index": 20154,
+    "tokens_count": 25,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 368,
+    "text": "et a1．Mechanisms of acute cerebral infarctions \nin patients with middle cerebral arte ry stenosis:a diffusion -weighted imaging and \nmicroemboli monitoring study[J] ．Ann Neurol ，",
+    "start_index": 20154,
+    "end_index": 20332,
+    "tokens_count": 44,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 369,
+    "text": "2002，",
+    "start_index": 20332,
+    "end_index": 20337,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 370,
+    "text": "52：74-81． \n[18]Bogousslavsky J ，",
+    "start_index": 20337,
+    "end_index": 20369,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 17
+  },
+  {
+    "chunk_id": 371,
+    "text": "Regli F，",
+    "start_index": 20369,
+    "end_index": 20377,
+    "tokens_count": 4,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 372,
+    "text": "Maeder P ．Intracranial large -artery disease \nand‘lacunar’infarction [J]．Cerebrovasc Dis ，",
+    "start_index": 20377,
+    "end_index": 20467,
+    "tokens_count": 35,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 373,
+    "text": "1991，",
+    "start_index": 20467,
+    "end_index": 20472,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 374,
+    "text": "l：154-159． \nÍò·½Êý¾Ý\n 18 [19]张春玲，",
+    "start_index": 20472,
+    "end_index": 20505,
+    "tokens_count": 29,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 375,
+    "text": "徐忠宝， 曲媛．腔隙性脑梗死 102例患者的脑血流动力学分析\n[J]．中华神经科杂志， 2006， 39：587-590． \n[20]Masuda J, Ogata J, Y utani C, et al.",
+    "start_index": 20505,
+    "end_index": 20606,
+    "tokens_count": 89,
+    "sentences_count": 4,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 376,
+    "text": "Artery -to-artery embolism from a \nthrombus formed in stenotic middle cerebral artery .",
+    "start_index": 20606,
+    "end_index": 20694,
+    "tokens_count": 25,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 377,
+    "text": "Report of an autopsy case [J].",
+    "start_index": 20694,
+    "end_index": 20725,
+    "tokens_count": 8,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 378,
+    "text": "Stroke, 18: 680 -684.",
+    "start_index": 20725,
+    "end_index": 20748,
+    "tokens_count": 10,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 379,
+    "text": "[21]Spencer MP, Thomas GI, Nicholls SC,  et al.",
+    "start_index": 20748,
+    "end_index": 20797,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 380,
+    "text": "Detection of middle cerebral \nartery emboli during carotid endarterectomy using transcranial Doppler \nultrasonography [J].",
+    "start_index": 20797,
+    "end_index": 20920,
+    "tokens_count": 30,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 381,
+    "text": "Stroke, 1990, 21: 415 -423 \n[22]Wong KS, Gao S, Lam W, et al.",
+    "start_index": 20920,
+    "end_index": 20982,
+    "tokens_count": 31,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 382,
+    "text": "A pilot study of microembolic signals in \npatients with middle cerebr al artery stenosis [J].",
+    "start_index": 20982,
+    "end_index": 21076,
+    "tokens_count": 23,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 383,
+    "text": "J Neuroimaging, 2001, 11: 137 -140 \n[23]Derdeyn CP ，",
+    "start_index": 21076,
+    "end_index": 21129,
+    "tokens_count": 25,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 384,
+    "text": "Powers wJ ，",
+    "start_index": 21129,
+    "end_index": 21140,
+    "tokens_count": 5,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 385,
+    "text": "Grubb RL Jr ．Hemodynamic effects of middle \ncerebral artery stenosis and occlusion [J] ．AJNR Am J Neuroradiol ，",
+    "start_index": 21140,
+    "end_index": 21251,
+    "tokens_count": 38,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 386,
+    "text": "1998， 19：\n1463 -1469． \n[24]Angeloni U ， Bozzao L ， Fantozzi L ，",
+    "start_index": 21251,
+    "end_index": 21311,
+    "tokens_count": 29,
+    "sentences_count": 4,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 387,
+    "text": "et a1．Interna l border -zone infarction \nfollowing acute middle cerebral artery occlusion[J] ．Neurology ，",
+    "start_index": 21311,
+    "end_index": 21416,
+    "tokens_count": 29,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 388,
+    "text": "1990， 40：1196 -1198．  \n[25]Caplan LR ，",
+    "start_index": 21416,
+    "end_index": 21453,
+    "tokens_count": 19,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 389,
+    "text": "Hennerici M ．Impaired clearance of emboli(washout) is an \nimportant link between hypoperfusion ，",
+    "start_index": 21453,
+    "end_index": 21549,
+    "tokens_count": 26,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 390,
+    "text": "embolism ，",
+    "start_index": 21549,
+    "end_index": 21559,
+    "tokens_count": 4,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 391,
+    "text": "and ischemic stroke [J] ．Arch \nNeur ol，",
+    "start_index": 21559,
+    "end_index": 21598,
+    "tokens_count": 15,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 392,
+    "text": "1998，",
+    "start_index": 21598,
+    "end_index": 21603,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 393,
+    "text": "55：1475 -1482． \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nÍò·½Êý¾Ý\n 19  \n综述  \n动脉粥样硬化性大脑中动脉支配区脑梗死的临床及发病机制研\n究 \n脑卒中是目前世界范围内导致患者死亡的第二位原因，",
+    "start_index": 21603,
+    "end_index": 21746,
+    "tokens_count": 125,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 394,
+    "text": "也是成人致残的主要\n原因。 我国人口基数大、人口老龄化问题突出， 脑卒中发病率呈逐年升高趋势，",
+    "start_index": 21746,
+    "end_index": 21792,
+    "tokens_count": 58,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 395,
+    "text": "其中 70%一80%表现为缺血性卒中[1]。",
+    "start_index": 21792,
+    "end_index": 21815,
+    "tokens_count": 22,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 396,
+    "text": "而颅内动脉粥样硬化性狭窄尤其是大脑中\n动脉 (MCA)狭窄是中国人群急性缺血性卒中的重要病因[2-3]。",
+    "start_index": 21815,
+    "end_index": 21868,
+    "tokens_count": 72,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 397,
+    "text": "正确识别缺血性卒\n中的病因、发病机制、危险因素是坚持循证基础上个体化治疗的 前提， 对于进行\n卒中的二级预防至关重要。 一．动脉粥样硬化性大脑中动脉供血区脑梗死的病因及发病机制  \n以病因学为依据将缺血性脑卒中患者纳入不同的亚型， 使患者得到更加个\n体化的治疗是每个神经科医生需要面对的重要问题。 目前临床研究中常用的病因\n学分型有 TOAST分型、 CISS分型等。 然而， 正确的病因学分型需要完善心脏超\n声、 脑血管造影等相关检查项目， 这些在缺血性卒中的早期无法合理展开。 因此， 我们可以根据缺血性卒中的早期影像学检查分型， 探讨各型的可能发病机制， 更\n好更快的指导临床治疗。",
+    "start_index": 21868,
+    "end_index": 22158,
+    "tokens_count": 350,
+    "sentences_count": 12,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 398,
+    "text": "大脑中动脉 (middle cerebra l artery，",
+    "start_index": 22158,
+    "end_index": 22189,
+    "tokens_count": 16,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 399,
+    "text": "MCA)供血区梗死形\n态表现多样， 提示导致脑梗死的机制可能不同，",
+    "start_index": 22189,
+    "end_index": 22221,
+    "tokens_count": 39,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 400,
+    "text": "包括心源性栓塞、血栓形成、动\n脉-动脉栓塞以及组织灌注水平下降 (如动脉严重狭窄 )等[4]，",
+    "start_index": 22221,
+    "end_index": 22268,
+    "tokens_count": 65,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 401,
+    "text": "多数患者可于起病 1\n周内行 DWI检查，",
+    "start_index": 22268,
+    "end_index": 22289,
+    "tokens_count": 23,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 402,
+    "text": "参考模板来确定缺血图像[5]，",
+    "start_index": 22289,
+    "end_index": 22304,
+    "tokens_count": 16,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 403,
+    "text": "分析 DWI梗死形态，",
+    "start_index": 22304,
+    "end_index": 22315,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 404,
+    "text": "分为深穿\n支动脉梗死（ PAI）皮质支梗死 (PI)分水岭梗死 (BZ)全流域梗死等不同形态。",
+    "start_index": 22315,
+    "end_index": 22362,
+    "tokens_count": 62,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 405,
+    "text": "以下\n我们分别探讨各型梗死的发病机制。",
+    "start_index": 22362,
+    "end_index": 22381,
+    "tokens_count": 25,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 406,
+    "text": "深穿支动脉梗死（ PAI） \n1．微栓子学说与动脉 -动脉的栓塞：在 1980年初该学说就有了病理基础，",
+    "start_index": 22381,
+    "end_index": 22438,
+    "tokens_count": 63,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 407,
+    "text": "Masuda[6]等进一步证实 MCA S患者导致远端动脉闭塞血栓栓塞的成分 (纤维蛋\n白、血小板聚集物 )与动脉粥样斑块表面血栓相同 ,说明堵塞远端小动脉的栓子由\nMCA狭窄处脱落而来。",
+    "start_index": 22438,
+    "end_index": 22533,
+    "tokens_count": 119,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 408,
+    "text": "90年代初 Spencer[7]等发现 TCD可以检测到在血液中流\n过的 MES。",
+    "start_index": 22533,
+    "end_index": 22575,
+    "tokens_count": 30,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 409,
+    "text": "2001年在香港中文大学进行的一项预试验发现 20例有症状 MCAS\nÍò·½Êý¾Ý\n 20 患者 MES发生的频率为 15%,而对照组 (无症状 MCAS)20 例患者则无一例检测到\nMES[8],提示 MCAS患者 MES的出现与临床缺血症状的发生有关。",
+    "start_index": 22575,
+    "end_index": 22705,
+    "tokens_count": 126,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 410,
+    "text": "微栓子形成动\n脉-动脉的栓塞。 由于豆纹动脉属于终末血管， 缺乏侧支吻合， 而皮质支存在丰\n富的侧支循环， 当 MCA狭窄时容易使梗死局限于深穿支动脉供血区，",
+    "start_index": 22705,
+    "end_index": 22781,
+    "tokens_count": 108,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 411,
+    "text": "皮质免于\n受累[9-10]。",
+    "start_index": 22781,
+    "end_index": 22795,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 412,
+    "text": "2．粥样硬化斑块或血栓形成堵塞豆纹动脉开口： 1983年及 1989年国外学\n者所做的病理曾证实 MCAS的粥样硬化斑块或血栓形成堵塞豆纹动脉开口导致\n深穿支动脉区梗死[11-12]。",
+    "start_index": 22795,
+    "end_index": 22890,
+    "tokens_count": 119,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 413,
+    "text": "1984年国外学者的研究发现， 深穿支动脉梗死中纹状\n体内囊大梗死主要由 MCA -M1段动脉粥样硬化性狭窄或血栓性栓塞阻塞数个穿\n支动脉的开口所致[13]。",
+    "start_index": 22890,
+    "end_index": 22968,
+    "tokens_count": 105,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 414,
+    "text": "香港中文大学在梗死亚型的研究中发现 1/3患者出现孤立\n的深穿支动脉区梗死且都没有微栓子 ,此次研究就再次验证 了这种类型的梗死机\n制就可能与血栓形成不断延伸而堵塞豆纹动脉有关[14]。",
+    "start_index": 22968,
+    "end_index": 23062,
+    "tokens_count": 124,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 415,
+    "text": "3.",
+    "start_index": 23062,
+    "end_index": 23066,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 416,
+    "text": "穿支动脉（豆纹动脉）本身的玻璃样变及动脉粥样硬化[15]。 还有一部分\nMCA正常的纹状体内囊梗死， 有以下几方面的可能：①豆纹动脉从 MCA主干\n发出的结构变异， 即先以一根主干发自 MCA—M1段， 在走行过程中逐步发出\n小的分支分布于各个供血部位[16],那么， 如果单个穿支动脉近端主干闭塞， 即可\n以造成远端分支血管缺血而发生梗死， 梗死面积会很大。 ②心源性或颈内动脉内、\n主动脉弓血栓脱落栓塞， 迅速而完全地阻塞了数支豆纹动脉的分支开口。 如果闭\n塞的 MCA—M1段血栓因自溶发生再通足够快， 那么 MCA皮质支因侧支循环丰\n富而避免缺血的发生， 作为终末血管的穿支动脉不能耐受缺血而发生梗死。 以上\n致病过程可共存， 故我们推测多发 PAI为多种机制所造成。",
+    "start_index": 23066,
+    "end_index": 23393,
+    "tokens_count": 411,
+    "sentences_count": 15,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 417,
+    "text": "皮层支梗死 (PI) \n重度 MCA狭窄的患者更易出现 PI病变，",
+    "start_index": 23393,
+    "end_index": 23431,
+    "tokens_count": 38,
+    "sentences_count": 1,
+    "cluster_id": 12
+  },
+  {
+    "chunk_id": 418,
+    "text": "组织病理学已证实 MCA的血栓形\n成后随着血流的冲击而致远端的皮质支梗死[17-18],经颅多普勒超声栓子检测技术\n也证实此观点[19],狭窄部位血栓栓子脱落造成远端小动脉栓塞 (动脉 -动脉栓塞 )是\n皮层梗死的主要原因 ,大脑皮层各脑回之间大量的动脉吻合 ,使大部分皮层微小的\n栓子在形成大的缺血损害之前被充足的血流冲走或被很好的侧支循环所代偿 ,因\n此皮层支的梗死范围一般较局限， 不容易形成大的融合成片的皮层梗死[20]。",
+    "start_index": 23431,
+    "end_index": 23646,
+    "tokens_count": 292,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 419,
+    "text": "Íò·½Êý¾Ý\n 21 分水岭梗死 (BZ) \n脑分水岭梗死为两条非吻合动脉系统交界区域的脑梗死。",
+    "start_index": 23646,
+    "end_index": 23700,
+    "tokens_count": 66,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 420,
+    "text": "脑分水岭梗死传统\n上分为两个重要的分水岭区域， 一皮层分水岭：为大脑前动脉、大脑中动脉以及\n大脑后动脉之间的皮层分水岭区域， 二内分水岭：为大脑中动脉深穿支以及浅表\n动脉系统之间或者大脑中动脉、 大脑前动脉浅表动脉系统分支之间的白质或稍高\n于侧脑室之间的区域。 影像上可分为三种类型 :前交界区梗死 (大脑前动脉与大 脑\n中动脉分布区 )、后交界区 (大脑后动脉与大脑中动脉分布区 )、内交界区 (皮层支\n与深穿支之间 )。 分水岭梗死的头颅 MRI表现与神经病理学的表现形态类似， 主\n要为：①皮质型：大脑前、中、后动脉的皮层交界区梗死灶呈楔形， 尖端朝向侧\n脑室， 底朝向皮质软膜面。 ②皮质下型：大脑前、中动脉深穿支及其边缘带， 主\n要位于白质， 在侧脑室体部外侧一半卵圆中心和放射冠， 病灶呈串珠样或融合成\n条索状[21]。",
+    "start_index": 23700,
+    "end_index": 24056,
+    "tokens_count": 486,
+    "sentences_count": 12,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 421,
+    "text": "其机制可有如下分析：大动脉狭窄或闭塞后会造成狭窄远端动脉内\n压力降低 ,使该动脉供血区血流灌注降低。",
+    "start_index": 24056,
+    "end_index": 24106,
+    "tokens_count": 71,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 422,
+    "text": "在香港中文大学进行的一项研究发\n现,MCAS患者血管狭窄的程度与交界区梗死的发生频率成正比 ,严重狭窄者交界\n区梗死发生的频率较中度狭窄者高 (P=0.",
+    "start_index": 24106,
+    "end_index": 24182,
+    "tokens_count": 96,
+    "sentences_count": 1,
+    "cluster_id": 7
+  },
+  {
+    "chunk_id": 423,
+    "text": "01)[22],说明低灌注在 MCAS的交界区梗\n死中起重要作用。 上面我们谈论了皮层及深穿支梗死的微栓子机制， 而交界区与\n皮层的情况相反 ,血流灌注差 ,缺乏各种吻合支， 我们在临床上可见 ,交界区梗死常\n常融合成片 ,提示交界区梗死可能是由于该区域低灌注造成栓子清除能力下降所\n致。",
+    "start_index": 24182,
+    "end_index": 24323,
+    "tokens_count": 165,
+    "sentences_count": 4,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 424,
+    "text": "据 Lee[23]等对 850例患者进行研究。",
+    "start_index": 24323,
+    "end_index": 24346,
+    "tokens_count": 21,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 425,
+    "text": "显示在动脉硬化组中大脑中动脉病变出\n现分水岭梗死更常见。 更加验证了低灌注及栓子清除率下降在分水岭梗死中的重\n要作用。 全流域梗死（大灶脑梗死累及皮质和／或皮质下）  \n全流域梗死是指 1支以上主要大脑动脉供血区域的皮质和／或皮质下大的\n缺血灶。 是 由于大脑中动脉主干或其分支闭塞且无有效侧支循环建立所致， 梗死\n范围取决于动脉狭窄程度、 侧支血流情况及闭塞血管再通的时间与程度。 Szabo[25]\n等的研究表明 MCA重度狭窄易发生 BZ梗死， 而完全闭塞则好发区域性梗死灶。 心源性栓塞等因素较少引起大灶性的全流域梗死， 其发病机制与动脉粥样硬化性\n血栓形成有关[24]。",
+    "start_index": 24346,
+    "end_index": 24638,
+    "tokens_count": 376,
+    "sentences_count": 9,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 426,
+    "text": "Íò·½Êý¾Ý\n 22 二．动脉粥样硬化性大脑中动脉供血区脑梗死的临床表现  \n大脑中动脉供血区脑 梗死可分为主干闭塞、皮质支闭塞、深穿支闭塞。",
+    "start_index": 24638,
+    "end_index": 24715,
+    "tokens_count": 105,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 427,
+    "text": "据既\n往文献记载， 瘫痪是大脑中动脉供血区脑梗死最常出现的症状[26]. 面部、上肢及\n下肢同时受累是最常见的表现形式， 上肢受累的其他组合次之， 如面部 +上肢， 或上肢 +下肢。 下肢受累较上肢少见， 面部受累最少见 (上肢 >下肢 >面部 )。 深穿\n支（即纹状体内囊）损伤常引起面部、上肢及下肢偏瘫， 而较浅的皮质运动区受\n累多引起单瘫。 临床上可见， 肢体受累患者中， 肢体远端运动障碍往往较近端重， 且恢复较慢。 这种瘫痪分布差异可以用身体各部在大脑表面第一躯体运动区的投\n射位置及面积来解释。 由于肢体远端 尤其是上肢远端功能相对重要， 参与的精细\n动作多而复杂， 其在大脑表面的投影区亦较大， 导致其在脑梗死中受累的几率及\n面积大， 故其受累频率高， 且恢复缓慢。 虽然面部诸肌在脑部投影亦较大， 但大\n部分脑神经运动核均受双侧皮质脑干束支配，",
+    "start_index": 24715,
+    "end_index": 25079,
+    "tokens_count": 484,
+    "sentences_count": 23,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 428,
+    "text": "而只有面神经核下部及舌下神经核\n仅受单侧皮质脑干束支配， 故一侧皮质病变仅导致病变对侧中枢性面舌瘫。 而下\n部面肌及舌肌的皮质投影离外侧裂较近， 供应它们的 MCA皮质支刚从 MCA侧\n裂段分出， 血管管径相对较大， 从 MCA主干脱落的栓子栓塞在此部位的几率亦\n较低， 故其受累的频率较离外侧裂远的上肢及下肢低。 结语  \n根据大脑中动脉供血区脑梗死患者的临床表现， 我们可以初步判断出患者脑\n部受累的区域及血管， 而由影像学表现可大致推测其卒中机制。 一种梗死形态可\n能由多种卒中机制  (栓塞、血栓形成、灌注不良等 )所致， 而不同程度的动脉病\n变也可以通过多种机制导致脑梗死。 因此， 在临床上我们需要综合考虑并针对其\n进行治疗。 比如， 临床发现有分水岭梗死的患者时均应通过 MRA等了解颈内动\n脉及大脑中动脉血管病变情况，",
+    "start_index": 25079,
+    "end_index": 25441,
+    "tokens_count": 471,
+    "sentences_count": 16,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 429,
+    "text": "通过调节血压、血容量等手段改善病变区域血流\n动力学障碍， 有条件时应进一步行 DSA检查确诊， 必要时可行介入治疗以改善\n血流动力学障碍避 免再发梗死。 但在临床上， 对于急性缺血性脑卒中患者的救治， 由于硬件条件的限制以及对脑卒中机制研究的证据尚不够充分， 尚未严格的实行\n个体化治疗。 在将来的研究及临床实践中，",
+    "start_index": 25441,
+    "end_index": 25597,
+    "tokens_count": 198,
+    "sentences_count": 8,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 430,
+    "text": "可结合 彩色经颅多普勒的微栓子监测、\nÍò·½Êý¾Ý\n 23 DSA等，",
+    "start_index": 25597,
+    "end_index": 25635,
+    "tokens_count": 41,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 431,
+    "text": "以期对患者实行严格的 个体化治疗， 进一步提高病人的临床疗效及进\n一步探讨其远期效果。",
+    "start_index": 25635,
+    "end_index": 25677,
+    "tokens_count": 56,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 432,
+    "text": "参考文献  \n[1]李世绰，",
+    "start_index": 25677,
+    "end_index": 25698,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 18
+  },
+  {
+    "chunk_id": 433,
+    "text": "程学铭， 王文志等 . 神经系统疾病流行病学 [M]. 北京 :人民卫生出版社， 2000， 80. [2]Wong KS ， HuangYN ， Gao S， Lam WW ， Chan YL， Kay R.",
+    "start_index": 25698,
+    "end_index": 25796,
+    "tokens_count": 72,
+    "sentences_count": 12,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 434,
+    "text": "Intracr anial stenosis in Chinese \nPatients with acute stroke [J].",
+    "start_index": 25796,
+    "end_index": 25863,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 435,
+    "text": "Neurology. 1998 ，",
+    "start_index": 25863,
+    "end_index": 25879,
+    "tokens_count": 7,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 436,
+    "text": "50:812一813 \n[3]Wong KS ，",
+    "start_index": 25879,
+    "end_index": 25903,
+    "tokens_count": 13,
+    "sentences_count": 1,
+    "cluster_id": 5
+  },
+  {
+    "chunk_id": 437,
+    "text": "Li H， Chan YL， et al.",
+    "start_index": 25903,
+    "end_index": 25922,
+    "tokens_count": 10,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 438,
+    "text": "Use of transcrial Doppler to predict outcome in Patients \nwith intracranial large -artery occlusive disease [J].",
+    "start_index": 25922,
+    "end_index": 26034,
+    "tokens_count": 28,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 439,
+    "text": "Stroke.",
+    "start_index": 26034,
+    "end_index": 26041,
+    "tokens_count": 2,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 440,
+    "text": "2000 ， 31:2641一2647.",
+    "start_index": 26041,
+    "end_index": 26060,
+    "tokens_count": 11,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 441,
+    "text": "[4]Wong  KS，",
+    "start_index": 26060,
+    "end_index": 26075,
+    "tokens_count": 8,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 442,
+    "text": "Gao S， Chan YL，",
+    "start_index": 26075,
+    "end_index": 26089,
+    "tokens_count": 8,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 443,
+    "text": "et a1．Mechanisms of Acute Cerebral Infarctions  in Patients \nwith Middle Cerebral  Artery Stenosis ：A Diffusion—weighted Imaging  and Microemboli  \nMonitoring Study[J] ．Ann Neurol  (S0364—5134)，",
+    "start_index": 26089,
+    "end_index": 26283,
+    "tokens_count": 62,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 444,
+    "text": "2002，",
+    "start_index": 26283,
+    "end_index": 26288,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 445,
+    "text": "52：74—81． \n[5]Tatu I，",
+    "start_index": 26288,
+    "end_index": 26309,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 11
+  },
+  {
+    "chunk_id": 446,
+    "text": "Moulin T， Bogousslavsky J ， et a1.",
+    "start_index": 26309,
+    "end_index": 26341,
+    "tokens_count": 17,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 447,
+    "text": "Arterial Teritories of the Human Brain ：Cerebral \nHemispheres [J] ．Neurology(S0028 —3878)，",
+    "start_index": 26341,
+    "end_index": 26431,
+    "tokens_count": 33,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 448,
+    "text": "1998， 50：1699—1708． \n[6]Masuda J, Ogata J, Y utani C, et al.",
+    "start_index": 26431,
+    "end_index": 26490,
+    "tokens_count": 31,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 449,
+    "text": "Artery -to-artery embolism  from a thrombus formed in \nstenotic middle cerebral artery.",
+    "start_index": 26490,
+    "end_index": 26578,
+    "tokens_count": 24,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 450,
+    "text": "Report  of an autopsy case [J].",
+    "start_index": 26578,
+    "end_index": 26610,
+    "tokens_count": 9,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 451,
+    "text": "Stroke, 18: 680 -684.",
+    "start_index": 26610,
+    "end_index": 26632,
+    "tokens_count": 10,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 452,
+    "text": "[7]Spencer MP , Thomas GI, Nicholls SC, et al.",
+    "start_index": 26632,
+    "end_index": 26680,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 453,
+    "text": "Detection of middle  cerebral artery emboli \nduring carotid endarterectomy using  transcranial Doppler ultrasonography [J].",
+    "start_index": 26680,
+    "end_index": 26804,
+    "tokens_count": 29,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 454,
+    "text": "Stroke, 1990, 21: \n415-423.",
+    "start_index": 26804,
+    "end_index": 26832,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 455,
+    "text": "[8]Wong KS, Gao S, Lam W , et al.",
+    "start_index": 26832,
+    "end_index": 26867,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 456,
+    "text": "A  pil ot study of microembolic  signals in patients with \nmiddle cerebral artery stenosis [J].",
+    "start_index": 26867,
+    "end_index": 26963,
+    "tokens_count": 24,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 457,
+    "text": "J Neuroimaging, 2001, 11: 137 -140.",
+    "start_index": 26963,
+    "end_index": 26999,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 458,
+    "text": "[9]Bogousslavsky J ，",
+    "start_index": 26999,
+    "end_index": 27021,
+    "tokens_count": 11,
+    "sentences_count": 1,
+    "cluster_id": 0
+  },
+  {
+    "chunk_id": 459,
+    "text": "Regli F，",
+    "start_index": 27021,
+    "end_index": 27029,
+    "tokens_count": 4,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 460,
+    "text": "Maeder P ．Intracranial large -artery  disease and ‘lacunar’\ninfarction [J]．Cerebrovasc Dis ，",
+    "start_index": 27029,
+    "end_index": 27121,
+    "tokens_count": 36,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 461,
+    "text": "1991. l：154-159． \n[10]张春玲， 徐忠宝， 曲媛．腔隙性脑梗死 102例患者的脑血流动力学分析 [J]．中华神\n经科杂志， 2006，",
+    "start_index": 27121,
+    "end_index": 27195,
+    "tokens_count": 83,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 462,
+    "text": "39：587-590． \n[11]Caplan LR.",
+    "start_index": 27195,
+    "end_index": 27222,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 463,
+    "text": "Intracranial branch atheromatous disease: a neglected, understudied, and \nunderused concept [J]. Neurology, 1989, 39: 1246 -1250. [12]Adams  HP , Damasio  HC, Putman SF , et al.",
+    "start_index": 27222,
+    "end_index": 27403,
+    "tokens_count": 65,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 464,
+    "text": "Middle cere bral artery  occlusion as a cause of \nisolated subcortical infarction [J].",
+    "start_index": 27403,
+    "end_index": 27490,
+    "tokens_count": 25,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 465,
+    "text": "Stroke, 1983, 14: 948 -952.",
+    "start_index": 27490,
+    "end_index": 27518,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 9
+  },
+  {
+    "chunk_id": 466,
+    "text": "[13]Bladin  PF，",
+    "start_index": 27518,
+    "end_index": 27535,
+    "tokens_count": 8,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 467,
+    "text": "Berkovie SF ．Striatocapsular infarction ：large infarcts  in the lenticulostr \niatearerial [J]．Neurology.",
+    "start_index": 27535,
+    "end_index": 27639,
+    "tokens_count": 38,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 468,
+    "text": "1984 ， 34：1423 -1430． \n[14]Wong KS, Gao S, Chan YL, et al.",
+    "start_index": 27639,
+    "end_index": 27696,
+    "tokens_count": 30,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 469,
+    "text": "Mechanisms of acute cerebral  infarctions in patients \nwith middle cerebral artery stenosis: a  diffusion -weighted imaging and microemboli monitoring \nstudy [J].",
+    "start_index": 27696,
+    "end_index": 27859,
+    "tokens_count": 37,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 470,
+    "text": "Ann  Neurol, 2002, 52: 74 -81.",
+    "start_index": 27859,
+    "end_index": 27890,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 17
+  },
+  {
+    "chunk_id": 471,
+    "text": "[15]茅翼亭 ,韩翔 ,方茎等 . 大脑中动脉供血区梗死灶形态与可能发病机制的回顾性研究 [J]. 中华神经科杂 ,2009,42 (6):396 -401. [16]Laurent T ， Thierry M ，",
+    "start_index": 27890,
+    "end_index": 27999,
+    "tokens_count": 98,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 472,
+    "text": "Bogousslavsky J ．Arterial territories of the human  brain：cerebral \nhemispheres [J]．Neurology ，",
+    "start_index": 27999,
+    "end_index": 28094,
+    "tokens_count": 34,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 473,
+    "text": "1998， 50：1699 -1708． \n[17]Masuda  J， Ogata J， Y utani C，",
+    "start_index": 28094,
+    "end_index": 28147,
+    "tokens_count": 30,
+    "sentences_count": 4,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 474,
+    "text": "eta1．Artery -to-artery Embolism  from A  Thrombus  Formed  \nIn Stenotic Middle  Cerebra l Artery．Report of an  Autopsy Case[J] ．Stroke(S0039 —2499)，",
+    "start_index": 28147,
+    "end_index": 28295,
+    "tokens_count": 56,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 475,
+    "text": "1987，",
+    "start_index": 28295,
+    "end_index": 28300,
+    "tokens_count": 3,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 476,
+    "text": "18：680-684． \nÍò·½Êý¾Ý\n 24 [18]Ogata J, Masuda J ，",
+    "start_index": 28300,
+    "end_index": 28350,
+    "tokens_count": 32,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 477,
+    "text": "Y utani C, et a1 ．Mechanisms of Cerebral  Artery  Thrombosis ：A \nHistopathoIogical Analysis  on Eight Necropsy cases[J] ．J Neurol Neuro surg Psychiatry(S0022 —\n3050)，",
+    "start_index": 28350,
+    "end_index": 28516,
+    "tokens_count": 60,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 478,
+    "text": "1994， 57：17-21． \n[19]Wong Ks ， Gao S ,Chan YL ， et al.",
+    "start_index": 28516,
+    "end_index": 28567,
+    "tokens_count": 29,
+    "sentences_count": 4,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 479,
+    "text": "Mechanisms of  Acute Cerebral Infarctions  in Patients \nwith Middle  Cerebral  Artery Stenosis ：A Diffusion -weighted Imaging  and Microemboli  \nMonitoring study[J] ．Ann Neurol (S0364—5134)，",
+    "start_index": 28567,
+    "end_index": 28758,
+    "tokens_count": 59,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 480,
+    "text": "2002， 52：74—81． \n[20]Duvernoy HM, D elon S, V annson JL.",
+    "start_index": 28758,
+    "end_index": 28813,
+    "tokens_count": 29,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 481,
+    "text": "Cortical blood vessels of the  human brain[J].",
+    "start_index": 28813,
+    "end_index": 28860,
+    "tokens_count": 12,
+    "sentences_count": 1,
+    "cluster_id": 14
+  },
+  {
+    "chunk_id": 482,
+    "text": "Brain \nRes Bull, 1981, 7: 519 -579.",
+    "start_index": 28860,
+    "end_index": 28896,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 483,
+    "text": "[21]钟利群 ,高颖 ,邹忆怀等 . 颈内动脉系统分水岭梗死的影像学改变 [J].",
+    "start_index": 28896,
+    "end_index": 28939,
+    "tokens_count": 46,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 484,
+    "text": "中华全科医师杂\n志,2008,12(7): 832 -834.",
+    "start_index": 28939,
+    "end_index": 28970,
+    "tokens_count": 25,
+    "sentences_count": 1,
+    "cluster_id": 15
+  },
+  {
+    "chunk_id": 485,
+    "text": "[22]Wong KS, Gao S, Chan YL, et al.",
+    "start_index": 28970,
+    "end_index": 29007,
+    "tokens_count": 18,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 486,
+    "text": "Mechanisms of acute cerebral  infarctions in patients \nwith middle cerebral artery stenosis: a  diffusion -weighted imaging and microemboli monitoring \nstudy [J].",
+    "start_index": 29007,
+    "end_index": 29170,
+    "tokens_count": 37,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 487,
+    "text": "Ann  Neurol, 2002, 52: 74 -81.",
+    "start_index": 29170,
+    "end_index": 29201,
+    "tokens_count": 17,
+    "sentences_count": 1,
+    "cluster_id": 17
+  },
+  {
+    "chunk_id": 488,
+    "text": "[23]Lee PH ，",
+    "start_index": 29201,
+    "end_index": 29215,
+    "tokens_count": 6,
+    "sentences_count": 1,
+    "cluster_id": 19
+  },
+  {
+    "chunk_id": 489,
+    "text": "oh SH， Bang OY ,et al.",
+    "start_index": 29215,
+    "end_index": 29236,
+    "tokens_count": 10,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 490,
+    "text": "Isolated middle  cereb ral artery disease： clinical and \nneuroradioIogical  features depending o n the pathogenesis[J] ．J Neurol  Neurosurg psychiatry ，",
+    "start_index": 29236,
+    "end_index": 29388,
+    "tokens_count": 43,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 491,
+    "text": "2004， 75(10)：727-732． \n[24]夏友华， 潘邓记， 唐洲平等 . 大脑中动脉粥样硬化性脑梗死患者急性期 MRI表现及\n其病理生理机制分析 [J].",
+    "start_index": 29388,
+    "end_index": 29469,
+    "tokens_count": 86,
+    "sentences_count": 5,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 492,
+    "text": "神经损伤与功能重建 ,2009,4(2):85 -87.",
+    "start_index": 29469,
+    "end_index": 29497,
+    "tokens_count": 23,
+    "sentences_count": 1,
+    "cluster_id": 13
+  },
+  {
+    "chunk_id": 493,
+    "text": "[25]Szab o K. Kern R ， Guss A，",
+    "start_index": 29497,
+    "end_index": 29527,
+    "tokens_count": 16,
+    "sentences_count": 3,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 494,
+    "text": "et a1．Acute stroke patterns  in patients  with internal carotid  \nartery  disease：a diffusion -weighted magnetic  resonance  imaging study [J]．Stroke．2001，",
+    "start_index": 29527,
+    "end_index": 29682,
+    "tokens_count": 42,
+    "sentences_count": 1,
+    "cluster_id": 3
+  },
+  {
+    "chunk_id": 495,
+    "text": "32：\n1323 -1329． \n[26]Caplan LR,Babikian V ,Helgason C,et al.",
+    "start_index": 29682,
+    "end_index": 29742,
+    "tokens_count": 29,
+    "sentences_count": 1,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 496,
+    "text": "Occlusive disease of the middle cerebral \nartery [J].",
+    "start_index": 29742,
+    "end_index": 29795,
+    "tokens_count": 14,
+    "sentences_count": 1,
+    "cluster_id": 8
+  },
+  {
+    "chunk_id": 497,
+    "text": "Neurology. 1985;35:975 -982.",
+    "start_index": 29795,
+    "end_index": 29822,
+    "tokens_count": 13,
+    "sentences_count": 2,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 498,
+    "text": "Íò·½Êý¾Ý\n 25 致  谢 \n \n首先，",
+    "start_index": 29822,
+    "end_index": 29870,
+    "tokens_count": 23,
+    "sentences_count": 1,
+    "cluster_id": 16
+  },
+  {
+    "chunk_id": 499,
+    "text": "谨向我的导师童绥君教授表达 我最真挚的感谢 ! 感谢导师三年来对我\n的精心培养和鼓励。 本论文从选题， 设计到撰写都是在童老师的细心 指导下完成\n的。 导师 高深的见地， 渊博的学识 以及忘我的工作精神， 激励我不断努力。 导师\n高标准、严要求的工作精神， 高尚的敬业精神、孜孜不倦的探索精神将使我受益\n终生。 本课题有幸得到厦门市第一医院神经内科 马琪林主任及神经 内科各位老师 的\n帮助， 谨此致以衷心的感谢。 最后， 我还要感谢我的家人给予我无私的关爱和不断的支持， 使我能够全身\n心投入到课题 的研究之中。",
+    "start_index": 29870,
+    "end_index": 30120,
+    "tokens_count": 313,
+    "sentences_count": 14,
+    "cluster_id": 1
+  },
+  {
+    "chunk_id": 500,
+    "text": "Íò·½Êý¾Ý",
+    "start_index": 30120,
+    "end_index": 30134,
+    "tokens_count": 10,
+    "sentences_count": 1,
+    "cluster_id": 16
+  }
+]

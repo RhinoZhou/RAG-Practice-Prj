@@ -1,0 +1,96 @@
+[
+    {
+        "text": "人工智能（Artificial Intelligence，简称AI）是计算机科学的一个分支，\n旨在创",
+        "start_tok": 0,
+        "end_tok": 50,
+        "neighbors": [
+            1
+        ],
+        "chunk_id": 0,
+        "start_pos": 0,
+        "end_pos": 50
+    },
+    {
+        "text": "，\n旨在创造能够执行通常需要人类智能的任务的智能机器。人工智能的研究领域包括机器学习、计算机视觉、\n",
+        "start_tok": 45,
+        "end_tok": 95,
+        "neighbors": [
+            0,
+            2
+        ],
+        "chunk_id": 1,
+        "start_pos": 45,
+        "end_pos": 95
+    },
+    {
+        "text": "机视觉、\n自然语言处理、机器人学、专家系统等多个方面。\n\n机器学习是人工智能的一个重要分支，它使计算",
+        "start_tok": 90,
+        "end_tok": 140,
+        "neighbors": [
+            1,
+            3
+        ],
+        "chunk_id": 2,
+        "start_pos": 90,
+        "end_pos": 140
+    },
+    {
+        "text": "，它使计算机能够从数据中学习而不需要明确编程。\n深度学习是机器学习的一个子集，它使用多层神经网络来模",
+        "start_tok": 135,
+        "end_tok": 185,
+        "neighbors": [
+            2,
+            4
+        ],
+        "chunk_id": 3,
+        "start_pos": 135,
+        "end_pos": 185
+    },
+    {
+        "text": "经网络来模拟人类大脑的某些功能。\n深度学习在图像识别、语音识别、自然语言处理等领域取得了显著的成功。",
+        "start_tok": 180,
+        "end_tok": 230,
+        "neighbors": [
+            3,
+            5
+        ],
+        "chunk_id": 4,
+        "start_pos": 180,
+        "end_pos": 230
+    },
+    {
+        "text": "著的成功。\n\n随着大数据和计算能力的提升，人工智能技术正在快速发展，并在医疗、金融、交通、教育等\n多",
+        "start_tok": 225,
+        "end_tok": 275,
+        "neighbors": [
+            4,
+            6
+        ],
+        "chunk_id": 5,
+        "start_pos": 225,
+        "end_pos": 275
+    },
+    {
+        "text": "教育等\n多个行业得到广泛应用。人工智能的发展也带来了一系列伦理和社会问题，如隐私保护、\n就业影响、算",
+        "start_tok": 270,
+        "end_tok": 320,
+        "neighbors": [
+            5,
+            7
+        ],
+        "chunk_id": 6,
+        "start_pos": 270,
+        "end_pos": 320
+    },
+    {
+        "text": "业影响、算法偏见等，需要我们认真思考和应对。",
+        "start_tok": 315,
+        "end_tok": 337,
+        "neighbors": [
+            6
+        ],
+        "chunk_id": 7,
+        "start_pos": 315,
+        "end_pos": 337
+    }
+]

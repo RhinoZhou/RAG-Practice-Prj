@@ -1,0 +1,58 @@
+[
+    {
+        "token_size": 512,
+        "num_chunks": 14,
+        "f1_score": 0.02906949896097899,
+        "ndcg_score": 0.0012911801546751601,
+        "coverage": 1.0,
+        "avg_latency": 0.0008065700531005859
+    },
+    {
+        "token_size": 768,
+        "num_chunks": 10,
+        "f1_score": 0.013036856533658239,
+        "ndcg_score": 0.0011078275987041564,
+        "coverage": 1.0,
+        "avg_latency": 0.0008689403533935547
+    },
+    {
+        "token_size": 1024,
+        "num_chunks": 7,
+        "f1_score": 0.03662976719392087,
+        "ndcg_score": 0.0010046102743719377,
+        "coverage": 1.0,
+        "avg_latency": 0.0021923065185546877
+    },
+    {
+        "token_size": 1280,
+        "num_chunks": 6,
+        "f1_score": 0.027131742394107504,
+        "ndcg_score": 0.0009222267174923464,
+        "coverage": 1.0,
+        "avg_latency": 0.001204061508178711
+    },
+    {
+        "token_size": 1536,
+        "num_chunks": 5,
+        "f1_score": 0.03133240432472866,
+        "ndcg_score": 0.0008711892197910426,
+        "coverage": 1.0,
+        "avg_latency": 0.0011263370513916015
+    },
+    {
+        "token_size": 1792,
+        "num_chunks": 4,
+        "f1_score": 0.026479729870460995,
+        "ndcg_score": 0.00025443651643447806,
+        "coverage": 1.0,
+        "avg_latency": 0.0007353544235229493
+    },
+    {
+        "token_size": 2048,
+        "num_chunks": 4,
+        "f1_score": 0.022985888132966183,
+        "ndcg_score": 0.00048228310350377447,
+        "coverage": 1.0,
+        "avg_latency": 0.0009288549423217774
+    }
+]
