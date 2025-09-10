@@ -1,0 +1,307 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "分块元数据模板",
+  "description": "用于描述文本分块的多维元数据结构",
+  "type": "object",
+  "properties": {
+    "chunk_id": {
+      "type": "string",
+      "description": "分块唯一标识符"
+    },
+    "document_id": {
+      "type": "string",
+      "description": "所属文档唯一标识符"
+    },
+    "document_type": {
+      "type": "string",
+      "description": "文档类型，如法律案例、医学报告等"
+    },
+    "chunk_text": {
+      "type": "string",
+      "description": "分块的文本内容"
+    },
+    "token_count": {
+      "type": "integer",
+      "description": "分块的token数量",
+      "minimum": 1
+    },
+    "start_position": {
+      "type": "integer",
+      "description": "分块在原始文档中的起始位置",
+      "minimum": 0
+    },
+    "end_position": {
+      "type": "integer",
+      "description": "分块在原始文档中的结束位置",
+      "minimum": 1
+    },
+    "version": {
+      "type": "string",
+      "description": "分块版本号"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "创建时间"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "更新时间"
+    },
+    "semantic_roles": {
+      "type": "array",
+      "description": "语义角色标注列表",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role_type": {
+            "type": "string",
+            "description": "角色类型，如原告、被告、时间、地点等"
+          },
+          "role_value": {
+            "type": "string",
+            "description": "角色值"
+          },
+          "position": {
+            "type": "array",
+            "description": "角色在文本中的位置范围",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "required": [
+          "role_type",
+          "role_value"
+        ]
+      }
+    },
+    "knowledge_graph": {
+      "type": "object",
+      "description": "知识图谱嵌入信息",
+      "properties": {
+        "entities": {
+          "type": "array",
+          "description": "实体列表",
+          "items": {
+            "type": "object",
+            "properties": {
+              "entity_id": {
+                "type": "string",
+                "description": "实体唯一标识符"
+              },
+              "entity_type": {
+                "type": "string",
+                "description": "实体类型，如自然人、知识产权等"
+              },
+              "entity_value": {
+                "type": "string",
+                "description": "实体值"
+              }
+            },
+            "required": [
+              "entity_id",
+              "entity_type",
+              "entity_value"
+            ]
+          }
+        },
+        "relations": {
+          "type": "array",
+          "description": "实体关系列表",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source_id": {
+                "type": "string",
+                "description": "源实体ID"
+              },
+              "target_id": {
+                "type": "string",
+                "description": "目标实体ID"
+              },
+              "relation_type": {
+                "type": "string",
+                "description": "关系类型，如拥有、侵犯等"
+              }
+            },
+            "required": [
+              "source_id",
+              "target_id",
+              "relation_type"
+            ]
+          }
+        }
+      },
+      "required": [
+        "entities",
+        "relations"
+      ]
+    },
+    "temporal_info": {
+      "type": "object",
+      "description": "时序版本控制信息",
+      "properties": {
+        "effective_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "生效时间"
+        },
+        "expiry_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "过期时间"
+        },
+        "revision_history": {
+          "type": "array",
+          "description": "修订历史",
+          "items": {
+            "type": "object",
+            "properties": {
+              "revision_id": {
+                "type": "string",
+                "description": "修订唯一标识符"
+              },
+              "version": {
+                "type": "string",
+                "description": "版本号"
+              },
+              "timestamp": {
+                "type": "string",
+                "format": "date-time",
+                "description": "修订时间戳"
+              },
+              "author": {
+                "type": "string",
+                "description": "修订作者"
+              },
+              "changes": {
+                "type": "string",
+                "description": "变更说明"
+              }
+            },
+            "required": [
+              "revision_id",
+              "version",
+              "timestamp"
+            ]
+          }
+        },
+        "time_expressions": {
+          "type": "array",
+          "description": "文本中的时间表达式",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "description": "时间表达式文本"
+              },
+              "type": {
+                "type": "string",
+                "description": "时间表达式类型，如日期、时间段"
+              },
+              "value": {
+                "type": "string",
+                "description": "时间表达式标准化值"
+              }
+            },
+            "required": [
+              "text",
+              "type",
+              "value"
+            ]
+          }
+        }
+      }
+    },
+    "structural_info": {
+      "type": "object",
+      "description": "结构路径信息",
+      "properties": {
+        "document_structure": {
+          "type": "string",
+          "description": "文档结构路径"
+        },
+        "hierarchy_level": {
+          "type": "integer",
+          "description": "层级深度",
+          "minimum": 0
+        },
+        "parent_chunk_id": {
+          "type": "string",
+          "description": "父分块ID"
+        },
+        "child_chunk_ids": {
+          "type": "array",
+          "description": "子分块ID列表",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sibling_order": {
+          "type": "integer",
+          "description": "在同级块中的顺序",
+          "minimum": 0
+        },
+        "layout_info": {
+          "type": "object",
+          "description": "布局信息",
+          "properties": {
+            "page_number": {
+              "type": "integer",
+              "description": "页码",
+              "minimum": 1
+            },
+            "region": {
+              "type": "string",
+              "description": "区域类型"
+            },
+            "block_type": {
+              "type": "string",
+              "description": "块类型，如paragraph、table等"
+            }
+          }
+        }
+      }
+    },
+    "metadata_tags": {
+      "type": "array",
+      "description": "元数据标签列表",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tag_name": {
+            "type": "string",
+            "description": "标签名称"
+          },
+          "tag_value": {
+            "type": "string",
+            "description": "标签值"
+          },
+          "confidence": {
+            "type": "number",
+            "description": "置信度",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "required": [
+          "tag_name",
+          "tag_value"
+        ]
+      }
+    }
+  },
+  "required": [
+    "chunk_id",
+    "document_id",
+    "chunk_text",
+    "token_count",
+    "start_position",
+    "end_position"
+  ]
+}

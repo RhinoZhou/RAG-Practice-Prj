@@ -1,0 +1,652 @@
+[
+  {
+    "chunk_id": "chunk_001",
+    "document_id": "doc_001",
+    "document_type": "legal_case",
+    "chunk_text": "在本案例中，原告张三指控被告李四侵犯其知识产权...",
+    "token_count": 128,
+    "start_position": 0,
+    "end_position": 128,
+    "version": "v1.0",
+    "created_at": "2025-09-09T00:10:34.602892",
+    "updated_at": "2025-09-09T00:10:34.602899",
+    "semantic_roles": [
+      {
+        "role_type": "原告",
+        "role_value": "张三",
+        "position": [
+          10,
+          12
+        ]
+      },
+      {
+        "role_type": "被告",
+        "role_value": "李四",
+        "position": [
+          18,
+          20
+        ]
+      },
+      {
+        "role_type": "行为",
+        "role_value": "侵犯",
+        "position": [
+          22,
+          24
+        ]
+      },
+      {
+        "role_type": "对象",
+        "role_value": "知识产权",
+        "position": [
+          25,
+          29
+        ]
+      },
+      {
+        "role_type": "时间",
+        "role_value": "2023年10月15日",
+        "position": [
+          35,
+          45
+        ]
+      },
+      {
+        "role_type": "地点",
+        "role_value": "北京市海淀区人民法院",
+        "position": [
+          50,
+          63
+        ]
+      }
+    ],
+    "temporal_info": {
+      "effective_time": "2023-10-15T00:00:00Z",
+      "expiry_time": "2033-10-15T00:00:00Z",
+      "revision_history": [
+        {
+          "revision_id": "rev_001",
+          "version": "v1.0",
+          "timestamp": "2023-10-15T10:00:00Z",
+          "author": "system"
+        },
+        {
+          "revision_id": "rev_002",
+          "version": "v1.1",
+          "timestamp": "2023-10-16T15:30:00Z",
+          "author": "editor",
+          "changes": "修正了时间表述"
+        }
+      ],
+      "time_expressions": [
+        {
+          "text": "2023年10月15日",
+          "type": "日期",
+          "value": "2023-10-15"
+        },
+        {
+          "text": "三个月内",
+          "type": "时间段",
+          "value": "P3M"
+        }
+      ]
+    },
+    "structural_info": {
+      "document_structure": "root.section_1.subsection_1.paragraph_2",
+      "hierarchy_level": 3,
+      "parent_chunk_id": "chunk_000",
+      "child_chunk_ids": [
+        "chunk_002",
+        "chunk_003"
+      ],
+      "sibling_order": 1,
+      "layout_info": {
+        "page_number": 5,
+        "region": "main_content",
+        "block_type": "paragraph"
+      }
+    },
+    "metadata_tags": [
+      {
+        "tag_name": "法律领域",
+        "tag_value": "知识产权",
+        "confidence": 0.95
+      },
+      {
+        "tag_name": "案件类型",
+        "tag_value": "侵权诉讼",
+        "confidence": 0.9
+      },
+      {
+        "tag_name": "重要程度",
+        "tag_value": "高",
+        "confidence": 0.85
+      },
+      {
+        "tag_name": "情感倾向",
+        "tag_value": "中性",
+        "confidence": 0.92
+      }
+    ]
+  },
+  {
+    "chunk_id": "chunk_001",
+    "document_id": "doc_001",
+    "document_type": "legal_case",
+    "chunk_text": "在本案例中，原告张三指控被告李四侵犯其知识产权...",
+    "token_count": 128,
+    "start_position": 0,
+    "end_position": 128,
+    "version": "v1.0",
+    "created_at": "2025-09-09T00:10:34.602892",
+    "updated_at": "2025-09-09T00:10:34.602899",
+    "semantic_roles": [
+      {
+        "role_type": "原告",
+        "role_value": "张三",
+        "position": [
+          10,
+          12
+        ]
+      },
+      {
+        "role_type": "被告",
+        "role_value": "李四",
+        "position": [
+          18,
+          20
+        ]
+      },
+      {
+        "role_type": "行为",
+        "role_value": "侵犯",
+        "position": [
+          22,
+          24
+        ]
+      },
+      {
+        "role_type": "对象",
+        "role_value": "知识产权",
+        "position": [
+          25,
+          29
+        ]
+      },
+      {
+        "role_type": "时间",
+        "role_value": "2023年10月15日",
+        "position": [
+          35,
+          45
+        ]
+      },
+      {
+        "role_type": "地点",
+        "role_value": "北京市海淀区人民法院",
+        "position": [
+          50,
+          63
+        ]
+      }
+    ],
+    "temporal_info": {
+      "effective_time": "2023-10-15T00:00:00Z",
+      "expiry_time": "2033-10-15T00:00:00Z",
+      "revision_history": [
+        {
+          "revision_id": "rev_001",
+          "version": "v1.0",
+          "timestamp": "2023-10-15T10:00:00Z",
+          "author": "system"
+        },
+        {
+          "revision_id": "rev_002",
+          "version": "v1.1",
+          "timestamp": "2023-10-16T15:30:00Z",
+          "author": "editor",
+          "changes": "修正了时间表述"
+        }
+      ],
+      "time_expressions": [
+        {
+          "text": "2023年10月15日",
+          "type": "日期",
+          "value": "2023-10-15"
+        },
+        {
+          "text": "三个月内",
+          "type": "时间段",
+          "value": "P3M"
+        }
+      ]
+    },
+    "structural_info": {
+      "document_structure": "root.section_1.subsection_1.paragraph_2",
+      "hierarchy_level": 3,
+      "parent_chunk_id": "chunk_000",
+      "child_chunk_ids": [
+        "chunk_002",
+        "chunk_003"
+      ],
+      "sibling_order": 1,
+      "layout_info": {
+        "page_number": 5,
+        "region": "main_content",
+        "block_type": "paragraph"
+      }
+    },
+    "metadata_tags": [
+      {
+        "tag_name": "法律领域",
+        "tag_value": "知识产权",
+        "confidence": 0.95
+      },
+      {
+        "tag_name": "案件类型",
+        "tag_value": "侵权诉讼",
+        "confidence": 0.9
+      },
+      {
+        "tag_name": "重要程度",
+        "tag_value": "高",
+        "confidence": 0.85
+      },
+      {
+        "tag_name": "情感倾向",
+        "tag_value": "中性",
+        "confidence": 0.92
+      }
+    ]
+  },
+  {
+    "chunk_id": "chunk_001",
+    "document_id": "doc_001",
+    "document_type": "legal_case",
+    "chunk_text": "在本案例中，原告张三指控被告李四侵犯其知识产权...",
+    "token_count": 128,
+    "start_position": 0,
+    "end_position": 128,
+    "version": "v1.0",
+    "created_at": "2025-09-09T00:10:34.602892",
+    "updated_at": "2025-09-09T00:10:34.602899",
+    "semantic_roles": [
+      {
+        "role_type": "原告",
+        "role_value": "张三",
+        "position": [
+          10,
+          12
+        ]
+      },
+      {
+        "role_type": "被告",
+        "role_value": "李四",
+        "position": [
+          18,
+          20
+        ]
+      },
+      {
+        "role_type": "行为",
+        "role_value": "侵犯",
+        "position": [
+          22,
+          24
+        ]
+      },
+      {
+        "role_type": "对象",
+        "role_value": "知识产权",
+        "position": [
+          25,
+          29
+        ]
+      },
+      {
+        "role_type": "时间",
+        "role_value": "2023年10月15日",
+        "position": [
+          35,
+          45
+        ]
+      },
+      {
+        "role_type": "地点",
+        "role_value": "北京市海淀区人民法院",
+        "position": [
+          50,
+          63
+        ]
+      }
+    ],
+    "temporal_info": {
+      "effective_time": "2023-10-15T00:00:00Z",
+      "expiry_time": "2033-10-15T00:00:00Z",
+      "revision_history": [
+        {
+          "revision_id": "rev_001",
+          "version": "v1.0",
+          "timestamp": "2023-10-15T10:00:00Z",
+          "author": "system"
+        },
+        {
+          "revision_id": "rev_002",
+          "version": "v1.1",
+          "timestamp": "2023-10-16T15:30:00Z",
+          "author": "editor",
+          "changes": "修正了时间表述"
+        }
+      ],
+      "time_expressions": [
+        {
+          "text": "2023年10月15日",
+          "type": "日期",
+          "value": "2023-10-15"
+        },
+        {
+          "text": "三个月内",
+          "type": "时间段",
+          "value": "P3M"
+        }
+      ]
+    },
+    "structural_info": {
+      "document_structure": "root.section_1.subsection_1.paragraph_2",
+      "hierarchy_level": 3,
+      "parent_chunk_id": "chunk_000",
+      "child_chunk_ids": [
+        "chunk_002",
+        "chunk_003"
+      ],
+      "sibling_order": 1,
+      "layout_info": {
+        "page_number": 5,
+        "region": "main_content",
+        "block_type": "paragraph"
+      }
+    },
+    "metadata_tags": [
+      {
+        "tag_name": "法律领域",
+        "tag_value": "知识产权",
+        "confidence": 0.95
+      },
+      {
+        "tag_name": "案件类型",
+        "tag_value": "侵权诉讼",
+        "confidence": 0.9
+      },
+      {
+        "tag_name": "重要程度",
+        "tag_value": "高",
+        "confidence": 0.85
+      },
+      {
+        "tag_name": "情感倾向",
+        "tag_value": "中性",
+        "confidence": 0.92
+      }
+    ]
+  },
+  {
+    "chunk_id": "chunk_001",
+    "document_id": "doc_001",
+    "document_type": "legal_case",
+    "chunk_text": "在本案例中，原告张三指控被告李四侵犯其知识产权...",
+    "token_count": 128,
+    "start_position": 0,
+    "end_position": 128,
+    "version": "v1.0",
+    "created_at": "2025-09-09T00:10:34.602892",
+    "updated_at": "2025-09-09T00:10:34.602899",
+    "semantic_roles": [
+      {
+        "role_type": "原告",
+        "role_value": "张三",
+        "position": [
+          10,
+          12
+        ]
+      },
+      {
+        "role_type": "被告",
+        "role_value": "李四",
+        "position": [
+          18,
+          20
+        ]
+      },
+      {
+        "role_type": "行为",
+        "role_value": "侵犯",
+        "position": [
+          22,
+          24
+        ]
+      },
+      {
+        "role_type": "对象",
+        "role_value": "知识产权",
+        "position": [
+          25,
+          29
+        ]
+      },
+      {
+        "role_type": "时间",
+        "role_value": "2023年10月15日",
+        "position": [
+          35,
+          45
+        ]
+      },
+      {
+        "role_type": "地点",
+        "role_value": "北京市海淀区人民法院",
+        "position": [
+          50,
+          63
+        ]
+      }
+    ],
+    "temporal_info": {
+      "effective_time": "2023-10-15T00:00:00Z",
+      "expiry_time": "2033-10-15T00:00:00Z",
+      "revision_history": [
+        {
+          "revision_id": "rev_001",
+          "version": "v1.0",
+          "timestamp": "2023-10-15T10:00:00Z",
+          "author": "system"
+        },
+        {
+          "revision_id": "rev_002",
+          "version": "v1.1",
+          "timestamp": "2023-10-16T15:30:00Z",
+          "author": "editor",
+          "changes": "修正了时间表述"
+        }
+      ],
+      "time_expressions": [
+        {
+          "text": "2023年10月15日",
+          "type": "日期",
+          "value": "2023-10-15"
+        },
+        {
+          "text": "三个月内",
+          "type": "时间段",
+          "value": "P3M"
+        }
+      ]
+    },
+    "structural_info": {
+      "document_structure": "root.section_1.subsection_1.paragraph_2",
+      "hierarchy_level": 3,
+      "parent_chunk_id": "chunk_000",
+      "child_chunk_ids": [
+        "chunk_002",
+        "chunk_003"
+      ],
+      "sibling_order": 1,
+      "layout_info": {
+        "page_number": 5,
+        "region": "main_content",
+        "block_type": "paragraph"
+      }
+    },
+    "metadata_tags": [
+      {
+        "tag_name": "法律领域",
+        "tag_value": "知识产权",
+        "confidence": 0.95
+      },
+      {
+        "tag_name": "案件类型",
+        "tag_value": "侵权诉讼",
+        "confidence": 0.9
+      },
+      {
+        "tag_name": "重要程度",
+        "tag_value": "高",
+        "confidence": 0.85
+      },
+      {
+        "tag_name": "情感倾向",
+        "tag_value": "中性",
+        "confidence": 0.92
+      }
+    ]
+  },
+  {
+    "chunk_id": "chunk_001",
+    "document_id": "doc_001",
+    "document_type": "legal_case",
+    "chunk_text": "在本案例中，原告张三指控被告李四侵犯其知识产权...",
+    "token_count": 128,
+    "start_position": 0,
+    "end_position": 128,
+    "version": "v1.0",
+    "created_at": "2025-09-09T00:10:34.602892",
+    "updated_at": "2025-09-09T00:10:34.602899",
+    "semantic_roles": [
+      {
+        "role_type": "原告",
+        "role_value": "张三",
+        "position": [
+          10,
+          12
+        ]
+      },
+      {
+        "role_type": "被告",
+        "role_value": "李四",
+        "position": [
+          18,
+          20
+        ]
+      },
+      {
+        "role_type": "行为",
+        "role_value": "侵犯",
+        "position": [
+          22,
+          24
+        ]
+      },
+      {
+        "role_type": "对象",
+        "role_value": "知识产权",
+        "position": [
+          25,
+          29
+        ]
+      },
+      {
+        "role_type": "时间",
+        "role_value": "2023年10月15日",
+        "position": [
+          35,
+          45
+        ]
+      },
+      {
+        "role_type": "地点",
+        "role_value": "北京市海淀区人民法院",
+        "position": [
+          50,
+          63
+        ]
+      }
+    ],
+    "temporal_info": {
+      "effective_time": "2023-10-15T00:00:00Z",
+      "expiry_time": "2033-10-15T00:00:00Z",
+      "revision_history": [
+        {
+          "revision_id": "rev_001",
+          "version": "v1.0",
+          "timestamp": "2023-10-15T10:00:00Z",
+          "author": "system"
+        },
+        {
+          "revision_id": "rev_002",
+          "version": "v1.1",
+          "timestamp": "2023-10-16T15:30:00Z",
+          "author": "editor",
+          "changes": "修正了时间表述"
+        }
+      ],
+      "time_expressions": [
+        {
+          "text": "2023年10月15日",
+          "type": "日期",
+          "value": "2023-10-15"
+        },
+        {
+          "text": "三个月内",
+          "type": "时间段",
+          "value": "P3M"
+        }
+      ]
+    },
+    "structural_info": {
+      "document_structure": "root.section_1.subsection_1.paragraph_2",
+      "hierarchy_level": 3,
+      "parent_chunk_id": "chunk_000",
+      "child_chunk_ids": [
+        "chunk_002",
+        "chunk_003"
+      ],
+      "sibling_order": 1,
+      "layout_info": {
+        "page_number": 5,
+        "region": "main_content",
+        "block_type": "paragraph"
+      }
+    },
+    "metadata_tags": [
+      {
+        "tag_name": "法律领域",
+        "tag_value": "知识产权",
+        "confidence": 0.95
+      },
+      {
+        "tag_name": "案件类型",
+        "tag_value": "侵权诉讼",
+        "confidence": 0.9
+      },
+      {
+        "tag_name": "重要程度",
+        "tag_value": "高",
+        "confidence": 0.85
+      },
+      {
+        "tag_name": "情感倾向",
+        "tag_value": "中性",
+        "confidence": 0.92
+      }
+    ]
+  }
+]

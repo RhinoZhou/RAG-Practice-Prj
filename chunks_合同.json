@@ -1,0 +1,60 @@
+[
+  {
+    "chunk_id": "chunk_0001",
+    "start_pos": 0,
+    "end_pos": 77,
+    "content": "合同编号：2023-001\n        \n        甲方：科技有限公司\n        乙方：创新发展中心",
+    "chunk_type": "contract_section",
+    "confidence": 0.95,
+    "boundary_signals": {
+      "contract_section": 0.95
+    },
+    "structure_path": [
+      "段落:0-77"
+    ],
+    "entity_chain": [],
+    "topic_tags": [],
+    "created_at": "2025-09-09T14:23:47.075517"
+  },
+  {
+    "chunk_id": "chunk_0002",
+    "start_pos": 77,
+    "end_pos": 206,
+    "content": "第一条 合作内容\n        甲乙双方就人工智能技术研发达成合作，甲方提供技术支持，乙方提供研发场地和资金。\n        \n        第二条 权利与义务\n        甲方有权获取项目研发成果的使用权，乙方有权获得技术转让费。",
+    "chunk_type": "sentence",
+    "confidence": 0.8,
+    "boundary_signals": {
+      "sentence": 0.8
+    },
+    "structure_path": [
+      "段落:77-206"
+    ],
+    "entity_chain": [],
+    "topic_tags": [
+      "义务",
+      "权利"
+    ],
+    "created_at": "2025-09-09T14:23:47.079231"
+  },
+  {
+    "chunk_id": "chunk_0003",
+    "start_pos": 206,
+    "end_pos": 289,
+    "content": "双方应保守项目相关的商业秘密。\n        \n        第三条 违约责任\n        若一方违反本合同约定，应向另一方支付违约金，并赔偿因此造成的损失。",
+    "chunk_type": "sentence",
+    "confidence": 0.8,
+    "boundary_signals": {
+      "sentence": 0.8
+    },
+    "structure_path": [
+      "段落:206-289"
+    ],
+    "entity_chain": [],
+    "topic_tags": [
+      "责任",
+      "违约",
+      "赔偿"
+    ],
+    "created_at": "2025-09-09T14:23:47.082081"
+  }
+]

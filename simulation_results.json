@@ -1,0 +1,115 @@
+[
+  {
+    "config": {
+      "chunk_size": 210,
+      "overlap": 25,
+      "concurrency": 9,
+      "top_k": 6,
+      "rerank_top_k": 4
+    },
+    "resource_score": 100.0,
+    "state": "idle",
+    "reasons": [
+      "内存使用率较低 (30%)，有足够空间提升处理能力",
+      "延迟较低 (200ms)，系统响应良好",
+      "chunk_size从 200 增加到 210",
+      "overlap从 20 增加到 25",
+      "concurrency从 8 增加到 9",
+      "top_k从 5 增加到 6",
+      "rerank_top_k从 3 增加到 4"
+    ]
+  },
+  {
+    "config": {
+      "chunk_size": 220,
+      "overlap": 30,
+      "concurrency": 10,
+      "top_k": 7,
+      "rerank_top_k": 5
+    },
+    "resource_score": 70.0,
+    "state": "idle",
+    "reasons": [
+      "chunk_size从 210 增加到 220",
+      "overlap从 25 增加到 30",
+      "concurrency从 9 增加到 10",
+      "top_k从 6 增加到 7",
+      "rerank_top_k从 4 增加到 5"
+    ]
+  },
+  {
+    "config": {
+      "chunk_size": 190,
+      "overlap": 22,
+      "concurrency": 7,
+      "top_k": 5,
+      "rerank_top_k": 3
+    },
+    "resource_score": 19.0,
+    "state": "critical",
+    "reasons": [
+      "QPS过高 (130)，系统负载严重，需要降低处理复杂度",
+      "内存使用率过高 (85%)，系统内存紧张，需要减少内存占用",
+      "延迟过高 (1300ms)，用户体验差，需要优化响应速度",
+      "chunk_size从 220 减少到 190",
+      "overlap从 30 减少到 22",
+      "concurrency从 10 减少到 7",
+      "top_k从 7 减少到 5",
+      "rerank_top_k从 5 减少到 3"
+    ]
+  },
+  {
+    "config": {
+      "chunk_size": 167,
+      "overlap": 16,
+      "concurrency": 4,
+      "top_k": 3,
+      "rerank_top_k": 1
+    },
+    "resource_score": 0.0,
+    "state": "critical",
+    "reasons": [
+      "QPS过高 (160)，系统负载严重，需要降低处理复杂度",
+      "内存使用率过高 (95%)，系统内存紧张，需要减少内存占用",
+      "延迟过高 (2000ms)，用户体验差，需要优化响应速度",
+      "chunk_size从 190 减少到 167",
+      "overlap从 22 减少到 16",
+      "concurrency从 7 减少到 4",
+      "top_k从 5 减少到 3",
+      "rerank_top_k从 3 减少到 1"
+    ]
+  },
+  {
+    "config": {
+      "chunk_size": 174,
+      "overlap": 18,
+      "concurrency": 4,
+      "top_k": 3,
+      "rerank_top_k": 1
+    },
+    "resource_score": 61.5,
+    "state": "normal",
+    "reasons": [
+      "QPS较高 (80)，系统负载较重",
+      "延迟较高 (800ms)，需要注意用户体验",
+      "chunk_size从 167 增加到 174",
+      "overlap从 16 增加到 18"
+    ]
+  },
+  {
+    "config": {
+      "chunk_size": 181,
+      "overlap": 21,
+      "concurrency": 5,
+      "top_k": 3,
+      "rerank_top_k": 1
+    },
+    "resource_score": 100.0,
+    "state": "idle",
+    "reasons": [
+      "chunk_size从 174 增加到 181",
+      "overlap从 18 增加到 21",
+      "concurrency从 4 增加到 5"
+    ]
+  }
+]

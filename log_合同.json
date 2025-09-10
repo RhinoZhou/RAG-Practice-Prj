@@ -1,0 +1,35 @@
+{
+  "start_time": "2025-09-09T14:18:45.802697",
+  "end_time": "2025-09-09T14:23:47.084915",
+  "duration_ms": 301282.218,
+  "doc_info": {
+    "doc_type": "合同",
+    "length_chars": 298,
+    "length_words": 12,
+    "language": "zh",
+    "has_tables": false,
+    "has_lists": false,
+    "paragraph_count": 1
+  },
+  "strategy_params": {},
+  "signal_statistics": {
+    "contract_section": 1,
+    "paragraph": 1,
+    "sentence": 1,
+    "token_count": 1
+  },
+  "coverage_summary": {
+    "total_chunks": 3,
+    "chunk_type_distribution": {
+      "contract_section": 1,
+      "sentence": 2
+    },
+    "avg_confidence": 0.85,
+    "signal_coverage": {
+      "contract_section": 0.3333333333333333,
+      "sentence": 0.6666666666666666
+    }
+  },
+  "warnings": [],
+  "errors": []
+}
