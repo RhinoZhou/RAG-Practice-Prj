@@ -1,0 +1,84 @@
+{
+  "degrade_levels": [
+    {
+      "name": "normal",
+      "latency_threshold": 200,
+      "error_threshold": 0.05,
+      "description": "正常模式",
+      "params": {
+        "top_k": 10,
+        "use_rerank": true,
+        "search_method": "vector",
+        "batch_size": 5,
+        "cache_ttl": 3600
+      }
+    },
+    {
+      "name": "warning",
+      "latency_threshold": 300,
+      "error_threshold": 0.10,
+      "description": "警告模式",
+      "params": {
+        "top_k": 8,
+        "use_rerank": true,
+        "search_method": "vector",
+        "batch_size": 8,
+        "cache_ttl": 1800
+      }
+    },
+    {
+      "name": "minor",
+      "latency_threshold": 400,
+      "error_threshold": 0.15,
+      "description": "轻度降级",
+      "params": {
+        "top_k": 5,
+        "use_rerank": false,
+        "search_method": "vector",
+        "batch_size": 10,
+        "cache_ttl": 900
+      }
+    },
+    {
+      "name": "severe",
+      "latency_threshold": 500,
+      "error_threshold": 0.20,
+      "description": "严重降级",
+      "params": {
+        "top_k": 3,
+        "use_rerank": false,
+        "search_method": "hybrid",
+        "batch_size": 15,
+        "cache_ttl": 300
+      }
+    },
+    {
+      "name": "critical",
+      "latency_threshold": 1000,
+      "error_threshold": 0.30,
+      "description": "危急模式",
+      "params": {
+        "top_k": 2,
+        "use_rerank": false,
+        "search_method": "bm25",
+        "batch_size": 20,
+        "cache_ttl": 60
+      }
+    }
+  ],
+  "batch_processor": {
+    "max_batch_size": 20,
+    "max_wait_time_ms": 50,
+    "cooldown_period_ms": 1000
+  },
+  "cache": {
+    "max_size": 1000,
+    "default_ttl": 3600,
+    "cleanup_interval": 60
+  },
+  "monitoring": {
+    "metrics_window": 60,
+    "sampling_rate": 1.0,
+    "alert_on_state_change": true
+  }
+}

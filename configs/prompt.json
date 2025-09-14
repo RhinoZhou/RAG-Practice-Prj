@@ -1,0 +1,13 @@
+{
+  "template": "你是一个智能助手，请根据提供的信息回答用户问题。\n\n用户问题：{query}\n\n参考信息：\n{context}\n\n请基于参考信息，用中文简洁准确地回答用户问题，不要添加额外信息。",
+  "mmr_params": {
+    "lambda": 0.5,
+    "top_k": 4
+  },
+  "token_budget": 1000,
+  "token_estimation": {
+    "avg_chars_per_token": 2.5
+  },
+  "context_separator": "\n\n",
+  "max_context_length": 2000
+}
