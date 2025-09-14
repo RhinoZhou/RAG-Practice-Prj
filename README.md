@@ -27,3 +27,6 @@
 
 ## 08-text_chunking
 文本分块
+
+## 09-Embedding
+向量化
