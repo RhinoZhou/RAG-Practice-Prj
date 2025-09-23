@@ -1,0 +1,3 @@
+config_name,recall@1,recall@10,recall@20,avg_latency_ms,p95_latency_ms,mrr
+HNSW,0.0000,0.0020,0.0080,0.1816,0.2738,0.0000
+IVF-PQ,0.0000,0.0040,0.0150,0.1836,0.2732,0.0025
