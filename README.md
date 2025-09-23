@@ -30,3 +30,9 @@
 
 ## 09-Embedding
 向量化
+
+## 10-VectorDB_Index
+向量存储与索引
+
+## 11-pre_index
+预检索
