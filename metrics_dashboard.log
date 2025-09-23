@@ -1,0 +1,634 @@
+2025-09-19 01:26:06,244 - INFO - pandas库已安装
+2025-09-19 01:26:06,263 - INFO - 依赖检查通过
+2025-09-19 01:26:06,301 - INFO - 生成新的日志数据: 100条查询
+2025-09-19 01:26:06,381 - INFO - 日志数据已保存到: ab_test_logs.json
+2025-09-19 01:26:06,967 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:06,975 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:06,980 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:06,980 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:06,992 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:06,992 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,008 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,009 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,010 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,010 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,011 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,011 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,012 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,013 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,014 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,015 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,016 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,018 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,022 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,022 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,045 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,053 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,053 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,054 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,056 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,057 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,058 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,058 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,079 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,080 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,081 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,081 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,081 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,082 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,082 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,082 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,085 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,086 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,087 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,088 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,091 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,092 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,105 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,105 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,108 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,108 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,109 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,110 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,132 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,135 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,144 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,144 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,146 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,147 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,148 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,148 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,166 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,166 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,169 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,169 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,170 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,170 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,171 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,171 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,172 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,173 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,174 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,174 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,175 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,175 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,176 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,176 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,177 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,178 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,181 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,181 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,194 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,194 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,196 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,196 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,198 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,198 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,241 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,242 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,242 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,243 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,244 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,244 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,245 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,245 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,247 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,247 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,248 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,248 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,249 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,250 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,255 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,256 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,257 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,258 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,258 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,258 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,261 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,261 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,262 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,262 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,277 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,277 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,279 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,279 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,286 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,286 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,287 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,288 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,288 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,289 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,290 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,290 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,291 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,291 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,291 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,292 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,297 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,297 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,299 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,299 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,319 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,320 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,321 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,321 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,327 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,328 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,330 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,330 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,342 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,343 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,344 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,344 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,347 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,347 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,348 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,348 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,349 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,349 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,350 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,351 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,352 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,352 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,353 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,354 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,355 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,355 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,356 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,356 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,357 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,357 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,360 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,360 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,362 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,362 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,394 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,395 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,396 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,397 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,533 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,533 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,534 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,534 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,535 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,535 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,536 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,536 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,537 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,537 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,538 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,538 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,539 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,539 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,543 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,544 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,545 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,545 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,546 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,546 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,550 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,551 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,553 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,554 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,555 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,555 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,557 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,557 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,561 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,562 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,564 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,564 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,567 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,568 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,571 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,571 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,573 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,573 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,577 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,577 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,584 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,585 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,588 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,589 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,590 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,591 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,592 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,592 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,593 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,593 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,595 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,595 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,599 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,599 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,600 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,600 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,601 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,602 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,603 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,603 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,604 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,604 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,605 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,605 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,609 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,610 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,612 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,612 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,619 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,620 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,622 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,622 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,628 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,629 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,630 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,631 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,632 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,632 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,634 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,636 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,639 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,639 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,640 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,640 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,645 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,646 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,650 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,652 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,654 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,655 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,656 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,656 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,658 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,658 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,661 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,661 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,669 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,670 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,671 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,672 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,679 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,679 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,681 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,681 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,688 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,689 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,690 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,691 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,692 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,692 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,693 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,694 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,695 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,695 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,697 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,697 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,703 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,704 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,708 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,708 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,709 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,710 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,711 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,711 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,712 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,713 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,714 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,714 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,722 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,722 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,724 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,724 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,725 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,726 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,727 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,728 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,729 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,729 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,730 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,730 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,731 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,731 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,733 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,736 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,739 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,739 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,746 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,746 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,748 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,748 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,760 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,761 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,763 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,763 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,771 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,771 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,774 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,774 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,776 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,777 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,778 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,779 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,780 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,780 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,782 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,783 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,787 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,787 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,790 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,790 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,792 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,793 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,803 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,803 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,807 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,807 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,808 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,808 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,809 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,810 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,811 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,812 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:07,813 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:26:07,813 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:26:08,160 - INFO - 指标对比图表已保存到: metrics_comparison.png
+2025-09-19 01:26:08,209 - INFO - 分析结果已保存到: metrics_analysis_results.json
+2025-09-19 01:29:31,062 - INFO - pandas库已安装
+2025-09-19 01:29:31,062 - INFO - 依赖检查通过
+2025-09-19 01:29:31,065 - INFO - 成功加载日志数据: 100条查询
+2025-09-19 01:29:31,445 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,448 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,451 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,451 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,459 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,460 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,472 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,472 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,473 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,473 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,477 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,482 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,484 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,484 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,485 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,486 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,487 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,487 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,504 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,507 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,508 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,508 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,522 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,526 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,527 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,527 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,529 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,530 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,531 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,532 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,548 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,548 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,549 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,549 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,550 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,551 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,551 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,552 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,552 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,553 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,553 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,554 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,558 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,559 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,570 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,570 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,573 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,574 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,575 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,575 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,590 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,590 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,597 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,597 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,599 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,599 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,600 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,600 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,617 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,617 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,619 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,619 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,620 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,620 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,621 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,621 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,622 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,623 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,624 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,625 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,626 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,626 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,628 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,628 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,629 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,629 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,635 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,635 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,644 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,644 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,646 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,646 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,647 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,647 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,664 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,664 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,665 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,665 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,666 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,666 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,667 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,667 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,668 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,668 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,669 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,669 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,670 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,671 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,673 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,674 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,674 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,675 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,676 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,677 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,677 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,678 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,680 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,681 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,682 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,682 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,693 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,694 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,695 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,695 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,699 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,699 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,700 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,700 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,701 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,702 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,703 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,703 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,704 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,704 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,705 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,705 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,709 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,710 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,711 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,711 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,725 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,726 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,727 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,728 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,733 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,733 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,734 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,734 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,750 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,751 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,752 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,752 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,756 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,756 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,757 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,757 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,758 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,759 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,760 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,760 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,761 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,762 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,763 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,763 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,764 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,764 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,765 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,765 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,766 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,767 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,770 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,770 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,772 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,772 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,792 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,792 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,795 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,795 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,807 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,808 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,811 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,811 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,815 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,816 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,818 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,819 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,820 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,820 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,822 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,822 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,823 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,823 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,825 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,825 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,833 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,833 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,835 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,835 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,836 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,836 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,838 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,838 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,857 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,857 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,859 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,860 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,864 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,864 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,865 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,866 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,867 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,867 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,868 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,868 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,869 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,869 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,870 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,870 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,877 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,877 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,881 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,881 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,882 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,883 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,884 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,884 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,898 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,898 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,899 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,900 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,908 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,909 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,912 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,912 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,914 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,914 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,915 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,915 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,916 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,917 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,917 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,918 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,923 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,924 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,926 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,927 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,929 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,929 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,931 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,931 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,945 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,946 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,947 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,948 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,956 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,957 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,959 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,960 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,962 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,962 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,964 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,965 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,966 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,967 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,968 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,969 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,970 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,970 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,971 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,972 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,973 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,973 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,980 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,980 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,984 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,984 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,985 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,985 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:31,986 - WARNING - findfont: Font family 'WenQuanYi Micro Hei' not found.
+2025-09-19 01:29:31,986 - WARNING - findfont: Font family 'Heiti TC' not found.
+2025-09-19 01:29:32,045 - INFO - 指标对比图表已保存到: metrics_comparison.png
+2025-09-19 01:29:32,082 - INFO - 分析结果已保存到: metrics_analysis_results.json
+2025-09-19 01:31:23,623 - INFO - pandas库已安装
+2025-09-19 01:31:23,624 - INFO - 依赖检查通过
+2025-09-19 01:31:23,626 - INFO - 成功加载日志数据: 100条查询
+2025-09-19 01:31:23,631 - INFO - 可视化已禁用，跳过图表生成
+2025-09-19 01:31:23,634 - INFO - 分析结果已保存到: metrics_analysis_results.json

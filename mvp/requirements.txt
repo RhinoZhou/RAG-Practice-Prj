@@ -1,0 +1,23 @@
+# 项目基础依赖 - 简化版
+
+# Web框架和API
+fastapi>=0.109.0
+uvicorn>=0.27.0
+
+# UI界面
+streamlit>=1.28.0
+
+# 数据处理和工具
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+PyYAML>=6.0.0
+loguru>=0.7.0
+
+# 基础库
+numpy>=1.24.0
+pandas>=2.0.0
+python-multipart>=0.0.6
+
+# 注意：本版本省略了需要Rust编译环境的复杂依赖
+# 如需完整功能，请安装Rust环境并使用原始requirements.txt
+transformers==4.36.2

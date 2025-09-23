@@ -1,0 +1,21 @@
+[
+    {
+        "query": "什么是RAG技术？",
+        "query_id": "main_sample_001",
+        "user_profile": "{\"domain\": \"人工智能\", \"expertise_level\": \"初级\", \"interests\": [\"大语言模型\", \"知识库\"], \"history\": [\"embedding技术\"]}",
+        "top_k": 3
+    },
+    {
+        "query": "如何构建高性能的向量检索系统？",
+        "query_id": "main_sample_002",
+        "user_profile": "{\"domain\": \"数据工程\", \"expertise_level\": \"中级\", \"interests\": [\"向量数据库\", \"检索算法\"], \"history\": [\"FAISS\"]}",
+        "top_k": 5,
+        "filters": {"source_type": "document"}
+    },
+    {
+        "query": "RAG系统中常见的优化方法有哪些？",
+        "query_id": "main_sample_003",
+        "user_profile": "{\"domain\": \"机器学习\", \"expertise_level\": \"高级\", \"interests\": [\"模型优化\", \"知识图谱\"], \"history\": [\"重排序技术\"]}",
+        "top_k": 4
+    }
+]

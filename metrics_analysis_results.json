@@ -1,0 +1,880 @@
+{
+  "timestamp": "2025-09-19 01:31:23",
+  "metrics_summary": {
+    "A": {
+      "mean_hit_at_5": 0.666,
+      "mean_latency": 397.1873,
+      "mean_tokens": 1208.75,
+      "mean_ndcg": 0.6924,
+      "mean_filter_precision": 0.784,
+      "mean_coverage": 0.7402,
+      "p50_latency": 390.47,
+      "p95_latency": 553.529,
+      "error_rate": 0.01,
+      "cache_hit_rate": 0.35
+    },
+    "B": {
+      "mean_hit_at_5": 0.809,
+      "mean_latency": 295.4616,
+      "mean_tokens": 993.69,
+      "mean_ndcg": 0.8422,
+      "mean_filter_precision": 0.9002,
+      "mean_coverage": 0.8511,
+      "p50_latency": 298.335,
+      "p95_latency": 415.5185,
+      "error_rate": 0.02,
+      "cache_hit_rate": 0.33
+    },
+    "deltas": {
+      "delta_mean_hit_at_5": 0.143,
+      "delta_mean_latency": -101.7257,
+      "delta_p50_latency": -92.135,
+      "delta_p95_latency": -138.0105,
+      "delta_mean_tokens": -215.06,
+      "delta_mean_ndcg": 0.1498,
+      "delta_mean_filter_precision": 0.1162,
+      "delta_mean_coverage": 0.1109,
+      "delta_percent_mean_hit_at_5": 21.47,
+      "delta_percent_mean_latency": -25.61,
+      "delta_percent_p95_latency": -24.93,
+      "delta_percent_mean_tokens": -17.79
+    }
+  },
+  "route_decisions": [
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q1"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q2"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": true,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q3"
+    },
+    {
+      "route": "keyword",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q4"
+    },
+    {
+      "route": "self_query",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q5"
+    },
+    {
+      "route": "sql",
+      "rewrite": true,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q6"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q7"
+    },
+    {
+      "route": "self_query",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q8"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q9"
+    },
+    {
+      "route": "keyword",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q10"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q11"
+    },
+    {
+      "route": "keyword",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6843"
+      ],
+      "query_id": "q12"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q13"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q14"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q15"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q16"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q17"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q18"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q19"
+    },
+    {
+      "route": "keyword",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q20"
+    },
+    {
+      "route": "cypher",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q21"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q22"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q23"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q24"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": true,
+      "rerank": true,
+      "alarm": true,
+      "alarm_reasons": [
+        "查询执行错误"
+      ],
+      "query_id": "q25"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q26"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q27"
+    },
+    {
+      "route": "cypher",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6176"
+      ],
+      "query_id": "q28"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q29"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q30"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q31"
+    },
+    {
+      "route": "keyword",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q32"
+    },
+    {
+      "route": "keyword",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q33"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6689"
+      ],
+      "query_id": "q34"
+    },
+    {
+      "route": "sql",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q35"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q36"
+    },
+    {
+      "route": "cypher",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6613"
+      ],
+      "query_id": "q37"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q38"
+    },
+    {
+      "route": "sql",
+      "rewrite": true,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q39"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q40"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q41"
+    },
+    {
+      "route": "keyword",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q42"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q43"
+    },
+    {
+      "route": "keyword",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q44"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q45"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q46"
+    },
+    {
+      "route": "self_query",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q47"
+    },
+    {
+      "route": "keyword",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6935"
+      ],
+      "query_id": "q48"
+    },
+    {
+      "route": "self_query",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q49"
+    },
+    {
+      "route": "keyword",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "查询执行错误"
+      ],
+      "query_id": "q50"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q51"
+    },
+    {
+      "route": "self_query",
+      "rewrite": true,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q52"
+    },
+    {
+      "route": "self_query",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6497"
+      ],
+      "query_id": "q53"
+    },
+    {
+      "route": "keyword",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q54"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q55"
+    },
+    {
+      "route": "keyword",
+      "rewrite": true,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q56"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q57"
+    },
+    {
+      "route": "vector",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6967"
+      ],
+      "query_id": "q58"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q59"
+    },
+    {
+      "route": "cypher",
+      "rewrite": true,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q60"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q61"
+    },
+    {
+      "route": "cypher",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q62"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q63"
+    },
+    {
+      "route": "cypher",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6727"
+      ],
+      "query_id": "q64"
+    },
+    {
+      "route": "keyword",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q65"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": true,
+      "alarm_reasons": [
+        "延迟过高: 557.15ms"
+      ],
+      "query_id": "q66"
+    },
+    {
+      "route": "self_query",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q67"
+    },
+    {
+      "route": "cypher",
+      "rewrite": true,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q68"
+    },
+    {
+      "route": "self_query",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q69"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q70"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q71"
+    },
+    {
+      "route": "keyword",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6417"
+      ],
+      "query_id": "q72"
+    },
+    {
+      "route": "self_query",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q73"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q74"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6821"
+      ],
+      "query_id": "q75"
+    },
+    {
+      "route": "keyword",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q76"
+    },
+    {
+      "route": "sql",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6595"
+      ],
+      "query_id": "q77"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q78"
+    },
+    {
+      "route": "self_query",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q79"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q80"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q81"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q82"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q83"
+    },
+    {
+      "route": "keyword",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q84"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q85"
+    },
+    {
+      "route": "keyword",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.605"
+      ],
+      "query_id": "q86"
+    },
+    {
+      "route": "keyword",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q87"
+    },
+    {
+      "route": "self_query",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6906"
+      ],
+      "query_id": "q88"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q89"
+    },
+    {
+      "route": "sql",
+      "rewrite": true,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q90"
+    },
+    {
+      "route": "vector",
+      "rewrite": true,
+      "rerank": false,
+      "alarm": true,
+      "alarm_reasons": [
+        "命中率过低: 0.6899"
+      ],
+      "query_id": "q91"
+    },
+    {
+      "route": "self_query",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q92"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q93"
+    },
+    {
+      "route": "cypher",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q94"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q95"
+    },
+    {
+      "route": "hybrid",
+      "rewrite": true,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q96"
+    },
+    {
+      "route": "sql",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q97"
+    },
+    {
+      "route": "self_query",
+      "rewrite": false,
+      "rerank": true,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q98"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q99"
+    },
+    {
+      "route": "vector",
+      "rewrite": false,
+      "rerank": false,
+      "alarm": false,
+      "alarm_reasons": [],
+      "query_id": "q100"
+    }
+  ],
+  "total_queries": 100
+}

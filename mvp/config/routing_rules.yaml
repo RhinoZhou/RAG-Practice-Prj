@@ -1,0 +1,136 @@
+# RAG系统路由规则配置
+
+# 系统级规则开关
+policy_priority: false  # 政策文档优先模式，开启后将优先返回政策文档
+
+safe_view_only: false  # 安全查看模式，开启后仅返回不包含敏感信息的结果
+degrade_mode: false  # 降级模式，系统资源不足时开启，使用更轻量的模型和策略
+
+# 查询长度阈值（字符）
+short_query_threshold: 10
+long_query_threshold: 100
+
+# 关键词密度阈值
+keyword_density_threshold: 0.3
+
+# 默认检索策略
+default_strategy: "hybrid"
+
+# 查询类型与策略映射
+query_type_strategies:
+  # 简单关键词查询
+  keyword:
+    strategy: "bm25_only"
+    confidence_threshold: 0.8
+  
+  # 语义理解查询
+  semantic:
+    strategy: "vector_only"
+    confidence_threshold: 0.7
+  
+  # 复杂问题查询
+  complex:
+    strategy: "hybrid"
+    confidence_threshold: 0.9
+    # 复杂查询的特定参数
+    hybrid_params:
+      bm25_weight: 0.4
+      vector_weight: 0.6
+  
+  # 自然语言问题
+  natural_language:
+    strategy: "hybrid"
+    hybrid_params:
+      bm25_weight: 0.3
+      vector_weight: 0.7
+
+# 领域特定规则
+domain_rules:
+  # 政策文档领域
+  policy:
+    strategy: "vector_only"
+    top_k: 15
+    # 仅搜索政策文档
+    filters:
+      document_type: "policy"
+  
+  # FAQ领域
+  faq:
+    strategy: "bm25_only"
+    top_k: 10
+    filters:
+      document_type: "faq"
+  
+  # SOP领域
+  sop:
+    strategy: "hybrid"
+    hybrid_params:
+      bm25_weight: 0.5
+      vector_weight: 0.5
+    filters:
+      document_type: "sop"
+
+# 检索参数配置
+retrieval_params:
+  # BM25参数
+  bm25:
+    k1: 1.5
+    b: 0.75
+    epsilon: 0.25
+  
+  # 向量检索参数
+  vector:
+    similarity_metric: "cosine"
+    nprobe: 10
+  
+  # 混合检索参数
+  hybrid:
+    rrf_k: 60
+    # 线性融合权重
+    linear_weights:
+      bm25: 0.5
+      vector: 0.5
+
+# 动态调整配置
+dynamic_adjustment:
+  enabled: true
+  # 基于历史性能的调整
+  performance_based:
+    enabled: true
+    window_size: 100
+    # 性能指标阈值
+    thresholds:
+      precision: 0.7
+      recall: 0.6
+      f1_score: 0.65
+  
+  # A/B测试配置
+  ab_testing:
+    enabled: false
+    experiments:
+      - name: "bm25_vs_vector"
+        variants:
+          - name: "bm25"
+            strategy: "bm25_only"
+            weight: 0.5
+          - name: "vector"
+            strategy: "vector_only"
+            weight: 0.5
+
+# 日志和监控配置
+logging:
+  enabled: true
+  level: "INFO"
+  log_performance: true
+  log_queries: true
+  log_results: false
+
+# 缓存配置
+caching:
+  enabled: true
+  ttl_seconds: 3600  # 1小时
+  # 不同类型查询的缓存策略
+  strategies:
+    keyword: 7200     # 2小时
+    semantic: 3600    # 1小时
+    complex: 1800     # 30分钟

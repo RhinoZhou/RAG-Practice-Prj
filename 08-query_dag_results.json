@@ -1,0 +1,23 @@
+{
+  "query": "查找关于人工智能的文档",
+  "plan": [
+    "self_query",
+    "merge"
+  ],
+  "result": {
+    "docs": [
+      "doc_15",
+      "doc_36",
+      "doc_82",
+      "doc_4",
+      "doc_95"
+    ],
+    "route": "self_query",
+    "sources": [
+      "self_query"
+    ],
+    "total_docs": 5,
+    "total_data": 0
+  },
+  "execution_time_ms": 0.19121170043945312
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "query": "",
+        "query_id": "failure_sample_001",
+        "user_profile": "{\"domain\": \"测试\", \"expertise_level\": \"中级\"}",
+        "top_k": 3
+    },
+    {
+        "query": "这是一个超长的查询字符串，其目的是测试系统对大量文本的处理能力，这可能会导致服务器超时或者性能问题。这是一个超长的查询字符串，其目的是测试系统对大量文本的处理能力，这可能会导致服务器超时或者性能问题。这是一个超长的查询字符串，其目的是测试系统对大量文本的处理能力，这可能会导致服务器超时或者性能问题。这是一个超长的查询字符串，其目的是测试系统对大量文本的处理能力，这可能会导致服务器超时或者性能问题。",
+        "query_id": "failure_sample_002",
+        "user_profile": "{\"domain\": \"测试\", \"expertise_level\": \"高级\"}",
+        "top_k": 2,
+        "filters": {"invalid_field": "value"}
+    },
+    {
+        "query": "这是一个正常的查询，但由于其他原因可能会失败",
+        "query_id": "failure_sample_003",
+        "user_profile": "invalid_json_format",
+        "top_k": 1000
+    }
+]

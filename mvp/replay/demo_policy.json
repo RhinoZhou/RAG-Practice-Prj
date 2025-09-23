@@ -1,0 +1,7 @@
+{
+  "request_id": "req-demo-001",
+  "raw_text": "咋退款？最新政策？",
+  "user_profile": {"role":"csr","region":"CN","platform":"X"},
+  "params": {"k": 10, "similarity_threshold": 0.35, "retrievers": ["bm25","vector"]},
+  "flags": {"rewrite": true, "self_query": true, "moe": true, "rerank": true, "hyde": false}
+}

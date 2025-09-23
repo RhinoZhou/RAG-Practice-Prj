@@ -1,0 +1,8 @@
+{
+  "total_queries": 10,
+  "hit_rate": 0.0,
+  "dedup_removed": 17,
+  "total_docs_processed": 27,
+  "execution_time": 0.06434464454650879,
+  "avg_query_time": 0.0064344644546508786
+}

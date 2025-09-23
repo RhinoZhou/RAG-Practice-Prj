@@ -1,0 +1,268 @@
+# RAG系统枚举定义配置
+
+# 平台枚举
+platforms:
+  - name: "web"
+    description: "网页平台"
+    value: "web"
+  
+  - name: "mobile_app"
+    description: "移动应用平台"
+    value: "mobile_app"
+  
+  - name: "desktop_app"
+    description: "桌面应用平台"
+    value: "desktop_app"
+  
+  - name: "api"
+    description: "API接口平台"
+    value: "api"
+  
+  - name: "third_party"
+    description: "第三方平台"
+    value: "third_party"
+
+# 地区枚举
+regions:
+  - name: "north_china"
+    description: "华北地区"
+    value: "north_china"
+  
+  - name: "east_china"
+    description: "华东地区"
+    value: "east_china"
+  
+  - name: "south_china"
+    description: "华南地区"
+    value: "south_china"
+  
+  - name: "central_china"
+    description: "华中地区"
+    value: "central_china"
+  
+  - name: "west_china"
+    description: "西部地区"
+    value: "west_china"
+  
+  - name: "northeast_china"
+    description: "东北地区"
+    value: "northeast_china"
+  
+  - name: "overseas"
+    description: "海外地区"
+    value: "overseas"
+
+# 检索策略枚举
+retrieval_strategies:
+  - name: "vector_only"
+    description: "仅使用向量检索"
+    value: "vector_only"
+  
+  - name: "bm25_only"
+    description: "仅使用BM25检索"
+    value: "bm25_only"
+  
+  - name: "hybrid"
+    description: "混合检索（向量+BM25）"
+    value: "hybrid"
+  
+  - name: "cross_encoder_only"
+    description: "仅使用交叉编码器检索"
+    value: "cross_encoder_only"
+
+# 文档类型枚举
+document_types:
+  - name: "policy"
+    description: "政策文档"
+    value: "policy"
+  
+  - name: "faq"
+    description: "常见问题"
+    value: "faq"
+  
+  - name: "sop"
+    description: "标准操作流程"
+    value: "sop"
+  
+  - name: "article"
+    description: "文章"
+    value: "article"
+  
+  - name: "report"
+    description: "报告"
+    value: "report"
+  
+  - name: "manual"
+    description: "手册"
+    value: "manual"
+
+# 查询类型枚举
+query_types:
+  - name: "keyword"
+    description: "关键词查询"
+    value: "keyword"
+  
+  - name: "semantic"
+    description: "语义查询"
+    value: "semantic"
+  
+  - name: "complex"
+    description: "复杂查询"
+    value: "complex"
+  
+  - name: "natural_language"
+    description: "自然语言问题"
+    value: "natural_language"
+  
+  - name: "boolean"
+    description: "布尔查询"
+    value: "boolean"
+  
+  - name: "phrase"
+    description: "短语查询"
+    value: "phrase"
+
+# 语言枚举
+languages:
+  - name: "chinese"
+    description: "中文"
+    value: "zh"
+  
+  - name: "english"
+    description: "英文"
+    value: "en"
+  
+  - name: "japanese"
+    description: "日文"
+    value: "ja"
+  
+  - name: "korean"
+    description: "韩文"
+    value: "ko"
+  
+  - name: "french"
+    description: "法文"
+    value: "fr"
+  
+  - name: "german"
+    description: "德文"
+    value: "de"
+
+# 评分级别枚举
+score_levels:
+  - name: "excellent"
+    description: "优秀"
+    value: "excellent"
+    min_score: 0.9
+  
+  - name: "good"
+    description: "良好"
+    value: "good"
+    min_score: 0.7
+  
+  - name: "fair"
+    description: "一般"
+    value: "fair"
+    min_score: 0.5
+  
+  - name: "poor"
+    description: "较差"
+    value: "poor"
+    min_score: 0.3
+  
+  - name: "bad"
+    description: "差"
+    value: "bad"
+    min_score: 0.0
+
+# 状态码枚举
+status_codes:
+  - name: "success"
+    description: "成功"
+    value: 200
+  
+  - name: "bad_request"
+    description: "请求错误"
+    value: 400
+  
+  - name: "unauthorized"
+    description: "未授权"
+    value: 401
+  
+  - name: "forbidden"
+    description: "禁止访问"
+    value: 403
+  
+  - name: "not_found"
+    description: "未找到"
+    value: 404
+  
+  - name: "server_error"
+    description: "服务器错误"
+    value: 500
+  
+  - name: "service_unavailable"
+    description: "服务不可用"
+    value: 503
+
+# 日志级别枚举
+log_levels:
+  - name: "debug"
+    description: "调试信息"
+    value: "DEBUG"
+  
+  - name: "info"
+    description: "一般信息"
+    value: "INFO"
+  
+  - name: "warning"
+    description: "警告信息"
+    value: "WARNING"
+  
+  - name: "error"
+    description: "错误信息"
+    value: "ERROR"
+  
+  - name: "critical"
+    description: "严重错误"
+    value: "CRITICAL"
+
+# 模型类型枚举
+model_types:
+  - name: "sentence_transformer"
+    description: "句子转换器模型"
+    value: "sentence_transformer"
+  
+  - name: "cross_encoder"
+    description: "交叉编码器模型"
+    value: "cross_encoder"
+  
+  - name: "llm"
+    description: "大型语言模型"
+    value: "llm"
+  
+  - name: "reranker"
+    description: "重排序模型"
+    value: "reranker"
+  
+  - name: "tokenizer"
+    description: "分词器模型"
+    value: "tokenizer"
+
+# 指标类型枚举
+metric_types:
+  - name: "counter"
+    description: "计数器指标"
+    value: "counter"
+  
+  - name: "gauge"
+    description: "仪表盘指标"
+    value: "gauge"
+  
+  - name: "histogram"
+    description: "直方图指标"
+    value: "histogram"
+  
+  - name: "summary"
+    description: "摘要指标"
+    value: "summary"

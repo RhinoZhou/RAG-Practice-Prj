@@ -1,0 +1,3302 @@
+[
+  {
+    "query_id": "q1",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q1",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6284,
+        "latency": 382.71,
+        "tokens": 1166,
+        "ndcg": 0.8053,
+        "filter_precision": 0.7872,
+        "coverage": 0.6003,
+        "error": false,
+        "cache_hit": true,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8605,
+        "latency": 332.33,
+        "tokens": 742,
+        "ndcg": 0.7732,
+        "filter_precision": 0.8835,
+        "coverage": 0.7285,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q2",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q2",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6062,
+        "latency": 313.6,
+        "tokens": 1621,
+        "ndcg": 1.0,
+        "filter_precision": 0.7772,
+        "coverage": 0.7877,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7843,
+        "latency": 201.63,
+        "tokens": 1240,
+        "ndcg": 0.8336,
+        "filter_precision": 0.8109,
+        "coverage": 0.8017,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q3",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q3",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7534,
+        "latency": 420.42,
+        "tokens": 1170,
+        "ndcg": 0.7593,
+        "filter_precision": 0.805,
+        "coverage": 0.7959,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7085,
+        "latency": 394.03,
+        "tokens": 886,
+        "ndcg": 0.7052,
+        "filter_precision": 0.964,
+        "coverage": 0.8993,
+        "error": false,
+        "cache_hit": true,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q4",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q4",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.864,
+        "latency": 390.6,
+        "tokens": 773,
+        "ndcg": 0.6202,
+        "filter_precision": 0.8953,
+        "coverage": 0.6056,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 1.0,
+        "latency": 371.45,
+        "tokens": 637,
+        "ndcg": 0.7848,
+        "filter_precision": 0.9137,
+        "coverage": 0.9415,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q5",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q5",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6541,
+        "latency": 528.35,
+        "tokens": 1168,
+        "ndcg": 0.8982,
+        "filter_precision": 0.8809,
+        "coverage": 0.6895,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8072,
+        "latency": 141.15,
+        "tokens": 1084,
+        "ndcg": 0.8984,
+        "filter_precision": 0.8715,
+        "coverage": 0.7523,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q6",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q6",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6186,
+        "latency": 355.33,
+        "tokens": 1574,
+        "ndcg": 0.5344,
+        "filter_precision": 0.8106,
+        "coverage": 0.6594,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7526,
+        "latency": 298.17,
+        "tokens": 661,
+        "ndcg": 0.714,
+        "filter_precision": 0.8667,
+        "coverage": 0.8474,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q7",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q7",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5771,
+        "latency": 403.48,
+        "tokens": 631,
+        "ndcg": 1.0,
+        "filter_precision": 0.8258,
+        "coverage": 0.6807,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9113,
+        "latency": 97.74,
+        "tokens": 873,
+        "ndcg": 0.8394,
+        "filter_precision": 0.8349,
+        "coverage": 0.6865,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q8",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q8",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.877,
+        "latency": 327.53,
+        "tokens": 1025,
+        "ndcg": 0.4797,
+        "filter_precision": 0.6798,
+        "coverage": 0.8385,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8144,
+        "latency": 371.76,
+        "tokens": 846,
+        "ndcg": 0.8119,
+        "filter_precision": 0.9036,
+        "coverage": 0.8802,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q9",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q9",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5293,
+        "latency": 392.82,
+        "tokens": 828,
+        "ndcg": 0.7171,
+        "filter_precision": 0.7655,
+        "coverage": 0.546,
+        "error": false,
+        "cache_hit": true,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.9217,
+        "latency": 365.55,
+        "tokens": 843,
+        "ndcg": 0.9316,
+        "filter_precision": 0.9109,
+        "coverage": 0.8298,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q10",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q10",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6726,
+        "latency": 354.3,
+        "tokens": 1333,
+        "ndcg": 0.8736,
+        "filter_precision": 0.8405,
+        "coverage": 0.7991,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 1.0,
+        "latency": 395.14,
+        "tokens": 1339,
+        "ndcg": 0.624,
+        "filter_precision": 0.987,
+        "coverage": 0.7806,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q11",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q11",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.655,
+        "latency": 405.65,
+        "tokens": 670,
+        "ndcg": 0.9178,
+        "filter_precision": 0.8179,
+        "coverage": 0.67,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8258,
+        "latency": 352.11,
+        "tokens": 1380,
+        "ndcg": 0.9086,
+        "filter_precision": 0.9402,
+        "coverage": 0.8759,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q12",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q12",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7094,
+        "latency": 390.03,
+        "tokens": 1358,
+        "ndcg": 0.8855,
+        "filter_precision": 0.7668,
+        "coverage": 0.6847,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.6843,
+        "latency": 351.47,
+        "tokens": 421,
+        "ndcg": 0.8167,
+        "filter_precision": 0.9225,
+        "coverage": 0.9718,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q13",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q13",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5488,
+        "latency": 552.73,
+        "tokens": 1498,
+        "ndcg": 0.7731,
+        "filter_precision": 1.0,
+        "coverage": 0.7468,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9507,
+        "latency": 188.04,
+        "tokens": 900,
+        "ndcg": 0.8928,
+        "filter_precision": 0.9392,
+        "coverage": 0.7421,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q14",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q14",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7138,
+        "latency": 380.56,
+        "tokens": 1369,
+        "ndcg": 0.6185,
+        "filter_precision": 0.9267,
+        "coverage": 0.6448,
+        "error": false,
+        "cache_hit": true,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7251,
+        "latency": 155.29,
+        "tokens": 809,
+        "ndcg": 0.8474,
+        "filter_precision": 0.9135,
+        "coverage": 0.8359,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q15",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q15",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6783,
+        "latency": 258.87,
+        "tokens": 1162,
+        "ndcg": 0.9459,
+        "filter_precision": 0.6999,
+        "coverage": 0.7163,
+        "error": true,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.867,
+        "latency": 208.85,
+        "tokens": 1077,
+        "ndcg": 0.8919,
+        "filter_precision": 0.8617,
+        "coverage": 1.0,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q16",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q16",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5801,
+        "latency": 319.01,
+        "tokens": 631,
+        "ndcg": 0.5877,
+        "filter_precision": 0.9641,
+        "coverage": 0.7228,
+        "error": false,
+        "cache_hit": true,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9614,
+        "latency": 320.27,
+        "tokens": 714,
+        "ndcg": 1.0,
+        "filter_precision": 0.9322,
+        "coverage": 0.6987,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q17",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q17",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.856,
+        "latency": 257.67,
+        "tokens": 1295,
+        "ndcg": 0.9721,
+        "filter_precision": 0.7173,
+        "coverage": 0.7711,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7056,
+        "latency": 440.96,
+        "tokens": 1197,
+        "ndcg": 0.8333,
+        "filter_precision": 0.8682,
+        "coverage": 0.7873,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q18",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q18",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.8168,
+        "latency": 630.91,
+        "tokens": 1186,
+        "ndcg": 0.7715,
+        "filter_precision": 0.652,
+        "coverage": 0.8145,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8524,
+        "latency": 269.34,
+        "tokens": 1257,
+        "ndcg": 0.8795,
+        "filter_precision": 0.8101,
+        "coverage": 0.8319,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q19",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q19",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.3178,
+        "latency": 502.03,
+        "tokens": 1568,
+        "ndcg": 0.5999,
+        "filter_precision": 0.7733,
+        "coverage": 0.7059,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7315,
+        "latency": 338.55,
+        "tokens": 1181,
+        "ndcg": 0.9249,
+        "filter_precision": 0.97,
+        "coverage": 0.806,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q20",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q20",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6158,
+        "latency": 464.8,
+        "tokens": 1291,
+        "ndcg": 0.5002,
+        "filter_precision": 0.7526,
+        "coverage": 0.847,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7689,
+        "latency": 415.48,
+        "tokens": 918,
+        "ndcg": 0.8198,
+        "filter_precision": 0.9349,
+        "coverage": 0.8326,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q21",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q21",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6555,
+        "latency": 513.48,
+        "tokens": 1268,
+        "ndcg": 0.6528,
+        "filter_precision": 0.6789,
+        "coverage": 0.8222,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8915,
+        "latency": 397.62,
+        "tokens": 1387,
+        "ndcg": 0.7261,
+        "filter_precision": 0.9653,
+        "coverage": 0.7585,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q22",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q22",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.3365,
+        "latency": 321.17,
+        "tokens": 1316,
+        "ndcg": 0.7554,
+        "filter_precision": 0.6799,
+        "coverage": 0.7771,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9318,
+        "latency": 220.55,
+        "tokens": 808,
+        "ndcg": 0.8623,
+        "filter_precision": 0.9012,
+        "coverage": 0.964,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q23",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q23",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4295,
+        "latency": 458.33,
+        "tokens": 1226,
+        "ndcg": 0.8351,
+        "filter_precision": 0.8321,
+        "coverage": 0.7245,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7229,
+        "latency": 336.56,
+        "tokens": 912,
+        "ndcg": 0.8576,
+        "filter_precision": 0.9247,
+        "coverage": 0.7811,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q24",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q24",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7896,
+        "latency": 403.45,
+        "tokens": 1212,
+        "ndcg": 0.4061,
+        "filter_precision": 0.8998,
+        "coverage": 0.7199,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8204,
+        "latency": 384.02,
+        "tokens": 1222,
+        "ndcg": 0.8664,
+        "filter_precision": 0.8781,
+        "coverage": 0.7765,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q25",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q25",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4646,
+        "latency": 319.5,
+        "tokens": 1474,
+        "ndcg": 0.7799,
+        "filter_precision": 0.8424,
+        "coverage": 0.703,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8069,
+        "latency": 222.09,
+        "tokens": 1005,
+        "ndcg": 0.6612,
+        "filter_precision": 0.8997,
+        "coverage": 0.8831,
+        "error": true,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q26",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q26",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6925,
+        "latency": 257.54,
+        "tokens": 1219,
+        "ndcg": 0.3334,
+        "filter_precision": 0.8063,
+        "coverage": 0.7693,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7249,
+        "latency": 313.42,
+        "tokens": 768,
+        "ndcg": 0.9501,
+        "filter_precision": 0.9775,
+        "coverage": 0.8212,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q27",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q27",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.8272,
+        "latency": 343.41,
+        "tokens": 1443,
+        "ndcg": 0.6205,
+        "filter_precision": 0.862,
+        "coverage": 0.7261,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8798,
+        "latency": 212.45,
+        "tokens": 1520,
+        "ndcg": 1.0,
+        "filter_precision": 0.9094,
+        "coverage": 0.7777,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q28",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q28",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.8133,
+        "latency": 249.32,
+        "tokens": 1801,
+        "ndcg": 0.935,
+        "filter_precision": 0.6763,
+        "coverage": 0.6086,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.6176,
+        "latency": 332.74,
+        "tokens": 815,
+        "ndcg": 0.8016,
+        "filter_precision": 0.9033,
+        "coverage": 1.0,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q29",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q29",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.9379,
+        "latency": 434.99,
+        "tokens": 1286,
+        "ndcg": 0.7942,
+        "filter_precision": 0.827,
+        "coverage": 0.6629,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.937,
+        "latency": 365.41,
+        "tokens": 579,
+        "ndcg": 0.8621,
+        "filter_precision": 0.8737,
+        "coverage": 0.7427,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q30",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q30",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5576,
+        "latency": 442.2,
+        "tokens": 1051,
+        "ndcg": 0.5766,
+        "filter_precision": 0.7133,
+        "coverage": 0.7197,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7748,
+        "latency": 354.29,
+        "tokens": 960,
+        "ndcg": 0.7643,
+        "filter_precision": 0.8945,
+        "coverage": 0.6538,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q31",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q31",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5846,
+        "latency": 129.43,
+        "tokens": 958,
+        "ndcg": 0.6811,
+        "filter_precision": 0.853,
+        "coverage": 0.7888,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8321,
+        "latency": 307.56,
+        "tokens": 842,
+        "ndcg": 1.0,
+        "filter_precision": 0.8459,
+        "coverage": 0.7481,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q32",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q32",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5609,
+        "latency": 423.33,
+        "tokens": 1877,
+        "ndcg": 0.8132,
+        "filter_precision": 0.616,
+        "coverage": 0.7759,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8761,
+        "latency": 382.95,
+        "tokens": 734,
+        "ndcg": 1.0,
+        "filter_precision": 0.9625,
+        "coverage": 0.9422,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q33",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q33",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7558,
+        "latency": 354.32,
+        "tokens": 930,
+        "ndcg": 0.6162,
+        "filter_precision": 0.768,
+        "coverage": 0.7353,
+        "error": false,
+        "cache_hit": true,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7688,
+        "latency": 260.45,
+        "tokens": 1045,
+        "ndcg": 0.8851,
+        "filter_precision": 0.9547,
+        "coverage": 0.8515,
+        "error": false,
+        "cache_hit": true,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q34",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q34",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.602,
+        "latency": 294.75,
+        "tokens": 938,
+        "ndcg": 0.3855,
+        "filter_precision": 0.833,
+        "coverage": 0.6139,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.6689,
+        "latency": 160.03,
+        "tokens": 1044,
+        "ndcg": 0.8159,
+        "filter_precision": 0.9216,
+        "coverage": 0.9092,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q35",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q35",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5247,
+        "latency": 416.64,
+        "tokens": 1004,
+        "ndcg": 0.7688,
+        "filter_precision": 0.6961,
+        "coverage": 0.7233,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8712,
+        "latency": 309.33,
+        "tokens": 772,
+        "ndcg": 0.6735,
+        "filter_precision": 0.8913,
+        "coverage": 0.8415,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q36",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q36",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4359,
+        "latency": 426.76,
+        "tokens": 1364,
+        "ndcg": 0.6522,
+        "filter_precision": 0.678,
+        "coverage": 0.6775,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7797,
+        "latency": 333.92,
+        "tokens": 1136,
+        "ndcg": 0.9372,
+        "filter_precision": 0.8263,
+        "coverage": 0.8534,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q37",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q37",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5977,
+        "latency": 481.21,
+        "tokens": 1499,
+        "ndcg": 0.6716,
+        "filter_precision": 0.5035,
+        "coverage": 0.7227,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.6613,
+        "latency": 287.09,
+        "tokens": 729,
+        "ndcg": 0.851,
+        "filter_precision": 0.9374,
+        "coverage": 0.8701,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q38",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q38",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.8581,
+        "latency": 425.44,
+        "tokens": 1343,
+        "ndcg": 0.4753,
+        "filter_precision": 0.7938,
+        "coverage": 0.7654,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7653,
+        "latency": 262.97,
+        "tokens": 1189,
+        "ndcg": 0.8159,
+        "filter_precision": 0.8857,
+        "coverage": 0.7703,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q39",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q39",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.724,
+        "latency": 525.95,
+        "tokens": 1196,
+        "ndcg": 0.6188,
+        "filter_precision": 0.9558,
+        "coverage": 0.8231,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7827,
+        "latency": 365.94,
+        "tokens": 211,
+        "ndcg": 0.6582,
+        "filter_precision": 0.8717,
+        "coverage": 0.853,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q40",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q40",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.9262,
+        "latency": 317.34,
+        "tokens": 1420,
+        "ndcg": 0.6866,
+        "filter_precision": 0.654,
+        "coverage": 0.8821,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9768,
+        "latency": 289.68,
+        "tokens": 917,
+        "ndcg": 0.8031,
+        "filter_precision": 0.9253,
+        "coverage": 0.8409,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q41",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q41",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4864,
+        "latency": 382.06,
+        "tokens": 1146,
+        "ndcg": 0.5482,
+        "filter_precision": 0.7674,
+        "coverage": 0.7022,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.9167,
+        "latency": 174.44,
+        "tokens": 1155,
+        "ndcg": 0.7744,
+        "filter_precision": 0.8676,
+        "coverage": 0.9664,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q42",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q42",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4205,
+        "latency": 234.66,
+        "tokens": 1697,
+        "ndcg": 0.696,
+        "filter_precision": 0.7583,
+        "coverage": 0.7684,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8252,
+        "latency": 286.0,
+        "tokens": 1059,
+        "ndcg": 0.7701,
+        "filter_precision": 0.8802,
+        "coverage": 0.8818,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q43",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q43",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.9169,
+        "latency": 496.32,
+        "tokens": 1037,
+        "ndcg": 0.6239,
+        "filter_precision": 0.8474,
+        "coverage": 0.7211,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9224,
+        "latency": 229.99,
+        "tokens": 1147,
+        "ndcg": 0.9404,
+        "filter_precision": 0.8624,
+        "coverage": 0.9378,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q44",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q44",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6964,
+        "latency": 493.58,
+        "tokens": 980,
+        "ndcg": 0.7116,
+        "filter_precision": 0.6823,
+        "coverage": 0.6929,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9999,
+        "latency": 308.14,
+        "tokens": 1119,
+        "ndcg": 0.5846,
+        "filter_precision": 0.97,
+        "coverage": 0.7796,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q45",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q45",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5134,
+        "latency": 294.59,
+        "tokens": 989,
+        "ndcg": 0.4846,
+        "filter_precision": 0.6969,
+        "coverage": 0.5893,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8063,
+        "latency": 279.77,
+        "tokens": 912,
+        "ndcg": 0.8898,
+        "filter_precision": 0.9375,
+        "coverage": 0.8117,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q46",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q46",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.706,
+        "latency": 332.57,
+        "tokens": 1355,
+        "ndcg": 0.5466,
+        "filter_precision": 0.8576,
+        "coverage": 0.5946,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.9024,
+        "latency": 201.13,
+        "tokens": 1648,
+        "ndcg": 0.8171,
+        "filter_precision": 0.916,
+        "coverage": 0.7781,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q47",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q47",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4809,
+        "latency": 522.22,
+        "tokens": 1177,
+        "ndcg": 0.8465,
+        "filter_precision": 0.7379,
+        "coverage": 0.6763,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7148,
+        "latency": 209.06,
+        "tokens": 621,
+        "ndcg": 0.8846,
+        "filter_precision": 0.8853,
+        "coverage": 0.8179,
+        "error": false,
+        "cache_hit": true,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q48",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q48",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6678,
+        "latency": 523.63,
+        "tokens": 978,
+        "ndcg": 0.793,
+        "filter_precision": 0.9467,
+        "coverage": 0.7017,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.6935,
+        "latency": 174.71,
+        "tokens": 558,
+        "ndcg": 0.6928,
+        "filter_precision": 0.8858,
+        "coverage": 0.9704,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q49",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q49",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7925,
+        "latency": 388.56,
+        "tokens": 1551,
+        "ndcg": 0.575,
+        "filter_precision": 0.8746,
+        "coverage": 0.7798,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7152,
+        "latency": 216.15,
+        "tokens": 1435,
+        "ndcg": 0.8735,
+        "filter_precision": 0.901,
+        "coverage": 0.8915,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q50",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q50",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6922,
+        "latency": 332.8,
+        "tokens": 1280,
+        "ndcg": 0.4386,
+        "filter_precision": 0.7336,
+        "coverage": 0.7043,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.9547,
+        "latency": 402.27,
+        "tokens": 1159,
+        "ndcg": 0.9194,
+        "filter_precision": 0.9159,
+        "coverage": 0.7464,
+        "error": true,
+        "cache_hit": true,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q51",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q51",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6454,
+        "latency": 286.31,
+        "tokens": 1263,
+        "ndcg": 0.5228,
+        "filter_precision": 0.8917,
+        "coverage": 0.8249,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7844,
+        "latency": 284.23,
+        "tokens": 1484,
+        "ndcg": 0.8483,
+        "filter_precision": 0.8786,
+        "coverage": 0.8671,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q52",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q52",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7602,
+        "latency": 432.17,
+        "tokens": 946,
+        "ndcg": 0.5597,
+        "filter_precision": 0.6529,
+        "coverage": 1.0,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8132,
+        "latency": 262.0,
+        "tokens": 711,
+        "ndcg": 0.6807,
+        "filter_precision": 0.805,
+        "coverage": 0.7992,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q53",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q53",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4549,
+        "latency": 496.11,
+        "tokens": 1100,
+        "ndcg": 0.82,
+        "filter_precision": 0.7924,
+        "coverage": 0.9977,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.6497,
+        "latency": 354.86,
+        "tokens": 908,
+        "ndcg": 0.8879,
+        "filter_precision": 1.0,
+        "coverage": 0.9238,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q54",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q54",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.812,
+        "latency": 282.21,
+        "tokens": 1598,
+        "ndcg": 0.6599,
+        "filter_precision": 0.7217,
+        "coverage": 0.8555,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.854,
+        "latency": 236.76,
+        "tokens": 1025,
+        "ndcg": 0.7198,
+        "filter_precision": 0.934,
+        "coverage": 0.7054,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q55",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q55",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7679,
+        "latency": 414.46,
+        "tokens": 1252,
+        "ndcg": 0.3626,
+        "filter_precision": 0.7625,
+        "coverage": 0.8009,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.9031,
+        "latency": 353.63,
+        "tokens": 804,
+        "ndcg": 0.9272,
+        "filter_precision": 0.9237,
+        "coverage": 0.9078,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q56",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q56",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7905,
+        "latency": 538.95,
+        "tokens": 1317,
+        "ndcg": 0.719,
+        "filter_precision": 0.7016,
+        "coverage": 0.7868,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7262,
+        "latency": 327.83,
+        "tokens": 874,
+        "ndcg": 0.746,
+        "filter_precision": 0.8924,
+        "coverage": 0.8288,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q57",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q57",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.8912,
+        "latency": 342.48,
+        "tokens": 1222,
+        "ndcg": 0.5765,
+        "filter_precision": 0.8855,
+        "coverage": 0.8303,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9789,
+        "latency": 369.63,
+        "tokens": 1046,
+        "ndcg": 0.8551,
+        "filter_precision": 0.9876,
+        "coverage": 0.7743,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q58",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q58",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6731,
+        "latency": 413.59,
+        "tokens": 955,
+        "ndcg": 0.9405,
+        "filter_precision": 0.6608,
+        "coverage": 0.6223,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.6967,
+        "latency": 248.36,
+        "tokens": 829,
+        "ndcg": 0.9025,
+        "filter_precision": 0.876,
+        "coverage": 0.9109,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q59",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q59",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4257,
+        "latency": 602.85,
+        "tokens": 1096,
+        "ndcg": 0.6328,
+        "filter_precision": 0.8614,
+        "coverage": 0.7963,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.9341,
+        "latency": 266.11,
+        "tokens": 686,
+        "ndcg": 0.8789,
+        "filter_precision": 0.8336,
+        "coverage": 0.7921,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q60",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q60",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6829,
+        "latency": 430.56,
+        "tokens": 961,
+        "ndcg": 0.7453,
+        "filter_precision": 0.7947,
+        "coverage": 0.7836,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7442,
+        "latency": 348.33,
+        "tokens": 577,
+        "ndcg": 0.6329,
+        "filter_precision": 0.9566,
+        "coverage": 0.9077,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q61",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q61",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.8143,
+        "latency": 329.57,
+        "tokens": 1354,
+        "ndcg": 0.8892,
+        "filter_precision": 0.5485,
+        "coverage": 0.7478,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.9521,
+        "latency": 330.55,
+        "tokens": 1304,
+        "ndcg": 0.8431,
+        "filter_precision": 0.8633,
+        "coverage": 0.8016,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q62",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q62",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7112,
+        "latency": 417.93,
+        "tokens": 1093,
+        "ndcg": 0.5896,
+        "filter_precision": 0.776,
+        "coverage": 0.6058,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8747,
+        "latency": 265.56,
+        "tokens": 795,
+        "ndcg": 0.7276,
+        "filter_precision": 0.9541,
+        "coverage": 0.941,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q63",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q63",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5144,
+        "latency": 235.25,
+        "tokens": 1167,
+        "ndcg": 0.4724,
+        "filter_precision": 0.6579,
+        "coverage": 0.7262,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8872,
+        "latency": 277.9,
+        "tokens": 1016,
+        "ndcg": 0.785,
+        "filter_precision": 0.929,
+        "coverage": 0.85,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q64",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q64",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7984,
+        "latency": 302.76,
+        "tokens": 1057,
+        "ndcg": 0.6502,
+        "filter_precision": 0.8647,
+        "coverage": 0.8894,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.6727,
+        "latency": 363.84,
+        "tokens": 1021,
+        "ndcg": 0.9581,
+        "filter_precision": 0.8819,
+        "coverage": 0.9797,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q65",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q65",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4046,
+        "latency": 579.0,
+        "tokens": 1532,
+        "ndcg": 0.6837,
+        "filter_precision": 0.7805,
+        "coverage": 0.8461,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9084,
+        "latency": 329.49,
+        "tokens": 597,
+        "ndcg": 1.0,
+        "filter_precision": 0.8855,
+        "coverage": 0.7565,
+        "error": false,
+        "cache_hit": true,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q66",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q66",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7201,
+        "latency": 368.35,
+        "tokens": 529,
+        "ndcg": 0.8389,
+        "filter_precision": 0.8191,
+        "coverage": 0.8578,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8288,
+        "latency": 557.15,
+        "tokens": 957,
+        "ndcg": 0.8669,
+        "filter_precision": 0.9867,
+        "coverage": 0.7856,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q67",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q67",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7973,
+        "latency": 343.9,
+        "tokens": 1446,
+        "ndcg": 0.4792,
+        "filter_precision": 0.6644,
+        "coverage": 0.7767,
+        "error": false,
+        "cache_hit": true,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8631,
+        "latency": 342.42,
+        "tokens": 975,
+        "ndcg": 0.8797,
+        "filter_precision": 0.8222,
+        "coverage": 0.9186,
+        "error": false,
+        "cache_hit": true,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q68",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q68",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6256,
+        "latency": 318.64,
+        "tokens": 1479,
+        "ndcg": 0.7014,
+        "filter_precision": 0.7418,
+        "coverage": 0.7223,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.713,
+        "latency": 357.27,
+        "tokens": 536,
+        "ndcg": 0.638,
+        "filter_precision": 0.8998,
+        "coverage": 0.8645,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q69",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q69",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7435,
+        "latency": 469.29,
+        "tokens": 972,
+        "ndcg": 0.8828,
+        "filter_precision": 0.8735,
+        "coverage": 0.617,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7492,
+        "latency": 112.5,
+        "tokens": 1163,
+        "ndcg": 0.8655,
+        "filter_precision": 0.9266,
+        "coverage": 0.6889,
+        "error": false,
+        "cache_hit": true,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q70",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q70",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.8607,
+        "latency": 432.91,
+        "tokens": 1065,
+        "ndcg": 0.991,
+        "filter_precision": 0.9395,
+        "coverage": 0.7932,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.878,
+        "latency": 251.38,
+        "tokens": 1288,
+        "ndcg": 0.8308,
+        "filter_precision": 0.7864,
+        "coverage": 0.8528,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q71",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q71",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.2066,
+        "latency": 537.73,
+        "tokens": 1305,
+        "ndcg": 0.8134,
+        "filter_precision": 0.8713,
+        "coverage": 0.8036,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7656,
+        "latency": 230.81,
+        "tokens": 1487,
+        "ndcg": 0.9031,
+        "filter_precision": 0.7934,
+        "coverage": 1.0,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q72",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q72",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4739,
+        "latency": 536.06,
+        "tokens": 881,
+        "ndcg": 0.3652,
+        "filter_precision": 0.8853,
+        "coverage": 0.8569,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.6417,
+        "latency": 448.92,
+        "tokens": 1141,
+        "ndcg": 0.8617,
+        "filter_precision": 0.8542,
+        "coverage": 0.8738,
+        "error": false,
+        "cache_hit": true,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q73",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q73",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6023,
+        "latency": 474.31,
+        "tokens": 1266,
+        "ndcg": 0.6916,
+        "filter_precision": 0.8472,
+        "coverage": 0.8612,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.882,
+        "latency": 298.5,
+        "tokens": 1251,
+        "ndcg": 0.7918,
+        "filter_precision": 0.9702,
+        "coverage": 0.9591,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q74",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q74",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5336,
+        "latency": 263.25,
+        "tokens": 963,
+        "ndcg": 0.6616,
+        "filter_precision": 0.7819,
+        "coverage": 0.8057,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8484,
+        "latency": 337.02,
+        "tokens": 1284,
+        "ndcg": 0.9854,
+        "filter_precision": 0.9627,
+        "coverage": 0.8667,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q75",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q75",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7884,
+        "latency": 440.46,
+        "tokens": 1129,
+        "ndcg": 0.5325,
+        "filter_precision": 0.7131,
+        "coverage": 0.8046,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.6821,
+        "latency": 320.57,
+        "tokens": 1325,
+        "ndcg": 0.9857,
+        "filter_precision": 0.8369,
+        "coverage": 0.8163,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q76",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q76",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5231,
+        "latency": 390.34,
+        "tokens": 1568,
+        "ndcg": 0.9982,
+        "filter_precision": 0.8373,
+        "coverage": 0.9899,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7164,
+        "latency": 224.05,
+        "tokens": 1149,
+        "ndcg": 0.9101,
+        "filter_precision": 0.8422,
+        "coverage": 0.8303,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q77",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q77",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7561,
+        "latency": 292.38,
+        "tokens": 1232,
+        "ndcg": 0.668,
+        "filter_precision": 0.9374,
+        "coverage": 0.7904,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.6595,
+        "latency": 301.39,
+        "tokens": 845,
+        "ndcg": 1.0,
+        "filter_precision": 0.8102,
+        "coverage": 0.8655,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q78",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q78",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.4897,
+        "latency": 442.63,
+        "tokens": 1316,
+        "ndcg": 0.8964,
+        "filter_precision": 0.739,
+        "coverage": 0.897,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7528,
+        "latency": 296.44,
+        "tokens": 1006,
+        "ndcg": 0.9011,
+        "filter_precision": 0.8738,
+        "coverage": 0.8637,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q79",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q79",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.9647,
+        "latency": 349.89,
+        "tokens": 1471,
+        "ndcg": 0.3779,
+        "filter_precision": 0.7883,
+        "coverage": 0.6862,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7566,
+        "latency": 300.57,
+        "tokens": 783,
+        "ndcg": 0.9187,
+        "filter_precision": 0.9039,
+        "coverage": 0.9557,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q80",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q80",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.367,
+        "latency": 355.71,
+        "tokens": 636,
+        "ndcg": 0.8305,
+        "filter_precision": 0.7761,
+        "coverage": 0.5818,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7631,
+        "latency": 289.74,
+        "tokens": 575,
+        "ndcg": 0.8455,
+        "filter_precision": 0.8721,
+        "coverage": 1.0,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q81",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q81",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.688,
+        "latency": 312.59,
+        "tokens": 1666,
+        "ndcg": 0.6058,
+        "filter_precision": 0.8375,
+        "coverage": 0.8632,
+        "error": false,
+        "cache_hit": true,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7436,
+        "latency": 294.49,
+        "tokens": 1107,
+        "ndcg": 0.8159,
+        "filter_precision": 0.9398,
+        "coverage": 0.8207,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q82",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q82",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6175,
+        "latency": 318.4,
+        "tokens": 1315,
+        "ndcg": 0.5683,
+        "filter_precision": 0.6712,
+        "coverage": 0.5019,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7858,
+        "latency": 416.25,
+        "tokens": 1323,
+        "ndcg": 0.827,
+        "filter_precision": 0.9023,
+        "coverage": 0.8757,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q83",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q83",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6986,
+        "latency": 332.95,
+        "tokens": 781,
+        "ndcg": 0.5974,
+        "filter_precision": 0.8392,
+        "coverage": 0.8505,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9138,
+        "latency": 206.44,
+        "tokens": 1125,
+        "ndcg": 0.8708,
+        "filter_precision": 0.9117,
+        "coverage": 0.9184,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q84",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q84",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7669,
+        "latency": 351.98,
+        "tokens": 885,
+        "ndcg": 0.9045,
+        "filter_precision": 0.7739,
+        "coverage": 0.6088,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7333,
+        "latency": 279.62,
+        "tokens": 1207,
+        "ndcg": 0.8358,
+        "filter_precision": 0.8917,
+        "coverage": 0.9029,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q85",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q85",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.8125,
+        "latency": 504.14,
+        "tokens": 588,
+        "ndcg": 0.9881,
+        "filter_precision": 0.9036,
+        "coverage": 0.5239,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9297,
+        "latency": 246.3,
+        "tokens": 997,
+        "ndcg": 0.7806,
+        "filter_precision": 0.9187,
+        "coverage": 0.7939,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q86",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q86",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.9592,
+        "latency": 468.07,
+        "tokens": 1233,
+        "ndcg": 0.8079,
+        "filter_precision": 0.8724,
+        "coverage": 0.8027,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.605,
+        "latency": 403.28,
+        "tokens": 1205,
+        "ndcg": 0.7712,
+        "filter_precision": 0.9402,
+        "coverage": 1.0,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q87",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q87",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7296,
+        "latency": 367.83,
+        "tokens": 1337,
+        "ndcg": 0.6371,
+        "filter_precision": 1.0,
+        "coverage": 0.5843,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.9293,
+        "latency": 306.03,
+        "tokens": 1557,
+        "ndcg": 1.0,
+        "filter_precision": 0.8676,
+        "coverage": 1.0,
+        "error": false,
+        "cache_hit": false,
+        "route": "keyword",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q88",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q88",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6758,
+        "latency": 445.77,
+        "tokens": 1373,
+        "ndcg": 0.8417,
+        "filter_precision": 0.7971,
+        "coverage": 0.8141,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.6906,
+        "latency": 226.71,
+        "tokens": 781,
+        "ndcg": 0.9091,
+        "filter_precision": 0.8762,
+        "coverage": 0.9215,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q89",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q89",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7974,
+        "latency": 404.22,
+        "tokens": 976,
+        "ndcg": 0.7388,
+        "filter_precision": 0.7366,
+        "coverage": 0.866,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7447,
+        "latency": 222.15,
+        "tokens": 1204,
+        "ndcg": 0.9784,
+        "filter_precision": 0.9926,
+        "coverage": 0.7723,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q90",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q90",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5707,
+        "latency": 353.61,
+        "tokens": 1315,
+        "ndcg": 0.7644,
+        "filter_precision": 0.7981,
+        "coverage": 0.6136,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.743,
+        "latency": 202.47,
+        "tokens": 1071,
+        "ndcg": 0.7312,
+        "filter_precision": 0.8534,
+        "coverage": 0.8366,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q91",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q91",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.8007,
+        "latency": 568.71,
+        "tokens": 776,
+        "ndcg": 0.781,
+        "filter_precision": 0.7761,
+        "coverage": 0.6366,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.6899,
+        "latency": 292.65,
+        "tokens": 1260,
+        "ndcg": 0.8895,
+        "filter_precision": 0.9281,
+        "coverage": 0.7299,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q92",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q92",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7823,
+        "latency": 425.8,
+        "tokens": 2085,
+        "ndcg": 0.8875,
+        "filter_precision": 0.8347,
+        "coverage": 0.7349,
+        "error": false,
+        "cache_hit": true,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8275,
+        "latency": 79.62,
+        "tokens": 841,
+        "ndcg": 0.7671,
+        "filter_precision": 0.949,
+        "coverage": 0.8465,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q93",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q93",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.571,
+        "latency": 324.02,
+        "tokens": 1361,
+        "ndcg": 0.8677,
+        "filter_precision": 0.6413,
+        "coverage": 0.7209,
+        "error": false,
+        "cache_hit": true,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.742,
+        "latency": 211.05,
+        "tokens": 543,
+        "ndcg": 0.8129,
+        "filter_precision": 0.9007,
+        "coverage": 0.9237,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q94",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q94",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7071,
+        "latency": 302.94,
+        "tokens": 1262,
+        "ndcg": 0.3904,
+        "filter_precision": 0.8676,
+        "coverage": 0.7567,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.794,
+        "latency": 218.98,
+        "tokens": 1017,
+        "ndcg": 0.9197,
+        "filter_precision": 0.9112,
+        "coverage": 0.8294,
+        "error": false,
+        "cache_hit": true,
+        "route": "cypher",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q95",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q95",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6752,
+        "latency": 603.74,
+        "tokens": 1562,
+        "ndcg": 0.6837,
+        "filter_precision": 0.7313,
+        "coverage": 0.7915,
+        "error": false,
+        "cache_hit": false,
+        "route": "cypher",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.7709,
+        "latency": 291.48,
+        "tokens": 799,
+        "ndcg": 0.9691,
+        "filter_precision": 0.8553,
+        "coverage": 0.9163,
+        "error": false,
+        "cache_hit": false,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q96",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q96",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.6547,
+        "latency": 286.77,
+        "tokens": 1348,
+        "ndcg": 0.597,
+        "filter_precision": 0.7523,
+        "coverage": 0.5754,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": true,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.803,
+        "latency": 353.89,
+        "tokens": 658,
+        "ndcg": 0.6699,
+        "filter_precision": 0.9126,
+        "coverage": 0.8211,
+        "error": false,
+        "cache_hit": true,
+        "route": "hybrid",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q97",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q97",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.7179,
+        "latency": 353.95,
+        "tokens": 1235,
+        "ndcg": 0.4599,
+        "filter_precision": 0.6935,
+        "coverage": 0.7087,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.8485,
+        "latency": 290.57,
+        "tokens": 1285,
+        "ndcg": 0.8497,
+        "filter_precision": 0.9032,
+        "coverage": 0.9588,
+        "error": false,
+        "cache_hit": false,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  },
+  {
+    "query_id": "q98",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q98",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.5144,
+        "latency": 484.18,
+        "tokens": 1051,
+        "ndcg": 0.7903,
+        "filter_precision": 0.6831,
+        "coverage": 0.7406,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": true
+      },
+      "B": {
+        "hit_at_5": 0.7289,
+        "latency": 360.03,
+        "tokens": 836,
+        "ndcg": 0.8229,
+        "filter_precision": 0.9236,
+        "coverage": 0.8994,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q99",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q99",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.686,
+        "latency": 468.21,
+        "tokens": 996,
+        "ndcg": 0.6522,
+        "filter_precision": 0.5723,
+        "coverage": 0.675,
+        "error": false,
+        "cache_hit": false,
+        "route": "self_query",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.8875,
+        "latency": 424.03,
+        "tokens": 1193,
+        "ndcg": 0.9895,
+        "filter_precision": 0.7888,
+        "coverage": 0.8631,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": true,
+        "rerank_used": true
+      }
+    }
+  },
+  {
+    "query_id": "q100",
+    "timestamp": "2025-09-19 01:26:06",
+    "query_text": "测试查询 q100",
+    "groups": {
+      "A": {
+        "hit_at_5": 0.8597,
+        "latency": 349.85,
+        "tokens": 1227,
+        "ndcg": 0.5459,
+        "filter_precision": 0.8399,
+        "coverage": 0.6894,
+        "error": false,
+        "cache_hit": true,
+        "route": "sql",
+        "rewrite_used": false,
+        "rerank_used": false
+      },
+      "B": {
+        "hit_at_5": 0.9323,
+        "latency": 342.27,
+        "tokens": 1505,
+        "ndcg": 0.7609,
+        "filter_precision": 0.8952,
+        "coverage": 0.838,
+        "error": false,
+        "cache_hit": false,
+        "route": "vector",
+        "rewrite_used": false,
+        "rerank_used": false
+      }
+    }
+  }
+]
