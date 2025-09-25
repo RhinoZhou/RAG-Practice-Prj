@@ -36,3 +36,9 @@
 
 ## 11-pre_index
 预检索
+
+## 12-enhance_index
+检索增强
+
+## 13-Post-Retrieval Processing & Result Optimization
+索引准确性
