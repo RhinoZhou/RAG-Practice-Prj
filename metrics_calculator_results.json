@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-09-24T12:21:12.451808",
+  "examples": [
+    {
+      "name": "理想排序",
+      "ranked_list": [
+        "doc1",
+        "doc2",
+        "doc3",
+        "doc4",
+        "doc5",
+        "doc6"
+      ],
+      "gold_set": [
+        "doc1",
+        "doc3",
+        "doc2"
+      ],
+      "metrics_k5": {
+        "P@k": 0.6,
+        "R@k": 1.0,
+        "MRR": 1.0,
+        "nDCG@k": 1.0
+      }
+    },
+    {
+      "name": "真实排序",
+      "ranked_list": [
+        "doc4",
+        "doc1",
+        "doc5",
+        "doc2",
+        "doc6",
+        "doc3"
+      ],
+      "gold_set": [
+        "doc1",
+        "doc3",
+        "doc2"
+      ],
+      "metrics_k5": {
+        "P@k": 0.4,
+        "R@k": 0.6667,
+        "MRR": 0.5,
+        "nDCG@k": 0.6509
+      }
+    }
+  ],
+  "verification_results": [
+    {
+      "name": "理想排序",
+      "metrics_k3": {
+        "P@k": 1.0,
+        "R@k": 1.0,
+        "MRR": 1.0,
+        "nDCG@k": 1.0
+      },
+      "metrics_k5": {
+        "P@k": 0.6,
+        "R@k": 1.0,
+        "MRR": 1.0,
+        "nDCG@k": 1.0
+      },
+      "range_valid": true,
+      "recall_monotonic": true
+    },
+    {
+      "name": "部分相关排序",
+      "metrics_k3": {
+        "P@k": 0.6667,
+        "R@k": 0.6667,
+        "MRR": 1.0,
+        "nDCG@k": 0.9197
+      },
+      "metrics_k5": {
+        "P@k": 0.6,
+        "R@k": 1.0,
+        "MRR": 1.0,
+        "nDCG@k": 0.8855
+      },
+      "range_valid": true,
+      "recall_monotonic": true
+    },
+    {
+      "name": "无相关排序",
+      "metrics_k3": {
+        "P@k": 0.0,
+        "R@k": 0.0,
+        "MRR": 0.0,
+        "nDCG@k": 0.0
+      },
+      "metrics_k5": {
+        "P@k": 0.0,
+        "R@k": 0.0,
+        "MRR": 0.0,
+        "nDCG@k": 0.0
+      },
+      "range_valid": true,
+      "recall_monotonic": true
+    }
+  ],
+  "execution_time": 0.030368804931640625
+}

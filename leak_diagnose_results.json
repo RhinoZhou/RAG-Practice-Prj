@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-09-24 11:17:15",
+  "statistics": {
+    "total_queries": 4,
+    "unreachable": 2,
+    "reachable_but_not_hit": 1,
+    "hit": 1
+  },
+  "detailed_results": [
+    {
+      "query": "RRF的作用？",
+      "triple_keys": [
+        "docA:4.1:s2",
+        "docB:2.3:s1"
+      ],
+      "is_reachable": true,
+      "unreachable_keys": [],
+      "is_hit": false,
+      "hit_keys": [],
+      "hit_ranks": [],
+      "recommendation": "策略缺口：建议混合检索/术语映射/扩大窗口，优化检索排序策略。",
+      "execution_time": 0.022411346435546875
+    },
+    {
+      "query": "混合检索的特点是什么？",
+      "triple_keys": [
+        "docA:2.2:s3",
+        "docC:1.4:s4"
+      ],
+      "is_reachable": true,
+      "unreachable_keys": [],
+      "is_hit": true,
+      "hit_keys": [
+        "docA:2.2:s3"
+      ],
+      "hit_ranks": [
+        2
+      ],
+      "recommendation": "已命中：无需特殊处理。",
+      "execution_time": 0.019788742065429688
+    },
+    {
+      "query": "文本分块的作用是什么？",
+      "triple_keys": [
+        "docA:3.1:s1",
+        "docD:2.1:s2"
+      ],
+      "is_reachable": false,
+      "unreachable_keys": [
+        "docD:2.1:s2"
+      ],
+      "is_hit": true,
+      "hit_keys": [
+        "docA:3.1:s1"
+      ],
+      "hit_ranks": [
+        1
+      ],
+      "recommendation": "覆盖缺失：建议检查索引构建流程，确保所有相关文档被正确索引。",
+      "execution_time": 0.015497207641601562
+    },
+    {
+      "query": "窗口滑动策略有哪些？",
+      "triple_keys": [
+        "docA:3.2:s1",
+        "docE:3.4:s3"
+      ],
+      "is_reachable": false,
+      "unreachable_keys": [
+        "docA:3.2:s1",
+        "docE:3.4:s3"
+      ],
+      "is_hit": false,
+      "hit_keys": [],
+      "hit_ranks": [],
+      "recommendation": "覆盖缺失：建议检查索引构建流程，确保所有相关文档被正确索引。",
+      "execution_time": 0.025033950805664062
+    }
+  ],
+  "config": {
+    "top_k": 3
+  }
+}

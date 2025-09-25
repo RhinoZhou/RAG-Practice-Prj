@@ -1,0 +1,75 @@
+{
+  "query": "文本分块的方法有哪些？",
+  "sections": [
+    {
+      "doc_id": "docA",
+      "section_id": "3.1",
+      "anchor": "anc:sec-3-1",
+      "summary": "文本分块是RAG系统中的重要预处理步骤。",
+      "score": 0.7317931226191008
+    }
+  ],
+  "details": [
+    {
+      "doc_id": "docA",
+      "section_id": "3.1",
+      "paragraph_id": "p2",
+      "anchor": "anc:p2-3-1",
+      "content": "合适的分块大小需要根据具体任务和文档特点进行调整，过大或过小的块都可能影响性能。",
+      "score": 0.8355782754813327
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "3.1",
+      "paragraph_id": "p1",
+      "anchor": "anc:p1-3-1",
+      "content": "文本分块是将长文档分割成更小、更易于处理的片段的过程，这有助于提高检索的准确性和生成的质量。",
+      "score": 0.8309174179975287
+    }
+  ],
+  "consistency_score": 0.7920109308441816,
+  "fallback_triggered": true,
+  "final_results": [
+    {
+      "doc_id": "docA",
+      "section_id": "3.1",
+      "paragraph_id": "p2",
+      "anchor": "anc:p2-3-1",
+      "content": "合适的分块大小需要根据具体任务和文档特点进行调整，过大或过小的块都可能影响性能。",
+      "score": 0.8355782754813327
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "3.2",
+      "paragraph_id": "p1",
+      "anchor": "anc:p1-3-2",
+      "content": "窗口滑动策略通过固定大小的窗口和重叠部分，将文本划分为连续的块，保持了文本的局部连贯性。",
+      "score": 0.8342372324965197
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "3.1",
+      "paragraph_id": "p1",
+      "anchor": "anc:p1-3-1",
+      "content": "文本分块是将长文档分割成更小、更易于处理的片段的过程，这有助于提高检索的准确性和生成的质量。",
+      "score": 0.8309174179975287
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "2.1",
+      "paragraph_id": "p2",
+      "anchor": "anc:p2-2-1",
+      "content": "常用的向量表示方法包括Word2Vec、GloVe和基于Transformer的预训练语言模型。",
+      "score": 0.7973210944533309
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "3.2",
+      "paragraph_id": "p2",
+      "anchor": "anc:p2-3-2",
+      "content": "窗口大小和重叠比例是影响分块效果的两个关键参数，需要根据具体应用场景进行优化。",
+      "score": 0.796772770029151
+    }
+  ],
+  "execution_time": 0.010736465454101562
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-09-24T12:13:59.940935",
+  "stats": {
+    "total_records": 8,
+    "unique_aliases": 6,
+    "conflicts_resolved": 2
+  },
+  "active_mappings": {
+    "混检": "混合检索",
+    "RRF": "RRF 融合",
+    "多模态": "多模态学习",
+    "MMR": "最大边际相关性",
+    "向量库": "向量数据库",
+    "RAG": "检索增强生成"
+  },
+  "rewritten_queries": [
+    {
+      "original": "混检 的 定义？RRF 怎么用？",
+      "rewritten": "混合检索 的 定义？RRF 融合 怎么用？"
+    },
+    {
+      "original": "多模态 和 MMR 的 区别是什么？",
+      "rewritten": "多模态学习 和 最大边际相关性 的 区别是什么？"
+    },
+    {
+      "original": "向量库 在 RAG 系统中的应用",
+      "rewritten": "向量数据库 在 检索增强生成 系统中的应用"
+    }
+  ],
+  "execution_time": 0.001974344253540039
+}

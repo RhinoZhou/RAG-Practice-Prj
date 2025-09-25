@@ -1,0 +1,31 @@
+{
+  "query": "混合检索策略的优势是什么？",
+  "sections": [
+    {
+      "doc_id": "docA",
+      "section_id": "3.2",
+      "anchor": "anc:sec-3-2",
+      "summary": "窗口滑动是常用的文本分块策略之一。",
+      "score": 0.7212742200211617
+    }
+  ],
+  "details": [
+    {
+      "doc_id": "docA",
+      "section_id": "3.2",
+      "paragraph_id": "p1",
+      "anchor": "anc:p1-3-2",
+      "content": "窗口滑动策略通过固定大小的窗口和重叠部分，将文本划分为连续的块，保持了文本的局部连贯性。",
+      "score": 0.7870076774417388
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "3.2",
+      "paragraph_id": "p2",
+      "anchor": "anc:p2-3-2",
+      "content": "窗口大小和重叠比例是影响分块效果的两个关键参数，需要根据具体应用场景进行优化。",
+      "score": 0.7817652890161448
+    }
+  ],
+  "execution_time": 0.0045049190521240234
+}

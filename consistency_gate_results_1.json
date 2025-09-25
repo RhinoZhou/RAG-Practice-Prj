@@ -1,0 +1,75 @@
+{
+  "query": "混合检索策略的优势是什么？",
+  "sections": [
+    {
+      "doc_id": "docA",
+      "section_id": "3.2",
+      "anchor": "anc:sec-3-2",
+      "summary": "窗口滑动是常用的文本分块策略之一。",
+      "score": 0.7212742200211617
+    }
+  ],
+  "details": [
+    {
+      "doc_id": "docA",
+      "section_id": "3.2",
+      "paragraph_id": "p1",
+      "anchor": "anc:p1-3-2",
+      "content": "窗口滑动策略通过固定大小的窗口和重叠部分，将文本划分为连续的块，保持了文本的局部连贯性。",
+      "score": 0.7870076774417388
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "3.2",
+      "paragraph_id": "p2",
+      "anchor": "anc:p2-3-2",
+      "content": "窗口大小和重叠比例是影响分块效果的两个关键参数，需要根据具体应用场景进行优化。",
+      "score": 0.7817652890161448
+    }
+  ],
+  "consistency_score": 0.8327174230739043,
+  "fallback_triggered": true,
+  "final_results": [
+    {
+      "doc_id": "docA",
+      "section_id": "2.2",
+      "paragraph_id": "p1",
+      "anchor": "anc:p1-2-2",
+      "content": "混合检索策略结合了关键词检索的精确性和向量检索的语义理解能力，能够更全面地捕获相关信息。",
+      "score": 0.887773244203182
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "1.2",
+      "paragraph_id": "p2",
+      "anchor": "anc:p2-1-2",
+      "content": "检索的准确性直接影响生成回答的质量，因此检索策略的选择至关重要。",
+      "score": 0.8460229974272458
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "2.2",
+      "paragraph_id": "p4",
+      "anchor": "anc:p4-2-2",
+      "content": "混合检索系统通常会结合多种检索结果的分数，生成最终的排序结果。",
+      "score": 0.8147773426784527
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "3.1",
+      "paragraph_id": "p2",
+      "anchor": "anc:p2-3-1",
+      "content": "合适的分块大小需要根据具体任务和文档特点进行调整，过大或过小的块都可能影响性能。",
+      "score": 0.8105681540043309
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "3.2",
+      "paragraph_id": "p1",
+      "anchor": "anc:p1-3-2",
+      "content": "窗口滑动策略通过固定大小的窗口和重叠部分，将文本划分为连续的块，保持了文本的局部连贯性。",
+      "score": 0.7870076774417388
+    }
+  ],
+  "execution_time": 0.013312816619873047
+}

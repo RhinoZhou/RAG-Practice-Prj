@@ -1,0 +1,142 @@
+{
+  "timestamp": "2025-09-24 11:53:22",
+  "parameters": {
+    "field_weights": {
+      "title": 1.5,
+      "caption": 1.2,
+      "body": 1.0
+    },
+    "year_filter": {
+      "min": 2020,
+      "max": 2024
+    },
+    "source_filter": [
+      "arxiv",
+      "conference"
+    ],
+    "top_k": 3
+  },
+  "candidates_before_filter": [
+    {
+      "id": "c1",
+      "content": "大语言模型在自然语言处理领域的最新进展表明，参数规模和数据质量是模型性能的关键因素。",
+      "metadata": {
+        "year": 2023,
+        "source": "conference",
+        "field": "nlp",
+        "field_type": "title"
+      },
+      "base_score": 0.85
+    },
+    {
+      "id": "c2",
+      "content": "实验结果显示，在相同参数规模下，高质量训练数据可以带来15%的性能提升。",
+      "metadata": {
+        "year": 2019,
+        "source": "journal",
+        "field": "ml",
+        "field_type": "body"
+      },
+      "base_score": 0.78
+    },
+    {
+      "id": "c3",
+      "content": "图1：不同参数规模模型的性能对比",
+      "metadata": {
+        "year": 2022,
+        "source": "arxiv",
+        "field": "nlp",
+        "field_type": "caption"
+      },
+      "base_score": 0.72
+    },
+    {
+      "id": "c4",
+      "content": "最新的研究提出了一种新的训练策略，可以在保持性能的同时减少计算资源需求。",
+      "metadata": {
+        "year": 2024,
+        "source": "conference",
+        "field": "ml",
+        "field_type": "title"
+      },
+      "base_score": 0.81
+    }
+  ],
+  "candidates_after_filter": [
+    {
+      "id": "c1",
+      "content": "大语言模型在自然语言处理领域的最新进展表明，参数规模和数据质量是模型性能的关键因素。",
+      "metadata": {
+        "year": 2023,
+        "source": "conference",
+        "field": "nlp",
+        "field_type": "title"
+      },
+      "base_score": 0.85
+    },
+    {
+      "id": "c3",
+      "content": "图1：不同参数规模模型的性能对比",
+      "metadata": {
+        "year": 2022,
+        "source": "arxiv",
+        "field": "nlp",
+        "field_type": "caption"
+      },
+      "base_score": 0.72
+    },
+    {
+      "id": "c4",
+      "content": "最新的研究提出了一种新的训练策略，可以在保持性能的同时减少计算资源需求。",
+      "metadata": {
+        "year": 2024,
+        "source": "conference",
+        "field": "ml",
+        "field_type": "title"
+      },
+      "base_score": 0.81
+    }
+  ],
+  "ranked_results": [
+    {
+      "id": "c1",
+      "content": "大语言模型在自然语言处理领域的最新进展表明，参数规模和数据质量是模型性能的关键因素。",
+      "metadata": {
+        "year": 2023,
+        "source": "conference",
+        "field": "nlp",
+        "field_type": "title"
+      },
+      "base_score": 0.85,
+      "weight": 1.5,
+      "weighted_score": 1.275
+    },
+    {
+      "id": "c4",
+      "content": "最新的研究提出了一种新的训练策略，可以在保持性能的同时减少计算资源需求。",
+      "metadata": {
+        "year": 2024,
+        "source": "conference",
+        "field": "ml",
+        "field_type": "title"
+      },
+      "base_score": 0.81,
+      "weight": 1.5,
+      "weighted_score": 1.215
+    },
+    {
+      "id": "c3",
+      "content": "图1：不同参数规模模型的性能对比",
+      "metadata": {
+        "year": 2022,
+        "source": "arxiv",
+        "field": "nlp",
+        "field_type": "caption"
+      },
+      "base_score": 0.72,
+      "weight": 1.2,
+      "weighted_score": 0.864
+    }
+  ],
+  "execution_time": 6.341934204101562e-05
+}

@@ -1,0 +1,177 @@
+{
+  "timestamp": "2025-09-24 11:50:11",
+  "intent_rules": {
+    "fact": [
+      "什么是.*",
+      ".*的定义",
+      ".*的概念",
+      ".*指的是",
+      ".*的含义",
+      "解释.*",
+      "什么叫.*",
+      ".*是什么",
+      ".*有哪些",
+      ".*包括.*",
+      ".*的基本原理"
+    ],
+    "reasoning": [
+      "为什么.*",
+      ".*的原因",
+      "分析.*",
+      "解释为什么.*",
+      ".*的影响",
+      ".*的作用",
+      ".*的优势",
+      ".*的劣势",
+      ".*和.*的区别",
+      ".*和.*的比较",
+      ".*的应用场景"
+    ],
+    "compliance": [
+      "安全性",
+      "隐私",
+      "合规",
+      "法规",
+      "法律",
+      "风险",
+      "责任",
+      "保护措施",
+      "数据安全",
+      "合规要求",
+      "法律条款"
+    ]
+  },
+  "intent_config_mapping": {
+    "fact": {
+      "window_size": 128,
+      "overlap_ratio": 0.3,
+      "top_k": 3,
+      "score_threshold": 0.5,
+      "metadata_filters": {
+        "type": "definition"
+      },
+      "search_type": "exact"
+    },
+    "reasoning": {
+      "window_size": 256,
+      "overlap_ratio": 0.4,
+      "top_k": 5,
+      "score_threshold": 0.4,
+      "metadata_filters": {
+        "type": "analysis"
+      },
+      "search_type": "semantic"
+    },
+    "compliance": {
+      "window_size": 200,
+      "overlap_ratio": 0.35,
+      "top_k": 4,
+      "score_threshold": 0.6,
+      "metadata_filters": {
+        "type": "compliance",
+        "source": "official"
+      },
+      "search_type": "hybrid"
+    },
+    "default": {
+      "window_size": 150,
+      "overlap_ratio": 0.3,
+      "top_k": 4,
+      "score_threshold": 0.5,
+      "metadata_filters": {},
+      "search_type": "hybrid"
+    }
+  },
+  "sample_queries": [
+    "RRF的定义是什么？",
+    "混合检索的作用有哪些？",
+    "为什么文本分块很重要？",
+    "数据隐私保护的合规要求是什么？",
+    "向量检索和关键词检索的区别是什么？",
+    "RAG系统的优化方法"
+  ],
+  "routing_results": [
+    {
+      "query": "RRF的定义是什么？",
+      "intent": "fact",
+      "config": {
+        "window_size": 128,
+        "overlap_ratio": 0.3,
+        "top_k": 3,
+        "score_threshold": 0.5,
+        "metadata_filters": {
+          "type": "definition"
+        },
+        "search_type": "exact"
+      }
+    },
+    {
+      "query": "混合检索的作用有哪些？",
+      "intent": "fact",
+      "config": {
+        "window_size": 128,
+        "overlap_ratio": 0.3,
+        "top_k": 3,
+        "score_threshold": 0.5,
+        "metadata_filters": {
+          "type": "definition"
+        },
+        "search_type": "exact"
+      }
+    },
+    {
+      "query": "为什么文本分块很重要？",
+      "intent": "reasoning",
+      "config": {
+        "window_size": 256,
+        "overlap_ratio": 0.4,
+        "top_k": 5,
+        "score_threshold": 0.4,
+        "metadata_filters": {
+          "type": "analysis"
+        },
+        "search_type": "semantic"
+      }
+    },
+    {
+      "query": "数据隐私保护的合规要求是什么？",
+      "intent": "fact",
+      "config": {
+        "window_size": 128,
+        "overlap_ratio": 0.3,
+        "top_k": 3,
+        "score_threshold": 0.5,
+        "metadata_filters": {
+          "type": "definition"
+        },
+        "search_type": "exact"
+      }
+    },
+    {
+      "query": "向量检索和关键词检索的区别是什么？",
+      "intent": "fact",
+      "config": {
+        "window_size": 128,
+        "overlap_ratio": 0.3,
+        "top_k": 3,
+        "score_threshold": 0.5,
+        "metadata_filters": {
+          "type": "definition"
+        },
+        "search_type": "exact"
+      }
+    },
+    {
+      "query": "RAG系统的优化方法",
+      "intent": "default",
+      "config": {
+        "window_size": 150,
+        "overlap_ratio": 0.3,
+        "top_k": 4,
+        "score_threshold": 0.5,
+        "metadata_filters": {},
+        "search_type": "hybrid"
+      }
+    }
+  ]
+}

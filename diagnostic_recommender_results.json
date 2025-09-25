@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-09-24T12:27:55.921484",
+  "metrics": {
+    "p_at_k": 0.55,
+    "ndcg_at_k": 0.68,
+    "hit_at_1": 0.45,
+    "redundancy": 0.42,
+    "p95_latency": 215
+  },
+  "diagnosed_issues_count": 4,
+  "prioritized_issues": [
+    {
+      "type": "漏检",
+      "priority_score": 0.43666666666666665,
+      "thresholds": {
+        "p_at_k": 0.6,
+        "hit_at_1": 0.5
+      },
+      "suggestions": [
+        "检查 OCR/附件/术语映射处理是否正确",
+        "放宽检索阈值或增大窗口大小",
+        "增加查询扩展或同义词处理",
+        "检查索引构建是否完整，是否有数据丢失"
+      ]
+    },
+    {
+      "type": "排序",
+      "priority_score": 0.30857142857142855,
+      "thresholds": {
+        "ndcg_at_k": 0.7
+      },
+      "suggestions": [
+        "优化排序模型或重排序策略",
+        "调整特征权重或增加新的排序特征",
+        "检查是否存在恶意排序干扰",
+        "考虑引入用户反馈数据优化排序"
+      ]
+    },
+    {
+      "type": "冗余",
+      "priority_score": 0.20999999999999996,
+      "thresholds": {
+        "redundancy": 0.4
+      },
+      "suggestions": [
+        "启用 MMR 算法进行去重",
+        "设置相似度阈值过滤相似结果",
+        "优先使用抽取式摘要而非生成式",
+        "检查数据源是否存在大量重复内容"
+      ]
+    },
+    {
+      "type": "延迟",
+      "priority_score": 0.1075,
+      "thresholds": {
+        "p95_latency": 200
+      },
+      "suggestions": [
+        "优化检索算法或索引结构",
+        "增加缓存层或优化缓存策略",
+        "检查服务器资源使用情况",
+        "考虑分布式部署或负载均衡"
+      ]
+    }
+  ],
+  "summary": {
+    "major_issues": [
+      "漏检"
+    ],
+    "minor_issues": [
+      "排序",
+      "冗余",
+      "延迟"
+    ]
+  }
+}

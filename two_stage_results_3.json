@@ -1,0 +1,39 @@
+{
+  "query": "RAG系统的核心组件包括什么？",
+  "sections": [
+    {
+      "doc_id": "docA",
+      "section_id": "1.1",
+      "anchor": "anc:sec-1-1",
+      "summary": "RAG系统是检索增强生成技术的核心实现方案。",
+      "score": 0.8373556125307507
+    }
+  ],
+  "details": [
+    {
+      "doc_id": "docA",
+      "section_id": "1.1",
+      "paragraph_id": "p3",
+      "anchor": "anc:p3-1-1",
+      "content": "RAG系统的核心组件包括检索模块、知识库和生成模块。",
+      "score": 0.845948593839114
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "1.1",
+      "paragraph_id": "p1",
+      "anchor": "anc:p1-1-1",
+      "content": "RAG系统通过检索外部知识库中的相关信息，并将这些信息与用户查询一起输入到生成模型中，生成更加准确、全面的回答。",
+      "score": 0.8114748882518753
+    },
+    {
+      "doc_id": "docA",
+      "section_id": "1.1",
+      "paragraph_id": "p2",
+      "anchor": "anc:p2-1-1",
+      "content": "检索增强生成技术有效地弥补了大语言模型在特定领域知识和实时信息方面的不足。",
+      "score": 0.7497255757106444
+    }
+  ],
+  "execution_time": 0.003360271453857422
+}

@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-09-24 11:56:20",
+  "parameters": {
+    "feature_weights": {
+      "bm25_score": 0.3,
+      "tfidf_score": 0.2,
+      "title_match": 0.3,
+      "source_score": 0.2
+    },
+    "behavior_weights": {
+      "ctr": 0.5,
+      "avg_stay_time": 0.5
+    }
+  },
+  "candidates": [
+    {
+      "id": "d1",
+      "content": "大语言模型在自然语言处理领域的最新进展与应用案例分析",
+      "features": {
+        "bm25_score": 0.85,
+        "tfidf_score": 0.78,
+        "title_match": 1.0,
+        "source_score": 0.9
+      },
+      "behavior": {
+        "clicks": 150,
+        "impressions": 1000,
+        "avg_stay_time": 120,
+        "total_users": 500
+      }
+    },
+    {
+      "id": "d2",
+      "content": "自然语言处理技术在智能客服系统中的应用实践",
+      "features": {
+        "bm25_score": 0.72,
+        "tfidf_score": 0.81,
+        "title_match": 0.6,
+        "source_score": 0.8
+      },
+      "behavior": {
+        "clicks": 80,
+        "impressions": 1000,
+        "avg_stay_time": 90,
+        "total_users": 500
+      }
+    },
+    {
+      "id": "d3",
+      "content": "最新大语言模型技术综述与未来发展趋势",
+      "features": {
+        "bm25_score": 0.81,
+        "tfidf_score": 0.85,
+        "title_match": 0.8,
+        "source_score": 0.85
+      },
+      "behavior": {
+        "clicks": 250,
+        "impressions": 1000,
+        "avg_stay_time": 180,
+        "total_users": 500
+      }
+    }
+  ],
+  "feature_based_ranking": [
+    [
+      "d1",
+      0.8910000000000001
+    ],
+    [
+      "d3",
+      0.8230000000000001
+    ],
+    [
+      "d2",
+      0.7180000000000001
+    ]
+  ],
+  "behavior_enhanced_ranking": [
+    [
+      "d3",
+      0.8761000000000001
+    ],
+    [
+      "d1",
+      0.735464705882353
+    ],
+    [
+      "d2",
+      0.5026
+    ]
+  ],
+  "execution_time": 6.699562072753906e-05
+}

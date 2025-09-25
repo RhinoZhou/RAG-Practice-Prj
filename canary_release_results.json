@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-09-24T12:24:22.712759",
+  "rollout_plan": {
+    "1": 10,
+    "2": 30,
+    "3": 60,
+    "4": 80,
+    "5": 100
+  },
+  "thresholds": {
+    "error_rate": 0.25,
+    "p95_latency": 250,
+    "throughput_decline": 0.1
+  },
+  "release_history": [
+    {
+      "stage": 1,
+      "percentage": 10,
+      "metrics": {
+        "error_rate": 0.05,
+        "p95_latency": 161,
+        "throughput": 1080
+      },
+      "violated_thresholds": [],
+      "timestamp": "2025-09-24T12:24:22.108143",
+      "status": "continued"
+    },
+    {
+      "stage": 2,
+      "percentage": 30,
+      "metrics": {
+        "error_rate": 0.05,
+        "p95_latency": 165,
+        "throughput": 1240
+      },
+      "violated_thresholds": [],
+      "timestamp": "2025-09-24T12:24:22.309603",
+      "status": "continued"
+    },
+    {
+      "stage": 3,
+      "percentage": 60,
+      "metrics": {
+        "error_rate": 0.29,
+        "p95_latency": 270,
+        "throughput": 1480
+      },
+      "violated_thresholds": [
+        "回退率=0.290 > 0.25",
+        "p95延迟=270ms > 250ms"
+      ],
+      "timestamp": "2025-09-24T12:24:22.510161",
+      "status": "rolled_back",
+      "rollback_commands": [
+        "1. 恢复配置：回滚到上一版本的配置文件",
+        "2. 切换索引：将流量切回旧版本的索引",
+        "3. 清理缓存：清除相关服务的缓存数据",
+        "4. 监控恢复：密切关注系统指标恢复情况"
+      ]
+    },
+    {
+      "stage": 4,
+      "percentage": 80,
+      "status": "skipped",
+      "reason": "already rolled back",
+      "timestamp": "2025-09-24T12:24:22.711489"
+    },
+    {
+      "stage": 5,
+      "percentage": 100,
+      "status": "skipped",
+      "reason": "already rolled back",
+      "timestamp": "2025-09-24T12:24:22.711598"
+    }
+  ],
+  "rolled_back": true,
+  "execution_time": 0.6640901565551758
+}

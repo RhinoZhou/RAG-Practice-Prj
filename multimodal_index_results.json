@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-09-24 12:05:58",
+  "query": "大语言模型的性能评估",
+  "types_filter": [
+    "text"
+  ],
+  "all_nodes_count": 5,
+  "filtered_nodes_count": 2,
+  "all_results": [
+    {
+      "id": "table1",
+      "type": "table",
+      "score": 0.3290490154111407
+    },
+    {
+      "id": "image1",
+      "type": "image",
+      "score": 0.30356226059770586
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "score": 0.2372678930899841
+    },
+    {
+      "id": "table2",
+      "type": "table",
+      "score": 0.07103829029531639
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "score": 0.0663711492803412
+    }
+  ],
+  "filtered_results": [
+    {
+      "id": "text1",
+      "type": "text",
+      "score": 0.3007755590639932
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "score": 0.08640082998927678
+    }
+  ],
+  "execution_time": 0.0024018287658691406
+}
