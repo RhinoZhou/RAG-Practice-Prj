@@ -1,0 +1,26 @@
+{
+  "merged": [
+    "frag_01"
+  ],
+  "conflicts": [
+    {
+      "keep": "frag_05",
+      "drop": "frag_03",
+      "reason": "authority+freshness",
+      "conflict_type": "未检测到明显的一致或冲突模式"
+    },
+    {
+      "keep": "frag_06",
+      "drop": "frag_04",
+      "reason": "authority+freshness",
+      "conflict_type": "未检测到明显的一致或冲突模式"
+    }
+  ],
+  "audit": {
+    "rules": "official>media>blog",
+    "notes": "kept newer and more authoritative sources",
+    "total_fragments": 6,
+    "merged_count": 1,
+    "conflict_count": 2
+  }
+}

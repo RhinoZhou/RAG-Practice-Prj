@@ -1,0 +1,357 @@
+{
+  "runs": {
+    "baseline": {
+      "ndcg@10": 0.82,
+      "mrr": 0.88,
+      "coverage": 0.92,
+      "conflict_rate": 0.04,
+      "compression_rate": 0.35,
+      "fidelity": 0.91,
+      "tokens_used": 8400,
+      "execution_time": 2.3,
+      "timestamp": "2025-10-10T15:14:35.483515",
+      "params": {
+        "temperature": 0.7,
+        "max_tokens": 1000,
+        "top_p": 0.9
+      }
+    },
+    "full": {
+      "ndcg@10": 0.85,
+      "mrr": 0.9,
+      "coverage": 0.95,
+      "conflict_rate": 0.03,
+      "compression_rate": 0.4,
+      "fidelity": 0.93,
+      "tokens_used": 10100,
+      "execution_time": 2.8,
+      "timestamp": "2025-10-10T15:14:35.488946",
+      "params": {
+        "temperature": 0.7,
+        "max_tokens": 1000,
+        "top_p": 0.9
+      }
+    },
+    "no_read": {
+      "ndcg@10": 0.75,
+      "mrr": 0.8,
+      "coverage": 0.86,
+      "conflict_rate": 0.05,
+      "compression_rate": 0.3,
+      "fidelity": 0.85,
+      "tokens_used": 9200,
+      "execution_time": 1.8,
+      "timestamp": "2025-10-10T15:14:35.485485",
+      "params": {
+        "temperature": 0.7,
+        "max_tokens": 1000,
+        "top_p": 0.9
+      }
+    },
+    "no_refine": {
+      "ndcg@10": 0.8,
+      "mrr": 0.85,
+      "coverage": 0.9,
+      "conflict_rate": 0.06,
+      "compression_rate": 0.28,
+      "fidelity": 0.87,
+      "tokens_used": 5700,
+      "execution_time": 1.5,
+      "timestamp": "2025-10-10T15:14:35.487273",
+      "params": {
+        "temperature": 0.7,
+        "max_tokens": 1000,
+        "top_p": 0.9
+      }
+    }
+  },
+  "ablation_results": [
+    {
+      "variant": "full",
+      "baseline": "baseline",
+      "metrics": {
+        "ndcg@10": 0.85,
+        "mrr": 0.9,
+        "coverage": 0.95,
+        "conflict_rate": 0.03,
+        "compression_rate": 0.4,
+        "fidelity": 0.93,
+        "tokens_used": 10100,
+        "execution_time": 2.8,
+        "timestamp": "2025-10-10T15:14:35.488946",
+        "params": {
+          "temperature": 0.7,
+          "max_tokens": 1000,
+          "top_p": 0.9
+        }
+      },
+      "diffs": {
+        "ndcg@10": {
+          "name": "NDCG@10",
+          "baseline": 0.82,
+          "variant": 0.85,
+          "diff": 3.0000000000000027
+        },
+        "mrr": {
+          "name": "MRR",
+          "baseline": 0.88,
+          "variant": 0.9,
+          "diff": 2.0000000000000018
+        },
+        "coverage": {
+          "name": "覆盖度",
+          "baseline": 0.92,
+          "variant": 0.95,
+          "diff": 2.9999999999999916
+        },
+        "conflict_rate": {
+          "name": "冲突率",
+          "baseline": 0.04,
+          "variant": 0.03,
+          "diff": -1.0000000000000002
+        },
+        "compression_rate": {
+          "name": "压缩率",
+          "baseline": 0.35,
+          "variant": 0.4,
+          "diff": 5.000000000000004
+        },
+        "fidelity": {
+          "name": "保真度",
+          "baseline": 0.91,
+          "variant": 0.93,
+          "diff": 2.0000000000000018
+        },
+        "tokens_used": {
+          "name": "Token使用量",
+          "baseline": 8400,
+          "variant": 10100,
+          "diff": 1700
+        },
+        "execution_time": {
+          "name": "执行时间",
+          "baseline": 2.3,
+          "variant": 2.8,
+          "diff": 0.5
+        }
+      }
+    },
+    {
+      "variant": "no_read",
+      "baseline": "baseline",
+      "metrics": {
+        "ndcg@10": 0.75,
+        "mrr": 0.8,
+        "coverage": 0.86,
+        "conflict_rate": 0.05,
+        "compression_rate": 0.3,
+        "fidelity": 0.85,
+        "tokens_used": 9200,
+        "execution_time": 1.8,
+        "timestamp": "2025-10-10T15:14:35.485485",
+        "params": {
+          "temperature": 0.7,
+          "max_tokens": 1000,
+          "top_p": 0.9
+        }
+      },
+      "diffs": {
+        "ndcg@10": {
+          "name": "NDCG@10",
+          "baseline": 0.82,
+          "variant": 0.75,
+          "diff": -6.999999999999995
+        },
+        "mrr": {
+          "name": "MRR",
+          "baseline": 0.88,
+          "variant": 0.8,
+          "diff": -7.9999999999999964
+        },
+        "coverage": {
+          "name": "覆盖度",
+          "baseline": 0.92,
+          "variant": 0.86,
+          "diff": -6.000000000000005
+        },
+        "conflict_rate": {
+          "name": "冲突率",
+          "baseline": 0.04,
+          "variant": 0.05,
+          "diff": 1.0000000000000002
+        },
+        "compression_rate": {
+          "name": "压缩率",
+          "baseline": 0.35,
+          "variant": 0.3,
+          "diff": -4.999999999999999
+        },
+        "fidelity": {
+          "name": "保真度",
+          "baseline": 0.91,
+          "variant": 0.85,
+          "diff": -6.000000000000005
+        },
+        "tokens_used": {
+          "name": "Token使用量",
+          "baseline": 8400,
+          "variant": 9200,
+          "diff": 800
+        },
+        "execution_time": {
+          "name": "执行时间",
+          "baseline": 2.3,
+          "variant": 1.8,
+          "diff": -0.4999999999999998
+        }
+      }
+    },
+    {
+      "variant": "no_refine",
+      "baseline": "baseline",
+      "metrics": {
+        "ndcg@10": 0.8,
+        "mrr": 0.85,
+        "coverage": 0.9,
+        "conflict_rate": 0.06,
+        "compression_rate": 0.28,
+        "fidelity": 0.87,
+        "tokens_used": 5700,
+        "execution_time": 1.5,
+        "timestamp": "2025-10-10T15:14:35.487273",
+        "params": {
+          "temperature": 0.7,
+          "max_tokens": 1000,
+          "top_p": 0.9
+        }
+      },
+      "diffs": {
+        "ndcg@10": {
+          "name": "NDCG@10",
+          "baseline": 0.82,
+          "variant": 0.8,
+          "diff": -1.9999999999999907
+        },
+        "mrr": {
+          "name": "MRR",
+          "baseline": 0.88,
+          "variant": 0.85,
+          "diff": -3.0000000000000027
+        },
+        "coverage": {
+          "name": "覆盖度",
+          "baseline": 0.92,
+          "variant": 0.9,
+          "diff": -2.0000000000000018
+        },
+        "conflict_rate": {
+          "name": "冲突率",
+          "baseline": 0.04,
+          "variant": 0.06,
+          "diff": 1.9999999999999998
+        },
+        "compression_rate": {
+          "name": "压缩率",
+          "baseline": 0.35,
+          "variant": 0.28,
+          "diff": -6.999999999999995
+        },
+        "fidelity": {
+          "name": "保真度",
+          "baseline": 0.91,
+          "variant": 0.87,
+          "diff": -4.0000000000000036
+        },
+        "tokens_used": {
+          "name": "Token使用量",
+          "baseline": 8400,
+          "variant": 5700,
+          "diff": -2700
+        },
+        "execution_time": {
+          "name": "执行时间",
+          "baseline": 2.3,
+          "variant": 1.5,
+          "diff": -0.7999999999999998
+        }
+      }
+    }
+  ],
+  "quadrant_data": [
+    {
+      "run_name": "baseline",
+      "x_value": 0.91,
+      "y_value": 0.35,
+      "quadrant": "第一象限（双赢）",
+      "quadrant_num": 1,
+      "tokens_used": 8400,
+      "execution_time": 2.3
+    },
+    {
+      "run_name": "full",
+      "x_value": 0.93,
+      "y_value": 0.4,
+      "quadrant": "第一象限（双赢）",
+      "quadrant_num": 1,
+      "tokens_used": 10100,
+      "execution_time": 2.8
+    },
+    {
+      "run_name": "no_read",
+      "x_value": 0.85,
+      "y_value": 0.3,
+      "quadrant": "第三象限（双低）",
+      "quadrant_num": 3,
+      "tokens_used": 9200,
+      "execution_time": 1.8
+    },
+    {
+      "run_name": "no_refine",
+      "x_value": 0.87,
+      "y_value": 0.28,
+      "quadrant": "第三象限（双低）",
+      "quadrant_num": 3,
+      "tokens_used": 5700,
+      "execution_time": 1.5
+    }
+  ],
+  "radar_data": {
+    "metrics": [
+      "NDCG@10",
+      "覆盖度",
+      "保真度",
+      "压缩率",
+      "冲突率"
+    ],
+    "runs": {
+      "baseline": [
+        0.82,
+        0.92,
+        0.91,
+        0.35,
+        0.96
+      ],
+      "full": [
+        0.85,
+        0.95,
+        0.93,
+        0.4,
+        0.97
+      ],
+      "no_read": [
+        0.75,
+        0.86,
+        0.85,
+        0.3,
+        0.95
+      ],
+      "no_refine": [
+        0.8,
+        0.9,
+        0.87,
+        0.28,
+        0.94
+      ]
+    }
+  }
+}

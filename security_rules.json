@@ -1,0 +1,42 @@
+{
+  "pii_patterns": {
+    "phone": "1[3-9]\\d{9}",
+    "id_card": "[1-9]\\d{5}(18|19|20)\\d{2}((0[1-9])|(1[0-2]))(([0-2][1-9])|10|20|30|31)\\d{3}[0-9Xx]",
+    "bank_card": "[1-9]\\d{12,18}",
+    "email": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}"
+  },
+  "forbidden_terms": [
+    "保证收益",
+    "稳赚不赔",
+    "绝对安全",
+    "内幕消息",
+    "老鼠仓",
+    "洗钱",
+    "逃税",
+    "走私",
+    "非法集资",
+    "传销"
+  ],
+  "prompt_injection_patterns": [
+    "无视之前的指令",
+    "请按照以下内容执行",
+    "你现在是",
+    "forget all previous instructions",
+    "ignore prior context",
+    "you are now"
+  ],
+  "disposal_matrix": {
+    "pii": {
+      "phone": "mask",
+      "id_card": "mask",
+      "bank_card": "mask",
+      "email": "mask"
+    },
+    "forbidden_term": {
+      "default": "block"
+    },
+    "prompt_injection": {
+      "default": "reject"
+    }
+  }
+}

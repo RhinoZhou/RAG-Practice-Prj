@@ -1,0 +1,6 @@
+{"bucket": "finance_high", "p95_ms": 1750, "error_rate": 0.008, "throughput": 520, "timestamp": "2025-10-10T15:21:03.086306", "request_id": "req_1001"}
+{"bucket": "finance_medium", "p95_ms": 2900, "error_rate": 0.019, "throughput": 310, "timestamp": "2025-10-10T15:21:03.086317", "request_id": "req_1002"}
+{"bucket": "finance_low", "p95_ms": 5200, "error_rate": 0.051, "throughput": 95, "timestamp": "2025-10-10T15:21:03.086321", "request_id": "req_1003"}
+{"bucket": "general_high", "p95_ms": 2600, "error_rate": 0.014, "throughput": 390, "timestamp": "2025-10-10T15:21:03.086324", "request_id": "req_1004"}
+{"bucket": "general_medium", "p95_ms": 3800, "error_rate": 0.028, "throughput": 210, "timestamp": "2025-10-10T15:21:03.086326", "request_id": "req_1005"}
+{"bucket": "general_low", "p95_ms": 5900, "error_rate": 0.068, "throughput": 52, "timestamp": "2025-10-10T15:21:03.086329", "request_id": "req_1006"}

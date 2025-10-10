@@ -1,0 +1,44 @@
+[
+  {
+    "query": "什么是机器学习？",
+    "result": {
+      "alpha": 0.6,
+      "combined_score": 0.4930916807933178,
+      "retrieval_topk": [
+        "chunk_06",
+        "chunk_00",
+        "chunk_01",
+        "chunk_09",
+        "chunk_08"
+      ]
+    }
+  },
+  {
+    "query": "自然语言处理的应用有哪些？",
+    "result": {
+      "alpha": 0.6,
+      "combined_score": 0.2517452382975007,
+      "retrieval_topk": [
+        "chunk_07",
+        "chunk_02",
+        "chunk_05",
+        "chunk_03",
+        "chunk_04"
+      ]
+    }
+  },
+  {
+    "query": "请解释深度学习的概念。",
+    "result": {
+      "alpha": 0.6,
+      "combined_score": 0.3085751131171103,
+      "retrieval_topk": [
+        "chunk_01",
+        "chunk_09",
+        "chunk_03",
+        "chunk_06",
+        "chunk_00"
+      ]
+    }
+  }
+]

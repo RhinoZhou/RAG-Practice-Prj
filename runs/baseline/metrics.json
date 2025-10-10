@@ -1,0 +1,16 @@
+{
+  "ndcg@10": 0.82,
+  "mrr": 0.88,
+  "coverage": 0.92,
+  "conflict_rate": 0.04,
+  "compression_rate": 0.35,
+  "fidelity": 0.91,
+  "tokens_used": 8400,
+  "execution_time": 2.3,
+  "timestamp": "2025-10-10T15:14:35.483515",
+  "params": {
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "top_p": 0.9
+  }
+}

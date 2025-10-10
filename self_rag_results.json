@@ -1,0 +1,22 @@
+{
+  "rounds": 2,
+  "scores": [
+    {
+      "uncertainty": 0.8622754491017964,
+      "coverage": 1.0,
+      "contradiction": false
+    },
+    {
+      "uncertainty": 0.8838383838383838,
+      "coverage": 1.0,
+      "contradiction": false
+    }
+  ],
+  "actions": [
+    "retrieve:K=4",
+    "patch:section=机器学习简介",
+    "retrieve:K=4",
+    "patch:section=机器学习简介"
+  ],
+  "final_status": "fail"
+}

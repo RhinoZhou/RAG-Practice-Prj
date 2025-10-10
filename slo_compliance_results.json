@@ -1,0 +1,128 @@
+{
+  "slo_check": [
+    {
+      "bucket": "finance_high",
+      "status": "pass",
+      "p95_ms": 1750,
+      "error_rate": 0.008,
+      "throughput": 520,
+      "slo_p95_ms": 2000,
+      "slo_error_rate": 0.01,
+      "slo_throughput": 500
+    },
+    {
+      "bucket": "finance_medium",
+      "status": "pass",
+      "p95_ms": 2900,
+      "error_rate": 0.019,
+      "throughput": 310,
+      "slo_p95_ms": 3000,
+      "slo_error_rate": 0.02,
+      "slo_throughput": 300
+    },
+    {
+      "bucket": "finance_low",
+      "status": "fail",
+      "p95_ms": 5200,
+      "error_rate": 0.051,
+      "throughput": 95,
+      "slo_p95_ms": 5000,
+      "slo_error_rate": 0.05,
+      "slo_throughput": 100
+    },
+    {
+      "bucket": "general_high",
+      "status": "fail",
+      "p95_ms": 2600,
+      "error_rate": 0.014,
+      "throughput": 390,
+      "slo_p95_ms": 2500,
+      "slo_error_rate": 0.015,
+      "slo_throughput": 400
+    },
+    {
+      "bucket": "general_medium",
+      "status": "pass",
+      "p95_ms": 3800,
+      "error_rate": 0.028,
+      "throughput": 210,
+      "slo_p95_ms": 4000,
+      "slo_error_rate": 0.03,
+      "slo_throughput": 200
+    },
+    {
+      "bucket": "general_low",
+      "status": "pass",
+      "p95_ms": 5900,
+      "error_rate": 0.068,
+      "throughput": 52,
+      "slo_p95_ms": 6000,
+      "slo_error_rate": 0.07,
+      "slo_throughput": 50
+    }
+  ],
+  "actions": [
+    "callback:evidence_weight=0.8",
+    "callback:max_tokens=1500",
+    "callback:temperature=0.5",
+    "gray_scale:monitor:finance_low",
+    "callback:evidence_weight=1.0",
+    "callback:max_tokens=2000",
+    "callback:temperature=0.7"
+  ],
+  "security": [
+    {
+      "hit": "pii",
+      "type": "phone",
+      "matched_count": 1,
+      "action": "mask"
+    },
+    {
+      "hit": "forbidden_term",
+      "term": "保证收益",
+      "action": "block"
+    },
+    {
+      "hit": "forbidden_term",
+      "term": "稳赚不赔",
+      "action": "block"
+    },
+    {
+      "hit": "forbidden_term",
+      "term": "绝对安全",
+      "action": "block"
+    },
+    {
+      "hit": "prompt_injection",
+      "pattern": "无视之前的指令",
+      "action": "reject"
+    },
+    {
+      "hit": "prompt_injection",
+      "pattern": "请按照以下内容执行",
+      "action": "reject"
+    },
+    {
+      "hit": "pii",
+      "type": "phone",
+      "matched_count": 1,
+      "action": "mask"
+    },
+    {
+      "hit": "pii",
+      "type": "id_card",
+      "matched_count": 1,
+      "action": "mask"
+    },
+    {
+      "hit": "pii",
+      "type": "bank_card",
+      "matched_count": 1,
+      "action": "mask"
+    }
+  ],
+  "audit_log": {
+    "request_id": "req_1760080863",
+    "playback": "file://D:/rag-project/05-rag-practice/14-generation/audit/2025-10/r_1760080863091.json"
+  }
+}

@@ -1,0 +1,38 @@
+callback_params:
+  evidence_weight:
+    alert: 0.5
+    normal: 1.0
+    warning: 0.8
+  max_tokens:
+    alert: 1000
+    normal: 2000
+    warning: 1500
+  temperature:
+    alert: 0.3
+    normal: 0.7
+    warning: 0.5
+slo_buckets:
+  finance_high:
+    error_rate: 0.01
+    p95_ms: 2000
+    throughput: 500
+  finance_low:
+    error_rate: 0.05
+    p95_ms: 5000
+    throughput: 100
+  finance_medium:
+    error_rate: 0.02
+    p95_ms: 3000
+    throughput: 300
+  general_high:
+    error_rate: 0.015
+    p95_ms: 2500
+    throughput: 400
+  general_low:
+    error_rate: 0.07
+    p95_ms: 6000
+    throughput: 50
+  general_medium:
+    error_rate: 0.03
+    p95_ms: 4000
+    throughput: 200

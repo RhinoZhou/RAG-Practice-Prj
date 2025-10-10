@@ -1,0 +1,62 @@
+{
+  "log_id": "r_1760080755173",
+  "request_id": "req_1760080755",
+  "timestamp": "2025-10-10T15:19:15.173671",
+  "slo_results": [],
+  "actions": [],
+  "security_results": [
+    {
+      "hit": "pii",
+      "type": "phone",
+      "matched_count": 1,
+      "action": "mask"
+    },
+    {
+      "hit": "forbidden_term",
+      "term": "保证收益",
+      "action": "block"
+    },
+    {
+      "hit": "forbidden_term",
+      "term": "稳赚不赔",
+      "action": "block"
+    },
+    {
+      "hit": "forbidden_term",
+      "term": "绝对安全",
+      "action": "block"
+    },
+    {
+      "hit": "prompt_injection",
+      "pattern": "无视之前的指令",
+      "action": "reject"
+    },
+    {
+      "hit": "prompt_injection",
+      "pattern": "请按照以下内容执行",
+      "action": "reject"
+    },
+    {
+      "hit": "pii",
+      "type": "phone",
+      "matched_count": 1,
+      "action": "mask"
+    },
+    {
+      "hit": "pii",
+      "type": "id_card",
+      "matched_count": 1,
+      "action": "mask"
+    },
+    {
+      "hit": "pii",
+      "type": "bank_card",
+      "matched_count": 1,
+      "action": "mask"
+    }
+  ],
+  "context": {
+    "execution_time": 1760080755.1736887,
+    "version": "1.0"
+  }
+}

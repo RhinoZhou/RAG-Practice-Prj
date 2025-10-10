@@ -1,0 +1,19 @@
+{
+  "mse_set": [
+    {
+      "src": "doc#01",
+      "span": "s2",
+      "text": "机器学习的主要类型包括监督学习、无监督学习和强化学习",
+      "conf": 1.0,
+      "covered_items": [
+        "无监督学习",
+        "监督学习",
+        "强化学习"
+      ]
+    }
+  ],
+  "coverage": 0.5,
+  "conflict_rate": 0.0,
+  "rounds_used": 1,
+  "refined_tokens": 15
+}
