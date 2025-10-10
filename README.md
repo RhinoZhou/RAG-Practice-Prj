@@ -42,3 +42,6 @@
 
 ## 13-Post-Retrieval Processing & Result Optimization
 索引准确性
+
+## 14-generation
+生成技术
