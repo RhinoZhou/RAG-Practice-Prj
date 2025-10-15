@@ -1,0 +1,12 @@
+{
+  "default_k": 8,
+  "min_k": 3,
+  "max_k": 15,
+  "query_complexity_thresholds": {
+    "low": 5,
+    "medium": 8,
+    "high": 12
+  },
+  "use_feedback_loop": true,
+  "adjustment_factor": 0.2
+}

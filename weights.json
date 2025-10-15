@@ -1,0 +1,14 @@
+{
+  "title_weight": 0.3,
+  "position_weight": 0.2,
+  "freshness_weight": 0.25,
+  "authority_weight": 0.25,
+  "base_score_weight": 0.5,
+  "rerank_delay": 35,
+  "risk_buckets": [
+    "medical",
+    "finance",
+    "legal"
+  ],
+  "hit_threshold": 0.6
+}

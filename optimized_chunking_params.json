@@ -1,0 +1,9 @@
+{
+  "base_chunk_size": 500,
+  "min_chunk_size": 300,
+  "max_chunk_size": 1000,
+  "overlap": 50,
+  "dynamic_chunking": true,
+  "use_semantic_chunking": true,
+  "paragraph_detection": true
+}

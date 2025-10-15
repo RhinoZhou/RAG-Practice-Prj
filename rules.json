@@ -1,0 +1,30 @@
+{
+  "complexity_scoring": {
+    "length_weight": 0.4,
+    "entity_ratio_weight": 0.3,
+    "question_words_weight": 0.3
+  },
+  "k_mapping": {
+    "low": 3,
+    "medium": 5,
+    "high": 10
+  },
+  "complexity_thresholds": {
+    "low_high": 0.3,
+    "medium_high": 0.7
+  },
+  "re_rank_rules": {
+    "complexity_threshold": 0.6,
+    "risk_buckets": [
+      "medical",
+      "finance",
+      "legal"
+    ],
+    "always_re_rank_questions": true
+  },
+  "cost_estimation": {
+    "base_latency": 50,
+    "per_k_latency": 5,
+    "re_rank_latency": 50
+  }
+}

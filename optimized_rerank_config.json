@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "top_n_for_rerank": 20,
+  "rerank_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "threshold": 0.5,
+  "use_multi_stage_rerank": true
+}

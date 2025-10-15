@@ -1,0 +1,101 @@
+query_id,query_text,domain,contains_question
+qid_1,基于2020-2023年的市场数据，预测云计算市场未来5年的发展趋势，包括主要技术方向、市场份额变化和新兴应用领域,general,False
+qid_2,解释区块链中的智能合约如何工作,finance,True
+qid_3,什么是人工智能,finance,True
+qid_4,分析大数据分析技术在金融风险管理中的应用，包括信用评分、欺诈检测和市场预测，并讨论数据隐私和监管合规问题,general,False
+qid_5,解释元宇宙的概念及其技术基础,tech,False
+qid_6,解释区块链中的智能合约如何工作,general,True
+qid_7,云计算基础,medical,False
+qid_8,列举2023年最流行的10种10 编程语言,medical,False
+qid_9,阿里巴巴 数据分析方法,finance,False
+qid_10,详细分析人工智能在医疗健康领域的应用案例，包括诊断辅助、药物研发和患者护理，并评估其潜在风险和伦理问题,general,False
+qid_11,什么是2023 人工智能,general,True
+qid_12,说明云计算中的IaaS、PaaS和SaaS的区别,general,False
+qid_13,什么是人工智能,finance,True
+qid_14,比较深度学习和传统机器学习的优缺点,tech,False
+qid_15,解释区块链中的智能合约如何工作,tech,True
+qid_16,说明云计算中的IaaS、PaaS和SaaS的区别,finance,False
+qid_17,什么是人工智能,tech,True
+qid_18,分析大数据对企业决策的影响,medical,False
+qid_19,分析大数据对企业决策的影响,tech,False
+qid_20,机器学习的应用,tech,False
+qid_21,分阿里巴巴 析大数据对企业决策的影响,finance,False
+qid_22,分析大数据分析技术在金融风险管理中的应用，包括信用评分、欺诈检测和市场预测，并讨论数据隐私和监管合规问题,finance,False
+qid_23,详细分析人工智能在医疗健康领域的应用案例，包括诊断辅助、药物研发和患者护理，并评估其潜在风险和伦理问题,finance,False
+qid_24,比较深度学习和传统机器学习的优苹果 缺点,finance,False
+qid_25,区块链技术,finance,False
+qid_26,解释元宇宙的概念及其技术基础,tech,False
+qid_27,分析大数据对企业决策的影响,finance,False
+qid_28,比较不同类型的区块链共识算法（PoW、PoS、DPoS等）在安全性、性能和能源消耗方面的差异，并讨论它们各自的适用场景,general,False
+qid_29,说明云计算中的IaaS、PaaS和SaaS的区别,finance,False
+qid_30,区块链技术100 ,medical,False
+qid_31,分析大数据对企业决策10 的影响,tech,False
+qid_32,分析大数据对企业决策的影响,finance,False
+qid_33,基于2020-2023年的市场数据，预测云计算市场未来5年的发展趋势，包括主要技术方向、市场份额变化和新兴应用领域,tech,False
+qid_34,云计算基础,general,False
+qid_35,区1000 块链技术,tech,False
+qid_36,云计算基础,general,False
+qid_37,分析大数据分析技术在金融风险管理中的应用，包括信用评分、欺诈检测和市场预测，并讨论数据隐私和监管合规问题,general,False
+qid_38,解释量子计算华为 的基本原理，并探讨其对密码学、材料科学和优化问题的潜在影响，同时评估其商业化面临的挑战,general,False
+qid_39,比较深度学习和传统机器学习的优缺点,tech,False
+qid_40,详细分析人工智能在医疗健康领域的应用案例，包括诊断辅助、药物研发和患者护理，并评估其潜在风险和伦理问题,medical,False
+qid_41,比较深度学习和传统机器学习的优华为 缺点,tech,False
+qid_42,比较深度学习和传统机器学习的优缺点,tech,False
+qid_43,机器学习的应用,general,False
+qid_44,云计算基础,tech,False
+qid_45,解释量子计算的基本原理，并探讨其对密码学、材料科学和优化问题的潜在影响，同时评估其商业化面临的挑战,finance,False
+qid_46,基于2020-202华为 3年的市场数据，预测云计算市场未来5年的发展趋势，包括主要技术方向、市场份额变化和新兴应用领域,finance,False
+qid_47,比较不同类型的区块链共识算法（PoW、PoS、DPoS等）在安全性、性能和能源消耗方面的差异，并讨论它们各自的适用场景,medical,False
+qid_48,解释元宇宙的概念及其谷歌 技术基础,tech,False
+qid_49,基于2020-2023年的市场数据，预测云计算市场未来5年的发展趋势，包括主要技术方向、市场份额变化和新兴应用领域,medical,False
+qid_50,什么是人工智能,tech,True
+qid_51,云计算基础,general,False
+qid_52,什么谷歌 是人工智能,finance,True
+qid_53,什么是5G技术？,tech,True
+qid_54,区1000 块链技术,medical,False
+qid_55,比较深度学习和传统机器学习的优缺点,medical,False
+qid_56,列举2023年最流行的10种编程语言,tech,False
+qid_57,区块链技术,tech,False
+qid_58,分析大数10 据对企业决策的影响,general,False
+qid_59,比较深度学习和传统机器学习的优缺点,finance,False
+qid_60,云计算基础,general,False
+qid_61,数据分析方法,finance,False
+qid_62,比较不同类型的区块链共识算法（PoW、PoS、DPoS等）在安全性、性能和能源消耗方面的差异，并讨论它们各自的适华为 用场景,finance,False
+qid_63,云计算基础,finance,False
+qid_64,说明云计算中的I100 aaS、PaaS和SaaS的区别,medical,False
+qid_65,详细分析人工智能在医疗健康领域的应用案例，包括诊断辅助、药物研发和患者护理，并评估其潜在风险和伦理问题,general,False
+qid_66,列举2023年最流行的10谷歌 种编程语言,medical,False
+qid_67,什么是人工智能,medical,True
+qid_68,详细分析人工智能在医疗健康领域的应用案例，包括诊断辅助、药物研发和患者护理，并评估其潜在风险和伦理问题,general,False
+qid_69,机器学习的应用,finance,False
+qid_70,详细分析人工智能在医疗健康领域的应用案例，包括诊断辅助、药物研发和患者护理，并评估其潜在风险和伦理问题,tech,False
+qid_71,列举20微软 23年最流行的10种编程语言,medical,False
+qid_72,比较深度学习和传统机器学习的优缺点,finance,False
+qid_73,什么是人工智能,medical,True
+qid_74,云计算基础,medical,False
+qid_75,数据分析方法,general,False
+qid_76,说明云计算中的IaaS、PaaS和SaaS的区别,finance,False
+qid_77,分析大数据分析技术在金融风险管理中的应用，包括信用评分、欺诈检测和市场预测，并讨论数据苹果 隐私和监管合规问题,general,False
+qid_78,分析大数据对企业决策的影响,finance,False
+qid_79,云计算基础,general,False
+qid_80,列举2023年最流行的10种编程语言,tech,False
+qid_81,比较深度学习和传统机器学习的优缺点,medical,False
+qid_82,分析大数据分析技术在金融风险管理中的应用，包括信用评分、欺诈检测和市场预阿里巴巴 测，并讨论数据隐私和监管合规问题,general,False
+qid_83,基于2020-2023年的市场数据，预测云计算市场未来5年的发展趋势，包括主要技术方向、市场份额变化和新兴应用领域,medical,False
+qid_84,基于2020-2023年的市场数据，预测云计2023 算市场未来5年的发展趋势，包括主要技术方向、市场份额变化和新兴应用领域,medical,False
+qid_85,分析2008年金融危机的原因和影响,finance,False
+qid_86,基于2020-2023年的市场数据，预测云计算市场未来5年的发展趋势，包括主要技术方向、市场份额变化和新兴应用领域,medical,False
+qid_87,解释量子计算的基本原理，并探讨其对密码学、材料科学和优化问10 题的潜在影响，同时评估其商业化面临的挑战,tech,False
+qid_88,列举2023年最流行的10种编程语言,finance,False
+qid_89,分析大数据对企业决策的影响,medical,False
+qid_90,详细分析人工智能在医疗健康领域的应用案例，包括诊断辅助、药物研发和患者护理，并评估其潜在风险和伦理问题,finance,False
+qid_91,基于2020-2023年的市场数据，预测云计算市场未来5年的发展趋势，包括主要技术方向、市场份额变化和新兴应用领域,medical,False
+qid_92,说明云计算中的IaaS、PaaS和SaaS的区别,medical,False
+qid_93,解释量子计算的基本原理，并探讨其对密码学、材料科学和优化问题的潜在影响，同时评估其商业化面临的挑战,finance,False
+qid_94,详细分析人工智能在医疗健康领域的应用案例，包括诊断辅助、药物研发和患者护理，并评估其潜在风险和伦理问题,general,False
+qid_95,基于2020-2023年的市场数据，预测云计算市场未来5年的发展趋10 势，包括主要技术方向、市场份额变化和新兴应用领域,tech,False
+qid_96,说明云计算中的IaaS、PaaS和Saa腾讯 S的区别,general,False
+qid_97,分析大数据对企业决策的影响,medical,False
+qid_98,说明云计算中的Iaa华为 S、PaaS和SaaS的区别,tech,False
+qid_99,什么是人工智能,finance,True
+qid_100,分析人工智能在2023 自动驾驶中的应用挑战,tech,False

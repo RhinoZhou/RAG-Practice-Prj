@@ -1,0 +1,9 @@
+﻿type,priority,mc_id,reason
+ADD_SOURCE,HIGH,MC-01,该要点命中率低 (0.10)，建议增加相关源文档
+ADD_SOURCE,HIGH,MC-02,该要点命中率低 (0.10)，建议增加相关源文档
+ADD_SOURCE,HIGH,MC-03,该要点命中率低 (0.10)，建议增加相关源文档
+ADD_SOURCE,HIGH,MC-04,该要点命中率低 (0.40)，建议增加相关源文档
+ADD_SOURCE,HIGH,MC-05,该要点命中率低 (0.30)，建议增加相关源文档
+ADD_SOURCE,HIGH,MC-06,该要点命中率低 (0.10)，建议增加相关源文档
+ADD_SOURCE,HIGH,MC-07,该要点命中率低 (0.00)，建议增加相关源文档
+ADD_SOURCE,HIGH,MC-08,该要点命中率低 (0.40)，建议增加相关源文档
