@@ -1,0 +1,16 @@
+﻿{
+  "query": "药物相互作用对心脏病患者的影响",
+  "context": {
+    "patient_info": {
+      "age": 65,
+      "condition": "冠心病",
+      "medications": [
+        "阿司匹林",
+        "他汀类药物",
+        "β受体阻滞剂"
+      ]
+    },
+    "question_type": "药物安全性",
+    "priority": "high"
+  }
+}

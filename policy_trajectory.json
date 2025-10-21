@@ -1,0 +1,71 @@
+{
+  "initial_state": {
+    "coverage": 0.57,
+    "contradiction": 4.7,
+    "budget": 1500
+  },
+  "final_state": {
+    "coverage": 0.7819822180644651,
+    "contradiction": 1.3280496186052875,
+    "remaining_budget": 1254,
+    "used_budget": 246,
+    "steps": 5
+  },
+  "history": [
+    {
+      "step": 1,
+      "action": "ocr_verify",
+      "coverage": 0.6015702478916456,
+      "coverage_change": 0.0315702478916456,
+      "contradiction": 2.4427653280339494,
+      "contradiction_change": -2.2572346719660508,
+      "cost_ms": 80,
+      "remaining_budget": 1420
+    },
+    {
+      "step": 2,
+      "action": "light_expand_k",
+      "coverage": 0.6465758282487004,
+      "coverage_change": 0.045005580357054875,
+      "contradiction": 2.4427653280339494,
+      "contradiction_change": 0.0,
+      "cost_ms": 39,
+      "remaining_budget": 1381
+    },
+    {
+      "step": 3,
+      "action": "graph_lookup",
+      "coverage": 0.7608989162686614,
+      "coverage_change": 0.11432308801996097,
+      "contradiction": 1.9225776978736526,
+      "contradiction_change": -0.5201876301602969,
+      "cost_ms": 68,
+      "remaining_budget": 1313
+    },
+    {
+      "step": 4,
+      "action": "self_check",
+      "coverage": 0.7713876450668987,
+      "coverage_change": 0.010488728798237416,
+      "contradiction": 1.630448883617363,
+      "contradiction_change": -0.2921288142562897,
+      "cost_ms": 28,
+      "remaining_budget": 1285
+    },
+    {
+      "step": 5,
+      "action": "self_check",
+      "coverage": 0.7819822180644651,
+      "coverage_change": 0.010594572997566384,
+      "contradiction": 1.3280496186052875,
+      "contradiction_change": -0.3023992650120755,
+      "cost_ms": 31,
+      "remaining_budget": 1254
+    }
+  ],
+  "metrics": {
+    "coverage_improvement": 0.21198221806446516,
+    "contradiction_reduction": 3.3719503813947127,
+    "efficiency": 0.0008617163335953868
+  }
+}

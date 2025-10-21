@@ -1,0 +1,15 @@
+﻿model_id,model_name,region,region_code,warranty_months,warranty_details,update_date,data_source,authority_level
+MOD001,ABC100,中国,CN,24,标准保修24个月，电池保修12个月,2024-12-01,policy_v3,5
+MOD002,ABC100,美国,US,12,标准保修12个月，可付费延长,2024-11-15,policy_v2,4
+MOD003,ABC100,欧洲,EU,36,欧盟标准保修36个月,2024-10-20,policy_v3,5
+MOD004,XYZ200,中国,CN,18,标准保修18个月,2024-12-05,policy_v3,5
+MOD005,XYZ200,日本,JP,24,标准保修24个月，包含上门服务,2024-09-10,policy_v2,4
+MOD006,DEF300,中国,CN,30,高级保修30个月，含意外保护,2024-12-10,policy_v3,5
+MOD007,DEF300,欧洲,EU,36,欧盟标准保修36个月,2024-11-30,policy_v3,5
+MOD008,GHI400,中国,CN,24,标准保修24个月,2024-11-20,policy_v2,4
+MOD009,ProBook500,中国,CN,12,商用设备标准保修12个月,2024-12-03,policy_v3,5
+MOD010,ProBook500,欧洲,EU,24,商用设备欧洲保修24个月,2024-10-05,policy_v2,4
+MOD011,TabMini,中国,CN,18,平板设备保修18个月,2024-12-08,policy_v3,5
+MOD012,Watch Pro,中国,CN,12,智能手表标准保修12个月,2024-11-25,policy_v3,5
+MOD013,EarBuds,中国,CN,12,耳机产品保修12个月,2024-12-01,policy_v3,5
+MOD014,ABC100,亚洲,AS,24,亚洲区域标准保修24个月,2024-12-15,policy_v3,5

@@ -1,0 +1,39 @@
+[
+  {
+    "query": {
+      "model_name": "ABC100",
+      "attribute": "warranty",
+      "region_code": "CN",
+      "target_column": "warranty_months"
+    },
+    "best_match": {
+      "model": "ABC100",
+      "region": "中国",
+      "value": "24",
+      "citation": {
+        "citation_id": "CITE_warranty_2_5",
+        "table": "warranty",
+        "cell": "R2C5",
+        "row_index": 0,
+        "column_index": 4,
+        "field_name": "warranty_months",
+        "value": "24",
+        "source": "policy_v3",
+        "update_date": "2024-12-01 00:00:00",
+        "model": "ABC100",
+        "region": "中国",
+        "timestamp": "2025-10-17T16:36:41.210062"
+      }
+    },
+    "all_matches": [
+      {
+        "model": "ABC100",
+        "region": "中国",
+        "value": "24",
+        "source": "policy_v3",
+        "update_date": "2024-12-01"
+      }
+    ],
+    "timestamp": "2025-10-17T16:36:41.210062"
+  }
+]

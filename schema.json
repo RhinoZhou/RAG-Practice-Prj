@@ -1,0 +1,140 @@
+{
+  "slots": [
+    {
+      "name": "product",
+      "type": "string",
+      "required": true,
+      "keywords": [
+        "手机",
+        "电脑",
+        "平板",
+        "手表",
+        "耳机"
+      ],
+      "models": {
+        "手机": [
+          "ABC100",
+          "XYZ200",
+          "DEF300",
+          "GHI400"
+        ],
+        "电脑": [
+          "ProBook500",
+          "UltraTab600",
+          "GamePad700"
+        ],
+        "平板": [
+          "TabMini",
+          "TabMax",
+          "TabPro"
+        ],
+        "手表": [
+          "Watch Lite",
+          "Watch Pro",
+          "Watch Ultra"
+        ],
+        "耳机": [
+          "EarBuds",
+          "EarPods",
+          "Headphones"
+        ]
+      }
+    },
+    {
+      "name": "region",
+      "type": "string",
+      "required": false,
+      "keywords": [
+        "中国",
+        "美国",
+        "日本",
+        "欧洲",
+        "亚洲"
+      ],
+      "codes": {
+        "中国": "CN",
+        "美国": "US",
+        "日本": "JP",
+        "欧洲": "EU",
+        "亚洲": "AS"
+      }
+    },
+    {
+      "name": "time_window",
+      "type": "string",
+      "required": false,
+      "keywords": [
+        "今天",
+        "明天",
+        "本周",
+        "本月",
+        "今年",
+        "最近"
+      ]
+    },
+    {
+      "name": "attribute",
+      "type": "string",
+      "required": false,
+      "keywords": [
+        "价格",
+        "电池",
+        "屏幕",
+        "摄像头",
+        "性能",
+        "续航"
+      ]
+    }
+  ],
+  "transition_triggers": {
+    "clear_slots": [
+      "重置",
+      "清空",
+      "重新开始",
+      "别的",
+      "换一个"
+    ],
+    "switch_topic": [
+      "另外",
+      "还有",
+      "除了",
+      "别的"
+    ],
+    "confirm": [
+      "是的",
+      "对的",
+      "确认",
+      "好的",
+      "没问题"
+    ]
+  },
+  "synonyms": {
+    "手机": [
+      "智能手机",
+      "移动电话",
+      "手机设备"
+    ],
+    "电脑": [
+      "笔记本",
+      "笔记本电脑",
+      "台式机",
+      "PC"
+    ],
+    "平板": [
+      "平板电脑",
+      "iPad",
+      "平板设备"
+    ],
+    "电池": [
+      "续航",
+      "电池续航",
+      "电池容量"
+    ],
+    "价格": [
+      "售价",
+      "价钱",
+      "多少钱",
+      "价位"
+    ]
+  }
+}

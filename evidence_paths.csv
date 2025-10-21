@@ -1,0 +1,6 @@
+﻿Rank,End_Node,Graph_Score,Text_Similarity,Final_Score,Path_Length,Path_Nodes,Path_Relations,Sources,Timestamps
+1,Drug_B,0.8023,0.0000,0.4814,2,Drug_A -> Drug_A -> DDI_Guideline_2024,mentioned_in -> documents,authority,2024-03-01
+2,Drug_A,0.8023,0.0000,0.4814,2,Drug_B -> Drug_B -> DDI_Guideline_2024,mentioned_in -> documents,authority,2024-03-01
+3,Drug_B,0.7654,0.0000,0.4592,1,Drug_A -> Drug_A,interacts_with,guideline,2024-01-15
+4,Drug_D,0.2694,0.0000,0.1616,1,Drug_B -> Drug_B,interacts_with,case_report,2023-09-05
+5,Drug_C,0.1659,0.0000,0.0996,2,Drug_B -> Drug_B -> Drug_A,interacts_with -> interacts_with,"clinical_trial, guideline","2024-01-15, 2023-11-10"

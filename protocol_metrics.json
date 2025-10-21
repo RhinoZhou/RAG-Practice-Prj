@@ -1,0 +1,75 @@
+﻿{
+  "sequence_log": [
+    {
+      "step": 0,
+      "step_name": "retrieve",
+      "timestamp": 1760691793.4794831,
+      "output": {
+        "status": "success",
+        "unique_count": 21,
+        "prune_rate": 16.0
+      },
+      "cost": 1.1980097429321281
+    },
+    {
+      "step": 1,
+      "step_name": "validate",
+      "timestamp": 1760691793.47962,
+      "output": {
+        "status": "success",
+        "gaps_detected": 0,
+        "contradictions_detected": 1,
+        "supplement_action": "graph"
+      },
+      "cost": 1.3104287569962687
+    },
+    {
+      "step": 2,
+      "step_name": "graph",
+      "timestamp": 1760691793.4801688,
+      "output": {
+        "status": "success",
+        "action_type": "graph",
+        "new_evidence_count": 1
+      },
+      "cost": 1.0692077507245403
+    },
+    {
+      "step": 3,
+      "step_name": "integrate",
+      "timestamp": 1760691793.4803164,
+      "output": {
+        "status": "success",
+        "answer_length": 447,
+        "anchor_count": 5
+      },
+      "cost": 1.285136686028981
+    }
+  ],
+  "agents": {
+    "retrieve": {
+      "agent_id": "retrieve",
+      "cost": 1.1980097429321281,
+      "request_count": 1,
+      "tokens_processed": 22.5
+    },
+    "validate": {
+      "agent_id": "validate",
+      "cost": 1.3104287569962687,
+      "request_count": 1,
+      "tokens_processed": 852.0
+    },
+    "supplement": {
+      "agent_id": "supplement",
+      "cost": 1.0692077507245403,
+      "request_count": 1,
+      "tokens_processed": 500
+    },
+    "integrate": {
+      "agent_id": "integrate",
+      "cost": 1.285136686028981,
+      "request_count": 1,
+      "tokens_processed": 1000
+    }
+  }
+}

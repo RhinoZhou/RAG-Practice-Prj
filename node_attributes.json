@@ -1,0 +1,122 @@
+[
+  {
+    "id": "doc_1",
+    "authority": 0.5247240713084176,
+    "timestamp": "2024-03-01",
+    "topic": "topic_2"
+  },
+  {
+    "id": "doc_2",
+    "authority": 0.8704285838459498,
+    "timestamp": "2024-03-02",
+    "topic": "topic_3"
+  },
+  {
+    "id": "doc_3",
+    "authority": 0.7391963650868432,
+    "timestamp": "2024-03-03",
+    "topic": "topic_4"
+  },
+  {
+    "id": "doc_4",
+    "authority": 0.659195090518222,
+    "timestamp": "2024-03-04",
+    "topic": "topic_5"
+  },
+  {
+    "id": "doc_5",
+    "authority": 0.39361118426546193,
+    "timestamp": "2024-03-05",
+    "topic": "topic_1"
+  },
+  {
+    "id": "doc_6",
+    "authority": 0.3935967122017216,
+    "timestamp": "2024-03-06",
+    "topic": "topic_2"
+  },
+  {
+    "id": "doc_7",
+    "authority": 0.33485016730091965,
+    "timestamp": "2024-03-07",
+    "topic": "topic_3"
+  },
+  {
+    "id": "doc_8",
+    "authority": 0.8197056874649611,
+    "timestamp": "2024-03-08",
+    "topic": "topic_4"
+  },
+  {
+    "id": "doc_9",
+    "authority": 0.6606690070459253,
+    "timestamp": "2024-03-09",
+    "topic": "topic_5"
+  },
+  {
+    "id": "doc_10",
+    "authority": 0.7248435466776273,
+    "timestamp": "2024-03-10",
+    "topic": "topic_1"
+  },
+  {
+    "id": "doc_11",
+    "authority": 0.31235069657748143,
+    "timestamp": "2024-03-11",
+    "topic": "topic_2"
+  },
+  {
+    "id": "doc_12",
+    "authority": 0.8819459112971966,
+    "timestamp": "2024-03-12",
+    "topic": "topic_3"
+  },
+  {
+    "id": "doc_13",
+    "authority": 0.7994655844802532,
+    "timestamp": "2024-03-13",
+    "topic": "topic_4"
+  },
+  {
+    "id": "doc_14",
+    "authority": 0.4274034664069657,
+    "timestamp": "2024-03-14",
+    "topic": "topic_5"
+  },
+  {
+    "id": "doc_15",
+    "authority": 0.4090949803242604,
+    "timestamp": "2024-03-15",
+    "topic": "topic_1"
+  },
+  {
+    "id": "doc_16",
+    "authority": 0.41004270591206027,
+    "timestamp": "2024-03-16",
+    "topic": "topic_2"
+  },
+  {
+    "id": "doc_17",
+    "authority": 0.4825453457757226,
+    "timestamp": "2024-03-17",
+    "topic": "topic_3"
+  },
+  {
+    "id": "doc_18",
+    "authority": 0.6148538589793427,
+    "timestamp": "2024-03-18",
+    "topic": "topic_4"
+  },
+  {
+    "id": "doc_19",
+    "authority": 0.5591670111852695,
+    "timestamp": "2024-03-19",
+    "topic": "topic_5"
+  },
+  {
+    "id": "doc_20",
+    "authority": 0.47473748411882516,
+    "timestamp": "2024-03-20",
+    "topic": "topic_1"
+  }
+]

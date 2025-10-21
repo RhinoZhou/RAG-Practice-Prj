@@ -1,0 +1,85 @@
+{
+  "thresholds": {
+    "coverage": {
+      "low": 0.6,
+      "medium": 0.75,
+      "high": 0.85
+    },
+    "contradiction": {
+      "warning": 3.0,
+      "critical": 5.0
+    },
+    "uncertainty": {
+      "high": 0.3,
+      "medium": 0.2
+    }
+  },
+  "action_costs": {
+    "light_expand_k": {
+      "time_ms": 40,
+      "description": "轻度扩展候选数量"
+    },
+    "heavy_expand_k": {
+      "time_ms": 90,
+      "description": "重度扩展候选数量"
+    },
+    "graph_lookup": {
+      "time_ms": 70,
+      "description": "图谱检索"
+    },
+    "ocr_verify": {
+      "time_ms": 80,
+      "description": "OCR验证"
+    },
+    "asr_verify": {
+      "time_ms": 100,
+      "description": "ASR验证"
+    },
+    "cross_verify": {
+      "time_ms": 150,
+      "description": "跨模态验证"
+    },
+    "self_check": {
+      "time_ms": 30,
+      "description": "自检"
+    },
+    "fallback": {
+      "time_ms": 20,
+      "description": "回退策略"
+    }
+  },
+  "action_effects": {
+    "light_expand_k": {
+      "coverage_improvement": 0.05,
+      "contradiction_change": 0.0
+    },
+    "heavy_expand_k": {
+      "coverage_improvement": 0.1,
+      "contradiction_change": 1.0
+    },
+    "graph_lookup": {
+      "coverage_improvement": 0.12,
+      "contradiction_change": -0.5
+    },
+    "ocr_verify": {
+      "coverage_improvement": 0.03,
+      "contradiction_change": -2.1
+    },
+    "asr_verify": {
+      "coverage_improvement": 0.04,
+      "contradiction_change": -1.8
+    },
+    "cross_verify": {
+      "coverage_improvement": 0.08,
+      "contradiction_change": -3.5
+    },
+    "self_check": {
+      "coverage_improvement": 0.01,
+      "contradiction_change": -0.3
+    },
+    "fallback": {
+      "coverage_improvement": 0.0,
+      "contradiction_change": 0.0
+    }
+  }
+}

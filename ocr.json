@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ocr_001",
+    "source": "table_image_1",
+    "content": "产品型号 ABC100 保修期限 24个月",
+    "position": {
+      "row": 2,
+      "col": 3
+    },
+    "timestamp": "2024-11-01T08:30:00",
+    "confidence": 0.95,
+    "page": 1
+  },
+  {
+    "id": "ocr_002",
+    "source": "chart_image_1",
+    "content": "故障率曲线 中国区域 2.5%",
+    "position": {
+      "x": 120,
+      "y": 85
+    },
+    "timestamp": "2024-11-01T09:15:00",
+    "confidence": 0.88,
+    "page": 2
+  },
+  {
+    "id": "ocr_003",
+    "source": "table_image_2",
+    "content": "产品型号 XYZ200 保修期限 36个月",
+    "position": {
+      "row": 3,
+      "col": 3
+    },
+    "timestamp": "2024-11-02T10:20:00",
+    "confidence": 0.92,
+    "page": 3
+  },
+  {
+    "id": "ocr_004",
+    "source": "table_image_1",
+    "content": "产品型号 ABC100 中国区域 维修费用 150元",
+    "position": {
+      "row": 2,
+      "col": 5
+    },
+    "timestamp": "2024-11-01T08:31:00",
+    "confidence": 0.85,
+    "page": 1
+  },
+  {
+    "id": "ocr_005",
+    "source": "document_image_1",
+    "content": "产品质量保证书 有效期至 2025-12-31",
+    "position": {
+      "x": 150,
+      "y": 200
+    },
+    "timestamp": "2024-10-15T14:30:00",
+    "confidence": 0.8,
+    "page": 1
+  }
+]

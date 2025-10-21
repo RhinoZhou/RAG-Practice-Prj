@@ -1,0 +1,428 @@
+[
+  {
+    "source": "doc_1",
+    "target": "doc_6",
+    "weight": 0.7599443886861021,
+    "type": "reference"
+  },
+  {
+    "source": "doc_1",
+    "target": "doc_11",
+    "weight": 0.9895022075365837,
+    "type": "reference"
+  },
+  {
+    "source": "doc_1",
+    "target": "doc_16",
+    "weight": 0.6362425738131283,
+    "type": "citation"
+  },
+  {
+    "source": "doc_1",
+    "target": "doc_2",
+    "weight": 0.7529847965068651,
+    "type": "citation"
+  },
+  {
+    "source": "doc_2",
+    "target": "doc_7",
+    "weight": 0.6185801650879991,
+    "type": "citation"
+  },
+  {
+    "source": "doc_2",
+    "target": "doc_12",
+    "weight": 0.6682096494749166,
+    "type": "reference"
+  },
+  {
+    "source": "doc_3",
+    "target": "doc_8",
+    "weight": 0.9768807022739411,
+    "type": "citation"
+  },
+  {
+    "source": "doc_3",
+    "target": "doc_13",
+    "weight": 0.7541666010159664,
+    "type": "reference"
+  },
+  {
+    "source": "doc_3",
+    "target": "doc_18",
+    "weight": 0.6923575302488596,
+    "type": "reference"
+  },
+  {
+    "source": "doc_3",
+    "target": "doc_1",
+    "weight": 0.8733054075301833,
+    "type": "citation"
+  },
+  {
+    "source": "doc_3",
+    "target": "doc_2",
+    "weight": 0.9332779646944658,
+    "type": "reference"
+  },
+  {
+    "source": "doc_4",
+    "target": "doc_9",
+    "weight": 0.7035119926400067,
+    "type": "citation"
+  },
+  {
+    "source": "doc_4",
+    "target": "doc_14",
+    "weight": 0.7246844304357644,
+    "type": "citation"
+  },
+  {
+    "source": "doc_5",
+    "target": "doc_10",
+    "weight": 0.8270801311279966,
+    "type": "reference"
+  },
+  {
+    "source": "doc_5",
+    "target": "doc_15",
+    "weight": 0.9369139098379994,
+    "type": "reference"
+  },
+  {
+    "source": "doc_5",
+    "target": "doc_20",
+    "weight": 0.7580600944007257,
+    "type": "citation"
+  },
+  {
+    "source": "doc_6",
+    "target": "doc_1",
+    "weight": 0.9687496940092467,
+    "type": "reference"
+  },
+  {
+    "source": "doc_6",
+    "target": "doc_11",
+    "weight": 0.6783931449676581,
+    "type": "reference"
+  },
+  {
+    "source": "doc_6",
+    "target": "doc_16",
+    "weight": 0.7301321323053057,
+    "type": "reference"
+  },
+  {
+    "source": "doc_6",
+    "target": "doc_2",
+    "weight": 0.7085396127095583,
+    "type": "citation"
+  },
+  {
+    "source": "doc_7",
+    "target": "doc_2",
+    "weight": 0.9861021229056552,
+    "type": "citation"
+  },
+  {
+    "source": "doc_7",
+    "target": "doc_12",
+    "weight": 0.7103996728090174,
+    "type": "reference"
+  },
+  {
+    "source": "doc_7",
+    "target": "doc_17",
+    "weight": 0.6661067756252009,
+    "type": "reference"
+  },
+  {
+    "source": "doc_8",
+    "target": "doc_3",
+    "weight": 0.908897907718663,
+    "type": "reference"
+  },
+  {
+    "source": "doc_8",
+    "target": "doc_13",
+    "weight": 0.602208846849441,
+    "type": "citation"
+  },
+  {
+    "source": "doc_9",
+    "target": "doc_4",
+    "weight": 0.88453678109946,
+    "type": "citation"
+  },
+  {
+    "source": "doc_9",
+    "target": "doc_14",
+    "weight": 0.8423839899124046,
+    "type": "citation"
+  },
+  {
+    "source": "doc_10",
+    "target": "doc_5",
+    "weight": 0.6463476238100518,
+    "type": "citation"
+  },
+  {
+    "source": "doc_10",
+    "target": "doc_15",
+    "weight": 0.8493192507310232,
+    "type": "reference"
+  },
+  {
+    "source": "doc_10",
+    "target": "doc_20",
+    "weight": 0.6254233401144095,
+    "type": "reference"
+  },
+  {
+    "source": "doc_11",
+    "target": "doc_1",
+    "weight": 0.8663689426469987,
+    "type": "citation"
+  },
+  {
+    "source": "doc_11",
+    "target": "doc_6",
+    "weight": 0.7098887171960256,
+    "type": "citation"
+  },
+  {
+    "source": "doc_11",
+    "target": "doc_16",
+    "weight": 0.7531707499015159,
+    "type": "citation"
+  },
+  {
+    "source": "doc_11",
+    "target": "doc_2",
+    "weight": 0.9395655297064336,
+    "type": "citation"
+  },
+  {
+    "source": "doc_11",
+    "target": "doc_3",
+    "weight": 0.6943939678995823,
+    "type": "reference"
+  },
+  {
+    "source": "doc_12",
+    "target": "doc_2",
+    "weight": 0.8090931317527976,
+    "type": "reference"
+  },
+  {
+    "source": "doc_12",
+    "target": "doc_7",
+    "weight": 0.610167650697638,
+    "type": "reference"
+  },
+  {
+    "source": "doc_12",
+    "target": "doc_17",
+    "weight": 0.6125716742746937,
+    "type": "citation"
+  },
+  {
+    "source": "doc_12",
+    "target": "doc_1",
+    "weight": 0.7257423924305306,
+    "type": "citation"
+  },
+  {
+    "source": "doc_13",
+    "target": "doc_3",
+    "weight": 0.6557325817623503,
+    "type": "citation"
+  },
+  {
+    "source": "doc_13",
+    "target": "doc_8",
+    "weight": 0.8159364365206693,
+    "type": "reference"
+  },
+  {
+    "source": "doc_13",
+    "target": "doc_18",
+    "weight": 0.9771414282231924,
+    "type": "citation"
+  },
+  {
+    "source": "doc_14",
+    "target": "doc_4",
+    "weight": 0.6644885149016018,
+    "type": "citation"
+  },
+  {
+    "source": "doc_14",
+    "target": "doc_9",
+    "weight": 0.9232481518257668,
+    "type": "citation"
+  },
+  {
+    "source": "doc_14",
+    "target": "doc_19",
+    "weight": 0.9485842360750871,
+    "type": "citation"
+  },
+  {
+    "source": "doc_14",
+    "target": "doc_1",
+    "weight": 0.6746280235544143,
+    "type": "citation"
+  },
+  {
+    "source": "doc_15",
+    "target": "doc_5",
+    "weight": 0.7297380084021096,
+    "type": "reference"
+  },
+  {
+    "source": "doc_15",
+    "target": "doc_10",
+    "weight": 0.7425191352307899,
+    "type": "citation"
+  },
+  {
+    "source": "doc_15",
+    "target": "doc_20",
+    "weight": 0.7088528997538541,
+    "type": "citation"
+  },
+  {
+    "source": "doc_15",
+    "target": "doc_1",
+    "weight": 0.6002081507981263,
+    "type": "reference"
+  },
+  {
+    "source": "doc_16",
+    "target": "doc_1",
+    "weight": 0.6027808522124762,
+    "type": "citation"
+  },
+  {
+    "source": "doc_16",
+    "target": "doc_6",
+    "weight": 0.7669644012595116,
+    "type": "reference"
+  },
+  {
+    "source": "doc_16",
+    "target": "doc_11",
+    "weight": 0.6479461469334731,
+    "type": "reference"
+  },
+  {
+    "source": "doc_16",
+    "target": "doc_2",
+    "weight": 0.9771638815650077,
+    "type": "reference"
+  },
+  {
+    "source": "doc_17",
+    "target": "doc_2",
+    "weight": 0.8232408008069365,
+    "type": "reference"
+  },
+  {
+    "source": "doc_17",
+    "target": "doc_7",
+    "weight": 0.6259568988435926,
+    "type": "reference"
+  },
+  {
+    "source": "doc_17",
+    "target": "doc_12",
+    "weight": 0.6987504251354405,
+    "type": "citation"
+  },
+  {
+    "source": "doc_17",
+    "target": "doc_1",
+    "weight": 0.8849082359697769,
+    "type": "reference"
+  },
+  {
+    "source": "doc_17",
+    "target": "doc_3",
+    "weight": 0.9990961940195767,
+    "type": "reference"
+  },
+  {
+    "source": "doc_18",
+    "target": "doc_3",
+    "weight": 0.8010716092915446,
+    "type": "reference"
+  },
+  {
+    "source": "doc_18",
+    "target": "doc_8",
+    "weight": 0.7114585856946446,
+    "type": "citation"
+  },
+  {
+    "source": "doc_18",
+    "target": "doc_13",
+    "weight": 0.695824756266789,
+    "type": "reference"
+  },
+  {
+    "source": "doc_19",
+    "target": "doc_4",
+    "weight": 0.7791132658292367,
+    "type": "citation"
+  },
+  {
+    "source": "doc_19",
+    "target": "doc_9",
+    "weight": 0.8370786895517575,
+    "type": "reference"
+  },
+  {
+    "source": "doc_19",
+    "target": "doc_14",
+    "weight": 0.7478617824245618,
+    "type": "reference"
+  },
+  {
+    "source": "doc_19",
+    "target": "doc_1",
+    "weight": 0.9212559025519583,
+    "type": "reference"
+  },
+  {
+    "source": "doc_19",
+    "target": "doc_2",
+    "weight": 0.9933692563579372,
+    "type": "reference"
+  },
+  {
+    "source": "doc_20",
+    "target": "doc_5",
+    "weight": 0.6361159080217633,
+    "type": "citation"
+  },
+  {
+    "source": "doc_20",
+    "target": "doc_10",
+    "weight": 0.7283120259886944,
+    "type": "reference"
+  },
+  {
+    "source": "doc_20",
+    "target": "doc_15",
+    "weight": 0.6163100566219055,
+    "type": "citation"
+  },
+  {
+    "source": "doc_20",
+    "target": "doc_1",
+    "weight": 0.871025744736913,
+    "type": "reference"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "initial_state": {
+    "coverage": 0.55,
+    "contradiction": 3.5,
+    "budget": 1500
+  },
+  "final_state": {
+    "coverage": 0.6936889431619682,
+    "contradiction": 0.4116499122862578,
+    "remaining_budget": 1353,
+    "used_budget": 147,
+    "steps": 2
+  },
+  "planning_path": [
+    "targeted_ocr",
+    "graph"
+  ],
+  "marginal_gains": [
+    "contradiction -2.1%",
+    "+0.10"
+  ],
+  "stop_reason": "low_contradiction",
+  "action_details": [
+    {
+      "step": 1,
+      "action": "targeted_ocr",
+      "action_name": "定向OCR验证",
+      "coverage_improvement": 0.04343826444207446,
+      "contradiction_change": -2.055884165066192,
+      "latency_increase": 67
+    },
+    {
+      "step": 2,
+      "action": "graph",
+      "action_name": "图谱推理",
+      "coverage_improvement": 0.10025067871989374,
+      "contradiction_change": -1.03246592264755,
+      "latency_increase": 80
+    }
+  ],
+  "metrics": {
+    "total_coverage_improvement": 0.14368894316196812,
+    "total_contradiction_reduction": 3.088350087713742,
+    "efficiency": 0.0009774758038229123,
+    "quality_cost_ratio": 0.7098957807779891
+  }
+}

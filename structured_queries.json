@@ -1,0 +1,83 @@
+[
+  {
+    "session_id": "session_001",
+    "turn": 0,
+    "user_input": "你好，我想了解一下ABC100手机的信息",
+    "slots": {
+      "product": "ABC100"
+    },
+    "best_rewrite": "你好，我想了解一下ABC100手机的信息",
+    "hit_rate": 0.4,
+    "structured_query": "model=ABC100",
+    "state": "FILLING"
+  },
+  {
+    "session_id": "session_001",
+    "turn": 2,
+    "user_input": "在中国地区它的电池续航怎么样？",
+    "slots": {
+      "product": "ABC100",
+      "region": "CN",
+      "attribute": "电池"
+    },
+    "best_rewrite": "在中国地区它的电池续航怎么样？",
+    "hit_rate": 0.4,
+    "structured_query": "model=ABC100, region=CN, attr=battery",
+    "state": "CONFIRMING"
+  },
+  {
+    "session_id": "session_001",
+    "turn": 4,
+    "user_input": "那DEF300这款呢？",
+    "slots": {
+      "product": "ABC100",
+      "region": "CN",
+      "attribute": "电池"
+    },
+    "best_rewrite": "关于ABC100的电池信息，CN地区的",
+    "hit_rate": 0.4,
+    "structured_query": "model=ABC100, region=CN, attr=battery",
+    "state": "CONFIRMING"
+  },
+  {
+    "session_id": "session_002",
+    "turn": 0,
+    "user_input": "你们的笔记本电脑价格如何？",
+    "slots": {
+      "product": "电脑",
+      "attribute": "价格"
+    },
+    "best_rewrite": "你们的笔记本电脑价格如何？",
+    "hit_rate": 0.6,
+    "structured_query": "model=电脑, attr=price",
+    "state": "FILLING"
+  },
+  {
+    "session_id": "session_002",
+    "turn": 2,
+    "user_input": "ProBook500在欧洲的售价是多少？",
+    "slots": {
+      "product": "电脑",
+      "attribute": "价格",
+      "region": "EU"
+    },
+    "best_rewrite": "EU地区电脑的价格情况",
+    "hit_rate": 0.6,
+    "structured_query": "model=电脑, region=EU, attr=price",
+    "state": "CONFIRMING"
+  },
+  {
+    "session_id": "session_002",
+    "turn": 4,
+    "user_input": "好的，确认一下，我需要欧洲地区ProBook500的价格信息",
+    "slots": {
+      "product": "电脑",
+      "attribute": "价格",
+      "region": "EU"
+    },
+    "best_rewrite": "好的，确认一下，我需要欧洲地区ProBook500的价格信息",
+    "hit_rate": 0.6,
+    "structured_query": "model=电脑, region=EU, attr=price",
+    "state": "CONFIRMING"
+  }
+]

@@ -1,0 +1,17 @@
+﻿subject,predicate,object,weight,source_level,timestamp
+Drug_A,interacts_with,Drug_B,0.95,guideline,2024-01-15
+Drug_A,interacts_with,Drug_C,0.8,clinical_trial,2023-11-10
+Drug_B,interacts_with,Drug_D,0.75,case_report,2023-09-05
+Drug_B,treats,Condition_X,0.9,guideline,2024-02-20
+Drug_C,treats,Condition_Y,0.85,clinical_trial,2023-08-12
+Drug_D,treats,Condition_X,0.65,case_report,2022-12-01
+Drug_A,has_side_effect,SideEffect_1,0.7,package_insert,2023-05-20
+Drug_B,has_side_effect,SideEffect_2,0.6,package_insert,2023-04-15
+Condition_X,is_associated_with,Protein_P,0.85,research_paper,2023-07-30
+Condition_Y,is_associated_with,Protein_Q,0.7,research_paper,2023-03-18
+Protein_P,interacts_with,Protein_Q,0.65,research_paper,2022-10-05
+DDI_Guideline_2024,documents,Drug_A,0.99,authority,2024-03-01
+DDI_Guideline_2024,documents,Drug_B,0.99,authority,2024-03-01
+DDI_Guideline_2024,states,DDI_Severe,0.99,authority,2024-03-01
+Drug_A,mentioned_in,DDI_Guideline_2024,0.99,authority,2024-03-01
+Drug_B,mentioned_in,DDI_Guideline_2024,0.99,authority,2024-03-01

@@ -1,0 +1,61 @@
+{
+  "thresholds": {
+    "playback_rate": {
+      "min": 0.8,
+      "alert_level": "warning"
+    },
+    "low_conf_percent": {
+      "max": 15,
+      "alert_level": "warning"
+    },
+    "p95_latency": {
+      "max": 180,
+      "alert_level": "warning"
+    },
+    "cost_per_request": {
+      "max": 1.3,
+      "alert_level": "warning"
+    },
+    "anchored_percent": {
+      "min": 70,
+      "alert_level": "info"
+    }
+  },
+  "current_version": "v1.12",
+  "previous_versions": [
+    {
+      "version": "v1.10",
+      "performance": {
+        "latency": 110,
+        "cost": 0.95,
+        "quality": 0.88
+      }
+    },
+    {
+      "version": "v1.9",
+      "performance": {
+        "latency": 100,
+        "cost": 0.9,
+        "quality": 0.85
+      }
+    }
+  ],
+  "rollback_eta": "3min",
+  "action_mappings": {
+    "low_playback": [
+      "disable_mm"
+    ],
+    "high_low_conf": [
+      "raise_qc",
+      "demote_unanchored"
+    ],
+    "high_latency": [
+      "scale_up",
+      "cache_more"
+    ],
+    "high_cost": [
+      "optimize_models",
+      "throttle_non_critical"
+    ]
+  }
+}

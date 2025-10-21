@@ -1,0 +1,11 @@
+id,text,similarity_score,model,region,attribute,value,unit,update_date,authority_level
+cand_001,ABC100型号在中国地区的保修期是24个月,0.98,ABC100,中国,warranty,24,month,2024-11-01,3
+cand_002,XYZ200的保修期为36个月,0.95,XYZ200,全球,warranty,36,month,2024-11-02,3
+cand_003,ABC100在中国的维修费用为150元,0.92,ABC100,中国,repair_cost,150,元,2024-11-01,2
+cand_004,产品保修政策有效期至2025-12-31,0.88,ALL,全球,validity,2025-12-31,date,2024-10-15,4
+cand_005,ABC100的故障率为2.5%,0.85,ABC100,中国,failure_rate,2.5,%,2024-11-01,2
+cand_006,XYZ200的维修费用为200元,0.82,XYZ200,中国,repair_cost,200,元,2024-11-02,2
+cand_007,ABC100的电池寿命为2年,0.78,ABC100,全球,battery_life,2,year,2024-10-20,2
+cand_008,旧型号的保修政策可能有所不同,0.75,OLD,全球,warranty,N/A,N/A,2024-11-02,1
+cand_009,ABC100在中国的客户满意度为95%,0.72,ABC100,中国,satisfaction,95,%,2024-10-25,2
+cand_010,XYZ200的充电时间为2小时,0.7,XYZ200,全球,charging_time,2,hour,2024-11-01,2

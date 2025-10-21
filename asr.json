@@ -1,0 +1,52 @@
+[
+  {
+    "id": "asr_001",
+    "source": "audio_recording_1",
+    "speaker": "产品经理",
+    "content": "ABC100型号在中国地区的保修期是24个月",
+    "start_time": 125.5,
+    "end_time": 132.8,
+    "timestamp": "2024-11-01T10:05:00",
+    "confidence": 0.93
+  },
+  {
+    "id": "asr_002",
+    "source": "audio_recording_2",
+    "speaker": "技术支持",
+    "content": "XYZ200的保修期延长到36个月了",
+    "start_time": 45.2,
+    "end_time": 52.1,
+    "timestamp": "2024-11-02T14:30:00",
+    "confidence": 0.89
+  },
+  {
+    "id": "asr_003",
+    "source": "audio_recording_1",
+    "speaker": "产品经理",
+    "content": "保修政策将在2025年12月31日前有效",
+    "start_time": 180.3,
+    "end_time": 188.5,
+    "timestamp": "2024-11-01T10:10:00",
+    "confidence": 0.91
+  },
+  {
+    "id": "asr_004",
+    "source": "audio_recording_3",
+    "speaker": "客服代表",
+    "content": "ABC100在中国的标准维修费用是150元",
+    "start_time": 32.7,
+    "end_time": 40.1,
+    "timestamp": "2024-11-03T09:15:00",
+    "confidence": 0.87
+  },
+  {
+    "id": "asr_005",
+    "source": "audio_recording_2",
+    "speaker": "技术支持",
+    "content": "注意，旧型号的保修政策可能有所不同",
+    "start_time": 120.8,
+    "end_time": 128.3,
+    "timestamp": "2024-11-02T14:45:00",
+    "confidence": 0.82
+  }
+]
