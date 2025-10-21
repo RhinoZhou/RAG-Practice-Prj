@@ -1,0 +1,10 @@
+{
+  "model_name": "gpt2",
+  "lora_config": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05
+  },
+  "training_completed": true,
+  "simulation": true
+}

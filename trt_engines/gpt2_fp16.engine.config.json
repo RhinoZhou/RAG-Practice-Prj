@@ -1,0 +1,14 @@
+{
+  "model_path": "gpt2",
+  "precision": "fp16",
+  "max_batch_size": 8,
+  "max_input_len": 1024,
+  "max_output_len": 256,
+  "max_beam_width": 1,
+  "enable_context_fmha": true,
+  "enable_paged_kv_cache": true,
+  "remove_input_padding": true,
+  "strongly_typed": false,
+  "int8_kv_cache": false,
+  "build_time": "2025-10-21 17:10:57"
+}

@@ -1,0 +1,782 @@
+[
+  {
+    "original_id": "q_1",
+    "category": "技术支持",
+    "original_question": "如何解决智能家居系统的无法连接网络问题？",
+    "variations": [
+      "我想知道如何解决智能家居系统的无法连接网络问题？",
+      "我想知道如何解决智能家居系统的无法连接网络问题",
+      "麻烦问一下，如何解决智能家居系统的无法连接网络问题"
+    ],
+    "quality_score": 99.0,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 24.0,
+      "length_std": 0.816496580927726,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9666666666666667,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 99.0,
+      "similarity_scores": [
+        1.0,
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "original_id": "q_2",
+    "category": "技术支持",
+    "original_question": "如何解决笔记本电脑的屏幕黑屏问题？",
+    "variations": [
+      "请问如何解决笔记本电脑的屏幕黑屏问题？",
+      "如何解决笔记本电脑的屏幕黑屏问题吗",
+      "我有个疑问，如何解决笔记本电脑的屏幕黑屏问题"
+    ],
+    "quality_score": 98.74999999999999,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 19.333333333333332,
+      "length_std": 2.0548046676563256,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9583333333333334,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 98.74999999999999,
+      "similarity_scores": [
+        1.0,
+        0.9375,
+        0.9375
+      ]
+    }
+  },
+  {
+    "original_id": "q_3",
+    "category": "使用方法",
+    "original_question": "笔记本电脑的快捷键有哪些？",
+    "variations": [
+      "笔记本电脑的快捷键有哪些的具体情况是怎样的？",
+      "我想知道笔记本电脑的快捷键有哪些",
+      "请教一下，笔记本电脑的快捷键有哪些"
+    ],
+    "quality_score": 78.46153846153845,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 18.333333333333332,
+      "length_std": 2.6246692913372702,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9487179487179488,
+      "validity_rate": 0.3333333333333333,
+      "uniqueness_rate": 1.0,
+      "quality_score": 78.46153846153845,
+      "similarity_scores": [
+        1.0,
+        0.9230769230769231,
+        0.9230769230769231
+      ]
+    }
+  },
+  {
+    "original_id": "q_4",
+    "category": "产品咨询",
+    "original_question": "智能家居系统适合哪些用户使用？",
+    "variations": [
+      "请问智能家居系统适合哪些用户使用？",
+      "我想知道智能家居系统适合哪些用户使用",
+      "我有个疑问，智能家居系统适合哪些用户使用"
+    ],
+    "quality_score": 78.57142857142856,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 18.333333333333332,
+      "length_std": 1.247219128924647,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9523809523809524,
+      "validity_rate": 0.3333333333333333,
+      "uniqueness_rate": 1.0,
+      "quality_score": 78.57142857142856,
+      "similarity_scores": [
+        1.0,
+        0.9285714285714286,
+        0.9285714285714286
+      ]
+    }
+  },
+  {
+    "original_id": "q_5",
+    "category": "服务咨询",
+    "original_question": "售后服务的工作时间是什么时候？",
+    "variations": [
+      "售后服务的工作时间是什么时候是什么？",
+      "售后服务的工作时间是哪些时候",
+      "售后服务的工作时间是什么时候吗"
+    ],
+    "quality_score": 87.14285714285714,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 15.666666666666666,
+      "length_std": 1.699673171197595,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9047619047619048,
+      "validity_rate": 0.6666666666666666,
+      "uniqueness_rate": 1.0,
+      "quality_score": 87.14285714285714,
+      "similarity_scores": [
+        1.0,
+        0.7857142857142857,
+        0.9285714285714286
+      ]
+    }
+  },
+  {
+    "original_id": "q_6",
+    "category": "服务咨询",
+    "original_question": "售后服务的工作时间是什么时候？",
+    "variations": [
+      "售后服务的工作时间是什么时候是什么？",
+      "售后服务的工作时间是哪些时候",
+      "售后服务的工作时间是什么时候吗"
+    ],
+    "quality_score": 87.14285714285714,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 15.666666666666666,
+      "length_std": 1.699673171197595,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9047619047619048,
+      "validity_rate": 0.6666666666666666,
+      "uniqueness_rate": 1.0,
+      "quality_score": 87.14285714285714,
+      "similarity_scores": [
+        1.0,
+        0.7857142857142857,
+        0.9285714285714286
+      ]
+    }
+  },
+  {
+    "original_id": "q_7",
+    "category": "服务咨询",
+    "original_question": "保修政策是怎样的？",
+    "variations": [
+      "请问保修政策是怎样的？",
+      "保修政策是怎样的吗",
+      "不好意思，保修政策是怎样的"
+    ],
+    "quality_score": 77.77777777777777,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 11.0,
+      "length_std": 1.632993161855452,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9259259259259259,
+      "validity_rate": 0.3333333333333333,
+      "uniqueness_rate": 1.0,
+      "quality_score": 77.77777777777777,
+      "similarity_scores": [
+        1.0,
+        0.8888888888888888,
+        0.8888888888888888
+      ]
+    }
+  },
+  {
+    "original_id": "q_8",
+    "category": "使用方法",
+    "original_question": "平板电脑的快捷键有哪些？",
+    "variations": [
+      "请问平板电脑的快捷键有哪些？",
+      "我想知道平板电脑的快捷键有哪些",
+      "不好意思，平板电脑的快捷键有哪些"
+    ],
+    "quality_score": 78.33333333333331,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 15.0,
+      "length_std": 0.816496580927726,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9444444444444443,
+      "validity_rate": 0.3333333333333333,
+      "uniqueness_rate": 1.0,
+      "quality_score": 78.33333333333331,
+      "similarity_scores": [
+        1.0,
+        0.9166666666666666,
+        0.9166666666666666
+      ]
+    }
+  },
+  {
+    "original_id": "q_9",
+    "category": "使用方法",
+    "original_question": "如何优化笔记本电脑的性能？",
+    "variations": [
+      "如何优化笔记本电脑的性能是什么？",
+      "性能如何被优化笔记本电脑",
+      "我有个疑问，如何优化笔记本电脑的性能"
+    ],
+    "quality_score": 97.69230769230768,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 15.333333333333334,
+      "length_std": 2.494438257849294,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.923076923076923,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 97.69230769230768,
+      "similarity_scores": [
+        1.0,
+        0.8461538461538461,
+        0.9230769230769231
+      ]
+    }
+  },
+  {
+    "original_id": "q_10",
+    "category": "服务咨询",
+    "original_question": "保修政策是怎样的？",
+    "variations": [
+      "我想知道保修政策是怎样的？",
+      "保修政策是怎样的吗",
+      "请问，保修政策是怎样的"
+    ],
+    "quality_score": 77.77777777777777,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 11.0,
+      "length_std": 1.632993161855452,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9259259259259259,
+      "validity_rate": 0.3333333333333333,
+      "uniqueness_rate": 1.0,
+      "quality_score": 77.77777777777777,
+      "similarity_scores": [
+        1.0,
+        0.8888888888888888,
+        0.8888888888888888
+      ]
+    }
+  },
+  {
+    "original_id": "q_11",
+    "category": "常见问题",
+    "original_question": "同步失败是怎么回事？",
+    "variations": [
+      "关于同步失败是怎么回事的问题？",
+      "同步失败是如何回事",
+      "同步失败是怎么回事吗"
+    ],
+    "quality_score": 96.0,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 11.333333333333334,
+      "length_std": 2.6246692913372702,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.8666666666666667,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 96.0,
+      "similarity_scores": [
+        1.0,
+        0.7,
+        0.9
+      ]
+    }
+  },
+  {
+    "original_id": "q_12",
+    "category": "常见问题",
+    "original_question": "同步失败是怎么回事？",
+    "variations": [
+      "关于同步失败是怎么回事的问题？",
+      "同步失败是如何回事",
+      "同步失败是怎么回事吗"
+    ],
+    "quality_score": 96.0,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 11.333333333333334,
+      "length_std": 2.6246692913372702,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.8666666666666667,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 96.0,
+      "similarity_scores": [
+        1.0,
+        0.7,
+        0.9
+      ]
+    }
+  },
+  {
+    "original_id": "q_13",
+    "category": "产品咨询",
+    "original_question": "智能家居系统的价格是多少？",
+    "variations": [
+      "我想了解智能家居系统的价格是多少。",
+      "我想知道智能家居系统的价格是多少",
+      "不好意思，智能家居系统的价格是多少"
+    ],
+    "quality_score": 67.6923076923077,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 16.666666666666668,
+      "length_std": 0.4714045207910317,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.923076923076923,
+      "validity_rate": 0.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 67.6923076923077,
+      "similarity_scores": [
+        0.9230769230769231,
+        0.9230769230769231,
+        0.9230769230769231
+      ]
+    }
+  },
+  {
+    "original_id": "q_14",
+    "category": "使用方法",
+    "original_question": "如何使用笔记本电脑的数据备份功能？",
+    "variations": [
+      "我想了解如何使用笔记本电脑的数据备份功能。",
+      "我想知道如何使用笔记本电脑的数据备份功能",
+      "我有个疑问，如何使用笔记本电脑的数据备份功能"
+    ],
+    "quality_score": 98.23529411764704,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 21.0,
+      "length_std": 0.816496580927726,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9411764705882352,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 98.23529411764704,
+      "similarity_scores": [
+        0.9411764705882353,
+        0.9411764705882353,
+        0.9411764705882353
+      ]
+    }
+  },
+  {
+    "original_id": "q_15",
+    "category": "技术支持",
+    "original_question": "使用智能家居系统需要什么系统要求？",
+    "variations": [
+      "我想了解使用智能家居系统需要什么系统要求。",
+      "使用智能家居系统需要哪些系统要求",
+      "使用智能家居系统需要什么系统要求吗"
+    ],
+    "quality_score": 86.42857142857143,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 18.0,
+      "length_std": 2.160246899469287,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.880952380952381,
+      "validity_rate": 0.6666666666666666,
+      "uniqueness_rate": 1.0,
+      "quality_score": 86.42857142857143,
+      "similarity_scores": [
+        0.9285714285714286,
+        0.7857142857142857,
+        0.9285714285714286
+      ]
+    }
+  },
+  {
+    "original_id": "q_16",
+    "category": "产品咨询",
+    "original_question": "智能家居系统的价格是多少？",
+    "variations": [
+      "能告诉我智能家居系统的价格是多少吗？",
+      "我想知道智能家居系统的价格是多少",
+      "麻烦问一下，智能家居系统的价格是多少"
+    ],
+    "quality_score": 78.46153846153845,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 17.333333333333332,
+      "length_std": 0.9428090415820634,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9487179487179488,
+      "validity_rate": 0.3333333333333333,
+      "uniqueness_rate": 1.0,
+      "quality_score": 78.46153846153845,
+      "similarity_scores": [
+        1.0,
+        0.9230769230769231,
+        0.9230769230769231
+      ]
+    }
+  },
+  {
+    "original_id": "q_17",
+    "category": "常见问题",
+    "original_question": "存储空间不足是怎么回事？",
+    "variations": [
+      "请问存储空间不足是怎么回事？",
+      "存储空间不足是如何回事",
+      "存储空间不足是怎么回事吗"
+    ],
+    "quality_score": 96.66666666666666,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 12.333333333333334,
+      "length_std": 1.247219128924647,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.8888888888888888,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 96.66666666666666,
+      "similarity_scores": [
+        1.0,
+        0.75,
+        0.9166666666666666
+      ]
+    }
+  },
+  {
+    "original_id": "q_18",
+    "category": "使用方法",
+    "original_question": "如何使用智能手表的数据备份功能？",
+    "variations": [
+      "关于如何使用智能手表的数据备份功能的问题？",
+      "数据备份功能如何被使用智能手表",
+      "不好意思，如何使用智能手表的数据备份功能"
+    ],
+    "quality_score": 98.0,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 18.666666666666668,
+      "length_std": 2.6246692913372702,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9333333333333332,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 98.0,
+      "similarity_scores": [
+        1.0,
+        0.8666666666666667,
+        0.9333333333333333
+      ]
+    }
+  },
+  {
+    "original_id": "q_19",
+    "category": "技术支持",
+    "original_question": "使用智能手表需要什么系统要求？",
+    "variations": [
+      "我想了解使用智能手表需要什么系统要求。",
+      "使用智能手表需要哪些系统要求",
+      "我想知道使用智能手表需要什么系统要求"
+    ],
+    "quality_score": 86.42857142857143,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 17.0,
+      "length_std": 2.160246899469287,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.880952380952381,
+      "validity_rate": 0.6666666666666666,
+      "uniqueness_rate": 1.0,
+      "quality_score": 86.42857142857143,
+      "similarity_scores": [
+        0.9285714285714286,
+        0.7857142857142857,
+        0.9285714285714286
+      ]
+    }
+  },
+  {
+    "original_id": "q_20",
+    "category": "使用方法",
+    "original_question": "如何使用笔记本电脑的拍照功能？",
+    "variations": [
+      "可以详细说明一下如何使用笔记本电脑的拍照功能吗？",
+      "如何使用笔记本电脑的拍照功能吗",
+      "麻烦问一下，如何使用笔记本电脑的拍照功能"
+    ],
+    "quality_score": 98.66666666666666,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 19.666666666666668,
+      "length_std": 3.681787005729087,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9555555555555556,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 98.66666666666666,
+      "similarity_scores": [
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333
+      ]
+    }
+  },
+  {
+    "original_id": "q_21",
+    "category": "使用方法",
+    "original_question": "使用智能家居系统有什么技巧？",
+    "variations": [
+      "可以详细说明一下使用智能家居系统有什么技巧吗？",
+      "使用智能家居系统有哪些技巧",
+      "使用智能家居系统有什么技巧吗"
+    ],
+    "quality_score": 87.14285714285714,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 16.666666666666668,
+      "length_std": 4.496912521077347,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9047619047619048,
+      "validity_rate": 0.6666666666666666,
+      "uniqueness_rate": 1.0,
+      "quality_score": 87.14285714285714,
+      "similarity_scores": [
+        1.0,
+        0.7857142857142857,
+        0.9285714285714286
+      ]
+    }
+  },
+  {
+    "original_id": "q_22",
+    "category": "服务咨询",
+    "original_question": "保修政策是怎样的？",
+    "variations": [
+      "保修政策是怎样的的具体情况是怎样的？",
+      "保修政策是怎样的吗",
+      "您好，保修政策是怎样的"
+    ],
+    "quality_score": 77.77777777777777,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 12.666666666666666,
+      "length_std": 3.858612300930075,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9259259259259259,
+      "validity_rate": 0.3333333333333333,
+      "uniqueness_rate": 1.0,
+      "quality_score": 77.77777777777777,
+      "similarity_scores": [
+        1.0,
+        0.8888888888888888,
+        0.8888888888888888
+      ]
+    }
+  },
+  {
+    "original_id": "q_23",
+    "category": "常见问题",
+    "original_question": "连接不稳定提示是什么意思？",
+    "variations": [
+      "关于连接不稳定提示是什么意思的问题？",
+      "连接不稳定提示是哪些意思",
+      "连接不稳定提示是什么意思吗"
+    ],
+    "quality_score": 86.92307692307692,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 14.333333333333334,
+      "length_std": 2.6246692913372702,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.8974358974358975,
+      "validity_rate": 0.6666666666666666,
+      "uniqueness_rate": 1.0,
+      "quality_score": 86.92307692307692,
+      "similarity_scores": [
+        1.0,
+        0.7692307692307693,
+        0.9230769230769231
+      ]
+    }
+  },
+  {
+    "original_id": "q_24",
+    "category": "服务咨询",
+    "original_question": "配送需要多长时间？",
+    "variations": [
+      "配送需要多长时间是什么？",
+      "配送需要多长时间吗",
+      "想咨询一个问题，配送需要多长时间"
+    ],
+    "quality_score": 77.77777777777777,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 12.333333333333334,
+      "length_std": 2.8674417556808756,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9259259259259259,
+      "validity_rate": 0.3333333333333333,
+      "uniqueness_rate": 1.0,
+      "quality_score": 77.77777777777777,
+      "similarity_scores": [
+        1.0,
+        0.8888888888888888,
+        0.8888888888888888
+      ]
+    }
+  },
+  {
+    "original_id": "q_25",
+    "category": "服务咨询",
+    "original_question": "售后服务的工作时间是什么时候？",
+    "variations": [
+      "关于售后服务的工作时间是什么时候的问题？",
+      "售后服务的工作时间是哪些时候",
+      "售后服务的工作时间是什么时候吗"
+    ],
+    "quality_score": 87.14285714285714,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 16.333333333333332,
+      "length_std": 2.6246692913372702,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9047619047619048,
+      "validity_rate": 0.6666666666666666,
+      "uniqueness_rate": 1.0,
+      "quality_score": 87.14285714285714,
+      "similarity_scores": [
+        1.0,
+        0.7857142857142857,
+        0.9285714285714286
+      ]
+    }
+  },
+  {
+    "original_id": "q_26",
+    "category": "使用方法",
+    "original_question": "如何使用智能手机的多任务处理功能？",
+    "variations": [
+      "能告诉我如何使用智能手机的多任务处理功能吗？",
+      "我想知道如何使用智能手机的多任务处理功能",
+      "请教一下，如何使用智能手机的多任务处理功能"
+    ],
+    "quality_score": 98.74999999999999,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 21.0,
+      "length_std": 0.816496580927726,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9583333333333334,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 98.74999999999999,
+      "similarity_scores": [
+        1.0,
+        0.9375,
+        0.9375
+      ]
+    }
+  },
+  {
+    "original_id": "q_27",
+    "category": "产品咨询",
+    "original_question": "平板电脑和其他品牌相比有什么优势？",
+    "variations": [
+      "平板电脑和其他品牌相比有什么优势的具体情况是怎样的？",
+      "平板电脑和其他品牌相比有哪些优势",
+      "我想知道平板电脑和其他品牌相比有什么优势"
+    ],
+    "quality_score": 87.6470588235294,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 20.666666666666668,
+      "length_std": 4.109609335312651,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9215686274509803,
+      "validity_rate": 0.6666666666666666,
+      "uniqueness_rate": 1.0,
+      "quality_score": 87.6470588235294,
+      "similarity_scores": [
+        1.0,
+        0.8235294117647058,
+        0.9411764705882353
+      ]
+    }
+  },
+  {
+    "original_id": "q_28",
+    "category": "常见问题",
+    "original_question": "遇到闪退应该怎么办？",
+    "variations": [
+      "我想知道遇到闪退应该怎么办？",
+      "遇到闪退应该如何办",
+      "遇到闪退应该怎么办吗"
+    ],
+    "quality_score": 96.0,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 11.0,
+      "length_std": 2.160246899469287,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.8666666666666667,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 96.0,
+      "similarity_scores": [
+        1.0,
+        0.7,
+        0.9
+      ]
+    }
+  },
+  {
+    "original_id": "q_29",
+    "category": "技术支持",
+    "original_question": "智能手表无法启动怎么办？",
+    "variations": [
+      "关于智能手表无法启动怎么办的问题？",
+      "智能手表无法启动如何办",
+      "智能手表无法启动怎么办吗"
+    ],
+    "quality_score": 96.66666666666666,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 13.333333333333334,
+      "length_std": 2.6246692913372702,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.8888888888888888,
+      "validity_rate": 1.0,
+      "uniqueness_rate": 1.0,
+      "quality_score": 96.66666666666666,
+      "similarity_scores": [
+        1.0,
+        0.75,
+        0.9166666666666666
+      ]
+    }
+  },
+  {
+    "original_id": "q_30",
+    "category": "使用方法",
+    "original_question": "使用智能家居系统有什么技巧？",
+    "variations": [
+      "可以详细说明一下使用智能家居系统有什么技巧吗？",
+      "使用智能家居系统有哪些技巧",
+      "使用智能家居系统有什么技巧吗"
+    ],
+    "quality_score": 87.14285714285714,
+    "evaluation": {
+      "num_variations": 3,
+      "length_mean": 16.666666666666668,
+      "length_std": 4.496912521077347,
+      "vocabulary_size": 3,
+      "avg_similarity": 0.9047619047619048,
+      "validity_rate": 0.6666666666666666,
+      "uniqueness_rate": 1.0,
+      "quality_score": 87.14285714285714,
+      "similarity_scores": [
+        1.0,
+        0.7857142857142857,
+        0.9285714285714286
+      ]
+    }
+  }
+]

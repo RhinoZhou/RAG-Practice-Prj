@@ -1,0 +1,37 @@
+[
+  {
+    "name": "标准配置 (bs=4, ga=4)",
+    "batch_size": 4,
+    "gradient_accumulation": 4,
+    "optimizer": "adamw_torch",
+    "estimated_memory_gb": 3.25
+  },
+  {
+    "name": "大批量 (bs=8, ga=2)",
+    "batch_size": 8,
+    "gradient_accumulation": 2,
+    "optimizer": "adamw_torch",
+    "estimated_memory_gb": 5.5
+  },
+  {
+    "name": "小批量 (bs=2, ga=8)",
+    "batch_size": 2,
+    "gradient_accumulation": 8,
+    "optimizer": "adamw_torch",
+    "estimated_memory_gb": 2.12
+  },
+  {
+    "name": "8-bit优化器",
+    "batch_size": 4,
+    "gradient_accumulation": 4,
+    "optimizer": "adamw_bnb_8bit",
+    "estimated_memory_gb": 2.6
+  },
+  {
+    "name": "FP16训练",
+    "batch_size": 4,
+    "gradient_accumulation": 4,
+    "optimizer": "adamw_torch_fp16",
+    "estimated_memory_gb": 3.9
+  }
+]

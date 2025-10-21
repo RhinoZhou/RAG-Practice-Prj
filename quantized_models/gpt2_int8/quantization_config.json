@@ -1,0 +1,17 @@
+{
+  "quantization_method": "int8",
+  "compute_dtype": "float16",
+  "quantized_layers": [
+    "query_key_value",
+    "dense",
+    "dense_h_to_4h",
+    "dense_4h_to_h",
+    "lm_head"
+  ],
+  "original_model_name": "gpt2",
+  "original_model_size_gb": 0.5,
+  "quantized_memory_usage_gb": 0.125,
+  "compression_ratio": 4.0,
+  "timestamp": "2025-10-21 16:27:29",
+  "version": "1.0"
+}

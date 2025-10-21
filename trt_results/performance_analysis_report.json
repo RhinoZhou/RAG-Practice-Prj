@@ -1,0 +1,42 @@
+{
+  "title": "TensorRT-LLM推理优化性能分析报告",
+  "generated_at": "2025-10-21 17:25:55",
+  "model_info": {
+    "model_name": "gpt2",
+    "precision": "fp16",
+    "build_time": "2025-10-21 17:10:57"
+  },
+  "performance_metrics": {
+    "avg_latency": 50.32426845232646,
+    "p90_latency": 51.57808876037598,
+    "throughput": 0.019871128398961768,
+    "total_runs": 15,
+    "input_count": 3,
+    "optimizations": {
+      "context_fmha": true,
+      "paged_kv_cache": true,
+      "remove_input_padding": true,
+      "cuda_graph": true,
+      "batch_scheduler": "max_utilization"
+    }
+  },
+  "optimizations": {
+    "context_fmha": true,
+    "paged_kv_cache": true,
+    "remove_input_padding": true,
+    "cuda_graph": true,
+    "batch_scheduler": "max_utilization"
+  },
+  "analysis": {
+    "latency": "需要优化 - 延迟超过200ms，建议进一步优化",
+    "throughput": "需要优化 - 吞吐量低于10请求/秒，可能无法满足高并发需求"
+  },
+  "recommendations": [
+    "上下文感知注意力机制已启用，这是关键优化之一",
+    "分页KV缓存已启用，有效减少内存占用",
+    "移除输入填充已启用，提升计算效率",
+    "考虑根据实际工作负载调整批处理大小以获得最佳性能",
+    "在生产环境中监控GPU内存使用情况，确保稳定性",
+    "定期检查PyTorch和Transformers库更新，新版本可能包含性能改进"
+  ]
+}

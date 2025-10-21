@@ -1,0 +1,104 @@
+{
+  "hybrid": {
+    "hits": 10,
+    "precision": 0.19999999999999998,
+    "recall": 1.0,
+    "f1": 0.3333333330555556,
+    "average_rank": 1.1,
+    "queries": [
+      {
+        "query": "如何申请企业账号？",
+        "relevant_doc_index": 0,
+        "hybrid_rank": 1,
+        "vector_rank": 1,
+        "bm25_rank": 1
+      },
+      {
+        "query": "密码忘记了怎么办？",
+        "relevant_doc_index": 1,
+        "hybrid_rank": 1,
+        "vector_rank": 1,
+        "bm25_rank": 1
+      },
+      {
+        "query": "API调用有次数限制吗？",
+        "relevant_doc_index": 2,
+        "hybrid_rank": 2,
+        "vector_rank": 2,
+        "bm25_rank": 1
+      },
+      {
+        "query": "数据导出支持哪些格式？",
+        "relevant_doc_index": 3,
+        "hybrid_rank": 1,
+        "vector_rank": 1,
+        "bm25_rank": 1
+      },
+      {
+        "query": "如何增加存储空间？",
+        "relevant_doc_index": 4,
+        "hybrid_rank": 1,
+        "vector_rank": 1,
+        "bm25_rank": 1
+      },
+      {
+        "query": "数据安全如何保障？",
+        "relevant_doc_index": 5,
+        "hybrid_rank": 1,
+        "vector_rank": 1,
+        "bm25_rank": 1
+      },
+      {
+        "query": "如何进行系统集成？",
+        "relevant_doc_index": 6,
+        "hybrid_rank": 1,
+        "vector_rank": 1,
+        "bm25_rank": 1
+      },
+      {
+        "query": "个人信息如何管理？",
+        "relevant_doc_index": 7,
+        "hybrid_rank": 1,
+        "vector_rank": 1,
+        "bm25_rank": 1
+      },
+      {
+        "query": "多用户协作功能介绍",
+        "relevant_doc_index": 8,
+        "hybrid_rank": 1,
+        "vector_rank": 1,
+        "bm25_rank": 1
+      },
+      {
+        "query": "系统更新频率是多少？",
+        "relevant_doc_index": 9,
+        "hybrid_rank": 1,
+        "vector_rank": 1,
+        "bm25_rank": 1
+      }
+    ],
+    "hit_rate": 1.0
+  },
+  "vector_only": {
+    "hits": 10,
+    "precision": 0.19999999999999998,
+    "recall": 1.0,
+    "f1": 0.3333333330555556,
+    "average_rank": 1.1,
+    "queries": [],
+    "hit_rate": 1.0
+  },
+  "bm25_only": {
+    "hits": 10,
+    "precision": 0.19999999999999998,
+    "recall": 1.0,
+    "f1": 0.3333333330555556,
+    "average_rank": 1.0,
+    "queries": [],
+    "hit_rate": 1.0
+  },
+  "improvements": {
+    "vs_vector": 0.0,
+    "vs_bm25": 0.0
+  }
+}

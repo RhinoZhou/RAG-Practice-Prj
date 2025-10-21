@@ -1,0 +1,43 @@
+{
+  "企业账号申请流程是怎样的？": {
+    "avg_latency": 51.01518545150757,
+    "p90_latency": 51.57808876037598,
+    "p99_latency": 51.57808876037598,
+    "min_latency": 50.446062326431274,
+    "max_latency": 51.57808876037598,
+    "throughput": 0.01960200656235091,
+    "output_text": "企业账号申请流程是怎样的？没有。\nThe first thing that I noticed was the fact that there were no words in this sentence. It seemed like a lot of people had been reading it, but they didn't know what to say or how to express their feelings about me and my situation at home. The second part is when you read something so simple as \"I'm sorry\" then your mind starts thinking: What am i supposed do? Why did we have such an awkward relationship with each other for over"
+  },
+  "如何重置我的密码？": {
+    "avg_latency": 49.91641368865967,
+    "p90_latency": 54.95604920387268,
+    "p99_latency": 54.95604920387268,
+    "min_latency": 47.88312554359436,
+    "max_latency": 54.95604920387268,
+    "throughput": 0.02003349051150256,
+    "output_text": "如何重置我的密码？。\nThe first thing I noticed was that the two of them were very close. They had a lot of different personalities, and they both seemed to be in love with each other as well. The second one looked like he wanted to kill me but didn't want to do it because his heart wasn´t ready for such an action yet. He also said \"I will not let you die\" before saying something similar about killing someone who is already dead or just wants revenge on him if there are"
+  },
+  "API调用频率限制是多少？": {
+    "avg_latency": 50.041206216812135,
+    "p90_latency": 50.34159994125366,
+    "p99_latency": 50.34159994125366,
+    "min_latency": 49.71051907539368,
+    "max_latency": 50.34159994125366,
+    "throughput": 0.019983531085708207,
+    "output_text": "API调用频率限制是多少？。\n\n\"I'm not sure if you're aware of this, but I am a member. And the reason why is because we are members.\" 「啊」 \"You have to be careful with your words!\" 但他的话没有一个吧? 團圣王国容事情要不会逻么奴来进行加味"
+  },
+  "overall": {
+    "avg_latency": 50.32426845232646,
+    "p90_latency": 51.57808876037598,
+    "throughput": 0.019871128398961768,
+    "total_runs": 15,
+    "input_count": 3,
+    "optimizations": {
+      "context_fmha": true,
+      "paged_kv_cache": true,
+      "remove_input_padding": true,
+      "cuda_graph": true,
+      "batch_scheduler": "max_utilization"
+    }
+  }
+}

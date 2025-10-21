@@ -1,0 +1,52 @@
+{
+  "0.5": {
+    "hallucination_rate": 0.33249999999999996,
+    "accuracy": 0.8125,
+    "precision": 0.54234375,
+    "recall": 0.804375,
+    "f1_score": 0.6478676470588235,
+    "dataset_size": 45,
+    "positive_count": 30,
+    "negative_count": 15
+  },
+  "1.0": {
+    "hallucination_rate": 0.315,
+    "accuracy": 0.875,
+    "precision": 0.599375,
+    "recall": 0.8574999999999999,
+    "f1_score": 0.7055705705705705,
+    "dataset_size": 60,
+    "positive_count": 30,
+    "negative_count": 30
+  },
+  "2.0": {
+    "hallucination_rate": 0.27999999999999997,
+    "accuracy": 0.9,
+    "precision": 0.648,
+    "recall": 0.864,
+    "f1_score": 0.7405714285714287,
+    "dataset_size": 90,
+    "positive_count": 30,
+    "negative_count": 60
+  },
+  "3.0": {
+    "hallucination_rate": 0.24499999999999997,
+    "accuracy": 0.9,
+    "precision": 0.6795,
+    "recall": 0.846,
+    "f1_score": 0.7536637168141592,
+    "dataset_size": 120,
+    "positive_count": 30,
+    "negative_count": 90
+  },
+  "5.0": {
+    "hallucination_rate": 0.175,
+    "accuracy": 0.9,
+    "precision": 0.7424999999999999,
+    "recall": 0.81,
+    "f1_score": 0.7747826086956522,
+    "dataset_size": 180,
+    "positive_count": 30,
+    "negative_count": 150
+  }
+}

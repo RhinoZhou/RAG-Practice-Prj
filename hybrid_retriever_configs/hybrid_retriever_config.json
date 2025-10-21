@@ -1,0 +1,14 @@
+{
+  "vector_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "top_k": 5,
+  "alpha": 0.7,
+  "corpus_size": 15,
+  "queries_count": 20,
+  "hnsw_params": {
+    "M": 64,
+    "efConstruction": 256,
+    "efSearch": 64
+  },
+  "rrf_k": 60,
+  "timestamp": "2025-10-21 17:45:09"
+}

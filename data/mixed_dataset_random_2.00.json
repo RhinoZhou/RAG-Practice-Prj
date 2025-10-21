@@ -1,0 +1,692 @@
+[
+  {
+    "id": "neg_47",
+    "category": "售后服务",
+    "question": "如何联系在线客服？",
+    "answer": "针对您提到的问题，建议您先尝试检查网络连接，如果问题仍然存在，可以检查网络连接。",
+    "is_relevant": false,
+    "original_answer": "您可以通过客服热线或线下服务中心申请售后服务，我们会在3个工作日内响应。"
+  },
+  {
+    "id": "faq_8",
+    "category": "订单处理",
+    "question": "订单一般多久能确认？",
+    "answer": "取消订单的申请将在1个工作日内处理，退款将在3-7个工作日内原路返回。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_58",
+    "category": "账户管理",
+    "question": "如何修改账户信息？",
+    "answer": "我们的产品采用了先进的大数据分析技术，能够有效解决决策支持问题。",
+    "is_relevant": false,
+    "original_answer": "出于安全考虑，您需要验证您的身份，然后才能进行此操作。"
+  },
+  {
+    "id": "neg_8",
+    "category": "售后服务",
+    "question": "安全防护软件的保修期是多久？",
+    "answer": "您可以通过客服热线或线下服务中心申请售后服务，我们会在3个工作日内响应。",
+    "is_relevant": false,
+    "original_answer": "我们提供两年的保修期，涵盖技术支持范围。"
+  },
+  {
+    "id": "neg_25",
+    "category": "售后服务",
+    "question": "如何联系在线客服？",
+    "answer": "针对您提到的问题，建议您先尝试重启系统，如果问题仍然存在，可以重新安装软件。",
+    "is_relevant": false,
+    "original_answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。"
+  },
+  {
+    "id": "neg_18",
+    "category": "售后服务",
+    "question": "如何申请安全防护软件的售后维修？",
+    "answer": "针对您提到的问题，建议您先尝试重启系统，如果问题仍然存在，可以重新安装软件。",
+    "is_relevant": false,
+    "original_answer": "我们提供一年的保修期，涵盖软件更新范围。"
+  },
+  {
+    "id": "faq_20",
+    "category": "售后服务",
+    "question": "售后服务的工作时间是什么时候？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_33",
+    "category": "售后服务",
+    "question": "安全防护软件的保修期是多久？",
+    "answer": "如需合并订单，请在提交前选择'合并配送'选项，或联系客服协助。",
+    "is_relevant": false,
+    "original_answer": "我们提供两年的保修期，涵盖技术支持范围。"
+  },
+  {
+    "id": "neg_45",
+    "category": "产品咨询",
+    "question": "智能助手软件的主要功能是什么？",
+    "answer": "维修完成后，我们会提供7天无理由退换服务，确保您的使用体验。",
+    "is_relevant": false,
+    "original_answer": "我们的产品采用了先进的大数据分析技术，能够有效解决决策支持问题。"
+  },
+  {
+    "id": "neg_59",
+    "category": "技术支持",
+    "question": "数据分析平台无法启动怎么办？",
+    "answer": "您可以通过线下服务中心或客服热线申请售后服务，我们会在3个工作日内响应。",
+    "is_relevant": false,
+    "original_answer": "最新版本已经修复了这个问题，建议您立即更新到版本1.1.75。"
+  },
+  {
+    "id": "neg_20",
+    "category": "售后服务",
+    "question": "如何申请客户关系管理系统的售后维修？",
+    "answer": "该产品主要提供用户行为分析和自动报告生成功能，非常适合普通个人用户使用。",
+    "is_relevant": false,
+    "original_answer": "您可以通过线下服务中心或客服热线申请售后服务，我们会在3个工作日内响应。"
+  },
+  {
+    "id": "neg_31",
+    "category": "账户管理",
+    "question": "如何修改账户信息？",
+    "answer": "价格方面，我们提供多种套餐选择，从1999元/年到2999元/年不等，可以满足不同需求。",
+    "is_relevant": false,
+    "original_answer": "此更改将在24小时内生效，请刷新页面查看更新后的信息。"
+  },
+  {
+    "id": "neg_42",
+    "category": "账户管理",
+    "question": "如何修改账户信息？",
+    "answer": "您可以在'我的账户'-'订单管理'页面查看订单的实时状态。",
+    "is_relevant": false,
+    "original_answer": "出于安全考虑，您需要验证您的身份，然后才能进行此操作。"
+  },
+  {
+    "id": "faq_10",
+    "category": "订单处理",
+    "question": "订单提交后可以修改吗？",
+    "answer": "如需合并订单，请在提交前选择'合并配送'选项，或联系客服协助。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_52",
+    "category": "产品咨询",
+    "question": "云存储服务适合哪些用户使用？",
+    "answer": "我们提供两年的保修期，涵盖技术支持范围。",
+    "is_relevant": false,
+    "original_answer": "该产品主要提供用户行为分析和自动报告生成功能，非常适合普通个人用户使用。"
+  },
+  {
+    "id": "faq_12",
+    "category": "技术支持",
+    "question": "如何优化数据分析平台的性能？",
+    "answer": "这个错误通常是由于系统资源不足导致的，您可以通过参考用户手册第X章来解决。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_24",
+    "category": "订单处理",
+    "question": "订单提交后可以修改吗？",
+    "answer": "价格方面，我们提供多种套餐选择，从1999元/年到2999元/年不等，可以满足不同需求。",
+    "is_relevant": false,
+    "original_answer": "您可以在'我的账户'-'订单管理'页面查看订单的实时状态。"
+  },
+  {
+    "id": "faq_13",
+    "category": "售后服务",
+    "question": "如何申请云存储服务的售后维修？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_9",
+    "category": "售后服务",
+    "question": "如何联系在线客服？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": false,
+    "original_answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。"
+  },
+  {
+    "id": "faq_25",
+    "category": "产品咨询",
+    "question": "数据分析平台的主要功能是什么？",
+    "answer": "与竞品相比，我们的产品在价格优势和用户友好度方面具有明显优势。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_12",
+    "category": "产品咨询",
+    "question": "数据分析平台的主要功能是什么？",
+    "answer": "出于安全考虑，您需要验证您的身份，然后才能进行此操作。",
+    "is_relevant": false,
+    "original_answer": "与竞品相比，我们的产品在价格优势和用户友好度方面具有明显优势。"
+  },
+  {
+    "id": "faq_7",
+    "category": "售后服务",
+    "question": "如何申请客户关系管理系统的售后维修？",
+    "answer": "您可以通过线下服务中心或客服热线申请售后服务，我们会在3个工作日内响应。",
+    "is_relevant": true
+  },
+  {
+    "id": "faq_24",
+    "category": "售后服务",
+    "question": "如何申请安全防护软件的售后维修？",
+    "answer": "我们提供一年的保修期，涵盖软件更新范围。",
+    "is_relevant": true
+  },
+  {
+    "id": "faq_16",
+    "category": "产品咨询",
+    "question": "智能助手软件的主要功能是什么？",
+    "answer": "我们的产品采用了先进的大数据分析技术，能够有效解决决策支持问题。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_19",
+    "category": "产品咨询",
+    "question": "智能助手软件的主要功能是什么？",
+    "answer": "最新版本已经修复了这个问题，建议您立即更新到版本1.1.75。",
+    "is_relevant": false,
+    "original_answer": "与竞品相比，我们的产品在价格优势和价格优势方面具有明显优势。"
+  },
+  {
+    "id": "neg_60",
+    "category": "技术支持",
+    "question": "如何更新安全防护软件到最新版本？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": false,
+    "original_answer": "这个错误通常是由于系统资源不足导致的，您可以通过重置相关设置来解决。"
+  },
+  {
+    "id": "faq_29",
+    "category": "产品咨询",
+    "question": "云存储服务的主要功能是什么？",
+    "answer": "该产品主要提供用户行为分析和用户行为分析功能，非常适合普通个人用户使用。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_27",
+    "category": "售后服务",
+    "question": "如何联系在线客服？",
+    "answer": "我们提供两年的保修期，涵盖技术支持范围。",
+    "is_relevant": false,
+    "original_answer": "您可以通过客服热线或线下服务中心申请售后服务，我们会在3个工作日内响应。"
+  },
+  {
+    "id": "neg_50",
+    "category": "售后服务",
+    "question": "售后问题一般多久能解决？",
+    "answer": "这个错误通常是由于系统资源不足导致的，您可以通过重置相关设置来解决。",
+    "is_relevant": false,
+    "original_answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。"
+  },
+  {
+    "id": "neg_57",
+    "category": "技术支持",
+    "question": "云存储服务出现错误代码E002是什么意思？",
+    "answer": "价格方面，我们提供多种套餐选择，从1999元/年到2999元/年不等，可以满足不同需求。",
+    "is_relevant": false,
+    "original_answer": "针对您提到的问题，建议您先尝试重启系统，如果问题仍然存在，可以重新安装软件。"
+  },
+  {
+    "id": "faq_3",
+    "category": "售后服务",
+    "question": "如何联系在线客服？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_56",
+    "category": "技术支持",
+    "question": "云存储服务出现错误代码E002是什么意思？",
+    "answer": "最新版本已经修复了这个问题，建议您立即更新到版本1.1.75。",
+    "is_relevant": false,
+    "original_answer": "针对您提到的问题，建议您先尝试重启系统，如果问题仍然存在，可以重新安装软件。"
+  },
+  {
+    "id": "faq_19",
+    "category": "售后服务",
+    "question": "售后问题一般多久能解决？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_5",
+    "category": "账户管理",
+    "question": "如何修改账户信息？",
+    "answer": "如需合并订单，请在提交前选择'合并配送'选项，或联系客服协助。",
+    "is_relevant": false,
+    "original_answer": "此更改将在24小时内生效，请刷新页面查看更新后的信息。"
+  },
+  {
+    "id": "faq_28",
+    "category": "账户管理",
+    "question": "如何修改账户信息？",
+    "answer": "出于安全考虑，您需要验证您的身份，然后才能进行此操作。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_30",
+    "category": "售后服务",
+    "question": "如何申请云存储服务的售后维修？",
+    "answer": "价格方面，我们提供多种套餐选择，从1999元/年到2999元/年不等，可以满足不同需求。",
+    "is_relevant": false,
+    "original_answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。"
+  },
+  {
+    "id": "neg_40",
+    "category": "订单处理",
+    "question": "订单提交后可以修改吗？",
+    "answer": "我们的产品采用了先进的大数据分析技术，能够有效解决决策支持问题。",
+    "is_relevant": false,
+    "original_answer": "如需合并订单，请在提交前选择'合并配送'选项，或联系客服协助。"
+  },
+  {
+    "id": "neg_35",
+    "category": "售后服务",
+    "question": "安全防护软件的保修期是多久？",
+    "answer": "与竞品相比，我们的产品在价格优势和价格优势方面具有明显优势。",
+    "is_relevant": false,
+    "original_answer": "我们提供两年的保修期，涵盖技术支持范围。"
+  },
+  {
+    "id": "neg_51",
+    "category": "技术支持",
+    "question": "云存储服务出现错误代码E002是什么意思？",
+    "answer": "这个错误通常是由于系统资源不足导致的，您可以通过参考用户手册第X章来解决。",
+    "is_relevant": false,
+    "original_answer": "针对您提到的问题，建议您先尝试重启系统，如果问题仍然存在，可以重新安装软件。"
+  },
+  {
+    "id": "neg_28",
+    "category": "账户管理",
+    "question": "忘记密码怎么办？",
+    "answer": "您可以在'我的账户'-'订单管理'页面查看订单的实时状态。",
+    "is_relevant": false,
+    "original_answer": "出于安全考虑，您需要验证您的身份，然后才能进行此操作。"
+  },
+  {
+    "id": "neg_2",
+    "category": "订单处理",
+    "question": "如何取消订单？",
+    "answer": "这个错误通常是由于系统资源不足导致的，您可以通过参考用户手册第X章来解决。",
+    "is_relevant": false,
+    "original_answer": "取消订单的申请将在1个工作日内处理，退款将在3-7个工作日内原路返回。"
+  },
+  {
+    "id": "neg_15",
+    "category": "产品咨询",
+    "question": "智能助手软件的主要功能是什么？",
+    "answer": "针对您提到的问题，建议您先尝试检查网络连接，如果问题仍然存在，可以检查网络连接。",
+    "is_relevant": false,
+    "original_answer": "我们的产品采用了先进的大数据分析技术，能够有效解决决策支持问题。"
+  },
+  {
+    "id": "neg_10",
+    "category": "订单处理",
+    "question": "订单一般多久能确认？",
+    "answer": "该产品主要提供数据分析和数据分析功能，非常适合市场决策者使用。",
+    "is_relevant": false,
+    "original_answer": "取消订单的申请将在1个工作日内处理，退款将在3-7个工作日内原路返回。"
+  },
+  {
+    "id": "neg_22",
+    "category": "售后服务",
+    "question": "售后服务的工作时间是什么时候？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": false,
+    "original_answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。"
+  },
+  {
+    "id": "neg_11",
+    "category": "售后服务",
+    "question": "如何申请安全防护软件的售后维修？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": false,
+    "original_answer": "我们提供一年的保修期，涵盖软件更新范围。"
+  },
+  {
+    "id": "faq_5",
+    "category": "售后服务",
+    "question": "售后服务的工作时间是什么时候？",
+    "answer": "维修完成后，我们会提供7天无理由退换服务，确保您的使用体验。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_34",
+    "category": "售后服务",
+    "question": "售后服务的工作时间是什么时候？",
+    "answer": "针对您提到的问题，建议您先尝试检查网络连接，如果问题仍然存在，可以检查网络连接。",
+    "is_relevant": false,
+    "original_answer": "维修完成后，我们会提供7天无理由退换服务，确保您的使用体验。"
+  },
+  {
+    "id": "faq_15",
+    "category": "账户管理",
+    "question": "如何修改账户信息？",
+    "answer": "此更改将在24小时内生效，请刷新页面查看更新后的信息。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_46",
+    "category": "账户管理",
+    "question": "如何修改账户信息？",
+    "answer": "价格方面，我们提供多种套餐选择，从1999元/年到2999元/年不等，可以满足不同需求。",
+    "is_relevant": false,
+    "original_answer": "出于安全考虑，您需要验证您的身份，然后才能进行此操作。"
+  },
+  {
+    "id": "neg_4",
+    "category": "订单处理",
+    "question": "如何取消订单？",
+    "answer": "出于安全考虑，您需要验证您的身份，然后才能进行此操作。",
+    "is_relevant": false,
+    "original_answer": "取消订单的申请将在1个工作日内处理，退款将在3-7个工作日内原路返回。"
+  },
+  {
+    "id": "neg_26",
+    "category": "技术支持",
+    "question": "如何优化数据分析平台的性能？",
+    "answer": "与竞品相比，我们的产品在价格优势和用户友好度方面具有明显优势。",
+    "is_relevant": false,
+    "original_answer": "这个错误通常是由于系统资源不足导致的，您可以通过参考用户手册第X章来解决。"
+  },
+  {
+    "id": "faq_26",
+    "category": "产品咨询",
+    "question": "云存储服务适合哪些用户使用？",
+    "answer": "该产品主要提供用户行为分析和自动报告生成功能，非常适合普通个人用户使用。",
+    "is_relevant": true
+  },
+  {
+    "id": "faq_27",
+    "category": "订单处理",
+    "question": "订单提交后可以修改吗？",
+    "answer": "您可以在'我的账户'-'订单管理'页面查看订单的实时状态。",
+    "is_relevant": true
+  },
+  {
+    "id": "faq_4",
+    "category": "售后服务",
+    "question": "如何联系在线客服？",
+    "answer": "您可以通过客服热线或线下服务中心申请售后服务，我们会在3个工作日内响应。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_49",
+    "category": "售后服务",
+    "question": "如何申请客户关系管理系统的售后维修？",
+    "answer": "取消订单的申请将在1个工作日内处理，退款将在3-7个工作日内原路返回。",
+    "is_relevant": false,
+    "original_answer": "您可以通过线下服务中心或客服热线申请售后服务，我们会在3个工作日内响应。"
+  },
+  {
+    "id": "neg_39",
+    "category": "账户管理",
+    "question": "如何修改账户信息？",
+    "answer": "我们提供两年的保修期，涵盖技术支持范围。",
+    "is_relevant": false,
+    "original_answer": "出于安全考虑，您需要验证您的身份，然后才能进行此操作。"
+  },
+  {
+    "id": "faq_14",
+    "category": "订单处理",
+    "question": "订单提交后可以修改吗？",
+    "answer": "如需合并订单，请在提交前选择'合并配送'选项，或联系客服协助。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_37",
+    "category": "技术支持",
+    "question": "如何优化数据分析平台的性能？",
+    "answer": "针对您提到的问题，建议您先尝试重启系统，如果问题仍然存在，可以重新安装软件。",
+    "is_relevant": false,
+    "original_answer": "这个错误通常是由于系统资源不足导致的，您可以通过参考用户手册第X章来解决。"
+  },
+  {
+    "id": "neg_48",
+    "category": "产品咨询",
+    "question": "数据分析平台的主要功能是什么？",
+    "answer": "针对您提到的问题，建议您先尝试重启系统，如果问题仍然存在，可以重新安装软件。",
+    "is_relevant": false,
+    "original_answer": "与竞品相比，我们的产品在价格优势和用户友好度方面具有明显优势。"
+  },
+  {
+    "id": "faq_2",
+    "category": "技术支持",
+    "question": "客户关系管理系统出现错误代码P302是什么意思？",
+    "answer": "针对您提到的问题，建议您先尝试检查网络连接，如果问题仍然存在，可以检查网络连接。",
+    "is_relevant": true
+  },
+  {
+    "id": "faq_9",
+    "category": "技术支持",
+    "question": "数据分析平台无法启动怎么办？",
+    "answer": "最新版本已经修复了这个问题，建议您立即更新到版本1.1.75。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_3",
+    "category": "技术支持",
+    "question": "数据分析平台无法启动怎么办？",
+    "answer": "该产品主要提供用户行为分析和自动报告生成功能，非常适合普通个人用户使用。",
+    "is_relevant": false,
+    "original_answer": "最新版本已经修复了这个问题，建议您立即更新到版本1.1.75。"
+  },
+  {
+    "id": "neg_23",
+    "category": "账户管理",
+    "question": "如何修改账户信息？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": false,
+    "original_answer": "此更改将在24小时内生效，请刷新页面查看更新后的信息。"
+  },
+  {
+    "id": "faq_23",
+    "category": "技术支持",
+    "question": "如何更新安全防护软件到最新版本？",
+    "answer": "这个错误通常是由于系统资源不足导致的，您可以通过重置相关设置来解决。",
+    "is_relevant": true
+  },
+  {
+    "id": "faq_17",
+    "category": "订单处理",
+    "question": "如何取消订单？",
+    "answer": "取消订单的申请将在1个工作日内处理，退款将在3-7个工作日内原路返回。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_32",
+    "category": "售后服务",
+    "question": "如何申请安全防护软件的售后维修？",
+    "answer": "该产品主要提供数据分析和数据分析功能，非常适合市场决策者使用。",
+    "is_relevant": false,
+    "original_answer": "我们提供一年的保修期，涵盖软件更新范围。"
+  },
+  {
+    "id": "neg_41",
+    "category": "账户管理",
+    "question": "如何修改账户信息？",
+    "answer": "维修完成后，我们会提供7天无理由退换服务，确保您的使用体验。",
+    "is_relevant": false,
+    "original_answer": "此更改将在24小时内生效，请刷新页面查看更新后的信息。"
+  },
+  {
+    "id": "neg_43",
+    "category": "售后服务",
+    "question": "售后问题一般多久能解决？",
+    "answer": "价格方面，我们提供多种套餐选择，从1999元/年到2999元/年不等，可以满足不同需求。",
+    "is_relevant": false,
+    "original_answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。"
+  },
+  {
+    "id": "neg_13",
+    "category": "订单处理",
+    "question": "订单一般多久能确认？",
+    "answer": "您可以通过线下服务中心或客服热线申请售后服务，我们会在3个工作日内响应。",
+    "is_relevant": false,
+    "original_answer": "取消订单的申请将在1个工作日内处理，退款将在3-7个工作日内原路返回。"
+  },
+  {
+    "id": "neg_29",
+    "category": "技术支持",
+    "question": "客户关系管理系统出现错误代码P302是什么意思？",
+    "answer": "最新版本已经修复了这个问题，建议您立即更新到版本1.1.75。",
+    "is_relevant": false,
+    "original_answer": "针对您提到的问题，建议您先尝试检查网络连接，如果问题仍然存在，可以检查网络连接。"
+  },
+  {
+    "id": "neg_7",
+    "category": "订单处理",
+    "question": "订单提交后可以修改吗？",
+    "answer": "您可以在'我的账户'-'订单管理'页面查看订单的实时状态。",
+    "is_relevant": false,
+    "original_answer": "如需合并订单，请在提交前选择'合并配送'选项，或联系客服协助。"
+  },
+  {
+    "id": "neg_1",
+    "category": "售后服务",
+    "question": "如何申请云存储服务的售后维修？",
+    "answer": "我们提供一年的保修期，涵盖软件更新范围。",
+    "is_relevant": false,
+    "original_answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。"
+  },
+  {
+    "id": "neg_14",
+    "category": "售后服务",
+    "question": "售后问题一般多久能解决？",
+    "answer": "此更改将在24小时内生效，请刷新页面查看更新后的信息。",
+    "is_relevant": false,
+    "original_answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。"
+  },
+  {
+    "id": "faq_30",
+    "category": "技术支持",
+    "question": "云存储服务出现错误代码E002是什么意思？",
+    "answer": "针对您提到的问题，建议您先尝试重启系统，如果问题仍然存在，可以重新安装软件。",
+    "is_relevant": true
+  },
+  {
+    "id": "faq_1",
+    "category": "订单处理",
+    "question": "如何取消订单？",
+    "answer": "订单提交后30分钟内可以修改，超过时间需要联系客服协助处理。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_36",
+    "category": "订单处理",
+    "question": "订单提交后可以修改吗？",
+    "answer": "该产品主要提供用户行为分析和自动报告生成功能，非常适合普通个人用户使用。",
+    "is_relevant": false,
+    "original_answer": "如需合并订单，请在提交前选择'合并配送'选项，或联系客服协助。"
+  },
+  {
+    "id": "neg_17",
+    "category": "售后服务",
+    "question": "如何申请安全防护软件的售后维修？",
+    "answer": "取消订单的申请将在1个工作日内处理，退款将在3-7个工作日内原路返回。",
+    "is_relevant": false,
+    "original_answer": "我们提供一年的保修期，涵盖软件更新范围。"
+  },
+  {
+    "id": "faq_11",
+    "category": "售后服务",
+    "question": "安全防护软件的保修期是多久？",
+    "answer": "我们提供两年的保修期，涵盖技术支持范围。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_38",
+    "category": "订单处理",
+    "question": "订单提交后可以修改吗？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": false,
+    "original_answer": "您可以在'我的账户'-'订单管理'页面查看订单的实时状态。"
+  },
+  {
+    "id": "neg_54",
+    "category": "售后服务",
+    "question": "如何联系在线客服？",
+    "answer": "您可以在'我的账户'-'订单管理'页面查看订单的实时状态。",
+    "is_relevant": false,
+    "original_answer": "您可以通过客服热线或线下服务中心申请售后服务，我们会在3个工作日内响应。"
+  },
+  {
+    "id": "neg_16",
+    "category": "产品咨询",
+    "question": "云存储服务的主要功能是什么？",
+    "answer": "这个错误通常是由于系统资源不足导致的，您可以通过参考用户手册第X章来解决。",
+    "is_relevant": false,
+    "original_answer": "该产品主要提供用户行为分析和用户行为分析功能，非常适合普通个人用户使用。"
+  },
+  {
+    "id": "faq_22",
+    "category": "产品咨询",
+    "question": "如何选择适合我的智能助手软件版本？",
+    "answer": "该产品主要提供数据分析和数据分析功能，非常适合市场决策者使用。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_6",
+    "category": "订单处理",
+    "question": "订单一般多久能确认？",
+    "answer": "我们提供一年的保修期，涵盖软件更新范围。",
+    "is_relevant": false,
+    "original_answer": "取消订单的申请将在1个工作日内处理，退款将在3-7个工作日内原路返回。"
+  },
+  {
+    "id": "neg_53",
+    "category": "产品咨询",
+    "question": "如何选择适合我的智能助手软件版本？",
+    "answer": "我们提供两年的保修期，涵盖技术支持范围。",
+    "is_relevant": false,
+    "original_answer": "该产品主要提供数据分析和数据分析功能，非常适合市场决策者使用。"
+  },
+  {
+    "id": "neg_44",
+    "category": "产品咨询",
+    "question": "云存储服务的主要功能是什么？",
+    "answer": "售后服务热线工作时间为周一至周五 9:00-18:00，也可以通过官网在线客服获得支持。",
+    "is_relevant": false,
+    "original_answer": "该产品主要提供用户行为分析和用户行为分析功能，非常适合普通个人用户使用。"
+  },
+  {
+    "id": "neg_55",
+    "category": "产品咨询",
+    "question": "智能助手软件的主要功能是什么？",
+    "answer": "您可以通过客服热线或线下服务中心申请售后服务，我们会在3个工作日内响应。",
+    "is_relevant": false,
+    "original_answer": "与竞品相比，我们的产品在价格优势和价格优势方面具有明显优势。"
+  },
+  {
+    "id": "faq_6",
+    "category": "产品咨询",
+    "question": "智能助手软件的主要功能是什么？",
+    "answer": "与竞品相比，我们的产品在价格优势和价格优势方面具有明显优势。",
+    "is_relevant": true
+  },
+  {
+    "id": "faq_21",
+    "category": "账户管理",
+    "question": "忘记密码怎么办？",
+    "answer": "出于安全考虑，您需要验证您的身份，然后才能进行此操作。",
+    "is_relevant": true
+  },
+  {
+    "id": "faq_18",
+    "category": "产品咨询",
+    "question": "客户关系管理系统和市场同类产品A相比有什么优势？",
+    "answer": "价格方面，我们提供多种套餐选择，从1999元/年到2999元/年不等，可以满足不同需求。",
+    "is_relevant": true
+  },
+  {
+    "id": "neg_21",
+    "category": "订单处理",
+    "question": "订单提交后可以修改吗？",
+    "answer": "出于安全考虑，您需要验证您的身份，然后才能进行此操作。",
+    "is_relevant": false,
+    "original_answer": "如需合并订单，请在提交前选择'合并配送'选项，或联系客服协助。"
+  }
+]

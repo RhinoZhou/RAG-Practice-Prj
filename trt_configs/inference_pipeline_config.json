@@ -1,0 +1,42 @@
+{
+  "engine_info": {
+    "engine_path": "./trt_engines\\gpt2_fp16.engine",
+    "config": {
+      "model_path": "gpt2",
+      "precision": "fp16",
+      "max_batch_size": 8,
+      "max_input_len": 1024,
+      "max_output_len": 256,
+      "max_beam_width": 1,
+      "enable_context_fmha": true,
+      "enable_paged_kv_cache": true,
+      "remove_input_padding": true,
+      "strongly_typed": false,
+      "int8_kv_cache": false,
+      "build_time": "2025-10-21 17:10:57"
+    },
+    "is_simulation": true,
+    "status": "success"
+  },
+  "sampling_config": {
+    "end_id": 2,
+    "pad_id": 0,
+    "top_k": 40,
+    "top_p": 0.85,
+    "temperature": 0.7,
+    "repetition_penalty": 1.1,
+    "max_new_tokens": 100
+  },
+  "optimization_enabled": true,
+  "batch_size": 8,
+  "context_fmha": true,
+  "paged_kv_cache": true,
+  "remove_input_padding": true,
+  "optimizations": {
+    "context_fmha": true,
+    "paged_kv_cache": true,
+    "remove_input_padding": true,
+    "cuda_graph": true,
+    "batch_scheduler": "max_utilization"
+  }
+}

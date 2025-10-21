@@ -1,0 +1,15 @@
+{
+  "r": 16,
+  "lora_alpha": 32,
+  "target_modules": [
+    "W_pack",
+    "o_proj",
+    "gate_proj",
+    "down_proj",
+    "up_proj"
+  ],
+  "lora_dropout": 0.05,
+  "bias": "none",
+  "task_type": "CAUSAL_LM",
+  "description": "为Baichuan2-13B-Chat模型优化的LoRA配置"
+}
