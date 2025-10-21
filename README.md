@@ -49,3 +49,12 @@
 ## 15-Assessment_Optimization
 评估与性能提升
 
+## 16-Complex_Retrieval_Strategies
+复杂检索策略和新范式
+
+## 17-Fine_tuning
+RAG模型微调
+
+
+
+
