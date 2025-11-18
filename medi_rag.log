@@ -1,0 +1,20 @@
+2025-11-14 07:35:36,788 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-14 07:35:36,821 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-14 07:35:36,829 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-11-14 07:36:47,320 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-14 07:36:47,347 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-14 07:36:47,354 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-11-14 07:38:15,837 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-14 07:38:15,871 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-14 07:38:15,883 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-11-14 07:38:43,214 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-14 07:38:43,238 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-14 07:38:43,246 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-11-14 07:39:27,028 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-14 07:39:27,065 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-14 07:39:27,074 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-11-14 07:39:56,447 - datasets - INFO - TensorFlow version 2.20.0 available.
+2025-11-14 19:07:57,121 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-14 19:07:57,156 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-14 19:07:57,169 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-11-14 19:08:23,485 - datasets - INFO - TensorFlow version 2.20.0 available.

@@ -1,0 +1,972 @@
+[
+    {
+        "id": "chunk0",
+        "chunk": "激 光 生 物 学 报 ACTA LASER BIOLOGY SINICA Vol. 33 No. 5 Oct. 2024 第33 卷第5 期 2024 年10 月 收稿日期：2024-03-15",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk1",
+        "chunk": "基金项目：国家重点研发计划项目（2022YFA0912500）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk2",
+        "chunk": "深圳市科技计划资助项目（RCBS20221008093108030， ZDSYS20230626090759006）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk3",
+        "chunk": "* 通信作者：王芳，研究员，主要从事微生物与合成生物学的研究",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk4",
+        "chunk": "E-mail: yb57660@connect.um.edu.mo",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk5",
+        "chunk": "合成微生物与水污染治理应用 林雅倩1，帅菲斐2，王 芳2* （1. 广西中医药大学，南宁 530200",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk6",
+        "chunk": "2. 深圳市微生物基因组修饰编辑与应用重点实验室，重症医学科，深圳市 转化医学研究院，深圳市第二人民医院，深圳 518035） 摘 要：水污染是当今世界面临的严峻环境问题之一，影响人们的生活质量和经济的可持续发展",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk7",
+        "chunk": "利用微生物 的降解能力以及与之相应的生物修复技术是去除环境污染物以及修复水环境的重要手段",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk8",
+        "chunk": "但是，由于水污染环 境的复杂现状，传统微生物学治理方法受到了限制",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk9",
+        "chunk": "运用合成生物学“设计-构建-测试-学习”的理念，对目标微 生物底盘进行从头设计、改造，从而获得对污染物具有高效、广谱降解能力的合成微生物，不仅可满足现在复杂污 水环境的治理要求，还能实现绿色、高效的循环治理，是未来合成生物学的发展应用方向之一",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk10",
+        "chunk": "本文简要介绍了 水污染的现状、常用的治理技术以及当今合成微生物在水污染治理中的应用，重点介绍了合成微生物底盘的种类 以及通过底盘改造构建的合成微生物在水污染治理中的优势，以期通过合成生物学手段不断完善和优化污染物 降解和水污染治理技术，为实现水环境污染的高效治理提供参考",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk11",
+        "chunk": "环境治理 中图分类号：X52 文献标志码：A DOI：10.3969/j.issn.1007-7146.2024.05.004 Application of Synthetic Microorganisms in Water Pollution Prevention and Control LIN Yaqian1, SHUAI Feifei2, WANG Fang2* (1. Guangxi University of Chinese Medicine, Nanning 530200, China; 2. Intensive Care Unit, Shenzhen Key Laboratory of Microbiology in Genomic Modification & Editing and Application, Shenzhen Institute of Translational Medicine, Shenzhen Second People′s Hospital, Shenzhen 518035, China) Abstract: Water pollution is one of the most serious environment problems that affect people′s life quality and sustainable economic development worldwide. The degradation capability of microorganisms endows them advantages in environmental pollutants elimination and water environments repairment, with the utilization of diverse bioremediation technologies. However, due to the complex situation of water pollution environment, traditional microbiological treatment methodology is restricted and limited. With the engineering principle Design-Build-Test-Learn in synthetic biology, the designed and modified synthetic mi- croorganisms with efficient and broad-spectrum degradation ability for pollutants has attracted the researchers′ attention. The synthetic microorganisms could not only meet the wastewater treatment requirements within complex pollutants, but also could achieve the green, efficient circular treatment goal. Therefore, design and construction of synthetic microorganisms for water pollution control has becoming one of the future development and application direction of synthetic biology. Herein, we intro- duced the current situation of water pollution, the treatment technologies classically utilized, and the synthetic microorganisms′ application in water pollution control. This review focuses on different types of microbial chassis in synthetic biology and the 419 第5 期 水是生命的起源，是生命赖以生存的根本，是 经济生产不可替代的基础，是维护生态环境的要 素",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk12",
+        "chunk": "但随着科技的发展，大量环境污染物被排放， 水环境急速恶化，缺水已经成为人类日常生活面临 的主要问题之一［1］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk13",
+        "chunk": "据推断，到2050 年，全球一半 人口将面临严重的水资源短缺［1］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk14",
+        "chunk": "当前，我国生态 文明建设以降碳为重点战略方向，污水治理既是污 染防治的重要组成，也是温室气体减排的重要领 域",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk15",
+        "chunk": "推进减污降碳协同增效已成为我国新发展阶 段经济社会发展全面绿色转型的必然选择",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk16",
+        "chunk": "所以， 为了地球生态健康，也为了实现经济的可循环发 展，对水污染的治理刻不容缓",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk17",
+        "chunk": "针对不同的水污染情况，可应用物理法、化学 法和生物法等治理方法，其中基于微生物降解转化 能力进行的生物法在实际治理中发挥着关键作用， 但是由于单一微生物降解易受多重环境因素影响 等限制，其作用范围和应用场景极其有限",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk18",
+        "chunk": "随着合 成生物学作为“第三次生物科学革命”的发展，有 目的地设计、改造甚至重新合成构建生物体成为 可能，从而加速了特定污染物从无法降解到能够降 解、从低效降解到高效降解的转变［2］，为污水的高 效治理带来了新方向",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk19",
+        "chunk": "采用合成生物学使能技术，以工程化设计为理 念，对底盘微生物进行定向设计、改造、从头合成和 构建，最终构建可感知、报告并降解特定污染物的 合成微生物，是实现高效、绿色、经济、智能化治理 污水目标的未来方向",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk20",
+        "chunk": "本文简述了水污染的不同 来源、现有的不同治理方案，并介绍了可用于水污 染治理的代表性合成微生物底盘种类及对其底盘 的改造构建方法，最后对合成微生物在水污染治理 中的优势进行了评述",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk21",
+        "chunk": "1 水污染的现状 水是我们日常生活中最重要的一类资源",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk22",
+        "chunk": "地 球上大约71% 的面积被水覆盖，其中97.5% 是海 水，只有2.5% 的淡水可供人类直接使用［3］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk23",
+        "chunk": "随着全 球经济和人口的快速增长，工业化、城市化步伐加 快，多种有害污染物进入环境中，由于环境污染物 的排放和水环境的恶化，水污染已成为全球面临并 且日益严峻的挑战［4］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk24",
+        "chunk": "污水中的大量重金属和有机 污染物，不仅严重威胁环境和生态平衡，而且危害 了人类健康，对经济增长和社会发展产生了显著的 负面影响［4-5］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk25",
+        "chunk": "目前水污染的主要来源有工业污染、 农业污染、医疗污染以及生活污染等（图1）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk26",
+        "chunk": "1.1 工业污水 随着全球工业化和城市化速度的加快，工业部 门用水增加，其用水量约占全球的22%，污水排放 量约占全球污水排放总量的28%［6-7］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk27",
+        "chunk": "常见的工业 水污染物包括汞（Hg）、镉（Cd）、砷（As）等有毒重金 属，石油以及氯化物等，根据化学性质可分为无机 污染物和有机污染物［5-6］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk28",
+        "chunk": "在众多的工业机构中， 来自造纸业、煤炭制造业、石油化工业、纺织业和制 药业的废水基本上是剧毒的，已被证实对周围环境 存在最高程度的危害性［8］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk29",
+        "chunk": "1.2 农业污水 全球人口正在以惊人的速度增长，预计到2050 年，全球粮食产量需要增加50%［9］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk30",
+        "chunk": "为了满足全 球的粮食需要，在农作物种植阶段，大量农药被采 用以提高农作物的产量和质量",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk31",
+        "chunk": "基于不同的作用 目的，农药可分为除草剂、杀虫剂、灭鼠剂、杀菌剂 等，主要成分有硫磺、有毒重金属、生物碱和有机 磷等［9-10］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk32",
+        "chunk": "虽然是为了满足粮食需要，但是过度使 用农药会破坏生态系统、损害水质并造成人体损 伤［11］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk33",
+        "chunk": "农药可通过与土壤吸附结合，破坏土壤团粒 结构，并从中渗入地下水，造成地下水与地表水的 污染",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk34",
+        "chunk": "4，4′- 二氯二苯基二氯乙烷、毒死蜱（chlorpy- rifos，CP）和二嗪农等一些可溶性、挥发性农药常在 空气中富集，在降雨时，会重新汇集并随着地表水 渗透到土壤、地下水之中，从而加剧水污染的严重 程度［11-12］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk35",
+        "chunk": "merits of application of synthetic microorganisms in water pollution control. This review will facilitate the performance optimi- zation of pollutant degradation and wastewater treatment via synthetic biology and provide reference for the efficient treatment of wastewater environment. Key words: synthetic microorganisms; microbial chassis; water pollution; bioremediation technology; environmental gover- nance （Acta Laser Biology Sinica, 2024, 33(5): 418-431） 林雅倩等：合成微生物与水污染治理应用 林雅倩等：合成微生物与水污染治理应用 激 光 生 物 学 报 420 第 33 卷 1.3 医疗废水 医疗废水主要来源于医院，其成分十分复杂， 包含各种病原微生物、抗生素、有毒有机化合物、放 射性元素和离子污染物等［13］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk36",
+        "chunk": "根据科室不同，医疗 系统产生的污水成分也不尽相同",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk37",
+        "chunk": "如放射科污水 中存在造影剂，手术室排出的污水含大量麻醉类药 物［14-16］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk38",
+        "chunk": "总体来说，医疗废水具有成分复杂、难降 解甚至传染性等特点",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk39",
+        "chunk": "值得强调的是，当今大多数 医疗废水往往没有经过特殊处理就与生活污水一 起排入了污水处理厂［17-18］，这就使许多药物和微生 物在不发生结构和毒性明显变化的情况下，通过污 水处理厂并进入了地表水［13］，从而进一步导致了抗 生素耐药细菌的产生和传播［18］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk40",
+        "chunk": "1.4 生活污水 生活污水由70% 的有机物和30% 的无机物组 成，通常分为两大类，即黑水和灰水［19-20］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk41",
+        "chunk": "黑水是 厕所排放的富含有机物、氮和磷的污水，主要有粪 便、尿液和食物残渣等",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk42",
+        "chunk": "灰水是用于洗涤或洗澡的 废水，包括来自厨房水槽、淋浴间和洗衣机的废 水［19, 21-22］，主要含有酸碱性化合物、脂肪、重金属、 硝酸盐和异生化合物等［22］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk43",
+        "chunk": "生活中，灰水产量可达 黑水产量的1～7 倍［19-20］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk44",
+        "chunk": "鉴于当今许多污水处理 厂的处理能力欠缺，大量生活废水流入地下水和地 表水中，导致水质恶化，影响水生生物的生存",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk45",
+        "chunk": "2 现有水污染治理技术 目前用于治理水污染的方法主要可分为物理 方法、化学方法、生物学方法（图1），可根据污染物 浓度、污水组成、工艺成本或污水中存在的额外杂 质，选择合适的治理方法［23］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk46",
+        "chunk": "2.1 物理法 物理法是指借助物理作用来处理、回收水体中 的污染物质，通常需要在不影响污染物生化特性的 情况下进行",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk47",
+        "chunk": "其中吸附法因其灵活性、广泛的适用性、成本效 益高和实用性，成为污水治理中最有利的方法［24］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk48",
+        "chunk": "常见的吸附剂有生物吸附剂、二氧化硅、氧化铝、活 性炭、黏土、金属氧化物、二氧化钛等［23］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk49",
+        "chunk": "由于吸附 剂饱合能力有限、难以再生，且某些污染物难以通 过吸附被去除［4］，限制了吸附法的实际应用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk50",
+        "chunk": "但是， 已有研究通过合成新型纳米复合吸附剂，成功去除 污水中的苯并吡啶、氧氟沙星等污染物［25-26］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk51",
+        "chunk": "图1 水污染的来源、组成及治理 Fig. 1 Sources, types, and treatment strategies of water pollution 421 第5 期 2.2 化学法 化学法是指在进行污水治理时，借助化学反应 来治理留存于水体中污染物质的方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk52",
+        "chunk": "化学处理 方法主要有氧化还原法、化学沉淀法、混凝和离子 交换等，通常用来处理一些无机物质和部分难以降 解的有机污染物",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk53",
+        "chunk": "生活中常常通过化学法，如臭氧 和氯、次氯酸钠等来初步消除医院污水中的细菌和 病毒［13，27］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk54",
+        "chunk": "采用氧化还原原理的高级氧化工艺（ad- vanced oxidation process，AOP）是去除顽固有机污染 物并灭活传统技术无法处理的病原微生物的一种 极具潜力的技术，其作用方式有氢提取、自由基的 组合或加成以及电子转移［28-29］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk55",
+        "chunk": "已有研究通过电化 学氧化- 硫酸盐AOP 成功降解了化工企业高浓度含 氰有机废水中的有机物和氰化物［30］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk56",
+        "chunk": "2.3 生物法 生物法是利用微生物的代谢能力对污水中 的有机物质进行分解的方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk57",
+        "chunk": "由于成本效益高和 环境相容性好，生物修复具有极好的未来发展潜 力［3，31］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk58",
+        "chunk": "生物法通过使用细菌、真菌、微藻、酵母和 其他微生物菌群进行，由于体积小、比表面积大，它 们已成为当今理想的生物修复制剂［32］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk59",
+        "chunk": "生物法可 通过吸附或积累来降解污水中的各种污染物［28］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk60",
+        "chunk": "目前，已有研究使用微生物单一培养法对污水中的 染料进行降解和脱色［33］，以及采用高效藻类塘去除 污水中的抗高血压药、抗抑郁药和消炎药等［34］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk61",
+        "chunk": "以上污水治理方法各有千秋，现有的许多废水 处理研究采用组合生物、化学和/ 或物理处理的技 术来应对传统单一处理技术的局限性［5］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk62",
+        "chunk": "物理和化 学方法治理的缺点是价格昂贵、效率低、易产生副 产物，如污泥和次级代谢物等［3，35］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk63",
+        "chunk": "在某些情况下， 吸附、化学沉淀或电化学沉淀等方法不能从废水中 去除染料或其代谢物等化合物，只能将污染物从一 相转移到另一相，并未从根本上解决污染问题［35］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk64",
+        "chunk": "与物理和化学方法相比，生物处理方法虽具有环 境友好、高效且可行性高等优势［5］，但易受温度和 pH 值等环境因素的影响，导致污染物处理速度变 慢［4，32］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk65",
+        "chunk": "组合处理方法在实施时也存在多个限制， 诸如缺乏技术知识和数据的可行性，处理材料的效 率随着时间的推移而降低等［5］，且大多数研究都是 使用模拟或稀释的废水进行的，并不能代表实际污 水的发生情况［35］，所以在水污染治理中，应该结合 实际情况具体分析",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk66",
+        "chunk": "3 合成微生物在水污染治理中的应用 合成生物学是一门集合了生物化学、分子生物 学和计算机等多学科的新兴学科，通过分子生物学 工具，对生物体的遗传信息重新编辑使其具有特定 的功能［2，36］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk67",
+        "chunk": "近年来，随着合成生物学的发展，现有 技术已可将复杂的外源性代谢途径引入特定的微 生物宿主，并进行特定的人为改造，以实现特定的 目标",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk68",
+        "chunk": "合成生物学方法在一定程度上解决了微生 物中只含有单一化合物的分解代谢基因这一缺陷， 并使微生物可以监测、聚集和降解环境污染物［2，37］， 从而使合成生物学在水污染治理中受到广泛应用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk69",
+        "chunk": "采用合成生物学“设计- 构建- 测试- 学习”的 理念，对生物元件挖掘、分析，设计构建而成的具有 特定功能的微生物，称为合成微生物（图2）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk70",
+        "chunk": "底盘 作为引入具有不同代谢途径元件的宿主，其开发和 构建是合成生物学领域的一个关键，也是构建合成 微生物的基础［38］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk71",
+        "chunk": "底盘细胞的普遍含义是改善了 细菌、古细菌或植物细胞中遗传信息的宿主，也是 将合成的功能化元件、线路和途径等体系置入其中 以达到设计目标的重要合成生物学反应平台［39］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk72",
+        "chunk": "在合成生物学中，底盘为运行合成系统提供能 量，被认为是合成生物学的“硬件”，而生物部件和 生物设备则被认为是“软件”在底盘中“加载并运 行”",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk73",
+        "chunk": "合成生物学被认为是实现在“硬件”底盘中 “即插即用”的模块化“软件”的生物学［40］（图2）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk74",
+        "chunk": "在对一个底盘操作前，应了解其基因组序列， 并具有先进的遗传工具可对其进行深度编辑",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk75",
+        "chunk": "这 些遗传工具包括表达载体、启动子和先进的基因组 编辑技术",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk76",
+        "chunk": "同时一个合格的底盘应具有遗传和进 化稳定性、在目的环境中的可用性等特征［39］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk77",
+        "chunk": "目前 应用在水污染治理中的底盘细胞主要有大肠杆菌、 恶臭假单胞菌、枯草芽孢杆菌、酿酒酵母等模式微 生物，以及盐单胞菌（Halomonas spp.）、拜氏不动杆 菌和需钠弧菌等非模式微生物［38，41］（图3）（表1）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk78",
+        "chunk": "3.1 基于大肠杆菌 大肠杆菌（Escherichia coli）是一种革兰氏阴性 杆状细菌，被归类为肠杆菌科，该菌主要寄生在哺 乳动物肠道中，可通过粪便和废水在环境中传播， 造成污染［42］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk79",
+        "chunk": "由于大肠杆菌具有生长快速、培养基 简单和经济效应高等优势，在合成生物学中常作为 模式微生物底盘被研究和使用［38, 40］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk80",
+        "chunk": "林雅倩等：合成微生物与水污染治理应用 林雅倩等：合成微生物与水污染治理应用 激 光 生 物 学 报 422 第 33 卷 图2 合成微生物的构建流程 Fig. 2 Work flow of the biosynthetic microorganisms construction 图3 基于合成微生物的水污染治理 Fig. 3 Construction and application of the synthetic microorganisms in water pollution 鉴于已有多个基因编辑技术可在大肠杆菌中 高效实施，如锌指核酸酶技术（zinc finger nuclease， ZFN）、转录激活因子样效应因子核酸酶技术（tran- scription activator-like effector nuclease，TALEN）、同源重 组和成簇的规则间隔短回文重复序列系统［clustered regularly interspaced short palindromic repeats (CRISPR)/ CRISPR-associated (Cas) protein，CRISPR-Cas］等［43］，目 前大量研究以大肠杆菌为底盘进行蛋白质和代谢物 的生物合成，如血红素蛋白和5- 氨基乙酰丙酸的合 成等［44-46］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk81",
+        "chunk": "CRISPR-Cas 系统是一种天然免疫系统， 广泛分布于细菌和古细菌中［47-48］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk82",
+        "chunk": "与传统的低通量 ZFN和TALEN相比，CRISPR是一种可编程的下一代 高通量基因编辑技术，可以直接将一组首选指令传 输到微生物的基因组中，大量水污染相关研究采用 该体系构建合成微生物",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk83",
+        "chunk": "Li 等［47］基于CRISPR-Cas9 构建的pEcCas/pEcgRNA 系统可以实现E. coli BL21 423 第5 期 （DE3）的高效基因组编辑，并将此系统用于更广泛 的大肠杆菌和其他肠杆菌科物种中",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk84",
+        "chunk": "Zhu等［49］基于 CRISPR-Cas12a 系统实现了精确的DNA 靶向和切割 功能，成功建立了RAA-CRISPR-Cas12a检测系统，实 现了对食源性和水源性大肠杆菌病原体E. coli O157: H7的快速、特异和高灵敏检测",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk85",
+        "chunk": "在污染物降解方面，Wang 等［50］通过对从苯酚 降解细菌红球菌（Rhodococcus）和恶臭假单胞菌 （Pseudomonas putida）中提取的pheA1、catA和pcaI 等基因，进行一系列优化（密码子优化、GC 含量平 衡、去除不必要的切割位点等）和整合操作，使其在 E. coli BL221-AI 内表达，构建的重组菌株能迅速降 解废水中的苯酚",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk86",
+        "chunk": "对来源于红球菌的tfdA、pcaJ 和 pcaF 等9 个2，4- 二氯苯氧乙酸（2，4-dichlorophen- oxyacetic acid，2，4-D）降解基因，进行上述类似的优 化整合操作，Wang 等［51］构建的重组E. coli BL-3164 可以实现以2，4-D 为唯一碳源的生长，降低环境中 2，4-D含量的有效目标",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk87",
+        "chunk": "3.2 基于恶臭假单胞菌 恶臭假单胞菌（Pseudomonas putida）是一种革 兰氏阴性杆状细菌，属假单胞菌属（Pseudomonas）， 作为模式底盘在工业和环境生物技术中都得到了 广泛应用［52-54］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk88",
+        "chunk": "恶臭假单胞菌具有强大的氧化还原 代谢能力，对许多不同类型的物理化学损伤具有耐 受性，能在恶劣的环境中生长且具有异种生物降解 的能力，且能从受污染的地区被分离与培养［53, 55］， 这激发了研究人员对恶臭假单胞菌作为底盘降解 污染物的研究兴趣",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk89",
+        "chunk": "目前已经有大量分子工具可用于恶臭假单胞 菌遗传操作和代谢编程［53，55］，如反选择标记（coun- terselectable marker，CSM）、异源重组酶和自杀载体， 这些分子工具已被验证可促进该属细菌的等位基 因交换［54］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk90",
+        "chunk": "Aparicio 等［56］将ssDNA 重组与CRISPR- Cas9 联合应用在恶臭假单胞菌中，开发了一种高 效、快速的基因编辑方案",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk91",
+        "chunk": "Liang 等［57］构建并优化 了恶臭假单胞菌中的T7 样表达系统，提供了一套 适用的底盘和相应的质粒提高重组表达水平，可用 于表达其他底盘中难以表达的蛋白质",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk92",
+        "chunk": "此外，各种 组成型启动子，多种天然及合成的诱导启动子也已 经在恶臭假单胞菌中被发现［53］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk93",
+        "chunk": "在污染物降解方面，采用基于upp 基因作为 CSM 的基因组编辑方法，Gong 等［58］将多个降解 基因整合到P. putida KT2440 染色体中，构建的合 成菌株具有降解农药甲基对硫磷（methyl parathi- on，MP）和γ- 六氯环己烷（γ-hexachlorocyclohexane， γ-HCH）的能力",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk94",
+        "chunk": "Liang 等［59］通过自杀质粒pK- 18mobsacB 构建删除了GIs 的P. putida KT2440，所 产生的突变体KTU-U13 不仅表现出较高的质粒转 化效率和异源蛋白表达能力，且作为受体细胞时， 对γ-HCH 和1，2，3- 三氯丙烷（1，2，3-trichloropro- pane，TCP）的降解效率也显著增强",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk95",
+        "chunk": "3.3 基于枯草芽孢杆菌 枯草芽孢杆菌（Bacillus subtilis）是革兰氏阳性 芽孢杆菌，其外源蛋白具有分泌能力强、遗传可操 作性强和易培养等优势，已被广泛用作底盘生产生 物聚合物、工业酶制剂等［52, 60-61］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk96",
+        "chunk": "同时，枯草牙孢杆 菌主要分布于土壤及腐败的有机物中，具备作为合 成微生物底盘应用于污染物治理的潜在应用价值",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk97",
+        "chunk": "常应用于枯草牙孢杆菌的基因编辑手段有 CSM，位点特异性重组系统、CRISPR-Cas9 及其衍生 的CRISPRi和CRISPR-Cpf1系统［62］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk98",
+        "chunk": "CRISPR-Cas9可 用于枯草牙孢杆菌的基因突变、缺失和插入等，是 枯草牙孢杆菌基因遗传操作中最强大的工具之一",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk99",
+        "chunk": "近期，Ferrando 等［60］基于CRISPR-Cas9 的新型基因 组编辑开发了一种简单、快速、方便的方法，可在枯 草牙孢杆菌中同时插入三个基因，这为枯草牙孢杆 菌作为微生物底盘的未来发展提供了良好的前景",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk100",
+        "chunk": "Zhu 等［63］通过敲除枯草牙孢杆菌突变株ZN0871v11 中的yqfY和spo0A基因，所获得的菌株GEBS可同时 吸附废水中的有机物、阳离子和阴离子，并在几分 钟内实现共沉淀，从而达到净化水质、废水回收的 目标",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk101",
+        "chunk": "Ghataora 等［61］通过整合源自革兰氏阴性菌的 可变金属结合域与在枯草牙孢杆菌中起作用的DNA 结合结构域，并辅以结构引导设计，在枯草牙孢杆菌 中生成了具有金属敏感性的生物传感器模块",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk102",
+        "chunk": "此外，枯草牙孢杆菌的另一特性是能形成复杂 而强大的生物膜［62, 64］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk103",
+        "chunk": "生物膜是一种由紧密结合的 细菌组成的结构群落，被自身产生的细胞外基质包 裹，这种基质允许细菌附着在表面，使生物膜可抵 抗氧化应激等环境条件，因此生物膜可应用于生物 修复技术［65-66］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk104",
+        "chunk": "合成生物学的进步使人们能够对生 物膜进行重新编程，以改善其功能或提高增值产品 的产量［65］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk105",
+        "chunk": "利用含有枯草牙孢杆菌的生物膜或多 物种生物膜组合的生物反应器，可以实现废水和周 林雅倩等：合成微生物与水污染治理应用 林雅倩等：合成微生物与水污染治理应用 激 光 生 物 学 报 424 第 33 卷 围环境中有毒污染物降解的目标",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk106",
+        "chunk": "Li 等［67］将有机 腈降解过程中发挥关键作用的腈水合酶和酰胺酶 的编码基因nha、ami整合至B. subtilis N4中，构建了 B. subtilis N4/pHTnha-ami，可实现废水中有机腈的降 解，同时，联合使用带正电荷的改性聚乙烯载体移动 床生物膜反应器，促进了细菌的黏附和生物膜的形 成",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk107",
+        "chunk": "Zhu等［68］通过整合型质粒pDG1730构建了能传 感和吸附重金属离子的基因回路，并转至B. subtilis 1935ΔepsΔbslA 底盘中，所形成的菌株不仅能实时 感应三种金属离子［Pb（II）、Hg（II）和Cu（II）］且形成 的生物膜能实现对这些金属离子的特异性吸附",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk108",
+        "chunk": "3.4 基于酿酒酵母 酿酒酵母（Saccharomyces cerevisiae）是一种真 核模式生物，具有遗传背景明确、生长迅速、操作简 单等优点［69-70］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk109",
+        "chunk": "酿酒酵母与原核模式微生物相比有 许多独特的优势，如可增加特异性酶的表达和翻译 后修饰能力，为特异性酶的表达提供优越的环境， 以及具有细胞器，可以分隔产物的合成，减轻产物 积累导致的细胞代谢负担等［52］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk110",
+        "chunk": "因此，酿酒酵母成 为了用于生产燃料、食品添加剂和生物制药方面的 优质底盘候选物［70-71］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk111",
+        "chunk": "此外，基于酵母细胞对pH值 和温度变化的高适应性，酿酒酵母也成为有毒污染 物生物传感器应用中的合适底盘［72］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk112",
+        "chunk": "但是，酿酒酵母和非生产性程序的内源性因素 常常损害外源基因的表达和插入，因此，目前开发 了多种技术用来增强和提高其细胞内基因转录的 强度和效率并促进基因编辑的程序［69］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk113",
+        "chunk": "其中CRIS- PR-Cas9 系统已成功应用于多种酵母细胞的基因编 辑中，如删除细胞特定代谢过程中的相关基因，以 及在一步反应中同时进行多基因敲除、下调和过表 达等［73］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk114",
+        "chunk": "酿酒酵母中单一向导RNA（sgRNA）的最 广泛利用提高了CRISPR-Cas9 系统基因编辑的效 率［69］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk115",
+        "chunk": "Fan 等［74］通过优化半乳糖诱导系统的关键 元件Gal4 和Gal80，并利用CRISPR-Cas9 介导的基 因组编辑技术将其分别连接至铜诱导启动子CUP1 和铜抑制启动子CTR1 中，合成的酵母细胞可用于 高效检测环境中的Cu（II）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk116",
+        "chunk": "在污染物降解方面，通过把细菌lacZ 报告基 因与含酵母JLP1 启动子的质粒相连，Ito-Harashima 等［75］构建了一个携带高拷贝数pESC-JLP1-lacZ 报 告质粒的菌株，并将其用于高效、快速监测水和土 壤中的Cd 污染",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk117",
+        "chunk": "Ruta 等［76］将多种植物金属硫蛋白 分别靶向酵母质膜的内表面，改造后的酿酒酵母可 在低浓度下吸附Cu（II），且表达myrGFP-NcMT3 的 菌株可在高浓度Cu（II）、Ni（II）和Mn（II）等金属离 子条件下表现出强劲的生长力、金属耐受性和高累 积能力",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk118",
+        "chunk": "Mashangoane 等［77］将钯结合肽（4R-PdBP） 连接至pYD5 质粒上，形成重组质粒pYD5/4R-PdBP 并转化至S. cerevisiae EBY100 中，构建的重组菌株 可从水溶液中生物吸附钯［Pd（II）］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk119",
+        "chunk": "3.5 基于非模式底盘 模式底盘微生物研究时间长，研究人员多，遗 传工具丰富，目前已经得到了大量的研究和应用， 在微生物遗传与合成生物学的基础理论研究以及 应用中发挥着举足轻重的作用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk120",
+        "chunk": "但在实际应用中， 模式底盘受环境影响较大，往往不能达到预期效 果，这时，具备底盘所需特性的一些非模式底盘微 生物吸引了研究学者的目光",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk121",
+        "chunk": "在水污染治理中，能 用于降解污染物的非模式底盘有盐单胞菌、不动杆 菌和需钠弧菌等",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk122",
+        "chunk": "3.5.1 盐单胞菌 盐单胞菌是革兰氏阴性需氧细菌，属于嗜盐菌 家族，常见于盐湖、沼泽及海洋等高盐环境中",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk123",
+        "chunk": "该 菌不仅能够耐受含3%～15% NaCl 的高盐环境，而 且能在50℃的高温以及pH 为10 的高碱性环境下 存活［2, 78］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk124",
+        "chunk": "高盐环境也更有利于盐单胞菌降解合成 染料废水中的污染物［79］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk125",
+        "chunk": "由于其培养简单、生长快 速和污染抵抗性高等优势，目前盐单胞菌已被用作 底盘生产聚羟基烷酸、某些蛋白质以及小分子有机 化合物等［78, 80］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk126",
+        "chunk": "随着对盐单胞菌研究兴趣的增加，多株盐单胞 菌的全基因信息已被揭示，如Halomonas spp. MS1、 Halomonas 11-S5、Halomonas 25-S5、Halomonas spp. SpR1 和SpR8 等［81-83］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk127",
+        "chunk": "盐单胞菌株基因组测序的完 成和注释信息完善促进了学者对盐单胞菌内源基因 功能挖掘、代谢通路鉴定、代谢网络构建等方面的 研究，为构建盐单胞菌底盘提供了理论支持［78］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk128",
+        "chunk": "目 前，针对盐单胞菌还开发了一系列工具和元件，如 pSEVA系列质粒、pUCpHAw和pHA1AT_32等穿梭载 体、多种组成型和诱导型启动子、不依赖于Rho的固 有终止子以及一种新型的类T7表达系统等，奠定了 开展盐单胞菌使能技术的基础［78, 84-86］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk129",
+        "chunk": "另外，上述 在模式底盘中建立的大部分基因编辑技术，包括同 源重组、CRISPR-Cas9 和CRISPRi 等，在盐单胞菌中 425 第5 期 也同样适用［85］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk130",
+        "chunk": "最近，利用CRISPR-Cas9 基因编辑 技术与非同源末端连接修复系统相结合，Liu 等［80］ 开发了一种快速、高效删除盐单胞菌中大片段DNA 的方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk131",
+        "chunk": "以上元件和技术为盐单胞菌应用于合成生 物学底盘构建奠定了基础",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk132",
+        "chunk": "在污染物降解方面，Ji 等［87］通过在高拷贝质粒 pSEVA241-sgRNA 上组装phaCAB 基因表达模块， 构建的合成菌株H. bluephagenesis WZY278 可以降 解食物垃圾水解物并生产聚3- 羟基丁酸酯（poly- 3-hydroxybutyrate，PHB）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk133",
+        "chunk": "Kleinsteuber 等［88］将携带 有2，4-D、2- 甲基-4- 氯苯氧乙酸（2-methyl-4-chloro- phenoxyacetic acid，MCPA）和3- 氯苯甲酸（3-chloro- benzoic acid）降解基因的pJP4 质粒在Halomonas sp. EF43 中表达，菌株可实现在碱性条件对2，4-D 和 3-氯苯甲酸酯的降解",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk134",
+        "chunk": "3.5.2 拜氏不动杆菌 拜氏不动杆菌（Acinetobacter baylyi）是一种革 兰氏阴性需氧细菌，由于其具有高自然转化率以及 高重组效率，被认为是下一代合成生物学的理想底 盘［89-90］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk135",
+        "chunk": "A. baylyi ADP1 的无害性、代谢多样性和高 适应能力，使其已被用于各种生物技术中，如降解 有机污染物、生产各种生化产品和不同种类的生物 聚合物［89, 91］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk136",
+        "chunk": "随着合成生物学的发展，非模式底盘研究的深 入，A. baylyi ADP1 常被用于研究细菌遗传和代谢 机制［92］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk137",
+        "chunk": "可利用无痕同源重组技术和CRISPR-Cas9 系统在A. baylyi ADP1 中进行基因的插入与删除",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk138",
+        "chunk": "同时基于已建立的CRISPR-Cas9 系统，Suárez 等［92］ 开发了一个“CRISPR-Lock”技术，用以促进简单的 多组分DNA 组装和快速可靠的基因组编辑",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk139",
+        "chunk": "目前， 一系列调控生物元件已在A. baylyi ADP1 中得到 成功应用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk140",
+        "chunk": "近期，Biggs 等［90］构建了一个全面的A. baylyi ADP1 基因工具集，包括合成的组成启动子和 核糖体结合位点文库",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk141",
+        "chunk": "唐慧等［93］通过在pWH1274 质粒上插入发光基因片段luxCDABE，将重组质 粒转化至A. baylyi ADP1 中，合成的菌株可用于对 Be（II）、Ba（II）、Cu（II）、Ni（II）等急性毒物的检测",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk142",
+        "chunk": "Huang 等［94］将luxCDABE 插入pGEM-T 质粒中，重 组的ADPWH_lux 可作为生物传感器对水杨酸盐进 行快速和特异性的检测",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk143",
+        "chunk": "3.5.3 需钠弧菌 需钠弧菌（Vibrio natriegens）为杆状海洋细菌， pH 耐受范围为5.5～9.5，具有无致病性、生长迅速、 遗传可操作性强、可接收环境DNA 和利用多种碳 源生长的能力，被认为是合成生物学未来最有潜力 的底盘［85, 95］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk144",
+        "chunk": "弧菌在质粒转化和蛋白异源表达方 面表现良好，电穿孔、热休克转化和结合等方法均 可成功地将质粒DNA 转入其中，包括p15A、pMB1 和pUC 及其衍生质粒等［2, 96-97］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk145",
+        "chunk": "最近，多项研究表 明，在大肠杆菌中适用的生物元件和基因编辑技术 也适用于弧菌，如启动子、核糖体结合位点、转录 终止子、同源重组和CRISPR-Cas9 系统等［95, 97-98］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk146",
+        "chunk": "基于弧菌从环境中吸收DNA 的能力，一种自然转 化多重基因组编辑（multiplex genome editing by natu- ral transformation，MuGENT）技术已经被开发，Dalia 等［99］成功地将MuGENT 应用于弧菌中，即可一步 同时将多个基因无痕共编辑至基因组中",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk147",
+        "chunk": "在此基 础上，Stukenberg 等［100］将其与CRISPR-Cas9 反选择 相结合开发了一种高效基因组编辑技术NT-CRIS- PR，几乎可在100%的效率下进行多数基因组修饰， 如敲除、整合和点突变",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk148",
+        "chunk": "在污染物降解方面，Huang 等［101］利用V. natrie- gens Vmax 在盐胁迫环境下降解环境污染物，分析 并鉴定了其耐盐机制和相关的盐诱导启动子，并在 V. natriegens Vmax 菌株上构建了对CP、六溴环十二 烷（hexabromocyclododecane，HBCD）和聚对苯二甲 酸乙二醇酯（polyethylene terephthalate，PET）三种盐 的诱导降解模型，实现了对相应底物的有效降解， 最终将该菌株与甲壳素材料结合，实现了菌株的回 收利用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk149",
+        "chunk": "除了上述提到的重要模式细胞以及具有特殊 性状的非模式细胞外，还有许多细菌可被开发用于 水污染治理，如用于废水硝酸盐检测的蓝藻内生 物传感器［102］，体内含有降解染料废水中污染物酸 性兰113 关键酶编码基因的鞘氨醇单胞菌（Sphin- gomonas）等［103］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk150",
+        "chunk": "对于底盘细胞及降解相关元件的 进一步挖掘与开发有助于深化研究人员设计与构 建合成微生物的进程，并推动合成微生物在水污染 治理中的应用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk151",
+        "chunk": "4 合成微生物在水污染治理应用的优势 4.1 高效降解力与广泛降解谱 污水不仅来源多样，而且其中污染物数量多 而复杂",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk152",
+        "chunk": "传统的物理、化学方法通常只能对特定的 林雅倩等：合成微生物与水污染治理应用 林雅倩等：合成微生物与水污染治理应用 激 光 生 物 学 报 426 第 33 卷 污染物发挥作用，不仅作用时间长，而且易受到环 境因素的影响，从而导致治理效果不尽如人意",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk153",
+        "chunk": "生 物修复虽然较物理化学方法更高效，但直接将具有 较高降解力或代谢力的微生物投入污水中很可能 被环境中原有生物侵蚀，从而限制了其污水治理的 效率",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk154",
+        "chunk": "合成生物学可根据特定目标污染物，系统地 研究微生物降解污染物过程的本质、规律和互作网 络等，深度挖掘各类污染物的相关降解元件，针对 性地构建高效稳定的合成微生物［104］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk155",
+        "chunk": "例如，Zhao 等［105］将γ-HCH和TCP的生物降解途径整合到P. pu- tida KT2440 中，构建的合成菌株可完全降解γ-HCH 和TCP",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk156",
+        "chunk": "Zhang 等［106］对来源于伯克霍尔德氏菌 （Burkholderia sp.）的2，4-二硝基甲苯（2，4-dinitrotol- uene，2，4-DNT）降解途径的DntAa、DntAb 和DntAc 等8 个基因进行合成、优化，并在E. coli 上组装，所 构建的E. coli BL-4174能够完全降解2，4-DNT",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk157",
+        "chunk": "因此，合成生物学不仅可以针对某一特定污染 物对底盘细胞进行设计和改造，还可根据治理目标 选择性地开发和利用多重降解相关元件，如转运元 件、趋化元件和抗逆元件等，通过对不同微生物来 源的元件进行设计和组合，构建具备复合代谢网络 的合成微生物，从而提升对污染物的降解能力、环 境适应能力以及拓展其污染物降解谱",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk158",
+        "chunk": "Gong 等［107］ 通过合成生物学的方法将4 个农药降解基因mpd、 pytH、mcd 和cehA 整合至P. putida KT2440 上，所得 菌株可实现对有机磷、拟除虫菊酯和氨基甲酸酯 3种农药的同时降解",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk159",
+        "chunk": "4.2 环境友好和可持续 传统的污水治理方法可能会破坏水中的生态 系统、生物群落和生态链等",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk160",
+        "chunk": "以合成生物学技术为 基础的合成微生物可针对污染物降解及其在环境 应用中的适应性和安全性技术开展工作",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk161",
+        "chunk": "通过探 究微生物与微生物之间、微生物与环境之间的相互 作用机制，与生态学、计算生物学等学科结合，设 计构建高效智能的人工微生物降解体系，协调多重 元件在代谢水平上的相互作用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk162",
+        "chunk": "这不仅可增强合 成菌株的环境适应性，使其能够在高盐、酸碱、高 渗等极端条件下保持降解活性［108］，并且有利于实 现复杂污染条件下的环境修复",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk163",
+        "chunk": "合成微生物可通 过多重降解元件，建立能响应污染物的条件自毁基 因线路和遗传物质清除线路，使其能在自然条件 下持续主动安全的降解污染物，不产生二次污染， 具有可持续净化水环境并修复生态的特性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk164",
+        "chunk": "例如， Liu 等［109］将感应模块、降解模块、自杀系统整合至 E. coli TOP10 中并进行优化，所获得的菌株Pfic- TAT（2）-P100-RBS35 在无外源诱导剂的情况下，可 对水杨酸（salicylicacid，SA）进行传感并降解，最后 当环境中无SA 时菌株会自主激活自杀系统，且能 长期稳定存在于水环境中发挥功能",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk165",
+        "chunk": "4.3 作用形式多样化 合成生物学的发展为合成微生物的多样化应 用提供了新的契机（图3）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk166",
+        "chunk": "为避免单一菌株的过度 工程化及增加其代谢负担，研究者们通过构建合成 微生物群落的方式，让菌群成员间通过信号交换、 检测及相互响应等方式进行交流，并通过相关基 因表达调控协调群体行为",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk167",
+        "chunk": "合成微生物群落不仅 比传统菌群及单一微生物具有更多的复杂功能，而 且具有更高的稳定性与鲁棒性，可适用于复杂环境 和极端环境的生长及维持平稳的代谢状态［104］，因 此在水环境修复中发挥着不可替代的作用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk168",
+        "chunk": "Zhang 等［110］构建了一个由鞘氨醇单胞菌属和假单胞菌属 微生物组成的合成微生物群落，该群落可有效地利 用菲或二苯并噻吩作为唯一的碳源生长，同时还可 代谢其他多种多环芳烃（polycyclic aromatic hydrocar- bons，PAHs）和杂环衍生物",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk169",
+        "chunk": "在模拟废水试验中，该 合成群落5 d 内去除了100% 的PAHs，且在多次循 环后依旧保持稳定的降解力",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk170",
+        "chunk": "Zhang 等［111］构建了 一个由类节杆菌属、根瘤菌属、红球菌属、代尔夫 特菌属和硝酸盐还原菌属微生物组成的耐盐微生 物群落，该合成群落对模拟乙酰乙酰苯胺（acetoac- etanilide，AAA）废水和实际AAA母液有良好的降解 能力，且处理后AAA母液的综合毒性显著降低",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk171",
+        "chunk": "除了降解污染物外，合成微生物在污染物检 测方面也起着举足轻重的作用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk172",
+        "chunk": "运用合成生物学 的模块化和可编程性，将待测物质的感应元件（转 录因子和核糖开关等）与信号输出的报告元件（荧 光素酶、荧光蛋白和荧光适配体等）通过基因表达 调控的方式在微生物底盘上偶联［112］，即可形成简 单的生物传感器，识别单一目标物质并改善信号识 别、处理和输出等传感过程",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk173",
+        "chunk": "Hui 等［113］利用Cd（II） 感应元件与靛蓝生物合成基因簇融合在E. coli 中 成功构建了一个视觉生物传感器",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk174",
+        "chunk": "该传感器仅对 Cd（II）有选择性响应，且适用于水环境的分析",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk175",
+        "chunk": "将 427 第5 期 林雅倩等：合成微生物与水污染治理应用 林雅倩等：合成微生物与水污染治理应用 表1 应用于污染物降解的合成微生物底盘细胞 Tab.1 Examples of synthetic microorganisms for water pollution application Chassis cells Methodology Application References E. coli BL221-AI Insertion of pheA1, pheA2, catA, catB, catC, catD, pcaI, pcaJ and pcaF Degradation of phenol ［50］ E. coli BL21-AI Insertion of tfdA, tfdB, tfdC, tfdD, tfdE, tfdF, pcaI, pcaJ and pcaF Degradation of 2, 4-D ［51］ E. coli BL21-AI Insertion of DntAa, DntAb, DntAc, DntAd, DntB, DntD, DntG and DntE Degradation of 2, 4-DNT ［106］ E. coli TOP10 Insertion of the salicylicacid (SA) detection, degradation, and suicide pathway genes Pfic‐TAT‐P1XX‐RBS Detection and degradation of SA ［109］ E. coli TOP10 Insertion of the Cd sensing pathway gene pPcad-ind Detection of Cd ［113］ E. coli TOP10 Insertion of the Hg and Cd sensory elements and the separate reporters pR-Pcad-Pmer-G Enhanced detection of Hg and Cd ［114］ P. putida KT2440 Insertion of mpd, pnpA, pnpB, gfp, linA, linB, linC, linD and vgb Degradation of MP and γ-HCH ［58］ P. putida KT2440 Deletion of GIs, insertion of the degradation pathway genes of γ-HCH and TCP Enhanced degradation of γ-HCH and TCP ［59］ P. putida KT2440 Deletion of hsdRMS, insertion of linA, linB, linC, linD, dhaA31, hheC and echA Enhanced degradation of γ-HCH and TCP ［105］ P. putida KT2440 Insertion of mpd, pytH, mcd, cehA, gfp and vgb Degradation of multiple pesticides ［107］ B. subtilis Design and Insertion of metal sensor modules MerRZntR Detection of heavy metal ions ［61］ B. subtilis ZN0871v11 Deletion of yqfY and spo0A Adsorption of organic molecules and ions ［63］ B. subtilis N4 Insertion of nha and ami Degradation of nitriles ［67］ B. subtilis 1935 Deletion of epsA～O and bslA, and expression of mtagBFP, eGFP, mCherry and TasA-MT Detection and adsorption of mul- tiple heavy metal ions ［68］ S. cerevisiae Insertion of CTR1 and CUP1 Detection of Cu ［74］ S. cerevisiae W303a Insertion of JLP1-lacZ Detection of Cd ［75］ S. cerevisiae BY4741 Insertion of myrGFP-MTx Adsorption of heavy metal ions (Cu, Ni and Mn) ［76］ S. cerevisiae EBY100 Insertion of 4R-PdBP and aga2, overexpression of aga1 Adsorption of Pd ［77］ H. Bluephagenesi WZY278 Overexpression of phaCABCn and linkage with ompW Recovery of food wastes ［87］ Halomonas sp. EF43 Insertion of the 2, 4-D, MCPA and 3-chlorobenzoate acid degradation pathway genes Degradation of 2, 4-D and 3-chlorobenzoate acid ［88］ Acinetobacter sp. ADP1 Insertion of luxCDABE Detection of multiple metal ions ［93］ Acinetobacter sp. ADP1 Insertion of luxCDABE Detection of SA ［94］ V. natriegens Vmax Insertion of the PET, CP and HBCDs degradation pathway genes Degradation of PET, CP and HBCDs ［101］ 底盘与其他功能元件或由几个相关功能元件组成 的完成某一任务的功能模块连接，还可构建复杂的 生物传感器，用于环境中存在多种污染物时的检 测",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk176",
+        "chunk": "Hui 等［114］通过将两种荧光报告元件分别置于 Hg（II）传感元件或Cd（II）感应元件的控制下，并将 两种感应元件从不同方向整合至E. coli TOP10 中， 成功构建了一个双传感生物传感器",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk177",
+        "chunk": "由于生物传 感器对环境的抗干扰能力通常较强，且传感器细胞 内部所有基因元件可以通过基因复制和细胞增殖 而自动扩增，因此，生物传感器在生产和环境监测 应用中都具有明显优势",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk178",
+        "chunk": "5 总结与展望 随着人类社会的发展，以及工业、生活、农业、 医疗活动的进行，各种污染物如重金属、有毒有机 化合物和致病微生物等进入水环境，造成了本就脆 弱的生态系统的进一步恶化",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk179",
+        "chunk": "尽管人们对污水治 理的关注日益增加，但现阶段的污水实际治理仍然 激 光 生 物 学 报 428 第 33 卷 缺乏科学性和全面性，很难根据污水的具体情况制 定科学的治理方案，且没有完善的污水排放管理体 系，在一定程度上加大了水污染治理工作的难度",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk180",
+        "chunk": "合成生物学将工程、科学和技术结合应用于编 辑生物体的遗传信息，使其能够执行新的功能",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk181",
+        "chunk": "应 用合成生物学开发新兴污染物降解菌株，已成为 合成生物学和微生物学领域的研究前沿",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk182",
+        "chunk": "不同于 以从环境中筛选能够代谢特定污染物的天然微生 物为重点的传统环境生物技术，合成微生物是通过 在底盘细胞中插入天然或非天然功能元件、构建底 盘中原本不存在的合成代谢途径，形成全新的可感 知、降解污染物的微生物",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk183",
+        "chunk": "研究者们可根据目的定 向改造微生物，使其具有降解目标污染物、提高降 解效率和增强环境适应性等能力",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk184",
+        "chunk": "近年来，国内外 研究人员开展了各种有关合成微生物的鉴定、筛 选、关键元件挖掘和改造等方面的工作，目前已获 得众多重要突破，如开发了由多种微生物参与的污 染物传感器，构建了合成微生物降解群落以及复合 材料等［115-117］",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk185",
+        "chunk": "因此，合成微生物在环境修复领域中 的地位愈发重要",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk186",
+        "chunk": "但目前合成微生物的具体实施仍存在一些挑 战",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk187",
+        "chunk": "例如：1）污水情况复杂、难以估计，多种污染 物分解代谢途径和关键降解酶编码基因不清晰",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk188",
+        "chunk": "2）微生物具有物种和基因多样性、生态网络复杂 性，使其难以标准化，无法确保搭建的功能元件和 模块在不同系统中可拥有同样高效的工作方式和 结果",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk189",
+        "chunk": "3）在特定底盘中加载和运行的合成DNA 数 量有明显限制，添加合成生物元件无疑会给底盘带 来非自然的额外负担，产生生长速度减慢、基因变 异等副作用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk190",
+        "chunk": "4）目前，合成微生物的构建及应用研 究多处于实验室研究阶段，多采用模拟污水进行， 要想运用合成微生物在实际污水环境中，需要进行 更多的现场试验以确保生物安全和效率",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk191",
+        "chunk": "尽管合 成微生物在污水治理应用方面面临着诸多挑战，但 是，随着合成生物学、系统生物学和基因工程等学 科的发展，学者们相信，在可预见的未来，在更多理 论和实践的支持下，合成微生物具有治理水污染、 解决环境问题的巨大潜力",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk192",
+        "chunk": "参考文献（References）： ［1］ JANET JOSHIBA G, SENTHIL KUMAR P, CHRISTOPHER F C, et al. Insights of CMNPs in water pollution control ［J］. IET Nanobiotechnology, 2019, 13(6): 553-559. ［2］ XIANG L, LI G, WEN L, et al. Biodegradation of aromatic pollut- ants meets synthetic biology ［J］. Synthetic and Systems Biotech- nology, 2021, 6(3): 153-162. ［3］ TRIPATHI M, SINGH S, PATHAK S, et al. Recent strategies for the remediation of textile dyes from wastewater: a systematic re- view ［J］. Toxics, 2023, 11(11): 940. ［4］ ZHANG Y, YU H, ZHAI R, et al. Recent progress in photocata- lytic degradation of water pollution by bismuth tungstate ［J］. Molecules, 2023, 28(24): 8011. ［5］ NAGDA A, MEENA M, SHAH M P. Bioremediation of industrial effluents: a synergistic approach ［J］. Journal of Basic Microbiol- ogy, 2022, 62(3/4): 395-414. ［6］ DUTTA D, ARYA S, KUMAR S. Industrial wastewater treatment: current trends, bottlenecks, and best practices ［J］. Chemosphere, 2021, 285: 131245. ［7］ MAO G, HAN Y, LIU X, et al. Technology status and trends of in- dustrial wastewater treatment: a patent analysis ［J］. Chemosphere, 2022, 288(Pt 2): 132483. ［8］ PRABAKAR D, SUVETHA K S, MANIMUDI V T, et al. Pre- treatment technologies for industrial effluents: critical review on bioenergy production and environmental concerns ［J］. Journal of Environmental Management, 2018, 218: 165-180. ［9］ RAJ A, DUBEY A, MALLA M A, et al. Pesticide pestilence: global scenario and recent advances in detection and degradation methods ［J］. Journal of Environmental Management, 2023, 338: 117680. ［10］ TUDI M, DANIEL RUAN H, WANG L, et al. Agriculture devel- opment, pesticide application and its impact on the environment ［J］. International Journal of Environmental Research and Public Health, 2021, 18(3): 1112. ［11］ SYAFRUDIN M, KRISTANTI R A, YUNIARTO A, et al. Pes- ticides in drinking water: a review ［J］. International Journal of Environmental Research and Public Health, 2021, 18(2): 468. ［12］ BOONUPARA T, UDOMKUN P, KHAN E, et al. Airborne pes- ticides from agricultural practices: a critical review of pathways, influencing factors, and human health implications ［J］. Toxics, 2023, 11(10): 858. ［13］ MACKULAK T, CVERENKÁROVÁ K, VOJS STAŇOVÁ A, et al. Hospital wastewater-source of specific micropollutants, antibiotic-resistant microorganisms, viruses, and their elimination ［J］. Antibiotics (Basel), 2021, 10(9): 1070. ［14］ DEKKER H M, STROOMBERG G J, PROKOP M. Tackling the increasing contamination of the water supply by iodinated contrast media ［J］. Insights into Imaging, 2022, 13(1): 30. ［15］ TANG Y, ZHAO S, PENG Z, et al. Cu2O nanoparticles anchored on carbon for the efficient removal of propofol from operating room wastewater via peroxymonosulfate activation: efficiency, mechanism, and pathway ［J］. Royal Society of Chemistry, 2021, 11(34): 20983-20991. ［16］ BALAKRISHNAN A, JACOB M M, SENTHIL KUMAR P, et al. Strategies for safe management of hospital wastewater during the COVID-19 pandemic ［J］. International Journal of Environmental Science and Technology: IJEST, 2023, 20(12): 1-16. ［17］ RODRÍGUEZ-SERIN H, GAMEZ-JARA A, DE LA CRUZ- NORIEGA M, et al. Literature review: evaluation of drug removal techniques in municipal and hospital wastewater ［J］. International Journal of Environmental Research and Public Health, 2022, 19(20): 13105. ［18］ PARIENTE M I, SEGURA Y, ÁLVAREZ-TORRELLAS S, et al. Critical review of technologies for the on-site treatment of hospital wastewater: from conventional to combined advanced processes ［J］. Journal of Environmental Management, 2022, 320: 115769. ［19］ WIDYARANI, WULAN D R, HAMIDAH U, et al. Domestic 429 第5 期 wastewater in Indonesia: generation, characteristics and treatment ［J］. Environmental Science and Pollution Research International, 2022, 29(22): 32397-32414. ［20］ BAJPAI M, KATOCH S S, CHATURVEDI N K. Comparative study on decentralized treatment technologies for sewage and graywater reuse: a review ［J］. Water Science and Technology, 2019, 80(11): 2091-2106. ［21］ ZHANG W, CHU H, YANG L, et al. Technologies for pollutant removal and resource recovery from blackwater: a review ［J］. Frontiers of Environmental Science & Engineering, 2023, 17(7): 83. ［22］ KHAJVAND M, MOSTAFAZADEH A K, DROGUI P, et al. Grey- water characteristics, impacts, treatment, and reclamation using adsorption processes towards the circular economy ［J］. Environ- mental Science and Pollution Research International, 2022, 29(8): 10966-11003. ［23］ RASHID R, SHAFIQ I, AKHTER P, et al. A state-of-the-art review on wastewater treatment techniques: the effectiveness of adsorption method ［J］. Environmental Science and Pollution Re- search International, 2021, 28(8): 1-17. ［24］ KIM S, NAM S N, JANG A, et al. Review of adsorption-mem- brane hybrid systems for water and wastewater treatment ［J］. Chemosphere, 2022, 286(Pt 3): 131916. ［25］ KARIMI-MALEH H, SHAFIEIZADEH M, TAHER M A, et al. The role of magnetite/graphene oxide nano-composite as a high- efficiency adsorbent for removal of phenazopyridine residues from water samples, an experimental/theoretical investigation ［J］. Jour- nal of Molecular Liquids, 2020, 298: 112040. ［26］ SPONZA D T, ALICANOGLU P. Reuse and recovery of raw hospital wastewater containing ofloxacin after photocatalytic treat- ment with nano graphene oxide magnetite ［J］. Water Science and Technology, 2018, 77(1/2): 304-322. ［27］ AZUMA T, KATAGIRI M, SEKIZUKA T, et al. Inactivation of bacteria and residual antimicrobials in hospital wastewater by ozone treatment ［J］. Antibiotics, 2022, 11(7): 862. ［28］ TAOUFIK N, BOUMYA W, ACHAK M, et al. Comparative over- view of advanced oxidation processes and biological approaches for the removal pharmaceuticals ［J］. Journal of Environmental Management, 2021, 288: 112404. ［29］ GARRIDO-CARDENAS J A, ESTEBAN-GARCÍA B, AGÜERA A, et al. Wastewater treatment by advanced oxidation process and their worldwide research trends ［J］. International Journal of Envi- ronmental Research and Public Health, 2019, 17(1): 170. ［30］ YANG W, LIU G, CHEN Y, et al. Persulfate enhanced electro- chemical oxidation of highly toxic cyanide-containing organic wastewater using boron-doped diamond anode ［J］. Chemosphere, 2020, 252: 126499. ［31］ SAEED M U, HUSSAIN N, SUMRIN A, et al. Microbial biore- mediation strategies with wastewater treatment potentialities: a re- view ［J］. Science of the Total Environment, 2022, 818: 151754. ［32］ SHARMA M, AGARWAL S, AGARWAL MALIK R, et al. Recent advances in microbial engineering approaches for wastewater treatment: a review ［J］. Bioengineered, 2023, 14(1): 2184518. ［33］ PATEL H, YADAV V K, YADAV K K, et al. A recent and systemic approach towards microbial biodegradation of dyes from textile industries ［J］. Water, 2022, 14(19): 3163. ［34］ MANTOVANI M, ROSSI S, FICARA E, et al. Removal of phar- maceutical compounds from the liquid phase of anaerobic sludge in a pilot-scale high-rate algae-bacteria pond ［J］. Science of the Total Environment, 2024, 908: 167881. ［35］ CERETTA M B, NERCESSIAN D, WOLSKI E A. Current trends on role of biological treatment in integrated treatment technologies of textile wastewater ［J］. Frontiers in Microbiology, 2021, 12: 651025. ［36］ AMINIAN-DEHKORDI J, RAHIMI S, GOLZAR-AHMADI M, et al. Synthetic biology tools for environmental protection ［J］. Biotechnology Advances, 2023, 68: 108239. ［37］ CHAKRABORTY R, WU C H, HAZEN T C. Systems biology ap- proach to bioremediation ［J］. Current Opinion in Biotechnology, 2012, 23(3): 483-490. ［38］ LIU Y, SU A, LI J, et al. Towards next-generation model microor- ganism chassis for biomanufacturing ［J］. Applied Microbiology and Biotechnology, 2020, 104(21): 1-14. ［39］ DE LORENZO V, KRASNOGOR N, SCHMIDT M. For the sake of the bioeconomy: define what a synthetic biology chassis is",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk193",
+        "chunk": "［J］. New Biotechnology, 2021, 60: 44-51. ［40］ GARNER K L. Principles of synthetic biology ［J］. Essays in Bio- chemistry, 2021, 65(5): 791-811. ［41］ SRIDHAR S, AJO-FRANKLIN C M, MASIELLO C A. A frame- work for the systematic selection of biosensor chassis for envi- ronmental synthetic biology ［J］. ACS Synthetic Biology, 2022, 11(9): 2909-2916. ［42］ AHANKOUB M, MARDANI G, GHASEMI-DEHKORDI P, et al. Biodecomposition of phenanthrene and pyrene by a genetically en- gineered Escherichia coli ［J］. Recent Patents on Biotechnology, 2020, 14(2): 121-133. ［43］ TONG C, LIANG Y, ZHANG Z, et al. Review of knockout tech- nology approaches in bacterial drug resistance research ［J］. PeerJ, 2023, 11: e15790. ［44］ YU M, HU S, TANG B, et al. Engineering Escherichia coli Nissle 1917 as a microbial chassis for therapeutic and industrial applications ［J］. Biotechnology Advances, 2023, 67: 108202. ［45］ PU W, CHEN J, ZHOU Y, et al. Systems metabolic engineering of Escherichia coli for hyper-production of 5-aminolevulinic acid ［J］. Biotechnology for Biofuels and Bioproducts, 2023, 16(1): 31. ［46］ GE J, WANG X, BAI Y, et al. Engineering Escherichia coli for efficient assembly of heme proteins ［J］. Microbial Cell Factories, 2023, 22(1): 59. ［47］ LI Q, SUN B, CHEN J, et al. A modified pCas/pTargetF system for CRISPR-Cas9-assisted genome editing in Escherichia coli ［J］. Acta Biochim Biophys Sin (Shanghai), 2021, 53(5): 620-627. ［48］ MORI H, KATAOKA M, YANG X. Past, present, and future of genome modification in Escherichia coli ［J］. Microorganisms, 2022, 10(9): 1835. ［49］ ZHU L, LIANG Z, XU Y, et al. Ultrasensitive and rapid visual detection of Escherichia coli O157:H7 based on RAA-CRISPR/ Cas12a system ［J］. Biosensors, 2023, 13(6): 659. ［50］ WANG B, XU J, GAO J, et al. Construction of an Escherichia coli strain to degrade phenol completely with two modified meta- bolic modules ［J］. Journal of Hazardous Materials, 2019, 373: 29-38. ［51］ WANG Y, TIAN Y S, GAO J J, et al. Complete biodegradation of the oldest organic herbicide 2,4-dichlorophenoxyacetic acid by engineering Escherichia coli ［J］. Journal of Hazardous Materials, 2023, 451: 131099. ［52］ LV X, LI Y, XIU X, et al. CRISPR genetic toolkits of classical food microorganisms: current state and future prospects ［J］. Bio- technology Advances, 2023, 69: 108261. ［53］ WEIMER A, KOHLSTEDT M, VOLKE D C, et al. Industrial biotechnology of Pseudomonas putida: advances and prospects ［J］. Applied Microbiology and Biotechnology, 2020, 104(18): 7745-7766. ［54］ SUN J, WANG Q, JIANG Y, et al. Genome editing and transcrip- tional repression in Pseudomonas putida KT2440 via the type II CRISPR system ［J］. Microbial Cell Factories, 2018, 17(1): 41. 林雅倩等：合成微生物与水污染治理应用 林雅倩等：合成微生物与水污染治理应用 激 光 生 物 学 报 430 第 33 卷 ［55］ MARTÍNEZ-GARCÍA E, DE LORENZO V. Pseudomonas putida as a synthetic biology chassis and a metabolic engineering plat- form ［J］. Current Opinion in Biotechnology, 2024, 85: 103025. ［56］ APARICIO T, DE LORENZO V, MARTÍNEZ-GARCÍA E. CRIS- PR/Cas9-enhanced ssDNA recombineering for Pseudomonas putida ［J］. Microbial Biotechnology, 2019, 12(5): 1076-1089. ［57］ LIANG T, SUN J, JU S, et al. Construction of T7-like expression system in Pseudomonas putida KT2440 to enhance the heter- ologous expression level ［J］. Frontiers in Chemistry, 2021, 9: 664967. ［58］ GONG T, LIU R, ZUO Z, et al. Metabolic engineering of Pseu- domonas putida KT2440 for complete mineralization of methyl parathion and γ-Hexachlorocyclohexane ［J］. ACS Synthetic Biol- ogy, 2016, 5(5): 434-442. ［59］ LIANG P, ZHANG Y, XU B, et al. Deletion of genomic islands in the Pseudomonas putida KT2440 genome can create an optimal chassis for synthetic biology applications ［J］. Microbial Cell Fac- tories, 2020, 19(1): 70. ［60］ FERRANDO J, FILLUELO O, ZEIGLER D R, et al. Barriers to simultaneous multilocus integration in Bacillus subtilis tumble down: development of a straightforward screening method for the colorimetric detection of one-step multiple gene insertion using the CRISPR-Cas9 system ［J］. Microbial Cell Factories, 2023, 22(1): 21. ［61］ GHATAORA J S, GEBHARD S, REEKSTING B J. Chimeric MerR-Family regulators and logic elements for the design of metal sensitive genetic circuits in Bacillus subtilis ［J］. ACS Synthetic Biology, 2023, 12(3): 735-749. ［62］ SU Y, LIU C, FANG H, et al. Bacillus subtilis: a universal cell factory for industry, agriculture, biomaterials and medicine ［J］. Microbial Cell Factories, 2020, 19(1): 173. ［63］ ZHU W, LIU Y, CAO X, et al. Recovering organic matters and ions from wastewater by genetically engineered Bacillus subtilis biomass ［J］. Journal of Environmental Management, 2015, 161: 402-407. ［64］ QIN Y, ANGELINI L L, CHAI Y. Bacillus subtilis cell differ- entiation, biofilm formation and environmental prevalence ［J］. Microorganisms, 2022, 10(6): 1108. ［65］ MOHSIN M Z, OMER R, HUANG J, et al. Advances in engi- neered Bacillus subtilis biofilms and spores, and their applications in bioremediation, biocatalysis, and biomaterials ［J］. Synthetic and Systems Biotechnology, 2021, 6(3): 180-191. ［66］ SHI Y, CHEN T, SHAW P, et al. Manipulating bacterial biofilms using materiobiology and synthetic biology approaches ［J］. Fron- tiers in Microbiology, 2022, 13: 844997. ［67］ LI C, SUN Y, YUE Z, et al. Combination of a recombinant bacte- rium with organonitrile-degrading and biofilm-forming capability and a positively charged carrier for organonitriles removal ［J］. Journal of Hazardous Materials, 2018, 353: 372-380. ［68］ ZHU X, XIANG Q, CHEN L, et al. Engineered Bacillus subtilis Biofilm@Biochar living materials for in-situ sensing and biore- mediation of heavy metal ions pollution ［J］. Journal of Hazardous Materials, 2024, 465: 133119. ［69］ WU Y, FENG S, SUN Z, et al. An outlook to sophisticated tech- nologies and novel developments for metabolic regulation in the Saccharomyces cerevisiae expression system ［J］. Frontiers in Bioengineering and Biotechnology, 2023, 11: 1249841. ［70］ TANG H, WU Y, DENG J, et al. Promoter architecture and pro- moter engineering in Saccharomyces cerevisiae ［J］. Metabolites, 2020, 10(8): 320. ［71］ PARAPOULI M, VASILEIADIS A, AFENDRA A S, et al. Sac- charomyces cerevisiae and its industrial applications ［J］. AIMS Microbiology, 2020, 6(1): 1-31. ［72］ CHEN B, LEE H L, HENG Y C, et al. Synthetic biology toolkits and applications in Saccharomyces cerevisiae ［J］. Biotechnology Advances, 2018, 36(7): 1870-1881. ［73］ SATO G, KURODA K. Overcoming the limitations of CRISPR- Cas9 systems in Saccharomyces cerevisiae: off-target effects, epigenome, and mitochondrial editing ［J］. Microorganisms, 2023, 11(4): 1040. ［74］ FAN C, ZHANG D, MO Q, et al. Engineering Saccharomyces cerevisiae-based biosensors for copper detection ［J］. Microbial Biotechnology, 2022, 15(11): 2854-2860. ［75］ ITO-HARASHIMA S, MIZUTANI Y, NISHIMURA M, et al. A pilot study for construction of a new cadmium-sensing yeast strain carrying a reporter plasmid with the JLP1 promoter ［J］. The Jour- nal of Toxicological Sciences, 2017, 42(1): 103-109. ［76］ RUTA L L, LIN Y F, KISSEN R, et al. Anchoring plant metallo- thioneins to the inner face of the plasma membrane of Saccha- romyces cerevisiae cells leads to heavy metal accumulation ［J］. PLoS One, 2017, 12(5): e0178393. ［77］ MASHANGOANE B F, CHIRWA E N. Cell surface display of pal- ladium binding peptide on Saccharomyces cerevisiae EBY100 cells using the a-agglutinin anchor system developed for the bio- sorption of Pd (II) ［J］. Minerals Engineering, 2022, 176: 107325. ［78］ YE J, CHEN G. Halomonas as a chassis ［J］. Essays in Biochem- istry, 2021, 65(2): 393-403. ［79］ AMINI B, OTADI M, PARTOVINIA A. Statistical modeling and optimization of toluidine red biodegradation in a synthetic waste- water using Halomonas strain Gb ［J］. Journal of Environmental Health Science & Engineering, 2019, 17(1): 319-330. ［80］ LIU C, YUE Y, XUE Y, et al. CRISPR-Cas9 assisted non- homologous end joining genome editing system of Halomonas bluephagenesis for large DNA f",
+        "method": "semantic_chunk"
+    }
+]

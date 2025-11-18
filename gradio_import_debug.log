@@ -1,0 +1,68 @@
+2025-11-19 00:23:25,547 - INFO - 开始测试Gradio导入问题
+2025-11-19 00:23:25,548 - INFO - Python版本: 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
+2025-11-19 00:23:25,548 - INFO - 当前目录: D:\rag-project\09-Medi-RAG
+2025-11-19 00:23:25,548 - INFO - sys.path: ['D:\\rag-project\\09-Medi-RAG', 'C:\\Python313\\python313.zip', 'C:\\Python313\\DLLs', 'C:\\Python313\\Lib', 'C:\\Python313', 'C:\\Users\\Rhino\\AppData\\Roaming\\Python\\Python313\\site-packages', 'C:\\Users\\Rhino\\AppData\\Roaming\\Python\\Python313\\site-packages\\win32', 'C:\\Users\\Rhino\\AppData\\Roaming\\Python\\Python313\\site-packages\\win32\\lib', 'C:\\Users\\Rhino\\AppData\\Roaming\\Python\\Python313\\site-packages\\Pythonwin', 'C:\\Python313\\Lib\\site-packages']
+2025-11-19 00:23:25,702 - INFO - 已安装的Gradio版本: 5.49.1
+2025-11-19 00:23:25,705 - INFO - 
+尝试导入: gradio
+2025-11-19 00:23:34,609 - DEBUG - Importing AvifImagePlugin
+2025-11-19 00:23:34,613 - DEBUG - Importing BlpImagePlugin
+2025-11-19 00:23:34,614 - DEBUG - Importing BmpImagePlugin
+2025-11-19 00:23:34,615 - DEBUG - Importing BufrStubImagePlugin
+2025-11-19 00:23:34,616 - DEBUG - Importing CurImagePlugin
+2025-11-19 00:23:34,617 - DEBUG - Importing DcxImagePlugin
+2025-11-19 00:23:34,618 - DEBUG - Importing DdsImagePlugin
+2025-11-19 00:23:34,622 - DEBUG - Importing EpsImagePlugin
+2025-11-19 00:23:34,624 - DEBUG - Importing FitsImagePlugin
+2025-11-19 00:23:34,625 - DEBUG - Importing FliImagePlugin
+2025-11-19 00:23:34,626 - DEBUG - Importing FpxImagePlugin
+2025-11-19 00:23:34,630 - DEBUG - Importing FtexImagePlugin
+2025-11-19 00:23:34,632 - DEBUG - Importing GbrImagePlugin
+2025-11-19 00:23:34,632 - DEBUG - Importing GifImagePlugin
+2025-11-19 00:23:34,636 - DEBUG - Importing GribStubImagePlugin
+2025-11-19 00:23:34,637 - DEBUG - Importing Hdf5StubImagePlugin
+2025-11-19 00:23:34,637 - DEBUG - Importing IcnsImagePlugin
+2025-11-19 00:23:34,640 - DEBUG - Importing IcoImagePlugin
+2025-11-19 00:23:34,642 - DEBUG - Importing ImImagePlugin
+2025-11-19 00:23:34,643 - DEBUG - Importing ImtImagePlugin
+2025-11-19 00:23:34,644 - DEBUG - Importing IptcImagePlugin
+2025-11-19 00:23:34,645 - DEBUG - Importing JpegImagePlugin
+2025-11-19 00:23:34,646 - DEBUG - Importing Jpeg2KImagePlugin
+2025-11-19 00:23:34,646 - DEBUG - Importing McIdasImagePlugin
+2025-11-19 00:23:34,647 - DEBUG - Importing MicImagePlugin
+2025-11-19 00:23:34,650 - DEBUG - Importing MpegImagePlugin
+2025-11-19 00:23:34,651 - DEBUG - Importing MpoImagePlugin
+2025-11-19 00:23:34,651 - DEBUG - Importing MspImagePlugin
+2025-11-19 00:23:34,652 - DEBUG - Importing PalmImagePlugin
+2025-11-19 00:23:34,654 - DEBUG - Importing PcdImagePlugin
+2025-11-19 00:23:34,654 - DEBUG - Importing PcxImagePlugin
+2025-11-19 00:23:34,654 - DEBUG - Importing PdfImagePlugin
+2025-11-19 00:23:34,660 - DEBUG - Importing PixarImagePlugin
+2025-11-19 00:23:34,662 - DEBUG - Importing PngImagePlugin
+2025-11-19 00:23:34,662 - DEBUG - Importing PpmImagePlugin
+2025-11-19 00:23:34,663 - DEBUG - Importing PsdImagePlugin
+2025-11-19 00:23:34,663 - DEBUG - Importing QoiImagePlugin
+2025-11-19 00:23:34,664 - DEBUG - Importing SgiImagePlugin
+2025-11-19 00:23:34,665 - DEBUG - Importing SpiderImagePlugin
+2025-11-19 00:23:34,666 - DEBUG - Importing SunImagePlugin
+2025-11-19 00:23:34,667 - DEBUG - Importing TgaImagePlugin
+2025-11-19 00:23:34,668 - DEBUG - Importing TiffImagePlugin
+2025-11-19 00:23:34,668 - DEBUG - Importing WebPImagePlugin
+2025-11-19 00:23:34,670 - DEBUG - Importing WmfImagePlugin
+2025-11-19 00:23:34,671 - DEBUG - Importing XbmImagePlugin
+2025-11-19 00:23:34,672 - DEBUG - Importing XpmImagePlugin
+2025-11-19 00:23:34,673 - DEBUG - Importing XVThumbImagePlugin
+2025-11-19 00:23:39,405 - INFO - ✓ 成功导入: gradio -> gradio
+2025-11-19 00:23:39,406 - INFO - 
+尝试导入: gradio.themes
+2025-11-19 00:23:39,406 - INFO - 执行导入: from gradio import themes
+2025-11-19 00:23:39,407 - INFO - ✗ 导入失败: NameError: name 'themes' is not defined
+2025-11-19 00:23:39,408 - DEBUG - Traceback (most recent call last):
+  File "D:\rag-project\09-Medi-RAG\debug_gradio_import.py", line 72, in main
+    obj = eval(parts[-1])
+  File "<string>", line 1, in <module>
+NameError: name 'themes' is not defined
+
+2025-11-19 00:23:39,409 - INFO - 尝试捕获更详细的错误信息...
+2025-11-19 00:23:39,409 - INFO - 
+测试完成！

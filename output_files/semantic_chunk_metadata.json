@@ -1,0 +1,1877 @@
+[
+    {
+        "id": "chunk0",
+        "chunk": "eXpath：基于本体闭合路径规则的知识图谱链接预测 解释方法 Ye Sun 北京航空航天大学计算机学院 中国北京 sunie@buaa.edu.cn Lei Shi* 北京航空航天大学计算机学院 中国北京 雷石 <leishi@buaa.edu.cn> Yongxin Tong 北京航空航天大学计算机学院 中国北京 yxtong@buaa.edu.cn （此邮件地址无需翻 译，直接保留原样即 可",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk1",
+        "chunk": "） 摘要 链路预测（LP）对于知识图谱（KG）的完善至关重要，但通常存 在可解释性问题",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk2",
+        "chunk": "尽管已提出了多种方法来解释基于嵌入的 LP 模 型，但它们通常仅限于对 KG 的局部解释，并且在提供人类可理 解的语义方面存在不足",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk3",
+        "chunk": "基于对来自多个领域的 KG 特征的现实 观察，我们提出用基于路径的解释来解释 KG 中的 LP 模型",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk4",
+        "chunk": "我们 引入了一个集成框架，即 eXpath，它将关系路径的概念与本体论 闭合路径规则相结合，以提高 LP 解释的效率和效果",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk5",
+        "chunk": "值得注意的 是，eXpath 解释可以与其他单链解释方法融合，以实现更好的整 体解决方案",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk6",
+        "chunk": "在基准数据集和 LP 模型上的大量实验表明，与现有 最佳方法相比，引入 eXpath 可以使关键指标的解释质量提高约 20%，并将所需的解释时间减少 61.4%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk7",
+        "chunk": "案例研究进一步突显了 eXpath 通过基于路径的证据提供更具语义意义的解释的能力",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk8",
+        "chunk": "PVLDB 资源可用性： 源代码、数据和/或其他成果已发布在 https://github.com/cs-anonymous/ eXpath",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk9",
+        "chunk": "1 简介 知识图（Knowledge graphs, KGs）[1,5,17]通常存在不完备性，因 此链接预测（link prediction， LP）成为完成知识图的关键任务， 旨在预测知识图中实体之间潜在的缺失关系",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk10",
+        "chunk": "然而，由于深度学 习固有的黑箱性质，如何解释这些LP模型仍然是KG应用程序的一 个令人生畏的问题",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk11",
+        "chunk": "例如，在用于做出高风险决策（如欺诈或信 用卡风险检测）的金融KGs中，可解释性不仅需要用于客户参与目 的[21]，而且还需要最新的执法[8]",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk12",
+        "chunk": "人们开发了多种方法来解释 LP 模型的行为，例如用于解释基 于图神经网络（GNN）的预测任务[6, 30, 34]、基于嵌入的模型[3, 32]，以及提供基于子图的解释[31, 33, 36]",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk13",
+        "chunk": "在知识图谱（KG）方 面，最近提出的对抗性攻击方法[3, 24, 27]成为解释 LP 结果的主 要方法类别",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk14",
+        "chunk": "对抗性 *Corresponding author. 图 1：用于合成路线推断的材料知识图谱示例",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk15",
+        "chunk": "为解释预测的链接 <材 料：BEMHUX，具有溶剂，溶剂：二氯甲烷>（顶部的虚线红色链接）， 我们的方法检测到了两条关键的知识图谱路径（中间/底部的蓝色链 接）：BEMHUX 和二氯甲烷共享相同的材料子结构",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk16",
+        "chunk": "BEMHUX 与另一 种材料 BEMHIL 出现在同一篇论文中，而 BEMHIL 也使用二氯甲烷作 为溶剂",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk17",
+        "chunk": "传统的逻辑推理解释（例如 Kelpie）会选择单跳链接作为解释 （加粗的蓝色链接）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk18",
+        "chunk": "该方法仅在检测到对目标预测的最大负面影响时，才将知识图谱 （KG）的最小修改作为最优解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk19",
+        "chunk": "特别是，Kelpie [27] 引入了实 体模仿和后训练技术，以量化模型对链接删除和添加的敏感性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk20",
+        "chunk": "尽管链接预测解释模型在知识图谱上取得了成功，但它们至少在 两个方面存在关键局限性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk21",
+        "chunk": "首先，在大多数方法中，仅考虑与预 测链接的头实体或尾实体相关的局部解释，而未探索整个知识图 谱",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk22",
+        "chunk": "其次，这些解释通常侧重于最大化计算层面的可解释性，例 如添加/删除潜在解释链接时对预测能力的扰动",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk23",
+        "chunk": "它们大多缺乏语 义层面的可解释性，而这对于人类理解至关重要",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk24",
+        "chunk": "在这项工作中，我们的研究动机源于在知识图谱上部署低秩 （LP）模型时的一些观察结果",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk25",
+        "chunk": "例如，在图 1 所示的材料知识图 谱中，要解释某种材料在特定溶剂中合成的事实（虚线红色链 接），传统方法仅提取代表材料某些属性的单跳链接（加粗蓝色 链接）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk26",
+        "chunk": "但实际上，材料专家更倾向于基于路径的解释，如图 1 中间/底部的蓝色路径",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk27",
+        "chunk": "中间路径表明材料/溶剂具有相同的子结构， 而底部路径表明两种材料由同一论文/团队报道",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk28",
+        "chunk": "arXiv:2412.04846v1 [cs.AI] 6 Dec 2024 https://fanyi.youdao.com/download Ye Sun, Lei Shi*, and Yongxin Tong 这些基于路径的解释代表了基本语义，例如与预测链接的因果 关系",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk29",
+        "chunk": "基于这些观察结果，我们提出了一种基于路径的解释框 架，即 eXpath，以解决 KG 上 LP 模型的可解释性问题",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk30",
+        "chunk": "我们 的方法不仅提出了类似于对抗攻击解释的最小 KG 修改建议， 还突出了支持每个修改的具有语义意义的链接路径",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk31",
+        "chunk": "请注意，基于路径的解释这一概念在 Power-Link [6] 和 PaGE-Link [34] 的近期研究中也有探讨",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk32",
+        "chunk": "然而，这些研究侧重 于解释基于图神经网络的嵌入模型，并且为单个解释提取多达 数千条潜在的知识图谱路径",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk33",
+        "chunk": "相比之下，我们考虑的是基于分 解的嵌入模型的解释，这是知识图谱中的一种主流方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk34",
+        "chunk": "后续 的对抗性解释每次仅评估少量的知识图谱修改，从数千个候选 路径中选择最佳路径集的计算成本很高",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk35",
+        "chunk": "此外，另一个实际挑 战在于单个路径解释的评估",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk36",
+        "chunk": "虽然对抗方法在量化单个链接解 释的有效性方面效果良好，但添加/删除整个路径可能会给知识 图谱带来更大的变化，难以用同样的方法进行评估",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk37",
+        "chunk": "本研究的 贡献在于解决上述挑战，具体总结如下： 基于知识图谱的属性特征，我们引入了关系路径的概念， 该概念通过关系类型对个体路径进行聚合",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk38",
+        "chunk": "解释分析 随后在关系路径的层面上进行，这极大地降低了计算 成本，同时增强了解释的语义",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk39",
+        "chunk": "在对基于路径的解释进行评估时，我们提议借鉴本体论理 论，尤其是闭合路径规则和属性转换规则，这不仅确 保了基于路径的语义，还保证了在整个知识图谱数据 集中具有高出现频率的解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk40",
+        "chunk": "通过在多个知识图谱数据集和嵌入模型上进行的大量实验， 我们证明了我们方法的有效性，其显著优于现有的关 系预测解释模型",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk41",
+        "chunk": "案例研究还揭示了基于路径的解释 与真实语义的一致性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk42",
+        "chunk": "2 相关工作 2.1 知识图谱链路预测（KGLP）的解释 知识图谱链接预测（KGLP）中的可解释性是一个关键的研究 领域，这是由于用于链接预测任务的模型日益复杂",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk43",
+        "chunk": "通用的可 解释性技术被广泛用于理解对预测影响最大的输入特征",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk44",
+        "chunk": "LIME [25] 通过扰动输入特征并拟合回归模型来创建局部可解释模型， 而 SHAP [15] 则利用博弈论中的夏普利值来分配特征重要性得 分",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk45",
+        "chunk": "ANCHOR [26] 识别出能确保在不同样本中预测结果可靠的 特征集",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk46",
+        "chunk": "这些框架已在多个领域得到广泛应用，包括针对基于 图的任务的适应性应用，不过它们在知识图谱链接预测中的应 用仍较为有限",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk47",
+        "chunk": "基于图神经网络（GNN）的链路预测（LP）解释主要侧重 于解读用于链路预测的图神经网络的内部工作原理",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk48",
+        "chunk": "诸如 GNNExplainer [30] 和 PGExplainer [16] 等技术通过互信息来识 别有影响力的子图，从而为节点和图级别的预测提供见解，尽 管它们并不直接适用于链路预测任务",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk49",
+        "chunk": "其他方法，如 Subgraph X [31] 和 GStarX [33] 则利用博弈论值来选择与链路预测相关的 子图",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk50",
+        "chunk": "与此同时，PaGE-Link [34] 认为路径比子图更具可解释 性，并将解释任务扩展到异构图上的链路预测问题",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk51",
+        "chunk": "此外， Power-Link [6] 是一种基于路径的知识图谱链路预测（KGLP） 解释器，它利用图幂技术来实现更高效且可并行化的解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk52",
+        "chunk": "然 而，基于 GNN 的可解释性技术仅限于基于 GNN 的 LP 模型， 并不适用于基于嵌入的方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk53",
+        "chunk": "2.2 知识图谱嵌入的对抗攻击 针对知识图谱嵌入（KGE）模型的对抗性攻击已引起关注，用 于评估和提升其鲁棒性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk54",
+        "chunk": "这些攻击主要侧重于提供局部的、实 例层面的解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk55",
+        "chunk": "其目标是在知识图谱中引入最小的修改，从而 对预测造成最大的负面影响",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk56",
+        "chunk": "这些方法通常被分为白盒和黑盒 两种攻击方式",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk57",
+        "chunk": "白盒方法提出了一些算法，这些算法能够近似估计图修改 对特定预测的影响，并识别出关键的变化",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk58",
+        "chunk": "Criage [24] 采用一 阶泰勒近似来估计删除事实对预测分数的影响",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk59",
+        "chunk": "数据投毒 [3, 32] 通过扰动实体向量来操纵嵌入，从而降低模型的评分函数， 突出训练过程中的关键事实",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk60",
+        "chunk": "ExamplE [13] 引入了 ExamplE 启 发式算法，该算法在潜在空间中生成不相连的三元组作为有影 响力的示例",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk61",
+        "chunk": "KE-X [36] 利用信息熵来量化解释候选的重要性， 并通过改进的消息传递机制提取有价值的子图来解释基于知识 图谱嵌入（KGE）的模型",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk62",
+        "chunk": "尽管这些白盒方法提供了有价值的 见解，但它们通常需要完全访问模型参数，这在实际应用中往 往不切实际",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk63",
+        "chunk": "近期的研究还聚焦于黑盒对抗攻击，这类攻击无需了解底 层模型架构",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk64",
+        "chunk": "KGEAttack [2] 通过规则学习和溯因推理来识别影 响预测的关键三元组，为白盒方法提供了一种与模型无关的替 代方案",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk65",
+        "chunk": "尽管这项研究与我们的研究密切相关，但它采用的规 则较为简单，并且没有考虑多个或长规则对事实的支持",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk66",
+        "chunk": "Kelpie [27] 通过识别有影响力的训练事实来解释基于知识图谱 嵌入（KGE）的预测，利用模仿和后训练技术来感知底层嵌入 机制，而无需依赖模型结构",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk67",
+        "chunk": "然而，这些方法仅限于基于事实 的解释，只关注与头实体或尾实体的局部连接，而未能捕捉到 实现全面可解释性所需的多关系上下文",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk68",
+        "chunk": "2.3 知识图谱本体规则 知识图谱的本体规则一直是研究的热点领域，因为它们能够对 知识图谱数据进行符号化且可解释的推理",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk69",
+        "chunk": "AMIE [10, 11] 和 AnyBURL [19, 20] eXpath: Explaining Knowledge Graph Link Prediction with Ontological Closed Path Rules 从大型 RDF 知识库中提取规则，并采用高效的剪枝技术生成高 质量的规则，然后利用这些规则推断知识图谱中缺失的事实",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk70",
+        "chunk": "基于路径的规则学习也已被探索，以提高链接预测的可解释性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk71",
+        "chunk": "Bhowmik [4] 提出了一种框架，强调推理路径以提高不断演化的 知识图谱中链接预测的可解释性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk72",
+        "chunk": "RLvLR [22, 23] 结合嵌入技术 与高效采样，优化了大规模和流式知识图谱的规则学习",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk73",
+        "chunk": "尽管 这些方法在结构推理方面表现出色，但它们在直接解释基于嵌 入的模型所做出的预测方面存在局限性，这凸显了将基于规则 的推理与知识图谱嵌入的可解释性相结合的不足",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk74",
+        "chunk": "近期的研究探索了符号推理与知识图谱嵌入（KGE）模型 的结合",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk75",
+        "chunk": "例如，Guo 等人[12]引入规则作为背景知识来增强嵌入 模型的训练，而 Zhang 等人[35]则提出了一种交替训练方案，将 符号规则纳入其中",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk76",
+        "chunk": "Meilicke 等人[18]表明符号模型和亚符号模 型存在共性，这表明 KGE 模型或许可以用基于规则的方法来解 释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk77",
+        "chunk": "然而，这些方法尚未直接用于解释 KGE 模型所做出的预测",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk78",
+        "chunk": "虽然有可能用基于规则的方法来解释 KGE 模型的预测结果，但 将符号推理与对抗性攻击相结合仍是一个挑战",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk79",
+        "chunk": "3 背景与问题定义 3.1 KGLP 解释 知识图谱（KGs），记作 KG= （E， R， G），是现实世界事实 的结构化表示，其中来自 E 的实体通过 G 中的有向边相连，每 条边代表来自 R 的语义关系",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk80",
+        "chunk": "这些边 G ⊆E ×R ×E，表示形式 为 F= ⟨ℎ，R，T⟩ 的事实，其中 ℎ 是头实体，R 是关系，T 是尾实体",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk81",
+        "chunk": "链路预测（LP）旨在预测知识图谱中实体之间的缺 失关系",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk82",
+        "chunk": "链路预测的标准方法是基于嵌入的，其中实体和关系 被嵌入到连续向量空间中，并使用评分函数 FR(ℎ,T) 来衡量事 实的合理性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk83",
+        "chunk": "链路预测模型的评估通常使用诸如平均倒数排名 （MRR）之类的指标，该指标衡量模型在测试集中预测缺失头 实体或尾实体时对正确实体的排序情况 GTEST",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk84",
+        "chunk": "其中 rkT(F ) 表示目标候选对象 T 在查询 ⟨ℎ，R， ？⟩ 中的 排名，而 rkℎ(F ) 表示目标候选对象 ℎ 在查询 ⟨？，R，T⟩ 中的排名",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk85",
+        "chunk": "虽然基于嵌入的链接预测能够提供准确的预测结果，但理 解这些预测背后的推理对于模型的透明度和可信度至关重要",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk86",
+        "chunk": "为了解决这一问题，针对基于嵌入的链接预测的解释方法侧重 于提供关于预测的实例级洞察，揭示诸如邻近性、共享邻居或 相似的潜在因素等底层特征",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk87",
+        "chunk": "然而，直接干扰模型的架构或嵌 入具有挑战性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk88",
+        "chunk": "因此，解释方法通常依赖于训练数据中的对抗 性扰动，例如对目标三元组邻域的修改，以评估知识图谱嵌入 （KGE）模型的鲁棒性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk89",
+        "chunk": "3.2 对抗攻击问题 在知识图谱逻辑编程（KGLP）解释的背景下，对抗性攻击旨在 评估模型对细微变化的脆弱性，并通过在训练数据中进行有针 对性的干扰来降低其性能，从而评估逻辑编程模型的稳定性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk90",
+        "chunk": "对于给定的预 测 ⟨ℎ，R，T⟩，解释被定义为能使模型在预 测 ⟨ℎ，R， ？⟩ 时得出尾实体 T 或在预测 ⟨？，R，T⟩ 时 得出头实体 ℎ 的最小训练事实集",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk91",
+        "chunk": "例如，要解释为 何 ⟨BARACK_OBAMA，NATIONALITY， ？⟩ 的最高排名 尾实体是 ‘USA’，我们找出从训练集 Gtrain 中移除后会使模 型将 ⟨ℎ，R， ？⟩ 的预测从 ‘USA’ 改为任何其他实 体 E≠T，以及将 ⟨？，R，T⟩ 的预测从 ℎto 任何实体 E′≠ℎ 的最小事实集",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk92",
+        "chunk": "这些事实涉及头实体和尾实体，因为它们对预 测至关重要",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk93",
+        "chunk": "我们通过比较攻击前后诸如 MRR 等标准指标来评估对抗性 攻击的影响",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk94",
+        "chunk": "具体而言，我们在原始训练集上训练模型，并从 测试集中选取一小部分 T⊂GEas目标三元组，对于这些三元组， 模型具有良好的预测性能",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk95",
+        "chunk": "在从训练集中移除攻击集之后，我 们重新训练模型，并测量其在目标集上的性能下降情况",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk96",
+        "chunk": "由于我们关注的是小幅度的扰动，因此攻击仅限于删除少 量的三元组",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk97",
+        "chunk": "为了使这一过程在计算上可行，我们采用批处理 模式，在这种模式下，删除一个目标三元组可能会影响其他三 元组",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk98",
+        "chunk": "如果目标集较小且谓词包含不相交的实体，那么三元组 之间的依赖关系很少，通常可以忽略不计",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk99",
+        "chunk": "攻击的解释能力通 过 MRR 的下降来衡量，其定义为： 3.3 基于路径的解释 虽然对抗性攻击侧重于为每个预测识别关键事实，但它们通常 缺乏明确的理由来说明为何特定事实被视为关键",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk100",
+        "chunk": "我们观察到， 某些知识图谱（如图 1 所示）存在语义上具有意义的路径，这 些路径能够增强预测的可解释性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk101",
+        "chunk": "在这项工作中，我们利用基于路径的解释来解决对抗性攻 击问题",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk102",
+        "chunk": "对于给定的预测 ⟨ℎ，R，T⟩，解释由支持该预测的 最小训练事实集以及每个事实被纳入解释的理由组成，具体而 言，即存在一条或多条关键路径支持该事实",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk103",
+        "chunk": "关键路径表示为从头实体到尾实体的关系路径：⟨ℎ，R 1,A 1⟩∧⟨A1,R 2,A 2⟩∧···∧⟨AN−1 ，R N，T⟩，其中 ℎ 和 T 分别代表头实体和尾实体， RIdenotes 代表关系， AI represents 代表任何中间实体的占位符",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk104",
+        "chunk": "这一系列三元组形成了 从头实体到尾实体的路径",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk105",
+        "chunk": "每条关键路径都对应一个高置信度 的闭合路径（CP）规则，该规则通过替代路径描述实体 X 和 Y 之间的关系，并且由一个或多个关系组成，不考虑中间实体",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk106",
+        "chunk": "基于路径的解释侧重于追踪这些事实并将事实与路径相关 联",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk107",
+        "chunk": "区分我们的基于路径的解释与 Power-Link [6] 和 PaGE-Link [34] 至关重要，后者使用多条路径作为解释集，在基于图神经 网络（GNN）的环境中效果显著",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk108",
+        "chunk": "Ye Sun, Lei Shi*, and Yongxin Tong 图 2：eXpath 的流程",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk109",
+        "chunk": "（a）路径聚合：使用广度优先搜索（BFS）识别 ℎ 和 T 之间的路径，并将其压缩为关系路径",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk110",
+        "chunk": "（b）基于路径的规则挖掘： 修剪相关关系路径，并选择高置信度的闭合路径（CP）和属性转换（PT）规则",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk111",
+        "chunk": "（c）关键事实选择：根据规则相关性和置信度对候选事实进行评分， 选择得分最高的事实作为最终解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk112",
+        "chunk": "然而，在我们的案 例中，基于嵌入的模型本身并不具有图结构，这使得直接提取路 径变得困难，而且头节点和尾节点之间的可能路径数量可能极其 庞大，对如此巨大的空间进行穷举搜索在计算上是不切实际的",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk113",
+        "chunk": "此外，对抗性攻击只能估计最小修改的重要性，而我们方法中的 路径修改对数据集的改变方式比局部更改更具影响力，这使得评 估变得困难",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk114",
+        "chunk": "因此，直接将多条路径用作解释的效果会较差",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk115",
+        "chunk": "4 EXPATH 方法 eXpath 方法旨在通过识别出一组虽小却有效的三元组来解释任何 给定的预测 ⟨ℎ，R，T⟩，移除这些三元组会显著影响模型对 ℎ and T 的预测排名",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk116",
+        "chunk": "此外，eXpath 还通过展示与每个选定事实相 关的关键路径来为其解释提供依据",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk117",
+        "chunk": "eXpath 方法遵循一个三阶段的流程：路径聚合、基于路径的 规则挖掘以及关键事实选择",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk118",
+        "chunk": "在路径聚合阶段（图 2(a)），我们 对训练事实 (GTRAIN) 使用广度优先搜索（BFS）来识别从 ℎ to T 出发的路径，将最大路径长度限制为 3 以确保可解释性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk119",
+        "chunk": "然 后通过移除中间实体将这些路径压缩为关系路径 (PR) ，从而减 少候选路径的数量，同时保留了关键的语义结构",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk120",
+        "chunk": "在基于路径的 规则挖掘阶段（图 2(b)），我们利用基于头尾相关性的局部优化 技术对候选关系路径进行剪枝，仅保留高度相关的路径 (PR RELEVANT)",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk121",
+        "chunk": "这些相关路径构成了候选闭合路径（CP）规则 的主体，通过基于矩阵的方法计算其置信度来进行评估",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk122",
+        "chunk": "同时， 我们从与 FT ℎ RAIN 和 FT T RAIN 中的头尾实体相连接的事实中构 建属性转换（PT）规则，保留置信度高的 CP 和 PT 规则用于事 实选择",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk123",
+        "chunk": "最后，在关键事实选择阶段（图 2(a)），我们根据候选 事实所属规则的数量和置信度对其进行评分，选择得分最高的事 实来形成最终的解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk124",
+        "chunk": "值得注意的是，虽然我们的方法能够高效地提取基于路径的 解释，但实验（第 5 节）表明，并非所有的知识图谱逻辑推理 （KGLP）解释都需要基 于路径的语义",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk125",
+        "chunk": "在较为稀疏的知识图谱中，简单的单跳链接在评 估中得分可能更高",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk126",
+        "chunk": "为了充分利用这两种方法，我们提出了一种 融合模型，将 eXpath 的解释与非路径方法（例如 Kelpie）的解 释相结合",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk127",
+        "chunk": "通过评估这两种方法的解释，得分最高的解释被选为 最终解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk128",
+        "chunk": "这种融合模型突出了不同解释类型的互补优势，并展 示了其作为更优整体解决方案的潜力",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk129",
+        "chunk": "4.1 关系路径与本体规则 在为预测 F= ⟨ℎ，R，T⟩ 提供基于路径的解释时，从 ℎ 到 T 的简单路径数量会随着路径长度呈指数级增长，这使得即使是 3 跳路径的计算也变得难以承受",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk130",
+        "chunk": "为了解决这个问题，我们关注的 不是路径所经过的具体实体，而是路径上关系的序列",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk131",
+        "chunk": "这种抽象 被称为“关系路径”，它极大地减少了候选路径的数量，同时保 留了它们的语义含义",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk132",
+        "chunk": "这一概念的灵感来源于本体规则学习中使 用的闭合路径规则（CP）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk133",
+        "chunk": "通过将多个简单路径聚合为关系路 径，我们显著减少了路径数量，同时保留了解释所需的可解释性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk134",
+        "chunk": "图 3 展示了 CP 和 PT 规则的示例，这些规则的灵感源自本 体规则挖掘中以常量结尾的二元和一元规则的定义",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk135",
+        "chunk": "虽然通过添 加常量之间的关系并将常量替换为变量，PT 规则可以推广为 CP 规则，但在两个常量实体强相关（例如男性和女性）但无法通过 简单路径描述的情况下，PT 规则仍然至关重要",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk136",
+        "chunk": "这些可解释的 规则为链接预测提供了见解，为生成解释奠定了坚实的基础",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk137",
+        "chunk": "形 式上，我们区分了两种类型的规则： 其中，R和 RIdenote 关系（二元谓词），A0，A I,A N,X,Y 是变 量，而 C，C ' 是常量（实体）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk138",
+        "chunk": "我们用 to 表示一条规则，其中 左边的原子（ℎ）构成规则的头（ℎEAD（ ）），右边的原子 （R）构成规则的体（BODY（ ））",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk139",
+        "chunk": "为了简化符号，在接下来 的部分中，我们使用 eXpath: Explaining Knowledge Graph Link Prediction with Ontological Closed Path Rules 图 3：本框架中使用的本体规则的原则和实例",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk140",
+        "chunk": "闭合路径（CP）规则描 述了实体 X 和 Y 通过替代路径之间的关系，而属性转换（PT）规则则 捕获了同一实体的不同属性之间的转换",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk141",
+        "chunk": "这些本体规则并非预先定义的， 而是从知识图谱中挖掘出的通用模式，由符合指定模式的子结构提供支 持",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk142",
+        "chunk": "R←R1,R 2, ...，R Nto 表示 CP 规则，关系可以反转以捕捉逆语 义（用单引号表示， R′)",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk143",
+        "chunk": "例如，关系 hypernym（X， Y） 也 可以表示为 hypernym' （Y， X）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk144",
+        "chunk": "CP 规则之所以被称为“闭合路径”，是因为规则体中的关 系序列形成了一条直接连接头关系的主语和宾语参数的路径",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk145",
+        "chunk": "这一特性在 CP 规则和关系路径之间建立了紧密的联系",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk146",
+        "chunk": "这两个 概念都侧重于捕捉知识图谱中实体之间的结构化关系，其形式 本质上是一致的",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk147",
+        "chunk": "这种一致性使得关系路径能够直接作为 CP 规 则体的候选",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk148",
+        "chunk": "实际上，每个 CP 规则都可以被视为关系路径的一 种形式化和概括的表示，还附加了额外的置信度和支持度",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk149",
+        "chunk": "此 外，CP 规则的结构化特性使其非常适合解释基于嵌入的预测， 因为它们封装了支撑模型推理的关键关系模式",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk150",
+        "chunk": "为评估规则的质量，我们回顾一些主要规则学习方法中所采 用的度量标准[7, 10]",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk151",
+        "chunk": "若实体对 R (E,E ‘) 满足 and 的头部分，则存在知识图谱中的实体 E 1， . . . ， E N−1 使得 ⟨E， R 1， E 1⟩， . . . ， ⟨E N− 1， R N， E ’⟩ 是知识图谱中的事实，即满足 R 的体部分",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk152",
+        "chunk": "那 么， 的支持度（supp）、标准置信度（SC）和头覆盖度（HC） 定义如下： 4.2 基于路径的规则挖掘 生成基于路径的解释的关键步骤是构建规则集 Φ，其中包 含第 4.1 节中定义的闭合路径（CP）规则和属性转换（PT）规 则",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk153",
+        "chunk": "我们并非在整个知识图谱（KG）中挖掘所有可能的规则， 而是针对每个预测从与特定预测 F= ⟨ℎ，R，T⟩ 相关的局部 图中提取相关规则",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk154",
+        "chunk": "与给定预测相关的 PT 规则源自与 ℎ 和 T 相关的其他事实 （F '∈FTℎRAIN ∪F TTRAIN）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk155",
+        "chunk": "这些规则是通过替换 Fand 和 F′with 变量中的共同实体来构建的，分别作为规则的头和体",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk156",
+        "chunk": "例如，对于 F= ⟨Porco_Rosso, language， Japanese⟩ 和 F′= ⟨ Porco_Rosso， genre, Anime⟩，对应的 PT 规则是：⟨X， language, Japanese⟩ ← ⟨X， genre, Anime⟩",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk157",
+        "chunk": "此规则类似于 Kelpie [27] 提出的“充分场景”，用于捕捉同一上下文中不同 实体是否满足相同的预测",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk158",
+        "chunk": "根据公式 4，我们只需分 别计算满足 ⟨X， 语言， 日语⟩ 和 ⟨X， 类型， 动画⟩ 的事 实数量，作为头部和体部的计数",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk159",
+        "chunk": "满足条件的事实数量 Ye Sun, Lei Shi*, and Yongxin Tong 这两种情况都作为支持计数",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk160",
+        "chunk": "最后，我们设定一个阈值：只有满 足 SC（ ） > minSC 且 HC（ ） > minHC 的规则才会被选中，以 形成 PT 规则集 ΦPT",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk161",
+        "chunk": "另一方面，与预测相关的 CP 规则源自于连接 ℎ 和 T 的关 系路径 (PR)",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk162",
+        "chunk": "由于单个预测可能涉及大量 CP 规则，且在整个知 识图谱中评估 CP 规则的计算成本较高，因此 CP 规则挖掘比 PT 规则挖掘更为复杂",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk163",
+        "chunk": "如算法 1 所述，我们首先进行 PRusing 局部 优化，确保仅考虑与预测相关的 PR RELEVANTare 关系路径以进 行评估",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk164",
+        "chunk": "在剪枝过程中，每条关系路径都会被赋予一个头相关性得分 和一个尾相关性得分，这反映了其对预测的重要性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk165",
+        "chunk": "头相关性和 尾相关性得分均为正（REL ℎ> 0 和 RELT> 0）的关系路径被认 为与预测相关，并被保留为候选规则体 (PR RELEVANT) 以供进一 步评估",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk166",
+        "chunk": "这种筛选方法假定，只有当关系路径的头关系和尾关系 对预测都至关重要时，该关系路径才能作为有效的规则体",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk167",
+        "chunk": "为了计算相关性得分，eXpath 采用了一种受 Kelpie 模拟策略 启发的高效局部优化方法[27]",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk168",
+        "chunk": "为头实体和尾实体创建模拟实体 （如 ℎ′and T′(see 图 2(b) 所示），这些模拟实体保留了与原始头 实体或尾实体相同的连接关系，但移除了与所评估关系相关的所 有事实",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk169",
+        "chunk": "然后，分别使用直接连接的事实对模拟实体以及原始头 实体和尾实体的嵌入进行独立训练",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk170",
+        "chunk": "计算出三个预测分数：FR(ℎ,T)、FR(ℎ 和 FR(ℎ,T，其中 FR (ℎ,T) 表示模型对三元组 ⟨ℎ，R，T⟩ 的评分函数",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk171",
+        "chunk": "关系的相 关性定义为：在移除与特定关系相关的所有事实后预测分数的减 少量",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk172",
+        "chunk": "这里，RELℎandRELTquantify强调了与头实体和尾实体相关 关系的重要性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk173",
+        "chunk": "使用分数的相对变化而非排名的降低，因为分数 提供了更可靠的衡量标准",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk174",
+        "chunk": "排名降低可能不可靠，尤其是在局部 优化场景中，模仿实体可能会过度拟合，导致排名始终为 1",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk175",
+        "chunk": "这 种相关性分数通过模拟模型的底层嵌入机制，有效地捕捉了事实 对预测的影响",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk176",
+        "chunk": "最后，eXpath 会针对每次预测构建一个 CP 规则集 ΦCPfor，基于 相关的关系路径 PR RELEVANTto 选择支持度和置信度都较高的高 质量规则",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk177",
+        "chunk": "置信度的计算公式为 CONF（ ） = SC（ ） ·SUPP （ ）+minSupp ，这可以防止 SUPP( ) 对于支持度不足（例如，支持度 < 10）的规则高估，不足以概括 为一条规则",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk178",
+        "chunk": "高置信度的 CP 和 PT 规则（Φ CPand ΦPT)）被保 留用于事实选择",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk179",
+        "chunk": "强大的支持度和置信度确保所选规则对于因果 推理具有稳健性，从而使 eXpath 能够生成准确且可解释的基于 路径的解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk180",
+        "chunk": "然而，高效地计算 CP 规则的度量指标是一项重大挑战",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk181",
+        "chunk": "为 了解决这一问题，我们采用了 RLvLR [23] 中基于矩阵 的方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk182",
+        "chunk": "该方法通过验证候选规则中体原子的可满足性来计算 CP 规则的度量指标",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk183",
+        "chunk": "给定一个以一组 S 矩阵表示的知识图谱， 其中每个 N×N 二进制矩阵 S(R K) 对应于一个关系 RK，邻接矩 阵 S(R K) 中的元素为 1 当且仅当知识图谱中存在事 实 ⟨EI,R K,E J⟩exists ，否则为 0",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk184",
+        "chunk": "事实 RT(E,E ‘) 是通过 if 存在一个实体 E′′ such 使得 R1 （E，E ’‘） 和 R2 （E ’‘，E ’） 成立而推断出 来的",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk185",
+        "chunk": "乘积 S（R 1） ·S（R 2） 生成了推断事实集合的邻接矩阵",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk186",
+        "chunk": "然后使用二元转换 S（R 1,R 2） = binary（S（R 1）·S（R 2）） 来推广此计算",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk187",
+        "chunk": "此 CP 规则的度量值计算如下： 其中，求和函数对矩阵中的所有元素进行求和，& 表示逐元素的 逻辑与运算",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk188",
+        "chunk": "虽然此示例中的规则体长度为 2，但该方法可直接 扩展到任意长度",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk189",
+        "chunk": "这种基于矩阵的方法为在大型知识图谱中高效 计算规则度量提供了一种可扩展的解决方案",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk190",
+        "chunk": "4.3 关键事实选择 本节详细介绍了如何利用上一步提取的规则，为给定的预测三元 组 ⟨ℎ，R，T⟩ 选择一组最优的事实",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk191",
+        "chunk": "其核心思想是在连接头 实体和尾实体的路径中，识别出最关键的事实或事实组合",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk192",
+        "chunk": "每个 事实根据其对预测的贡献进行评估，得分较高的事实被认为更为 关键",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk193",
+        "chunk": "最终的解释集是通过选择得分最高的事实来构建的",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk194",
+        "chunk": "确定一个事实的重要性会考虑几个关键因素：（1）满足更 多规则的事实会被赋予更高的优先级，因为这表明其在预测中的 相关性更广泛",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk195",
+        "chunk": "（2）置信度更高的规则权重更大，这反映了其 因果支持更可靠",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk196",
+        "chunk": "（3）事实在规则中的位置（例如，它是否连 接到头实体或尾实体）会根据之前确定的关系相关性得分进行调 整",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk197",
+        "chunk": "综合考虑所有这些因素，评分系统为评估每个事实的重要性 提供了一个可靠的度量标准",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk198",
+        "chunk": "为了模拟满足多个规则的事实的贡 献，我们采用了一种受基于规则的链接预测方法启发的置信度 （CD）聚合方法[22]",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk199",
+        "chunk": "事实F的置信度是通过以“有噪声的或” 方式计算所有推断出F的规则的置信值来确定的",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk200",
+        "chunk": "对于解释任务， 即从链接预测的视角反向来看，我们定义置信度（CD）如下： 其中，Φ（F） 是从预测中推导出的规则集，CONF( ) 是规则 的置信度，而 W（F， ） 则表示事实 F 在规则 中的重要性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk201",
+        "chunk": "这 一重要性得分介于 0 到 1 之间，反映了 F 在规则中的出现比例及其 eXpath: Explaining Knowledge Graph Link Prediction with Ontological Closed Path Rules 表 1：基准数据集的统计信息",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk202",
+        "chunk": "11 18 237 1,345 3,034 5,000 5,000 3,134 WN18 50,971 86,835 17,535 20,466 14,951 50,000 14,541 40,943 40,943 FB15k 数据集 272,115 141,442 483,142 实体 WN18RR FB15k-237 测试 事实 有效 事实 火车事 实 知识图谱 数据集 关系类型 基于规则的头关系和尾关系的相关性来确定相对重要性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk203",
+        "chunk": "重要 性得分 W（F ， ） 的计算方式为： 其中 RELℎ( ) 和 RELT( ) 分别是规则头和尾关系的相关性得分",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk204",
+        "chunk": "项 Pℎ(F， ) 表示在与规则 相关的所有路径中，出现在规则头 的 F’s 出现的比例",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk205",
+        "chunk": "这种公式化确保了在规则中更突出的事实 得分更高",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk206",
+        "chunk": "在 PT 规则中，事实 W（F， ） 的重要性得分简化 为 1，因为规则对应于给定预测的唯一事实",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk207",
+        "chunk": "我们根据候选事实的 CD 分数对其进行排序，并选择排名 靠前的事实来形成解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk208",
+        "chunk": "这种方法确保所选事实是那些由高质 量、相关规则最有力支持的事实，从而为给定的预测提供稳健 且可解释的说明",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk209",
+        "chunk": "5 实验 5.1 实验设置 我们在知识图谱链路预测（KG LP）任务中使用了四个基准数 据集对 eXpath 进行了评估：FB15k、FB15k-237 [14]、WN18 和 WN18RR [4]",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk210",
+        "chunk": "这些数据集的详细统计信息和链路预测指标见表 1",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk211",
+        "chunk": "我们遵循标准的数据划分和训练参数，以确保在比较时的一 致性，并在移除事实前后保持相同的训练参数",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk212",
+        "chunk": "我们将 eXpath 与四个专门用于链路预测解释的当代系统进 行了性能比较：Kelpie [27]、Data Poisoning (DP) [32]、Criage [2] 和 KGEAttack [2]",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk213",
+        "chunk": "这些实现方案都是公开可用的，我们根 据它们各自的 Github 代码库对代码进行了调整",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk214",
+        "chunk": "由于该解释框 架与任何基于嵌入的链路预测（LP）模型兼容，因此我们在具 有不同损失函数的三个模型上进行了实验：CompEx [28]、 ConvE [9] 和 TransE [29]",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk215",
+        "chunk": "在对抗性攻击中，每个解释框架都会推荐一个或多个事实， 在使用相同的参数重新训练模型之前将其移除",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk216",
+        "chunk": "基准框架，包括 DP、Criage 和 Kelpie，仅关注与头实体直接相关的事实（即头实体的属性）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk217",
+        "chunk": "KGEAttack 随机选择提取规则中的一个事实，而 eXpath 则关注 与头实体或尾实体相关的事实，每个事实都由相关的 CP 和 PT 规则支持",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk218",
+        "chunk": "为了确保解释系统之间的公平性，我们限制了可移 除的事实数量",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk219",
+        "chunk": "具体而言，DP、Criage、Kelpie（L1）和 eXpath（L1）限制移除的事实最多为一个，而 Kelpi e 和 eXpath 则最多可移除四个事实",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk220",
+        "chunk": "基于实验和现有文献，我 们设定了阈值 minSC = 0.1、minHC = 0.01、minSupp = 10",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk221",
+        "chunk": "这 些参数是从先前工作 [10] 中高质量规则的定义中借鉴而来的",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk222",
+        "chunk": "基于第 3.3 节中概述的问题设定，我们从测试集中随机选 取一小部分 T⊂GEfrom 其中模型表现相对较好的样本",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk223",
+        "chunk": "具体而 言，我们挑选出 100 个表现优异的预测结果",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk224",
+        "chunk": "这些预测结果无 需同时在头部和尾部预测中排名第一，因为过于严格的此类标 准可能会过度限制选择过程，并降低场景的适用性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk225",
+        "chunk": "为了评估 模型性能，我们关注的是相对倒数排名的降低，而非绝对降低， 因为 Tare 中的预测结果不一定都是排名靠前的，表现较差的预 测结果会被赋予较小的权重",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk226",
+        "chunk": "模型的解释能力通过 H@1（命中 率@1）和 MRR（平均倒数排名）的相对降低来衡量，其定义 为： 其中 MXrepresents 表示在排除解释框架 X 提取的候选解释后， 基于数据集训练的模型，而 MOdenotes 表示基于整个数据集训 练的原始模型，1（·） 是指示函数，若内部条件成立则返回 1， 否则返回 0",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk227",
+        "chunk": "虽然 δH@1 和 δMRR 都很有用，但 δMRR 更为稳健",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk228",
+        "chunk": "模 型训练的随机性和较小的数据集规模（100 个预测）会导致 δH@ 1 值出现显著的波动",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk229",
+        "chunk": "对于像 TransE 这样脆弱的模型，即使没 有攻击，其排名也会波动，这一问题会更加严重",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk230",
+        "chunk": "我们通过在 五次实验运行中取平均值来解决这个问题",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk231",
+        "chunk": "为了确保要解释的 预测具有较高的质量，我们将 MRR 限制在大于 0.5，这确保了 预测在头实体或尾实体预测中至少有一个排名第一",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk232",
+        "chunk": "为了评估 整体解释能力，我们分别在分子和分母中对新模型 MXand 原模 型 MOacross 所有事实的 MRR 值求和",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk233",
+        "chunk": "这种方法确保了更好的 预测在评估中贡献更大，避免了只选择头实体和尾实体排名均 为 1 的预测所带来的偏差",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk234",
+        "chunk": "此外，这种方法还允许出现负向解 释，即在移除一个事实后排名下降的情况",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk235",
+        "chunk": "5.2 解释结果 表 2 和表 3 展示了 eXpath 方法在生成链路预测任务解释方面的 总体有效性，评估采用了方程 9 中定义的 δH@1 和 δMRR 指 标",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk236",
+        "chunk": "为了进行公平比较，解释方法根据解释规模（即提供的事 实数量）进行分类",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk237",
+        "chunk": "首先 Ye Sun, Lei Shi*, and Yongxin Tong 表 2：不同模型和数据集在使用各种解释方法时的 δH@1 对比",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk238",
+        "chunk": "所有结果均为五次运行的平均值，数值越高表示性能越好",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk239",
+        "chunk": "所有候选预测的原始 H@ 1 值均为 1（排除 H@1 > 1 的预测）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk240",
+        "chunk": "带有“+eXpath”的方法表示将给定方法与 eXpath 相结合的融合方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk241",
+        "chunk": ".411 .929 .929 .929 .414 .929 .222 .212 .229 .542 .691 .951 .915 .271 .785 .452 .427 .331 .246 .907 .500 .581 .261 .322 .290 .395 .237 .891 .915 .165 .611 .315 .213 .495 .573 .826 .585 .153 .105 .539 .891 .427 .360 .395 .322 .767 .281 .326 .661 .337 .829 .799 .920 .794 .779 .384 .839 .819 .813 .304 .758 .792 .938 .593 .343 .797 .162 .512 .570 .080 .829 .529 .667 .938 .578 .313 .567 .709 .404 .523 .162 .374 .557 .957 .566 .779 .576 .534 .365 .374 .576 .802 .946 .984 .868 .767 .816 .940 .802 .910 .547 .938 .087 .270 .256 .829 .303 .203 .834 .764 .424 .965 .965 .742 .965 .965 .944 .831 .540 .417 .965 .835 .872 .657 .944 .989 .653 .438 .872 .935 .364 .417 .936 .859 .596 .946 .609 .674 .859 .859 .826 .936 .984 .946 四 例如",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk242",
+        "chunk": "Conve （无准确对应的中文词汇） 单身 凯尔皮（一种澳大利亚的牧羊犬） TransE 方法 eXpath eXpath 动态规划 [32] 复杂 .663 (+19%) .655 (+12%) .682 (+38%) 凯尔皮 [27] .643 (+290%) DP + eXpath 克雷奇 [24] 凯尔皮+eXPath 凯尔皮+eXpath Criage + eXPath KGEAttack [2] KGEA",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk243",
+        "chunk": "+ eXpath 最大 扩展 尺寸 — — — — — — — — 表 3：不同模型和数据集在使用各种解释方法时的 δMRRcomparison",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk244",
+        "chunk": "所有结果均为五次运行的平均值，数值越高表示性能越好",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk245",
+        "chunk": "所有候选预测的原 始 MRR 均高于 0.5",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk246",
+        "chunk": "— 动态规划 .241 .491 .141 .491 .211 .919 .024 .190 .492 .924 .199 .494 .895 .891 .051 .795 .123 .187 .711 .236 .172 .391 .203 .785 .223 .262 .045 .238 .675 .893 .085 .233 .282 .711 .031 .891 .165 .140 .613 .451 .115 .723 .091 .452 .596 .366 .261 .183 .943 .495 .225 .680 .688 .877 .729 .157 .892 .130 .327 .766 .450 .889 .163 .430 .889 .937 .239 .887 .728 .457 .889 .877 .700 .952 .206 .883 .875 .848 .483 .814 .810 .578 .663 .376 .058 .877 .463 .632 .853 .742 .159 .443 .076 .799 .668 .777 .239 .239 .185 .664 .795 .157 .354 .712 .159 .659 .104 .590 .514 .143 .203 .150 .075 .805 .777 .434 .058 .684 .774 .949 .215 .332 .893 .952 .519 .941 .309 .252 .468 .960 .734 .245 .718 .893 .261 .534 .900 .966 .709 .718 .406 .803 .900 .401 四 例如",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk247",
+        "chunk": "平均值 Conve （无准确对应的中文词汇） 单身 凯尔皮（一种澳大利亚的牧羊犬） 凯尔皮（一种澳大利亚的牧羊犬） TransE Criage 方法 eXpath eXpath KGEAttack 复杂 .549 (+22%) .548 (+12%) .553 (+47%) .533 (+527%) DP + eXpath 最大 扩展 尺寸 凯尔皮+eXpath 凯尔皮+eXpath 克瑞吉 + eXpath KGEA",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk248",
+        "chunk": "+ eXpath — — — — — — — 每个表格的上半部分（前 9 行）展示了五种单事实解释（L1）及其 融合模型的结果，例如 Criage、DP、Kelpie、KGEAttack 和 eXpath， 这些模型每种解释仅提供一个事实",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk249",
+        "chunk": "表格的下半部分（后 3 行）则 展示了四种事实的解释（L4）的结果，包括 eXpath、Kelpie 及其融 合模型",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk250",
+        "chunk": "对于单事实解释，eXpath 实现了最佳的平均性能，在 δH@1 上平均得分为 0.611，在 δMRR 上平均得分为 0.494",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk251",
+        "chunk": "KGEAttack 的表现相当，分别在 δH@1 和 δMRR 上平均得分为 0.585 和 0.492",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk252",
+        "chunk": "这两种方法均显著优于 Criage 和 Kelpie，在 δH@1 上平均高出至 少 15.4%，在 δMRR 上平均高出至少 23.6%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk253",
+        "chunk": "值得注意的是，eXpath 在 24 种设置中的 20 种中至少取得 了第二好的表现，并在 12 种设置中显著优于所有方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk254",
+        "chunk": "有趣的是， eXpath 的解释表现出对特定数据集的偏好",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk255",
+        "chunk": "与 KGEAttack 相比， eXpath 在解释关系密集型数据集（如 FB15k-237）方面表现更佳， 在 δH@1 上平均提高了 50.3%，在 δMRR 上平均提高了 43.8%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk256",
+        "chunk": "在更实际的包含四个事实的情境中，只有 eXpath 和 Kelpie 支 持将多个事实作为解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk257",
+        "chunk": "eXpath 直接选择得分最高的最多四个事实 的组合，在 24 种设置中有 22 种设置中，其表现优于 Kelpie，且具 有统计学意义（p 值 < 0.05）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk258",
+        "chunk": "eXpath: Explaining Knowledge Graph Link Prediction with Ontological Closed Path Rules 五次运行的结果表明，eXpath 在 δH@1 上的平均值为 0.785， 在 δMRR 上的平均值为 0.663，而 Kelpie 在 δH@1 上的平均值为 0.691，在 δMRR 上的平均值为 0.590",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk259",
+        "chunk": "值得注意的是，在所有设 置中，eXpath 的四事实解释始终优于单事实解释，这突显了多事 实组合对于有意义的解释的重要性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk260",
+        "chunk": "在像 FB15k 和 FB15k-237 这 样密集的数据集上，这种优势尤为明显，四事实解释在 δH@1 上 平均提高了 69.5%，在 δMRR 上平均提高了 87.7%，相比之下， 单事实解释则逊色许多",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk261",
+        "chunk": "而在像 WN18 和 WN18RR 这样较为稀 疏的数据集上，改进幅度则相对较小，分别在 δH@1 上平均提高 了 11.3%，在 δMRR 上平均提高了 41.4%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk262",
+        "chunk": "像 FB15k 这样的密集 图包含大量关系的同义词或反义词（例如，演员-电影、续集-前 传、奖项-荣誉），这意味着即使从解释中移除一个事实，知识图 谱中仍存在其他相关事实，从而使对抗性攻击的效果大打折扣",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk263",
+        "chunk": "这一观察结果强调了多事实解释对于全面捕捉预测上下文的重要 性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk264",
+        "chunk": "我们还评估了融合方法（例如，Kelpie+eXpath），选择能更 大程度降低 MRR 的解释，MRR 定义为 RR（M X+Y ， F） = min（RR（M X， F）， RR（M Y， F））",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk265",
+        "chunk": "例如，将 eXpath（L1） 分别与 Criage、DP、Kelpie （L1） 和 KGEAttack 相结合，分别使 δMRR 提高了 527%、22%、 47% 和 12%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk266",
+        "chunk": "eXpath 与 Kelpie 的融合使 Kelpie 单独使用时的性 能提高了 20%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk267",
+        "chunk": "这些结果表明，eXpath 提供了多样且互补的视角， 尤其是与 Kelpie 结合时，突出了不同解释策略之间的差异",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk268",
+        "chunk": "然而， L1 融合方法收敛到一个上限（δMRR ≤ 0.56，δH@1 ≤ 0.69）， 这表明单事实解释存在固有的局限性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk269",
+        "chunk": "在链接预测任务中，多事 实方法对于令人满意的解释是必要的",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk270",
+        "chunk": "在效率方面，图 4 对 eXpath 和 Kelpie 每次预测的平均解释 时间进行了比较",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk271",
+        "chunk": "eXpath 的解释速度显著更快，平均每次预测仅 需 25.61 秒，约为 Kelpie 平均时间 66.36 秒的 38.6%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk272",
+        "chunk": "这种效率 优势归因于 eXpath 在关系组内进行的局部优化以及基于评分的 简单事实选择过程，而 Kelpie 则需要对连接进行详尽的遍历以及 耗时的组合搜索",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk273",
+        "chunk": "总之，eXpath 在性能和执行效率方面都展现出明显的优势， 凸显了其作为推进基于路径和基于规则的解释系统在链路预测任 务中的潜力，是一个强大的框架",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk274",
+        "chunk": "5.3 事实立场偏好 为了评估将事实限制在头实体或尾实体上的效果，我们分析了其 对解释性能的影响，重点关注头实体和尾实体属性的相对重要性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk275",
+        "chunk": "表 4 展示了不同解释规模（1、2、4、8）下的结果，其中“all” 表示不限制事实选择，“head”表示仅选择与头实体相关的事实， “tail”表示仅选择与尾实体相关的事实",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk276",
+        "chunk": "与头实体或尾实体无 关的事实被排除在外，因为它们不会直接影响嵌入",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk277",
+        "chunk": "总体而言， 限制在头实体（head）上的效果优于不限制选择（all），并且始 终优于限制在尾实体（tail）上的事实，后者表现较弱",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk278",
+        "chunk": "值得注 意的是，head 实现了最佳性能",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk279",
+        "chunk": "图 4：Kelpie 和 eXpath 提取解释的平均时间（以秒为单位）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk280",
+        "chunk": "不过在大多数情况下，效果因数据集和模型的不同而有所差异",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk281",
+        "chunk": "例如，在 WN18RR 数据集上使用 TransE 模型时，解释大小为 1 时，头实体的表现优于所有实体（头实体：0.598 对比所有实体： 0.406），这反映了数据集和模型的特定偏差",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk282",
+        "chunk": "对于 FB15k 和 FB15k-237，限制所有事实（all）的表现普遍优于限制头实体相 关事实（head），而对于 WN18 和 WN18RR，限制头实体相关事 实（head）则显著提高了性能",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk283",
+        "chunk": "限制尾实体相关事实（tail）在所 有数据集上都降低了性能，其中在 FB15k-237 上性能下降了 50%， 在 WN18RR 上下降了 40%，与限制头实体相关事实（head）相 比",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk284",
+        "chunk": "在 FB15k 和 WN18 中，由于未移除反向关系，限制尾实体 相关事实（tail）的性能仅比限制头实体相关事实（head）下降了 9%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk285",
+        "chunk": "这是因为 FB15k 和 FB15k-237 是密集图，促使模型平衡头 实体和尾实体的建模",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk286",
+        "chunk": "而在像 WN18 和 WN18RR 这样更稀疏的 数据集中，头实体更为重要，通常代表核心概念（例如“人”或 “组织”），而尾实体则充当枢纽（例如“男性”、“纽约”或 “首席执行官”），具有众多连接",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk287",
+        "chunk": "由于枢纽实体的作用不那么 核心，移除与之相关的事实对预测指标的影响有限",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk288",
+        "chunk": "与限制头部实体 相比，限制尾部实体会导致 ComplEx、ConvE 和 TransE 的平均 性能分别下降 8.2%、15% 和 41%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk289",
+        "chunk": "TransE 由于其平移操作，对 头部实体和关系嵌入的依赖性很强，因此对头部相关上下文特别 敏感，并且存在明显的偏差",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk290",
+        "chunk": "ConvE 存在类似的偏差，但程度较 轻，而 ComplEx 则对头部和尾部之间的对称交互进行建模，从而 实现了更均衡的性能",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk291",
+        "chunk": "然而，即使是 ComplEx 也表现出了一定程 度的敏感性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk292",
+        "chunk": "Ye Sun, Lei Shi*, and Yongxin Tong 表 4：不同模型和具有不同事实位置偏好的数据集之间的 δMRRComparison ：all 表示不限制事实选择，head 表示事实仅限于与头实体相连的，tail 表 示事实仅限于与尾实体相连的",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk293",
+        "chunk": "1 8 4 2 .419 .449 .119 .909 .919 .904 .227 .780 .165 .290 .103 .807 .501 .431 .125 .833 .850 .471 .201 .196 .071 .125 .196 .611 .961 .088 .783 .231 .939 .659 .469 .333 .233 .787 .227 .956 .900 .406 .367 .904 .389 .913 .394 .900 .177 .857 .630 .346 .433 .918 .413 .549 .932 .232 .843 .930 .159 .438 .148 .000 .370 .885 .337 .693 .737 .329 .759 .727 .920 .810 .438 .826 .127 .558 .878 .223 .696 .769 .163 .479 .230 .737 .156 .923 .877 .520 .869 .270 .324 .602 .818 .134 .713 .135 .643 .859 .942 .549 .243 .877 .539 .877 .448 .572 .935 .833 .952 .680 .135 .134 .902 .908 .291 .355 .343 .254 .877 .965 .877 .240 .925 .159 .762 .887 .177 .533 .319 .372 .927 .978 .453 .635 .584 .889 .959 .820 .774 .889 .726 .927 .774 .889 .784 .598 .350 .658 .809 .888 .450 .889 .990 .271 .149 .490 .251 -.059 平均值 Conve （无准确对应的中文词汇） TransE 方法 复杂 eXpath（全部） eXpath（全部） eXpath（全部） eXpath（全部） eXpath 尾部函数 eXpath 尾部函数 eXpath 尾部函数 eXpath 尾部 eXpath（头部） eXpath（头部） eXpath（头部） eXpath（头部） 最大 扩展 尺寸 表 5：关于 δMRR 的消融研究结果，比较了在不同模型和数据集上排除 CP 规则（无 CP）和 PT 规则（无 PT）的影响",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk294",
+        "chunk": "稀疏策略选择与最稀疏关系 相关的事实作为解释，作为比较的基准",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk295",
+        "chunk": "1 4 .492 .942 .941 .149 .163 .223 .431 .598 .270 .431 .930 .925 .925 .341 .195 .097 .416 .558 .877 .370 .453 .047 .877 .833 .680 .319 .853 .889 .693 .877 .664 .355 .877 .155 .622 .810 .174 .159 .295 .889 .685 .329 .154 .887 .952 .135 .953 .935 .212 .774 .774 .659 .423 .875 .083 .757 .153 .839 .118 .520 .477 .574 .800 .936 .276 .125 .835 .305 .276 .190 .106 .159 .708 .448 平均值 Conve （无准确对应的中文词汇） TransE 方法 eXpath eXpath .613 (-6%) 复杂 .360 (-27%) .470 (-4.5%) .575 (-13.5%) 最大 扩展 尺寸 eXpath（不含 CP） eXpath（不含 PT） eXpath（不含 PT） eXpath（不含 CP） 下降了 8.2%，这表明数据集的特征，而非仅模型设计，在决定事 实偏好方面发挥着重要作用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk296",
+        "chunk": "事实限制应与特定数据集的特征相匹配，以确保解释具有针 对性和意义",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk297",
+        "chunk": "根据图密度调整限制提供了一种实用的启发式方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk298",
+        "chunk": "我们以事实与实体的比例作为密度的衡量标准，对低密度数据集 （比例 < 10，即 WN18 和 WN18RR）应用了头事实限制，但对于 高密度数据集（比例 > 10，即 FB15k 和 FB15k-237）则采用无限 制选择，以平衡性能和解释的丰富性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk299",
+        "chunk": "虽然 Kelpie 本质上将解释 限制在与头相关的事实，但这种约束可能会限制解释的多样性和 语义丰富性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk300",
+        "chunk": "我们的研究结果强调了在解释策略中保持灵活性的 重要性，使其能够适应数据集和模型的独特属性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk301",
+        "chunk": "5.4 消融研究 为了评估我们方法中各组件的有效性，我们通过依次移除一种规 则来进行消融实验，以对事实进行评分",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk302",
+        "chunk": "这使我们能够分析在我 们的方法中使用的两种评分规则——CP 和 PT 的各自贡献",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk303",
+        "chunk": "表 5 展示了解释规模为 1 和 4 时的结果，其中 eXpath 表示同时使用 CP 和 PT 规则的完整方法，eXpath（w/o CP） 表示不使用 CP 规 则的方法，eXpath（w/o PT） 表示不使用 PT 规则的方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk304",
+        "chunk": "结果表 明，移除任何一种规则都会导致性能下降，CP 规则移除后性能分 别下降 27% 和 13.5%，PT 规则移除后性能分别下降 4.5% 和 6%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk305",
+        "chunk": "这些发现突显了 CP 规则在链接预测中的关键作用，是处理复杂关 系模式的主要机制",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk306",
+        "chunk": "虽然影响较小，但 PT 规则通过提高解释的多 样性和可靠性，对 CP 规则起到了重要的补充作用",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk307",
+        "chunk": "eXpath: Explaining Knowledge Graph Link Prediction with Ontological Closed Path Rules 表 6：三种有效方法对代表性示例生成的解释的比较",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk308",
+        "chunk": "每个单元格的第一行包含 δMRR，其后是每个模型生成的解释集",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk309",
+        "chunk": "凯尔皮（一种澳大利亚的牧羊犬） eXpath 预测 KGEAttack E1，奖项，E2 [0.00] 《e3》前传， 《e4》 E3 ，演员，乔纳森·普雷 斯（来自复杂的 FB15k 数 据集） E2，提名奖，E1（来自复 杂的 FB15k） 《红猪》（Porco_Ross o），所属国家，日本 （来自 FB15k 的 conve 数 据集） [0.00] 动画，此类别中的 影片，红猪 [第 1 行：0.62/第 4 行：0.74] 宫崎骏，电影，红猪 红猪， 语言，日语 [L1: 0.33/L4: 1.00] E5，演员，乔 纳森·普雷斯 乔纳森·普雷斯，电 影，E5 乔纳森·普雷斯，电影，E 4 E3，演员，约翰尼·德普 [L1: 0.00/L4: 0.58] E4，续集，E3 凯斯·理查兹， 电影，E3 E3，演员，凯斯·理查兹 动作片，此 类影片，E3 E1，奖项，E2 E2，奖项提名者，琼·艾伦托尼奖..， 奖项提名者，E1奥斯卡奖..，奖项提名者，E1 E2提名者，安娜·帕奎因 E2提名者，肖蕾赫·阿格达斯 鲁 E2提名者，朱莉娅·奥蒙德 E2提名者，阿曼达·普拉 默 [1: 0.73/4: 0.84] 《红猪》，语言，日语 宫崎骏，电影，红 猪 幻想，片名，红猪 红猪，编剧，宫崎骏 规则移除对不同数据集的影响各不相同",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk310",
+        "chunk": "在 FB15k 数据集中， CP 规则至关重要，平均性能下降 38%，而 PT 规则的影响较小， 这表明仅 CP 规则就足以支持该数据集中的大多数预测",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk311",
+        "chunk": "另一方面， 在 FB15k-237 数据集中，PT 规则的影响更大，平均性能下降 42%， 而 CP 规则的作用则相对较小",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk312",
+        "chunk": "这种差异表明，FB15k-237 中更密 集和多样的关系结构从 PT 规则中获益更多",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk313",
+        "chunk": "对于 WN18 数据集， CP 规则显示出显著影响，平均性能下降 23%，这反映出在该数据 集中通过 CP 规则捕捉语言偏见的重要性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk314",
+        "chunk": "有趣的是，在 WN18RR 数据集中，无论是 CP 规则还是 PT 规则单独移除都不会 导致显著的性能下降",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk315",
+        "chunk": "这一观察结果表明，CP 规则和 PT 规则具 有互补性，常常提供重叠的支持，尤其是在像 WN18RR 这样稀疏 的数据集中",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk316",
+        "chunk": "这些结果为 CP 和 PT 规则的作用提供了几个关键的见解",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk317",
+        "chunk": "CP 规则是解决语言偏见和支持大多数链接预测的基础",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk318",
+        "chunk": "即使没有 PT 规则，如在 eXpath（无 PT）中，该方法仍能推荐有效的解释，这 突显了 CP 规则的核心地位",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk319",
+        "chunk": "同时，PT 规则作为有价值的补充， 在具有复杂关系结构的数据集（如 FB15k-237）中尤其重要，其缺 失会显著影响性能",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk320",
+        "chunk": "此外，CP 和 PT 规则的互补性确保了在诸如 WN18RR 这样的数据集上具有稳健的性能",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk321",
+        "chunk": "这些发现表明，虽然 CP 规则构成了有效解释的基石，但 PT 规则增强了解释的整体可 信度和多样性，特别是在具有多样化或密集关系结构的数据集中",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk322",
+        "chunk": "5.5 案例研究 表 6 展示了三个具有代表性的案例，对三种方法生成的解释进行 了比较：KGEAttack、Kelpie 和 eXpath",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk323",
+        "chunk": "Kelpie 和 eXpath 均可生成 单事实解释（L1）和多事实解释（L4）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk324",
+        "chunk": "为清晰起见，由于某些 实体名称过长，故用缩写表示：E1 代表“弗朗西斯·麦克道曼”，E 2 代表“黄金时段艾美奖最佳女配角奖”，E3、E4、E5 代表《加勒 比海盗》系列，E3 代表《世界的尽头》，E4 代表《聚魂棺》，E5 代表《黑珍珠号的诅咒》",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk325",
+        "chunk": "在第一个示例中，KGEAttack 和 eXpath 的优势得以凸显，因 为这两种方法都生成了形式为 ⟨E1，AWARD，E 2⟩ 的非常有效 的解释，从而使得头实体/尾实体的排名从 1/1 大幅下降至 6/106",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk326",
+        "chunk": "这两个系统都用一条令人信服的 CP 规则来支持这一解释：award_ nominee ←award' [0.815]，直观地将 award_nominee 和 award 作为 反向关系联系起来（方括号中的数字代表规则的标准置信度 （SC））",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk327",
+        "chunk": "相比之下，尽管 Kelpie 使用了四个事实，但其结果却 较弱",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk328",
+        "chunk": "我们注意到，Kelpie 的解释基于诸如 ⟨E 2，AWARD_NOMINEE，X⟩ 这样的事实",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk329",
+        "chunk": "然而，由于缺乏支持 性的本体规则，很难证明这些解释的合理性，这凸显了 Kelpie 与 基于规则的系统（如 eXpath）相比的局限性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk330",
+        "chunk": "第二个示例则扭转了这一趋势，Kelpie（L1）的表现优于 KGEAttack",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk331",
+        "chunk": "KGEAttack 生成了一条直观的 PT 规则：country（X, Japan） ←films_in_this_genre(Anime， X) [0.846]，表明动漫类型的影 片很可能与日本有关",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk332",
+        "chunk": "而 eXpath 则超越了这两种方法，通过结合多条 规则提供了更全面的解释： • 若语言为日语，则国家为日本的概率为 0.669",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk333",
+        "chunk": "• 国家 ← 语言， 语言'， 国家 [0.311] • 国家 ←语言，语言'，国籍 [0.194] • 国家 ← 语言、头衔、国家 [0.122] eXpath 所识别的这四条规则均为高置信度规则（置信度 SC ≥ 0.1），其标准置信度（SC）值分别标注在括号内",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk334",
+        "chunk": "虽然每条规则 的置信度均低于 KGEAttack 规则的置信度，但它们的累计置信度 总和却超过了 0.9",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk335",
+        "chunk": "Ye Sun, Lei Shi*, and Yongxin Tong 图 5：LP 模型（ComplEx）预测的事实 ⟨E3， actor， Jonathan_Pryce⟩ 的解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk336",
+        "chunk": "（a）从头实体到尾实体的所有 3 跳路径",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk337",
+        "chunk": "（b）由 eXpath 确定的 12 条置信度 SC≥0.1 的规则",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk338",
+        "chunk": "（c）KGEAttack（紫色边）、Kelpie（绿色边）和 eXpath（黄色边）提供的解释对比",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk339",
+        "chunk": "与 KGEAttack 类似，采用规则的方法存在忽略有价值数据信号 的风险",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk340",
+        "chunk": "Kelpie 的解释与 eXpath 初始规则所分享的两个事实有 共通之处，但其主要依据的是嵌入模型中的经验信号，缺乏基 于规则的方法所具有的清晰性和可靠性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk341",
+        "chunk": "第三个示例涉及预测 ⟨E3， actor, Jonathan Pryce⟩",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk342",
+        "chunk": "Kelpie 和 eXpath 提供了四事实的解释，单事实版本以粗体突出 显示",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk343",
+        "chunk": "值得注意的是，eXpath（L4）提供了最有效的解释，攻 击效果近乎完美（δMRR 接近 1），而 Kelpie（L4）的表现也 相当不错（δMRR = 0.58）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk344",
+        "chunk": "相比之下，KGEAttack 和 Kelpie （L1）的解释效果则大打折扣",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk345",
+        "chunk": "多事实解释的一致性表现突显 了结合多个事实的重要性，尤其是在像 FB15k 和 FB15k-237 这 样密集的数据集中，删除单个事实往往无法影响预测结果",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk346",
+        "chunk": "Kelpie 提供了基于事实的解释，但未能说明这些事实与预 测之间的关联性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk347",
+        "chunk": "其中一个事实 ⟨E4,SEQUEL,E 3⟩ 由三条高 置信度规则支持，包括 actor ←sequel', film' [SC=0.40]，而其余 事实则缺乏直接关联性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk348",
+        "chunk": "去掉这个事实后，反向关系 ⟨E 3， PREQUEL，E 4⟩ 仍能支持预测，这削弱了该解释的有效 性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk349",
+        "chunk": "KGEAttack 也提出了一个攻击事实，即 ⟨E 3， PREQUEL，E 4⟩，由规则 actor ←prequel， film' [SC=0. 38] 支持",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk350",
+        "chunk": "尽管直观，但这条 2 跳 CP 规则与 Kelpie 存在同样的 问题：反向关系仍能维持预测，致使解释不够充分",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk351",
+        "chunk": "相比之下，eXpath 提供基于路径的解释，将选定的事实与 支持规则相结合",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk352",
+        "chunk": "例如，得分最高的事实 ⟨E 5，ACTOR， JONATℎAN_PRYCE⟩ 由一个 PT 和五个 CP 规 则支持，如图 5(b) 所示",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk353",
+        "chunk": "这些规则共同作用，累积得分超过 0. 9",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk354",
+        "chunk": "与仅关注两跳 CP 规则的 KGEAttack 不同，eXpath 融合了 更长、更复杂的规则，捕捉到更多的数据信号",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk355",
+        "chunk": "如图 5(b) 所示， eXpath 的四个事实全面涵盖了从 E3 到 Jonathan Pryce 的所有关 键路径，从而为预测提供了近乎完美的解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk356",
+        "chunk": "一个有趣的观察结果是，eX-path 选择的大多数事实都与尾 实体相关，而非头实体（如图 5(c) 所示）",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk357",
+        "chunk": "如图 5(a) 所示，头 实体（E 3）关联了 96 个三元组",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk358",
+        "chunk": "相比之下，尾实体（乔纳森·普赖斯） 仅连接了 32 个，这使得尾实体关系更为稀疏，也更关键于预测",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk359",
+        "chunk": "通过优先考虑与尾实体相关的事实，eX-path 能够生成更有效的 解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk360",
+        "chunk": "相比之下，Kelpie 主要依赖于头实体特征，常常陷入局 部最优，从而错过更广泛的上下文信号",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk361",
+        "chunk": "同时，KGEAttack 从 其满足的规则中随机选择规则，导致解释高度多样化且可靠性 有限",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk362",
+        "chunk": "这些案例研究展示了 eXpath 在生成语义丰富且有效的解释 方面的卓越表现",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk363",
+        "chunk": "通过利用全面的基于规则的推理并整合多个 事实，eXpath 在可解释性和解释力之间实现了最佳平衡，始终 优于其他方法",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk364",
+        "chunk": "6 结论 在这项工作中，我们引入了 eXpath，这是一种新颖的基于路径 的解释框架，旨在增强知识图谱上逻辑推理任务的可解释性",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk365",
+        "chunk": "通过利用本体封闭路径规则，eXpath 提供了语义丰富的解释， 解决了基于嵌入的知识图谱逻辑推理模型在路径评估方面存在 的可扩展性和相关性等挑战",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk366",
+        "chunk": "在基准数据集和主流知识图谱模 型上的大量实验表明，eXpath 在 δMRRin 最重要的多事实解释 方面比现有最佳方法高出 12.4%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk367",
+        "chunk": "当 eXpath 与现有方法进一步 结合时，性能提升高达 20.2%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk368",
+        "chunk": "消融研究表明，我们框架中的 CP 规则在解释质量方面起着核心作用，去除它会导致性能平均 下降 20.3%",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk369",
+        "chunk": "虽然我们当前的方法仅使用了一小部分关键本体规则，但 发现诸如带悬空原子的一元规则等其他规则类型对逻辑程序的 结果影响较小",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk370",
+        "chunk": "这表明更广泛的语言偏见并不总是与基于嵌入 的模型的优势相契合",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk371",
+        "chunk": "未来的研究可以探索在知识图谱上进行 通用规则学习的潜力，并将其融入 eXpath 的整体框架中",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk372",
+        "chunk": "此外， eXpath 支持的语义丰富的解释可以通过交互式可视化工具加以 利用，从而为知识图谱专家和非专家用户都提供更易访问和理 解的解释",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk373",
+        "chunk": "eXpath: Explaining Knowledge Graph Link Prediction with Ontological Closed Path Rules 参考文献 [1] Sören Auer, Christian Bizer, Georgi Kobilarov, Jens Lehmann, Richard Cyga-niak, and Zachary Ives. 2007. Dbpedia: A nucleus for a web of open data. In International Semantic Web Conference (ISWC). Springer, 722–735. [2] Patrick Betz, Christian Meilicke, and Heiner Stuckenschmidt. 2022. Adversarial explanations for knowledge graph embeddings. In International Joint Conference on Artificial Intelligence (IJCAI), Vol. 2022. 2820–2826. [3] Peru Bhardwaj, John Kelleher, Luca Costabello, and Declan O’Sullivan. 2021. Adversarial attacks on knowledge graph embeddings via instance attribution methods. Proceedings of the Conference on Empirical Methods in Natural Language Processing (2021). [4] Rajarshi Bhowmik and Gerard de Melo. 2020. Explainable link prediction for emerging entities in knowledge graphs. In International Semantic Web Conference (ISWC). Springer, 39–55. [5] Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, and Jamie Taylor. 2008. Freebase: a collaboratively created graph database for structuring human knowledge. In Proceedings of the ACM SIGMOD International Conference on Management of Data (SIGMOD). 1247–1250. [6] Heng Chang, Jiangnan Ye, Alejo Lopez-Avila, Jinhua Du, and Jia Li. 2024. Path- based Explanation for Knowledge Graph Completion. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). 231– 242. [7] Yang Chen, Daisy Zhe Wang, and Sean Goldberg. 2016. ScaLeKB: scalable learning and inference over large knowledge bases. VLDB Journal 25 (2016), 893–918. [8] U.S. Congress. 2021. Artificial Intelligence Accountability Act of 2021. Available at: https://www.congress.gov/bill/117th-congress/house-bill/3463. [9] Tim Dettmers, Pasquale Minervini, Pontus Stenetorp, and Sebastian Riedel. 2018. Convolutional 2D knowledge graph embeddings. In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), Vol. 32. [10] Luis Galárraga, Christina Teflioudi, Katja Hose, and Fabian M Suchanek. 2015. Fast rule mining in ontological knowledge bases with AMIE+. VLDB Journal 24, 6 (2015), 707–730. [11] Luis Antonio Galárraga, Christina Teflioudi, Katja Hose, and Fabian Suchanek. 2013. AMIE: association rule mining under incomplete evidence in ontological knowledge bases. In Proceedings of the 22nd International Conference on World Wide Web (WWW). 413–422. [12] Shu Guo, Quan Wang, Lihong Wang, Bin Wang, and Li Guo. 2018. Knowledge graph embedding with iterative guidance from soft rules. In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), Vol. 32. [13] Adrianna Janik and Luca Costabello. 2022. Explaining Link Predictions in Knowledge Graph Embedding Models with Influential Examples. arXiv preprint arXiv:2212.02651 (2022). [14] Timothée Lacroix, Nicolas Usunier, and Guillaume Obozinski. 2018. Canonical tensor decomposition for knowledge base completion. In International Conference on Machine Learning (ICML). 2863–2872. [15] Scott M Lundberg and Su-In Lee. 2017. A unified approach to interpreting model predictions. Advances in Neural Information Processing Systems (NeurIPS) 30 (2017). [16] Dongsheng Luo, Wei Cheng, Dongkuan Xu, Wenchao Yu, Bo Zong, Haifeng Chen, and Xiang Zhang. 2020. Parameterized explainer for graph neural network. Advances in Neural Information Processing Systems (NeurIPS) 33 (2020), 19620– 19631. [17] Farzaneh Mahdisoltani, Joanna Biega, and Fabian Suchanek. 2014. Yago3: A knowledge base from multilingual wikipedias. In 7th Biennial Conference on Innovative Data Systems Research (CIDR). [18] Christian Meilicke, Patrick Betz, and Heiner Stuckenschmidt. 2021. Why a naive way to combine symbolic and latent knowledge base completion works surprisingly well. In 3rd Conference on Automated Knowledge Base Construction (AKBC). [19] Christian Meilicke, Melisachew Wudage Chekol, Patrick Betz, Manuel Fink, and Heiner Stuckeschmidt. 2024. Anytime bottom-up rule learning for large-scale knowledge graph completion. VLDB Journal 33, 1 (2024), 131–161. [20] Christian Meilicke, Melisachew Wudage Chekol, Daniel Ruffinelli, and Heiner Stuckenschmidt. 2020. Anytime bottom-up rule learning for knowledge graph completion. In Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI). 3137–3143. [21] MK Nallakaruppan, Himakshi Chaturvedi, Veena Grover, Balamurugan Balusamy, Praveen Jaraut, Jitendra Bahadur, VP Meena, and Ibrahim A Hameed. 2024. Credit Risk Assessment and Financial Decision Support Using Explainable Artificial Intelligence. Risks 12, 10 (2024), 164. [22] Pouya Ghiasnezhad Omran, Kewen Wang, and Zhe Wang. 2018. Scalable Rule Learning via Learning Representation. In International Joint Conference on Artifi- cial Intelligence (IJCAI). 2149–2155. [23] Pouya Ghiasnezhad Omran, Kewen Wang, and Zhe Wang. 2019. An embedding- based approach to rule learning in knowledge graphs. IEEE Transactions on Knowledge and Data Engineering (TKDE) 33, 4 (2019), 1348–1359. [24] Pouya Pezeshkpour, CA Irvine, Yifan Tian, and Sameer Singh. 2019. Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications. In Proceedings of NAACL-HLT. 3336–3347. [25] Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2016. “Why should I trust you",
+        "method": "semantic_chunk"
+    },
+    {
+        "id": "chunk374",
+        "chunk": "” Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD). 1135–1144. [26] Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2018. Anchors: High- precision model-agnostic explanations. In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), Vol. 32. [27] Andrea Rossi, Donatella Firmani, Paolo Merialdo, and Tommaso Teofili. 2022. Explaining link prediction systems based on knowledge graph embeddings. In Proceedings of the International Conference on Management of Data (SIGMOD). 2062–2075. [28] Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier, and Guillaume Bouchard. 2016. Complex embeddings for simple link prediction. In International Conference on Machine Learning (ICML). PMLR, 2071–2080. [29] Zhen Wang, Jianwen Zhang, Jianlin Feng, and Zheng Chen. 2014. Knowledge graph embedding by translating on hyperplanes. In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), Vol. 28. [30] Zhitao Ying, Dylan Bourgeois, Jiaxuan You, Marinka Zitnik, and Jure Leskovec. 2019. Gnnexplainer: Generating explanations for graph neural networks. Ad-vances in Neural Information Processing Systems (NeurIPS) 32 (2019). [31] Hao Yuan, Haiyang Yu, Jie Wang, Kang Li, and Shuiwang Ji. 2021. On explain- ability of graph neural networks via subgraph explorations. In International Conference on Machine Learning (ICML). PMLR, 12241–12252. [32] Hengtong Zhang, Tianhang Zheng, Jing Gao, Chenglin Miao, Lu Su, Yaliang Li, and Kui Ren. 2019. Data poisoning attack against knowledge graph embedding. Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) (2019). [33] Shichang Zhang, Yozen Liu, Neil Shah, and Yizhou Sun. 2022. Gstarx: Explaining graph neural networks with structure-aware cooperative games. Advances in Neural Information Processing Systems (NeurIPS) 35 (2022). [34] Shichang Zhang, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, and Yizhou Sun. 2023. PaGE-Link: Path-based graph neural network explanation for heterogeneous link prediction. In Proceedings of the ACM Web Conference (WWW). 3784–3793. [35] Wen Zhang, Bibek Paudel, Liang Wang, Jiaoyan Chen, Hai Zhu, Wei Zhang, Abraham Bernstein, and Huajun Chen. 2019. Iteratively learning embeddings and rules for knowledge graph reasoning. In The World Wide Web Conference WWW). 2366–2377. [36] Dong Zhao, Guojia Wan, Yibing Zhan, Zengmao Wang, Liang Ding, Zhigao Zheng, and Bo Du. 2023. KE-X: Towards subgraph explanations of knowledge graph embedding based on knowledge information gain. Knowledge-Based Systems 278 (2023), 110772.",
+        "method": "semantic_chunk"
+    }
+]
