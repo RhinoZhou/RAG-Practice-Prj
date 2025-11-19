@@ -56,5 +56,8 @@
 RAG模型微调
 
 
-
+## 50-samples
+完整项目
+### 01-Law-RAG  项目一
+### 02-Medi-RAG 项目二
 
